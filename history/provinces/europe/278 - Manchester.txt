@@ -1,0 +1,21 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = grain
+life_rating = 40
+terrain = good_farmland
+1836.1.1 = {
+	railroad = 1
+}
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 2
+	building = steel_machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = steel_factory
+	upgrade = yes
+}
+

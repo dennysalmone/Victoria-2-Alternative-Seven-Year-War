@@ -1,0 +1,9 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = OCC
+add_core = BSQ
+trade_goods = grain
+life_rating = 40
+terrain = mountain_valley
+1861.1.1 = { railroad = 3 }

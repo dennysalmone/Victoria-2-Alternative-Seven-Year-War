@@ -1,0 +1,6 @@
+owner = SOK
+controller = SOK
+add_core = SOK
+trade_goods = spices
+life_rating = 25
+terrain = seasonal_jungle_mountains

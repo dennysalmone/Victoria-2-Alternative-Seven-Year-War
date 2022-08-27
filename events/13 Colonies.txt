@@ -1,0 +1,366 @@
+country_event = {
+
+	id = 20220001
+	title = "Mormon Exodus"
+	desc = "Religious conflicts are escalating in our country. Because of this, the Mormon community is going to move to the west, to the prairies. What could be the correct solution to this question?"
+	picture = "secondawakening"
+
+	fire_only_once = yes
+
+	trigger = {
+		year = 1840
+		owns = 3313
+		OR = {
+			moralism = 10
+			jingoism = 15
+			ruling_party_ideology = reactionary
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+		modifier = { factor = 0.5 ruling_party_ideology = reactionary }
+		modifier = { factor = 0.8 average_consciousness = 5 }
+		modifier = { factor = 0.8 average_consciousness = 6 }
+		modifier = { factor = 0.8 average_consciousness = 7 }
+		modifier = { factor = 0.8 average_consciousness = 8 }
+		modifier = { factor = 0.25 moralism = 15 }
+		modifier = { factor = 0.25 moralism = 20 }
+	}
+	option = {
+		name = "Give them authonony"
+		246 = {
+			remove_core = NWK
+			remove_core = NHP
+			remove_core = VER
+			add_core = DES
+			any_pop = {
+				limit = {
+					NOT = { religion = mormon }
+				}
+			consciousness = 9
+			militancy = 9
+			}
+		 }
+		3313 = {
+			remove_core = NWK
+			remove_core = NHP
+			remove_core = VER
+			add_core = DES
+			any_pop = {
+				limit = {
+					NOT = { religion = mormon }
+				}
+			consciousness = 9
+			militancy = 9
+			}
+		 }
+
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = reactionary
+			}
+		}
+	}
+
+	option = {
+		name = "The main thing is to avoid massacres"
+		246 = {
+			any_pop = {
+				limit = {
+					religion = mormon
+				}
+			consciousness = 10
+			militancy = 8
+			}
+		 }
+		3313 = {
+			any_pop = {
+				limit = {
+					religion = mormon
+				}
+			consciousness = 10
+			militancy = 8
+			}
+		 }
+		LOU = {
+			country_event = 20220002
+	 	}	
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.80
+				average_consciousness = 6
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = reactionary
+			}
+		}	
+	}
+}
+
+
+
+country_event = {
+
+	id = 20220002
+	title = "Mormon Exodus"
+	desc = "Mormons are a community expelled from New England. They are looking for a new home. Will we be able to host them at home?"
+	picture = "secondawakening"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Give them a new land"
+		166 = { add_core = DES change_province_name = "Nauvoo" add_province_modifier = { name = home_of_the_mormons duration = 3650 } }
+		152 = { add_core = DES }
+		3388 = { add_core = DES }
+		3514 = { add_core = DES }
+		3516 = { add_core = DES }
+		246 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 152 } }
+		3313 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 166 } }
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				NOT = { owns = 166 }
+				NOT = { owns = 152 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = reactionary
+			}
+		}
+	}
+
+	option = {
+		name = "Not this time"
+		MEX = {
+			country_event = 20220003
+	 	}	
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.80
+				average_consciousness = 6
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = reactionary
+			}
+		}	
+	}
+}
+
+country_event = {
+
+	id = 20220003
+	title = "Mormon Exodus"
+	desc = "Mormons are a community expelled from New England. They are looking for a new home. Will we be able to host them at home?"
+	picture = "secondawakening"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Give them a new land in Utah"
+		97 = { add_core = DES change_province_name = "Salt Lake City" add_province_modifier = { name = home_of_the_mormons duration = 3650 } }
+		12 = { add_core = DES change_province_name = "Nephi" }
+		98 = { add_core = DES }
+		99 = { add_core = DES }
+		111 = { add_core = DES }
+		246 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 97 } }
+		3313 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 97 } }
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				NOT = { owns = 97 }
+				NOT = { owns = 12 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 0.90
+				ruling_party_ideology = reactionary
+			}
+		}
+	}
+
+	option = {
+		name = "Give them a new land in California"
+		89 = { add_core = DES change_province_name = "Nephi" add_province_modifier = { name = home_of_the_mormons duration = 3650 } }
+		90 = { add_core = DES change_province_name = "Lehi" }
+		2138 = { add_core = DES }
+		2139 = { add_core = DES }
+		246 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 89 } }
+		3313 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 90 } }
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				NOT = { owns = 89 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 0.90
+				ruling_party_ideology = reactionary
+			}
+		}
+	}
+
+	option = {
+		name = "Not this time"
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 0.50
+				average_consciousness = 2
+			}
+			modifier = {
+				factor = 0.50
+				average_consciousness = 4
+			}
+		}	
+	}
+}
+
+
+
+country_event = {
+
+	id = 20220004
+	title = "Create Ohio"
+	desc = "The creation of a new free state is an important event, the triumph of freedom"
+
+	fire_only_once = yes
+	trigger = {
+		owns = 178 owns = 227 owns = 3508
+		owns = 179 owns = 228 owns = 3509
+		primary_culture = yankee
+		NOT = { has_global_flag = R20220004 }
+	}
+
+	option = {
+		prestige = 25
+		178 = { add_core = OHI }
+		179 = { add_core = OHI }
+		228 = { add_core = OHI }
+		227 = { add_core = OHI }
+		3508 = { add_core = OHI }
+		3509 = { add_core = OHI }
+		any_owned = { limit = { is_core = OHI } secede_province = OHI }
+		relation = { who = OHI value = 400 }
+		set_global_flag = R20220004
+		OHI = { add_country_modifier = { name = new_american_country duration = 365 } }
+		178 = { add_province_modifier = { name = capital_new_state duration = 365 } }
+		ai_chance = { factor = 95 modifier = { factor = 0 tag = USA } }
+	}
+	option = {
+		prestige = 15
+		178 = { add_core = OHI }
+		179 = { add_core = OHI }
+		228 = { add_core = OHI }
+		227 = { add_core = OHI }
+		3508 = { add_core = OHI }
+		3509 = { add_core = OHI }
+		178 = { capital = 178 add_province_modifier = { name = capital_new_state duration = 365 } }
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+
+	id = 20220005
+	title = "Create Kanawha"
+	desc = "The creation of a new free state is an important event, the triumph of freedom"
+
+	fire_only_once = yes
+	trigger = {
+		owns = 183 owns = 217
+		owns = 218 owns = 3505
+		primary_culture = yankee
+		NOT = { has_global_flag = R20220005 }
+	}
+   
+	option = {
+		prestige = 25
+		183 = { add_core = KAN }
+		218 = { add_core = KAN }
+		217 = { add_core = KAN }
+		3505 = { add_core = KAN }
+		any_owned = { limit = { is_core = KAN } secede_province = KAN}
+		relation = { who = KAN value = 400 }
+		set_global_flag = R20220005
+		KAN = { add_country_modifier = { name = new_american_country duration = 365 } }
+		183 = { capital = 183 add_province_modifier = { name = capital_new_state duration = 365 } }
+		ai_chance = { factor = 95 modifier = { factor = 0 tag = USA } }
+	}
+	option = {
+		prestige = 15
+		183 = { add_core = KAN }
+		218 = { add_core = KAN }
+		217 = { add_core = KAN }
+		3505 = { add_core = KAN }
+		183 = { add_province_modifier = { name = capital_new_state duration = 365 } }
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+
+	id = 20220006
+	title = "Create Kentucky"
+	desc = "The creation of a new free state is an important event, the triumph of freedom"
+
+	fire_only_once = yes
+	trigger = {
+		owns = 191 owns = 186 owns = 190 owns = 185 owns = 201
+		primary_culture = yankee
+		NOT = { has_global_flag = R20220006 }
+	}
+    
+	option = {
+		prestige = 25
+		191 = { add_core = KEN }
+		186 = { add_core = KEN }
+		190 = { add_core = KEN }
+		185 = { add_core = KEN }
+		201 = { add_core = KEN }
+		any_owned = { limit = { is_core = KEN } secede_province = KEN }
+		relation = { who = KEN value = 400 }
+		set_global_flag = R20220006
+		KEN = { capital = 191 add_country_modifier = { name = new_american_country duration = 365 } }
+		191 = { add_province_modifier = { name = capital_new_state duration = 365 } }
+		ai_chance = { factor = 95 modifier = { factor = 0 tag = USA } }
+	}
+	option = {
+		prestige = 15
+		191 = { add_core = KEN }
+		186 = { add_core = KEN }
+		190 = { add_core = KEN }
+		185 = { add_core = KEN }
+		201 = { add_core = KEN }
+		191 = { add_province_modifier = { name = capital_new_state duration = 365 } }
+		ai_chance = { factor = 5 }
+	}
+}
+
+
+
+

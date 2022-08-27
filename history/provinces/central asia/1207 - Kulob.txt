@@ -1,0 +1,7 @@
+controller = TAJ
+owner = TAJ
+add_core = TAJ
+add_core = BUK
+trade_goods = horses
+life_rating = 35
+terrain = mountain_grassland

@@ -1,0 +1,3 @@
+trade_goods = other_minerals
+life_rating = 10
+terrain = desert_hills

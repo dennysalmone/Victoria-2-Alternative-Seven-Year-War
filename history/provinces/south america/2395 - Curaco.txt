@@ -1,0 +1,8 @@
+add_core = ARG
+trade_goods = wool
+life_rating = 20
+terrain = semi_desert_hills
+1836.1.1 = {
+	owner = ARG
+	controller = ARG
+}

@@ -1,0 +1,4 @@
+add_core = DAM
+trade_goods = cotton
+life_rating = 20
+terrain = farmland_dry

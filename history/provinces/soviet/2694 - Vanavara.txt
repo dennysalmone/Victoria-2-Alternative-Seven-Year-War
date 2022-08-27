@@ -1,0 +1,6 @@
+add_core = RUS
+add_core = SIB
+trade_goods = timber
+life_rating = 5
+terrain = boreal_marsh
+colonial = 1

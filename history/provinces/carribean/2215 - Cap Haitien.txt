@@ -1,0 +1,8 @@
+owner = FRA
+controller = FRA
+add_core = HAI
+trade_goods = tobacco
+life_rating = 40
+terrain = seasonal_jungle_hills
+
+colonial = 1

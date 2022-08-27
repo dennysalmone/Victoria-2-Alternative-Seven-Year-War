@@ -1,0 +1,14 @@
+owner = PER
+controller = PER
+add_core = ARM
+add_core = AZB
+add_core = RUS
+add_core = PER
+trade_goods = spices
+life_rating = 35
+terrain = deciduous_forest
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+	remove_core = PER
+}

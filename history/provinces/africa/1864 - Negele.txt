@@ -1,0 +1,13 @@
+owner = SHW
+controller = SHW
+add_core = SHW
+add_core = GON
+add_core = TIG
+add_core = ETH
+trade_goods = spices
+life_rating = 30
+terrain = hilly_grassland
+1861.1.1 = {
+	owner = ETH
+	controller = ETH
+}

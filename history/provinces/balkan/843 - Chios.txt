@@ -1,0 +1,13 @@
+owner = SAM
+controller = SAM
+add_core = SAM
+add_core = TUR
+add_core = GRE
+trade_goods = grain
+life_rating = 35
+terrain = dry_forest_hills
+revolt = {
+	type = separatist_rebels
+	country = GRE
+	controller = no
+}

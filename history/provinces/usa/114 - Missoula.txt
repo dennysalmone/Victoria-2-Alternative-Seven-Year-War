@@ -1,0 +1,4 @@
+trade_goods = timber
+life_rating = 25
+terrain = conifer_forest_mountains
+colonial = 1

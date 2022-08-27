@@ -1,0 +1,48 @@
+country_event = {
+	id = 14881488
+	title = "EVTNAME44305"
+	desc = "EVTDESC44305"
+	picture = "rebellion"
+	
+	trigger = {
+		tag = ENG
+		exists = yes
+		owns = 1488
+		owns = 1
+		owns = 994
+		owns = 232
+		year = 1933
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+	
+	option = {
+		name = "These radicals must not be allowed to run rampant."
+		any_country = { 
+			any_owned = {
+				limit = { continent = europe }
+				secede_province = SWI
+			}
+		}
+	}
+	option = {
+		name = "These radicals must not be allowed to run rampant."
+		any_country = { 
+			any_owned = {
+				limit = { continent = asia }
+				secede_province = QNG
+			}
+		}
+	}
+	option = {
+		name = "These radicals must not be allowed to run rampant."
+		any_country = { 
+			any_owned = {
+				limit = { continent = north_america }
+				secede_province = LOU
+			}
+		}
+	}
+}

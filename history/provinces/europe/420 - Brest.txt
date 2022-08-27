@@ -1,0 +1,8 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = BRT
+trade_goods = fish
+life_rating = 35
+terrain = temperate_grassland
+naval_base = 1

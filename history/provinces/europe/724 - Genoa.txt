@@ -1,0 +1,14 @@
+owner = FRA
+controller = FRA
+add_core = SVY
+add_core = ITA
+trade_goods = timber
+life_rating = 35
+terrain = deciduous_forest_hills
+naval_base = 1
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 2 
+	naval_base = 2
+}

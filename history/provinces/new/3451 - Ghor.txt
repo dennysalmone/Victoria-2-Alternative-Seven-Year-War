@@ -1,0 +1,8 @@
+owner = HZJ
+controller = HZJ
+add_core = HZJ
+add_core = KHR
+add_core = AFG
+trade_goods = cattle
+life_rating = 35
+terrain = mountain_grassland

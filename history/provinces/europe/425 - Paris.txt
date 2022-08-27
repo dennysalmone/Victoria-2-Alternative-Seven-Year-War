@@ -1,0 +1,22 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = grain
+life_rating = 45
+terrain = good_farmland
+
+state_building = {
+	level = 2
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = regular_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = luxury_clothes_factory
+	upgrade = yes
+}

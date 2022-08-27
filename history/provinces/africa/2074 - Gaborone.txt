@@ -1,0 +1,4 @@
+add_core = TSW
+trade_goods = other_minerals
+life_rating = 15
+terrain = dry_grassland

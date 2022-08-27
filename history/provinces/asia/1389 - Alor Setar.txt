@@ -1,0 +1,8 @@
+owner = PTT
+controller = PTT
+add_core = PTT
+add_core = SIA
+add_core = JOH
+trade_goods = fish
+life_rating = 30
+terrain = jungle_farmland

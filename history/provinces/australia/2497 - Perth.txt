@@ -1,0 +1,5 @@
+add_core = NHO
+trade_goods = coal
+life_rating = 40
+terrain = forested_farmland
+colonial = 1

@@ -1,0 +1,14 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+add_core = AKH
+trade_goods = grain
+life_rating = 25
+terrain = semi_desert
+
+1846.1.1 = {
+	owner = RUS
+	controller = RUS
+	remove_core = AKH
+	colonial = 2
+}

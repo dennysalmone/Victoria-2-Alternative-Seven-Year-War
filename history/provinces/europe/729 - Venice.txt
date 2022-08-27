@@ -1,0 +1,8 @@
+owner = VEN
+controller = VEN
+add_core = VEN
+add_core = ITA
+trade_goods = grain
+life_rating = 40
+naval_base = 1
+terrain = good_farmland

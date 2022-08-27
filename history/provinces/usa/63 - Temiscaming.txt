@@ -1,0 +1,6 @@
+owner = CAN
+controller = CAN
+trade_goods = iron
+life_rating = 25
+terrain = forest_steppe
+colonial = 1

@@ -1,0 +1,4 @@
+add_core = DAM
+trade_goods = spices
+life_rating = 10
+terrain = farmland_dry

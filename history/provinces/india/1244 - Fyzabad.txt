@@ -1,0 +1,12 @@
+owner = PNJ
+controller = PNJ
+add_core = AWA
+add_core = HND
+trade_goods = sugar
+life_rating = 37
+terrain = floodplain_savanna
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 1
+}

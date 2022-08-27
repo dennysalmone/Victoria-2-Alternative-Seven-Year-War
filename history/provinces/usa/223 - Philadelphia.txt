@@ -1,0 +1,7 @@
+owner = PNS
+controller = PNS
+add_core = PNS
+add_core = USA
+trade_goods = grain
+life_rating = 40
+terrain = good_farmland

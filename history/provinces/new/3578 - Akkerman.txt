@@ -1,0 +1,19 @@
+owner = DAN
+controller = DAN
+add_core = DAN
+add_core = RUS
+add_core = MOL
+add_core = ROM
+trade_goods = fish
+life_rating = 35
+terrain = dry_grassland
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+}
+1861.1.1 = {
+	controller = ROM
+	owner = ROM
+}

@@ -1,0 +1,11 @@
+owner = PLC
+controller = PLC
+add_core = PLC
+add_core = POL
+trade_goods = tobacco
+life_rating = 35
+terrain = forest_steppe
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

@@ -1,0 +1,10 @@
+owner = UPB
+controller = UPB
+trade_goods = grain
+life_rating = 35
+terrain = floodplain_savanna
+colonial = 1
+1836.1.1 = {
+	owner = POR
+	controller = POR
+}

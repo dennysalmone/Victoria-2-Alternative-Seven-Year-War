@@ -1,0 +1,10 @@
+add_core = RPL
+trade_goods = grain
+life_rating = 30
+terrain = temperate_grassland
+colonial = 1
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	life_rating = 35
+}

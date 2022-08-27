@@ -1,0 +1,10 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = SLS
+add_core = POL
+add_core = GER
+trade_goods = coal
+life_rating = 40
+terrain = forested_farmland
+1861.1.1 = { railroad = 3 }

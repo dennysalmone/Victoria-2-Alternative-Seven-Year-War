@@ -1,0 +1,8 @@
+owner = SPA
+controller = SPA
+add_core = FLO
+trade_goods = tobacco
+life_rating = 35
+terrain = forested_farmland
+colonial = 1
+is_slave = yes

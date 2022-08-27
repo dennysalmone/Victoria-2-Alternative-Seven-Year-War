@@ -1,0 +1,4 @@
+trade_goods = copper
+life_rating = 25
+terrain = dryhills
+colonial = 1

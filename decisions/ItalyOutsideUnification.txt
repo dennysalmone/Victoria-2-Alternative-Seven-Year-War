@@ -1,0 +1,38 @@
+political_decisions = {
+	outside_italia_irredenta = {
+		potential = {
+			NOT = {
+				tag = AUS
+				tag = KUK
+				tag = YUG
+			}
+			is_greater_power = yes
+			exists = ITA
+			ITA = {	vassal_of = THIS }
+			ITA = { has_country_flag = italia_ulterior }
+			OR = {
+				AUS_729 = { owned_by = THIS }	#Venetia
+				AUS_734 = { owned_by = THIS }	#Trent
+				AUS_736 = { owned_by = THIS }	#Littoral
+				AUS_780 = { owned_by = THIS }	#Dalmatia
+			}
+		}
+		
+		allow = {
+			relation = {
+				who = ITA
+				value = 150
+			}
+		}
+		
+		effect = {
+			AUS_729 = { secede_province = ITA }	#Venetia
+			AUS_734 = { secede_province = ITA }	#Trent
+			AUS_736 = { secede_province = ITA }	#Littoral
+			AUS_780 = { secede_province = ITA }	#Dalmatia
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

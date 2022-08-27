@@ -1,0 +1,5 @@
+add_core = NHO
+trade_goods = coal
+life_rating = 42
+terrain = deciduous_forest_hills
+colonial = 1

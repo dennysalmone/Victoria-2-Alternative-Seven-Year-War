@@ -1,0 +1,7 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = clay_and_sand
+life_rating = 35
+terrain = temperate_grassland
+1861.1.1 = { railroad = 3 }

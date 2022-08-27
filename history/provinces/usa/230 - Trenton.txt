@@ -1,0 +1,8 @@
+owner = NJR
+controller = NJR
+add_core = NJR
+add_core = USA
+trade_goods = cotton
+life_rating = 40
+terrain = forested_farmland
+1861.1.1 = { railroad = 3 }

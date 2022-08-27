@@ -1,0 +1,4 @@
+add_core = TSW
+trade_goods = wool
+life_rating = 20
+terrain = semi_desert

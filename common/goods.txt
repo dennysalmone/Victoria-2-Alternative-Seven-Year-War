@@ -1,0 +1,75 @@
+military_goods = {
+	ammunition = {  cost = 10 color = { 208 202 127 } }
+	small_arms = {  cost = 10 color = { 189 118 22 } }
+	artillery = {  cost = 10  color = { 145 130 86 } }
+	canned_food = {  cost = 10  color = { 255 39 12 } }
+	barrels = { cost = 10  color = { 55 41 9 } available_from_start = no }
+	aeroplanes = {  cost = 10  color = { 221 213 182 } available_from_start = no }
+	gunpowder = { cost = 10 color = { 253 199 110 } }
+}
+
+raw_material_goods = {
+	cotton = {  cost = 10 color = { 255 255 255 } }
+	dye = { cost = 10 color = { 69 0 182 } }
+	wool = { cost = 10 color = { 234 195 158 } }
+	silk = {  cost = 10 color = { 125 158 43 } }
+	coal = {  cost = 10 color = { 11 29 77 } }
+	sulphur = {  cost = 10 color = { 222 222 4 } }
+	iron = {  cost = 10 color = { 111 111 111 } }
+	timber = {  cost = 10 color = { 146 72 17 } }
+	tropical_wood = {  cost = 10 color = { 77 177 118 } }
+	rubber = {  cost = 10 color = { 123 110 86 } }
+	oil = {  cost = 10 color = { 0 0 0 } }
+	precious_metal = {  cost = 10 tradeable = no money = yes	 color = { 253 199 110 } }
+	copper = { cost = 10 color = { 253 99 110 } }
+	fur = { cost = 10 color = { 213 199 110 } }
+}
+
+industrial_goods = {
+	steel = {  cost = 10 color = { 95 128 147 } }
+	cement = {  cost = 10 color = { 185 187 164 } available_from_start = no }
+	machine_parts = {  cost = 10 color = { 177 198 196 } available_from_start = no }
+	glass = {  cost = 10 color = { 201 200 199 } }
+	fuel = {  cost = 10 available_from_start = no color = { 145 110 89 } }
+	fertilizer = {  cost = 10 color = { 133 101 35 } available_from_start = no }
+	explosives = {  cost = 10 color = { 192 68 20 } available_from_start = no }
+	clipper_convoy = {  cost = 10  overseas_penalty = yes color = { 21 65 30 } }
+	steamer_convoy = {  cost = 10 available_from_start = no color = { 76 18 0 } }
+	electric_gear = {  cost = 10  available_from_start = no color = { 255 255 0 } }
+	fabric = {  cost = 10 color = { 186 50 40 } }
+	lumber = {  cost = 10 overseas_penalty = yes color = { 180 94 26 } }
+	bronze = { cost = 10 color = { 253 199 110 } }
+}
+
+consumer_goods = {
+	paper = {  cost = 10 color = { 216 185 77 } }
+	cattle = {  cost = 10 color = { 84 227 40 } }
+	fish = {  cost = 10 color = { 128 98 73 } }
+	fruit = { cost = 10 color = { 255 12 23 } }
+	grain = {  cost = 10 color = { 219 157 36 } }
+	tobacco = { cost = 10 color = { 100 69 30 } }
+	tea = { cost = 10 color = { 5 80 15 } }
+	coffee = {  cost = 10 color = { 57 39 27 } }
+	opium = {  cost = 10 color = { 174 162 47 } }
+	automobiles = { cost = 10  available_from_start = no color = { 61 67 64 } }
+	telephones = {  cost = 10 overseas_penalty = yes available_from_start = no color = { 123 112 54 } }
+	wine = {  cost = 10 color = { 103 0 54 } available_from_start = no }
+	liquor = {  cost = 10 color = { 76 5 0 } }
+	regular_clothes = {  cost = 10 color = { 217 17 19 } }
+	luxury_clothes = {  cost = 10 color = { 234 227 40 } }
+	furniture = {  cost = 10 color = { 173 129 40 } }
+	luxury_furniture = {  cost = 10 available_from_start = no color = { 255 140 184 } }
+	radio = {  cost = 10  available_from_start = no color = { 129 63 6 } }
+	services = { cost = 10 color = { 253 199 110 } }
+	electric_power = { cost = 10 available_from_start = no color = { 186 50 40 } }
+	chemicals = { cost = 10 color = { 253 199 110 } available_from_start = no } 
+	cigarettes = { cost = 10 available_from_start = no color = { 253 199 110 } }
+	lux_food = { cost = 10 color = { 253 199 110 } }
+	horses = { cost = 10 color = { 153 199 110 } }
+	shoes = { cost = 10 color = { 253 199 110 } }
+	motors = { cost = 10 color = { 253 199 110 } available_from_start = no } 
+	sugar = { cost = 10 color = { 253 199 110 } }
+	pharmaceuticals  = { cost = 10 available_from_start = no color = { 253 199 110 } }
+	spices = { cost = 10 color = { 253 55 123 } }
+	other_minerals = { cost = 10 color = { 87 22 31 } }
+}

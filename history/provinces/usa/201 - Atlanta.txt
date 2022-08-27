@@ -1,0 +1,8 @@
+owner = CHE
+controller = CHE
+add_core = CHE
+add_core = USA
+trade_goods = iron
+life_rating = 35
+terrain = hilly_farmland
+colonial = 1

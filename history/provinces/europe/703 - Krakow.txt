@@ -1,0 +1,15 @@
+owner = PLC
+controller = PLC
+add_core = PLC
+add_core = KRA
+add_core = GLM
+add_core = POL
+trade_goods = grain
+life_rating = 41
+terrain = good_farmland
+1861.1.1 = {
+	owner = AUS
+	controller = AUS
+	remove_core = KRA
+}
+1861.1.1 = { railroad = 3 }

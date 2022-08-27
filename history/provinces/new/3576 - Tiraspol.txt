@@ -1,0 +1,7 @@
+owner = BUH
+controller = BUH
+add_core = BUH
+add_core = RUS
+trade_goods = cattle
+life_rating = 35
+terrain = dry_grassland

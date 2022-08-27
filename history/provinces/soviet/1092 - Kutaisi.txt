@@ -1,0 +1,11 @@
+owner = TUR
+controller = TUR
+add_core = GEO
+add_core = RUS
+add_core = TUR
+trade_goods = grain
+life_rating = 35
+terrain = mountain_valley
+1836.1.1 = {
+	remove_core = TUR
+}

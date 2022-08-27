@@ -1,0 +1,8 @@
+owner = NET
+controller = NET
+add_core = SAF
+add_core = KST
+trade_goods = fruit
+life_rating = 35
+terrain = hilly_farmland
+colonial = 1

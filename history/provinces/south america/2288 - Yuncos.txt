@@ -1,0 +1,13 @@
+owner = GCO
+controller = GCO
+add_core = ECU
+add_core = PEU
+trade_goods = fur
+life_rating = 15
+terrain = swamp_jungle
+colonial = 1
+1836.1.1 = {
+	owner = ECU
+	controller = ECU
+	colonial = 0
+}

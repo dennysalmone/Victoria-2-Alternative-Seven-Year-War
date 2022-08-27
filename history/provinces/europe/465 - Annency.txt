@@ -1,0 +1,13 @@
+owner = FRA
+controller = FRA
+add_core = SAR
+add_core = FRA
+trade_goods = other_minerals
+life_rating = 35
+terrain = deciduous_forest_mountains
+1861.1.1 = {
+	remove_core = SAR
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}

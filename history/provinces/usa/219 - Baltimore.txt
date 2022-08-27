@@ -1,0 +1,8 @@
+owner = MRL
+controller = MRL
+add_core = MRL
+add_core = USA
+trade_goods = grain
+life_rating = 40
+terrain = good_farmland
+naval_base = 2

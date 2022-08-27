@@ -1,0 +1,5 @@
+owner = PER
+controller = PER
+trade_goods = silk
+life_rating = 35
+terrain = semi_desert_hills

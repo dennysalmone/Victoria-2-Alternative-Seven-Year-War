@@ -1,0 +1,10 @@
+owner = ICH
+controller = ICH
+add_core = ICH
+trade_goods = grain
+life_rating = 40
+terrain = mountain_valley
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

@@ -1,0 +1,16 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = BEL
+add_core = NET
+add_core = WLL
+add_core = GER
+trade_goods = grain
+life_rating = 35
+terrain = good_farmland
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 4
+}

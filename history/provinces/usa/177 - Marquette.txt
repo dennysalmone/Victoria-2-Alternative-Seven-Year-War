@@ -1,0 +1,9 @@
+owner = CAN
+controller = CAN
+trade_goods = other_minerals
+life_rating = 30
+terrain = conifer_forest
+colonial = 1
+1861.1.1 = {
+	colonial = 0
+	}

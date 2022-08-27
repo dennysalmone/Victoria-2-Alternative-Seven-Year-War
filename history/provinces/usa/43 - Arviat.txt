@@ -1,0 +1,5 @@
+trade_goods = fish
+life_rating = 5
+terrain = boreal_marsh
+
+colonial = 1

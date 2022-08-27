@@ -1,0 +1,12 @@
+owner = TER
+controller = TER
+add_core = TER
+add_core = RUS
+add_core = KMK
+trade_goods = wool
+life_rating = 25
+terrain = dry_grassland
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

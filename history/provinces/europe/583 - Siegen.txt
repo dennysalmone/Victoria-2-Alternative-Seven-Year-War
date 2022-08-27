@@ -1,0 +1,7 @@
+owner = WES
+controller = WES
+add_core = WES
+add_core = GER
+trade_goods = horses
+life_rating = 36
+terrain = deciduous_forest_hills

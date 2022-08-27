@@ -1,0 +1,6 @@
+add_core = RUS
+add_core = YAK
+trade_goods = other_minerals
+life_rating = 10
+terrain = tundra_mountains
+colonial = 1

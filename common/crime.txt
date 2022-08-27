@@ -1,0 +1,175 @@
+anarchic_bomb_throwers = {
+	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = 0.05
+	local_rgo_throughput = -0.1
+	local_factory_output = -0.1
+	local_ruling_party_support = -0.80
+	icon = 1	
+	
+	trigger = {
+		OR = { average_militancy = 5 controlled_by_rebels = yes NOT = { crime_fighting = 0.50 } }
+	}	
+}
+
+citizen_guard = {
+	pop_consciousness_modifier = 0.05
+	local_rgo_output = -0.05
+	local_factory_throughput = -0.05
+	local_artisan_throughput = -0.05
+	administrative_efficiency_modifier = 0.05
+	icon = 2	
+	
+	trigger = {
+		OR = { is_colonial = yes average_militancy = 2 controlled_by_rebels = yes NOT = { crime_fighting = 0.40 } }
+	}		
+}
+
+immoral_business = {
+
+	active = yes
+	
+	local_rgo_throughput = -0.2
+	local_factory_output = -0.1
+	local_artisan_output = -0.05
+	icon = 3		
+	trigger = {
+		NOT = { average_militancy = 4 }
+		OR = { is_colonial = yes NOT = { crime_fighting = 0.60 } }
+	}		
+}
+
+machine_politics = {
+	active = yes
+
+	random_party_votes = 3
+	local_rgo_throughput = -0.1
+	pop_militancy_modifier = 0.01
+	icon = 4
+	
+	trigger = {
+		crime_fighting = 0.50
+		is_colonial = no
+	}		
+}
+
+mafia = {
+	active = yes
+	immigrant_push = 2.00
+	local_factory_output = -0.10
+	poor_income_modifier = -0.10
+	icon = 5	
+	
+	trigger = {
+		NOT = { crime_fighting = 0.60 }
+		has_factories = yes
+		literacy = 0.60
+		is_colonial = no
+	}		
+}
+
+rotten_boroughs = {
+
+	active = yes
+	local_ruling_party_support = 2.0
+	number_of_voters = 1.0
+	pop_consciousness_modifier = 0.05
+	icon = 6	
+	
+	trigger = {
+		crime_fighting = 0.50
+		is_colonial = no
+	}		
+}
+
+spoil_system = {
+	active = yes
+
+	pop_consciousness_modifier = 0.3
+	local_ruling_party_support = 0.15
+	rich_income_modifier = 0.25
+	poor_income_modifier = -0.10
+	icon = 7	
+	
+	trigger = {
+		is_colonial = no
+		NOT = { crime_fighting = 0.50 }
+	}	
+}
+
+terrorist_cells = {
+	local_ruling_party_support = -0.65
+	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = 0.4
+	immigrant_push = 2
+	icon = 8	
+
+	trigger = {
+		OR = { controlled_by_rebels = yes average_militancy = 6 }
+	}	
+}
+
+offshore = {
+	icon = 9	
+	rich_income_modifier = 0.20
+	local_factory_input = -0.05
+	local_factory_throughput = 0.05
+	local_RGO_throughput = 0.05
+	trigger = {
+		NOT = { average_militancy = 2 }
+		crime_fighting = 0.50
+		country = { 
+			rich_tax = 0.30
+			NOT = { ruling_party_ideology = communist }
+		}
+	}	
+}
+drug_trade = {
+	icon = 10	
+	active = yes
+	pop_consciousness_modifier = -0.03
+	pop_militancy_modifier = -0.03
+	poor_income_modifier = -0.40
+	middle_income_modifier = -0.20
+
+	trigger = {
+		NOT = { literacy = 0.40 }
+		NOT = { average_consciousness = 2 }
+		NOT = { crime_fighting = 0.60 }
+	}	
+}
+gun_trade = {
+	icon = 11	
+	administrative_efficiency_modifier = -0.20
+	pop_consciousness_modifier = 0.05
+	trigger = {
+		NOT = { crime_fighting = 0.50 }
+	}	
+}
+smuggling = {
+	active = yes
+	icon = 12	
+	local_factory_throughput = -0.05
+	local_RGO_throughput = -0.05
+	goods_demand = 0.10
+	trigger = {
+		NOT = { crime_fighting = 0.65 }
+	}	
+}
+check_scam = {
+	active = yes
+	icon = 13	
+	poor_income_modifier = -0.10
+	trigger = {
+
+	}	
+}
+
+
+
+
+
+
+
+
+
+

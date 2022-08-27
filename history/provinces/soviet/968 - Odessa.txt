@@ -1,0 +1,8 @@
+owner = BUH
+controller = BUH
+add_core = BUH
+add_core = RUS
+trade_goods = fish
+life_rating = 40
+terrain = good_farmland
+naval_base = 1

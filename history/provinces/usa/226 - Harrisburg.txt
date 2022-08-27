@@ -1,0 +1,8 @@
+owner = PNS
+controller = PNS
+add_core = PNS
+add_core = USA
+trade_goods = coal
+life_rating = 35
+terrain = hilly_farmland
+1861.1.1 = { railroad = 3 }

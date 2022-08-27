@@ -1,0 +1,9 @@
+add_core = KAZ
+trade_goods = horses
+life_rating = 20
+terrain = dry_grassland
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 1
+}

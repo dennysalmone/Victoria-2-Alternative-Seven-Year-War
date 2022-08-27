@@ -1,0 +1,12 @@
+owner = BTL
+controller = BTL
+add_core = TUR
+add_core = ARM
+add_core = BTL
+trade_goods = iron
+life_rating = 35
+terrain = hills
+1836.1.1 = {
+	owner = TUR
+	controller = TUR
+}

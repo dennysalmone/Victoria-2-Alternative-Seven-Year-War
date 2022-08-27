@@ -1,0 +1,9 @@
+add_core = NHO
+trade_goods = grain
+life_rating = 35
+terrain = temperate_grassland
+colonial = 1
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+}

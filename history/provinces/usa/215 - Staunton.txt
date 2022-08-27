@@ -1,0 +1,12 @@
+owner = VGA
+controller = VGA
+add_core = VGA
+add_core = USA
+trade_goods = cotton
+life_rating = 35
+terrain = hilly_farmland
+1861.1.1 = {
+	owner = CSA
+	controller = CSA
+	add_core = CSA}
+1861.1.1 = { railroad = 3 }

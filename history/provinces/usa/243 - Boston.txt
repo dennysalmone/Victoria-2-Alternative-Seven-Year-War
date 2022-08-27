@@ -1,0 +1,7 @@
+owner = MSC
+controller = MSC
+add_core = MSC
+add_core = USA
+trade_goods = grain
+life_rating = 40
+terrain = marginal_farmland

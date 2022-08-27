@@ -1,0 +1,8 @@
+owner = IRO
+controller = IRO
+add_core = IRO
+add_core = USA
+trade_goods = fish
+life_rating = 30
+terrain = forest_steppe
+1861.1.1 = { railroad = 3 }

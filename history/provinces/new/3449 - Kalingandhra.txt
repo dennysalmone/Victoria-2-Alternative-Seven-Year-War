@@ -1,0 +1,9 @@
+owner = BAS
+controller = BAS
+add_core = BAS
+add_core = ORI
+add_core = HND
+trade_goods = silk
+life_rating = 35
+terrain = hilly_farmland
+colonial = 1

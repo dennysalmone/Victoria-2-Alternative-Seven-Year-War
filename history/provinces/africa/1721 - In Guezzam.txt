@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = HYD
+add_core = MYS
+add_core = KRN
+add_core = HND
+colonial = 2
+trade_goods = fish
+life_rating = 32
+terrain = seasonal_jungle
+fort = 1
+naval_base = 1

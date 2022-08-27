@@ -1,0 +1,8 @@
+owner = DLW
+controller = DLW
+add_core = DLW
+add_core = USA
+trade_goods = cotton
+life_rating = 40
+terrain = good_farmland
+1861.1.1 = { railroad = 3 }

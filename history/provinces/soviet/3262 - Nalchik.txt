@@ -1,0 +1,10 @@
+owner = CIR
+controller = CIR
+add_core = CIR
+trade_goods = wool
+life_rating = 40
+terrain = mountain_valley
+1836.1.1 = {
+	owner = RUS
+	controller = RUS
+}

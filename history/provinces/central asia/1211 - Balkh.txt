@@ -1,0 +1,7 @@
+owner = KNZ
+controller = KNZ
+add_core = KNZ
+add_core = AFG
+trade_goods = opium
+life_rating = 15
+terrain = semi_desert_hills

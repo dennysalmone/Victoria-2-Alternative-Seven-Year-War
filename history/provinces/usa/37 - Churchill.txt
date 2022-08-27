@@ -1,0 +1,6 @@
+owner = ENG
+controller = ENG
+trade_goods = fur
+life_rating = 15
+terrain = boreal_marsh
+colonial = 1

@@ -1,0 +1,7 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = LBN
+trade_goods = grain
+terrain = dry_forest_hills
+life_rating = 35

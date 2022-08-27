@@ -1,0 +1,8 @@
+owner = NWK
+controller = NWK
+add_core = NWK
+add_core = USA
+trade_goods = grain
+life_rating = 40
+terrain = forested_farmland
+fort = 1

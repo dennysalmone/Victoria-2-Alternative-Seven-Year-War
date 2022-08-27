@@ -1,0 +1,4 @@
+trade_goods = fur
+life_rating = 5
+terrain = tundra_hills
+colonial = 1

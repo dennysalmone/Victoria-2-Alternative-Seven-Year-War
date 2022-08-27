@@ -1,0 +1,8 @@
+owner = NJR
+controller = NJR
+add_core = NJR
+add_core = USA
+trade_goods = tobacco
+life_rating = 40
+naval_base = 1
+terrain = forested_farmland

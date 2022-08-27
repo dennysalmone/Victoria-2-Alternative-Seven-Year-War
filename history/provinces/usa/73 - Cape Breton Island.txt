@@ -1,0 +1,7 @@
+owner = ACA
+controller = ACA
+add_core = ACA
+add_core = MRU
+trade_goods = coal
+life_rating = 35
+terrain = conifer_forest_hills

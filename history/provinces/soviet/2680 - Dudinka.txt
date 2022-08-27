@@ -1,0 +1,6 @@
+add_core = RUS
+add_core = SIB
+trade_goods = fish
+life_rating = 5
+terrain = tundra_hills
+colonial = 1

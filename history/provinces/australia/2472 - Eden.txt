@@ -1,0 +1,5 @@
+add_core = NHO
+trade_goods = iron
+life_rating = 35
+terrain = deciduous_forest_hills
+colonial = 1

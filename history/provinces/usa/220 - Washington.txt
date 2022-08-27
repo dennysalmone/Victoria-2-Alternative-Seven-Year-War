@@ -1,0 +1,10 @@
+owner = MRL
+controller = MRL
+add_core = MRL
+add_core = USA
+trade_goods = grain
+life_rating = 40
+terrain = marginal_farmland
+fort = 1
+1861.1.1 = { add_core = CSA }
+1861.1.1 = { railroad = 3 }

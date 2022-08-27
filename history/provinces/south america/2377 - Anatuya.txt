@@ -1,0 +1,4 @@
+add_core = ARG
+trade_goods = dye
+life_rating = 25
+terrain = dry_forest

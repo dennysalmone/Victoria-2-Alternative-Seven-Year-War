@@ -1,0 +1,7 @@
+owner = SEG
+controller = SEG
+add_core = SEG
+add_core = TRZ
+trade_goods = cattle
+life_rating = 10
+terrain = semi_desert

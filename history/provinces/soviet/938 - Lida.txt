@@ -1,0 +1,9 @@
+owner = PLC
+controller = PLC
+add_core = PLC
+add_core = LIT
+add_core = RUS
+add_core = POL
+trade_goods = other_minerals
+life_rating = 35
+terrain = forest_steppe

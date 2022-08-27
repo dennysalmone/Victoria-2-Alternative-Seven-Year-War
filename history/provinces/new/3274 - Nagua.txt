@@ -1,0 +1,15 @@
+owner = SPA
+controller = SPA
+add_core = DOM
+trade_goods = tobacco
+life_rating = 40
+terrain = forested_farmland
+colonial = 1
+1836.1.1 = {
+	owner = HAI
+	controller = HAI
+}
+1861.1.1 = {
+	owner = DOM
+	controller = DOM
+}

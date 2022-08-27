@@ -1,0 +1,14 @@
+add_core = TUR
+add_core = JOR
+trade_goods = silk
+life_rating = 5
+terrain = desert
+1836.1.1 = {
+	owner = EGY
+	controller = EGY
+	colonial = 0
+}
+1861.1.1 = {
+	controller = TUR 
+	owner = TUR
+}

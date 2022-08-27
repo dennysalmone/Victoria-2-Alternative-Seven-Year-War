@@ -1,0 +1,9 @@
+owner = MSC
+controller = MSC
+add_core = MSC
+add_core = ACA
+add_core = USA
+trade_goods = timber
+life_rating = 32
+terrain = deciduous_forest
+1861.1.1 = { railroad = 1 }

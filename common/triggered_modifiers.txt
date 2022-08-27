@@ -1,0 +1,560 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+divisive_elections = {
+trigger = {
+	election = yes
+	war = no
+	average_militancy = 3
+		}
+	suppression_points_modifier = -0.1
+	core_pop_consciousness_modifier = 0.25
+}
+
+violent_elections = {
+trigger = {
+	election = yes
+	war = no
+	average_militancy = 6
+		}
+	suppression_points_modifier = -0.1
+	core_pop_militancy_modifier = 0.25
+	core_pop_consciousness_modifier = 0.25
+}
+
+social_reformed_nation = {
+        trigger = {
+            exists = yes
+            wage_reform = good_minimum_wage
+            work_hours = eight_hours
+            safety_regulations = good_safety
+            unemployment_subsidies = good_subsidies
+            pensions = good_pensions
+            health_care = good_health_care
+            school_reforms = good_schools
+        }
+
+    social_reform_desire = -0.5
+    icon = 29
+}
+
+
+populationsize_50k = {
+	trigger = {
+		NOT = { total_pops = 25000 }
+	}
+	research_points = -0.2
+	global_population_growth = 0.003
+	mobilisation_size = 0.1
+	tax_efficiency = 0.12
+	education_efficiency_modifier = 0.3
+	icon = 11
+}
+
+populationsize_100k = {
+	trigger = {
+		total_pops = 25000
+		NOT = {
+			total_pops = 62500
+		}
+	}
+	research_points = -0.15
+	global_population_growth = 0.003
+	mobilisation_size = 0.05
+	leadership_modifier = 0.05
+	tax_efficiency = 0.1
+	education_efficiency_modifier = 0.25
+	icon = 5
+}
+
+populationsize_250k = {
+	trigger = {
+		total_pops = 62500
+		NOT = {
+			total_pops = 125000
+		}
+	}
+	research_points = -0.1
+	global_population_growth = 0.002
+	mobilisation_size = 0.01
+	leadership_modifier = 0.1
+	tax_efficiency = 0.08
+	education_efficiency_modifier = 0.25	
+	icon = 5
+}
+
+populationsize_500k = {
+	trigger = {
+		total_pops = 125000
+		NOT = {
+			total_pops = 250000
+		}
+	}
+	research_points = -0.05
+	global_population_growth = 0.002
+	mobilisation_size = 0.01
+	leadership_modifier = 0.15
+	tax_efficiency = 0.06
+	education_efficiency_modifier = 0.2	
+	icon = 5
+}
+
+populationsize_1M = {
+	trigger = {
+		total_pops = 250000
+		NOT = {
+			total_pops = 625000
+		}
+	}
+	global_population_growth = 0.001
+	mobilisation_size = 0.005
+	leadership_modifier = 0.2
+	tax_efficiency = 0.04
+	education_efficiency_modifier = 0.2	
+	icon = 5
+}
+
+populationsize_2_5M = {
+	trigger = {
+		total_pops = 625000
+		NOT = {
+			total_pops = 1250000
+		}
+	}
+	research_points = 0.05
+	global_population_growth = 0.001
+	global_immigrant_attract = 0.05
+	leadership_modifier = 0.25
+	tax_efficiency = 0.02
+	education_efficiency_modifier = 0.15
+	icon = 5
+}
+
+populationsize_5M = {
+	trigger = {
+		total_pops = 1250000
+		NOT = {
+			total_pops = 2500000
+		}
+	}
+	research_points = 0.1
+	global_immigrant_attract = 0.10
+	leadership_modifier = 0.3
+	education_efficiency_modifier = 0.15	
+	icon = 5
+}
+
+populationsize_10M = {
+	trigger = {
+		total_pops = 2500000
+		NOT = {
+			total_pops = 6250000
+		}
+	}
+	research_points = 0.2
+	leadership_modifier = 0.35
+	global_immigrant_attract = 0.20
+	tax_efficiency = -0.02
+	education_efficiency_modifier = 0.1
+	icon = 5
+}
+
+populationsize_25M = {
+	trigger = {
+		total_pops = 6250000
+		NOT = {
+			total_pops = 12500000
+		}
+	}
+	research_points = 0.3
+	leadership_modifier = 0.4
+	global_immigrant_attract = 0.30
+	tax_efficiency = -0.04
+	education_efficiency_modifier = 0.1	
+	icon = 5
+}
+
+populationsize_50M = {
+	trigger = {
+		total_pops = 12500000
+		NOT = {
+			total_pops = 25000000
+		}
+	}
+	research_points = 0.4
+	leadership_modifier = 0.45
+	global_immigrant_attract = 0.45
+	tax_efficiency = -0.06
+	education_efficiency_modifier = 0.05	
+	icon = 5
+}
+
+populationsize_100M = {
+	trigger = {
+		total_pops = 25000000
+		NOT = {
+			total_pops = 50000000
+		}
+	}
+	research_points = 0.6
+	leadership_modifier = 0.5
+	global_immigrant_attract = 0.60
+	tax_efficiency = -0.08
+	education_efficiency_modifier = 0.05	
+	icon = 5
+}
+
+populationsize_200M = {
+	trigger = {
+		total_pops = 50000000
+		NOT = {
+			total_pops = 75000000
+		}
+	}
+	research_points = 0.8
+	leadership_modifier = 0.55
+	global_immigrant_attract = 0.80
+	education_efficiency_modifier = -0.1	
+	tax_efficiency = -0.1
+	icon = 5
+}
+
+populationsize_300M = {
+	trigger = {
+		total_pops = 75000000
+	}
+	research_points = 1
+	leadership_modifier = 0.6
+	global_immigrant_attract = 1.00
+	tax_efficiency = -0.12
+	education_efficiency_modifier = -0.2	
+	icon = 5
+}
+
+no_navy = {
+	trigger = {
+		civilized = yes
+		num_of_ports = 1
+		year = 1825
+		NOT = { total_amount_of_ships = 1 }
+	}
+	prestige = -0.2
+	icon = 9
+}
+
+respectable_navy = {
+	trigger = {
+		civilized = yes
+		total_amount_of_ships = 10
+		NOT = { total_amount_of_ships = 100 }
+	}
+	prestige = 0.1
+	icon = 25
+}
+
+small_navy = {
+	trigger = {
+		civilized = yes
+		total_amount_of_ships = 1
+		not = { total_amount_of_ships = 10 }
+		num_of_ports = 1
+		year = 1825
+	}
+	prestige = -0.1
+	icon = 25
+}
+
+grand_navy = {
+	trigger = {
+		civilized = yes
+		total_amount_of_ships = 100
+	}
+	prestige = 0.2
+	icon = 25
+}
+
+grand_army = {
+	trigger = {
+	total_amount_of_divisions = 100
+	civilized = yes
+	}
+	icon = 25
+	prestige = 0.1
+}
+
+landlocked_nation = {
+	trigger = {
+		NOT = { num_of_ports = 1 }
+	}
+	icon = 10
+	prestige = -0.1
+	RGO_throughput = -0.02
+	factory_throughput = -0.05
+	diplomatic_points_modifier = -0.25
+}
+
+city_state = {
+	trigger = {
+		NOT = {
+			num_of_cities = 2
+		}
+	}
+	icon = 10
+	global_immigrant_attract = -0.150
+	prestige = -0.05
+}
+
+small_nation = {
+	trigger = {
+		civilized = yes
+		num_of_cities = 2
+		NOT = {
+			num_of_cities = 8
+		}
+	}
+	icon = 10
+	prestige = -0.025
+}
+
+small_nation2 = {
+	trigger = {
+		civilized = yes
+		num_of_cities = 8
+		NOT = {
+			num_of_cities = 20
+		}
+	}
+	icon = 10
+	global_immigrant_attract = 0.050
+}
+
+small_nation3 = {
+	trigger = {
+		civilized = yes
+		num_of_cities = 20
+		NOT = {
+			num_of_cities = 50
+		}
+	}
+	icon = 10
+	global_immigrant_attract = 0.100
+}
+
+large_nation = {
+	trigger = {
+		civilized = yes
+		num_of_cities = 50
+		NOT = {
+			num_of_cities = 100
+		}
+	}
+	icon = 9
+	global_immigrant_attract = 0.200
+	prestige = 0.025
+}
+
+sprawling_empire = {
+	trigger = {
+		civilized = yes
+		num_of_cities = 100
+	}
+	icon = 9
+	global_immigrant_attract = 0.300
+	prestige = 0.05
+}
+
+well_drilled = {
+	trigger = {
+		NOT = { tag = REB }
+		officers = 0.002
+		civilized = yes
+	}
+	icon = 25
+	land_organisation = 0.25
+	naval_organisation = 0.25
+}
+
+drilled = {
+	trigger = {
+		NOT = { tag = REB }
+		NOT = { officers = 0.002 }
+		officers = 0.0015
+		civilized = yes
+	}
+	icon = 25
+	land_organisation = 0.1
+	naval_organisation = 0.1
+}
+
+poorly_drilled = {
+	trigger = {
+		NOT = { tag = REB }
+		NOT = { officers = 0.001 }
+		officers = 0.0005
+	}
+	icon = 25
+	land_organisation = -0.1
+	naval_organisation = -0.1
+}
+
+undisciplined_mob = {
+	trigger = {
+		NOT = { tag = REB }
+		NOT = { officers = 0.0005 }
+	}
+	icon = 25
+	land_organisation = -0.25
+	naval_organisation = -0.25
+}
+
+vassal_nation = {
+	trigger = {
+		is_vassal = yes
+	}
+	icon = 10
+	prestige = -5
+}
+
+
+winds_of_change = {
+	trigger = {
+		has_global_flag = berlin_conference
+		civilized = no
+	}
+	icon = 1
+	research_points = 1
+}
+
+the_police_state_effect = {
+	trigger = {
+		invention = the_police_state
+		or = {
+			government = fascist_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = proletarian_dictatorship
+		}
+	}
+	icon = 1
+	core_pop_consciousness_modifier = -0.02
+	core_pop_militancy_modifier = -0.02
+}
+
+social_dissent = {
+	trigger = {
+		average_militancy = 1
+		not = { average_militancy = 2 }
+	}
+	global_pop_consciousness_modifier = 0.02
+	mobilisation_size = -0.005
+	issue_change_speed = 0.3
+	icon = 2
+}
+
+social_tensions = {
+	trigger = {
+		average_militancy = 2
+		not = { average_militancy = 4 }
+	}
+	global_pop_consciousness_modifier = 0.04
+	mobilisation_size = -0.01
+	prestige = -0.05
+	issue_change_speed = 0.6
+	icon = 1
+}
+
+social_disorder = {
+	trigger = {
+		average_militancy = 4
+		not = { average_militancy = 6 }
+	}
+	global_pop_consciousness_modifier = 0.06
+	mobilisation_size = -0.02
+	prestige = -0.1
+	issue_change_speed = 1.2
+	icon = 1
+}
+
+social_chaos = {
+	trigger = {
+		average_militancy = 6
+	}
+	global_pop_consciousness_modifier = 0.1
+	mobilisation_size = -0.04
+	prestige = -0.2
+	issue_change_speed = 2.0
+	icon = 1
+}
+
+money_hoarder_1 = {
+	trigger = {
+		or = {
+			and = {
+				money = 10000000
+				not = {
+					num_of_cities = 50
+					money = 50000000
+				}
+			}
+			and = {
+				money = 30000000
+				num_of_cities = 50
+				not = { money = 80000000 }
+			}
+		}
+	}
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.1
+	icon = 1
+}
+
+money_hoarder_2 = {
+	trigger = {
+		or = {
+			and = {
+				money = 50000000
+				not = {
+					num_of_cities = 50
+					money = 100000000
+				}
+			}
+			and = {
+				money = 80000000
+				num_of_cities = 50
+				not = { money = 150000000 }
+			}
+		}
+	}
+	tax_efficiency = -0.2
+	tariff_efficiency_modifier = -0.2
+	icon = 1
+}
+
+money_hoarder_3 = {
+	trigger = {
+		or = {
+			and = {
+				money = 100000000
+				not = { num_of_cities = 50 }
+			}
+			and = {
+				money = 150000000
+				num_of_cities = 50
+			}
+		}
+	}
+	tax_efficiency = -0.3
+	tariff_efficiency_modifier = -0.3	
+	icon = 1
+}
+
+money_hoarder_4 = {
+	trigger = {
+			  money = 1000000000
+	}
+	tax_efficiency = -0.4
+	tariff_efficiency_modifier = -0.4
+	icon = 1
+}

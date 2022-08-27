@@ -1,0 +1,8 @@
+owner = RHD
+controller = RHD
+add_core = RHD
+add_core = USA
+trade_goods = cattle
+terrain = marginal_farmland
+life_rating = 40
+1861.1.1 = { railroad = 3 }

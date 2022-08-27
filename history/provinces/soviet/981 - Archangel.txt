@@ -1,0 +1,10 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+trade_goods = iron
+life_rating = 20
+colonial = 1
+terrain = boreal_forest
+1861.1.1 = {
+	naval_base = 1
+}

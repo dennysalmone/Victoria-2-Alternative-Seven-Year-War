@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = SVY
+add_core = ITA
+trade_goods = fruit
+life_rating = 35
+terrain = good_farmland
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	railroad = 3
+}
