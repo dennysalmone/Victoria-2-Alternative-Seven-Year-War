@@ -1,5 +1,6 @@
-owner = ARG
-controller = ARG
+owner = VR1
+controller = VR1
+add_core = VR1
 add_core = ARG
 add_core = URU
 trade_goods = tobacco

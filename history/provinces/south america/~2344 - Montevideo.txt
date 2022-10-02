@@ -1,0 +1,11 @@
+owner = ARG
+controller = ARG
+add_core = ARG
+add_core = URU
+trade_goods = cattle
+life_rating = 40
+terrain = good_farmland
+1836.1.1 = {
+	owner = URU
+	controller = URU
+}
