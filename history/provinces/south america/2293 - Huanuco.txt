@@ -1,5 +1,6 @@
-owner = PEU
-controller = PEU
+owner = VR2
+controller = VR2
+add_core = VR2
 add_core = PEU
 trade_goods = cattle
 life_rating = 30

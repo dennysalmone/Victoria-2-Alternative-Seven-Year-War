@@ -1,4 +1,0 @@
-add_core = AST
-trade_goods = copper
-life_rating = 5
-terrain = desert

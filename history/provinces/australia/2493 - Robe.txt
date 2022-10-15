@@ -3,7 +3,3 @@ trade_goods = wool
 life_rating = 35
 terrain = dry_grassland
 colonial = 1
-1836.1.1 = {
-	owner = ENG
-	controller = ENG
-}

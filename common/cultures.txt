@@ -1590,8 +1590,6 @@ south_asian = {
 	union = HND
  }
 
-
-
 malay_asian = { 
 	leader = asian
 	unit = AsianGC
@@ -1887,8 +1885,6 @@ pan_chinese = {
 	union = CHI
  }
 
-
-
 east_asian = { 
 	leader = asian
 	unit = ChineseGC
@@ -2059,7 +2055,7 @@ native_american = {
 	}
 	quechua = { 
 		color = { 137 221 233 }
-			first_names = { 	Anquimarca Apo Atahualpa Atoc Atoc-Suqui Auqui-Huaman
+		first_names = { 	Anquimarca Apo Atahualpa Atoc Atoc-Suqui Auqui-Huaman
 	Canchari Chalcuchima Challco Chiaquitinta Chilche Colla-Topa Curiatao Cusi Guacra Guaritito Guaritopa Huachuri Huaman Huascar Huaypalcon
 	Illaquita Inquill Llicllic Maila Maras Marcavilca Mayta Ninancoro Ozcoc Parinango Paucar Paullu Pomacapi Puma Pusca Puyu-Vilca
 	Quilaco Quingallumbo Quintiraura Quisquis Quizo Rimac Ronpa Sahuaraura Sotaurco Tanqui Tucuycuyche Tupac-Amaru Yupanqui }
@@ -2291,8 +2287,6 @@ neo_european_cultures = {
 			last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
 		}
 	}
-
-
  }
 
 latin_american_cultures = { 
@@ -2806,7 +2800,6 @@ east_african = {
 			last_names = { Selassie Mikael Mariam Melekot Seged Wossen Makonnen
 		}
 	}
-
 	azande = { 
 		color = { 31 89 150 }
 			first_names = { Souau Mwerve Ngabwe Birhenjira Rutanganda Rugema Kabare Rugemaninzi Makome Bigomokero
@@ -2823,7 +2816,6 @@ east_african = {
 			last_names = { Njovu Ndiga Ngo Nseenene Mmamba Ngonge Ngabi
 		}
 	}
-
 	dinka = { 
 		color = { 59 91 247 }
 			first_names = { Abel Alier Kiir Yar Manyang Manute Luol Awino Nyankol Akex Ayak Bul Mach 

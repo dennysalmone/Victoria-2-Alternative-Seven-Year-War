@@ -1,0 +1,27 @@
+vassal = {
+	first = SPA
+	second = VR1
+	start_date = 1815.11.9
+	end_date = 1827.6.28
+}
+
+vassal = {
+	first = SPA
+	second = VR2
+	start_date = 1815.11.9
+	end_date = 1827.6.28
+}
+
+vassal = {
+	first = SPA
+	second = VR3
+	start_date = 1815.11.9
+	end_date = 1827.6.28
+}
+
+vassal = {
+	first = SPA
+	second = VR4
+	start_date = 1815.11.9
+	end_date = 1827.6.28
+}

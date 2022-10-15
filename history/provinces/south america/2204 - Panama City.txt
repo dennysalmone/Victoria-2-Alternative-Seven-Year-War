@@ -1,5 +1,7 @@
-owner = GCO
-controller = GCO
+owner = VR3
+controller = VR3
+add_core = VR3
+add_core = GCO
 add_core = PNM
 trade_goods = grain
 life_rating = 35

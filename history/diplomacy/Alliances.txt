@@ -1,0 +1,160 @@
+# Austria-Venice
+alliance = {
+	first = AUS
+	second = VEN
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = FRA
+	second = LOM
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+#Poland
+alliance = {
+	first = PLC
+	second = TER
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = PLC
+	second = DON
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = PLC
+	second = BUH
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = PLC
+	second = ZAP
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = PLC
+	second = DAN
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+#North
+alliance = {
+	first = NWK
+	second = CNN
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = NWK
+	second = DLW
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = NWK
+	second = MSC
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = NWK
+	second = NHP
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = NWK
+	second = NJR
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = NWK
+	second = RHD
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = NWK
+	second = PNS
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+
+#South 
+alliance = {
+	first = VGA
+	second = MRL
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = VGA
+	second = GRG
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = VGA
+	second = CRL
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = VGA
+	second = NCR
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+#Turkey
+alliance = {
+	first = TUR
+	second = CRI
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = TUR
+	second = CIR
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+#Caucasus
+alliance = {
+	first = PER
+	second = DAG
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}
+
+alliance = {
+	first = PER
+	second = OSS
+	start_date = 1811.4.19
+	end_date = 1890.1.1
+}

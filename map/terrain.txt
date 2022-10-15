@@ -940,7 +940,7 @@ text_10	= { type = good_farmland color = { 	10	 } priority = 	10	 }
 text_11	= { type = good_farmland color = { 	11	 } priority = 	11	 }
 
 text_12	= { type = conifer_forest color = { 	12	 } priority = 	12	 }
-text_13	= { type = conifer_forest_hills color = { 	13	 } priority = 	13	 }
+text_13	= { type = tundra_hills color = { 	13	 } priority = 	13	 }
 text_14	= { type = conifer_forest color = { 	14	 } priority = 	14	 }
 text_15	= { type = conifer_forest color = { 	15	 } priority = 	15	 }
 
@@ -949,7 +949,7 @@ text_17	= { type = hilly_grassland color = { 	17	 } priority = 	17	 }
 text_18	= { type = hilly_grassland color = { 	18	 } priority = 	18	 }
 text_19	= { type = hilly_grassland color = { 	19	 } priority = 	19	 }
 
-text_20	= { type = deciduous_forest color = { 	20	 } priority = 	20	 }
+text_20	= { type = forest_steppe color = { 	20	 } priority = 	20	 }
 text_21	= { type = deciduous_forest color = { 	21	 } priority = 	21	 }
 text_22	= { type = farmland_dry color = { 	22	 } priority = 	22	 }
 text_23	= { type = deciduous_forest color = { 	23	 } priority = 	23	 }
