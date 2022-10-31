@@ -1,0 +1,4 @@
+trade_goods = other_minerals
+life_rating = 10
+terrain = boreal_forest
+colonial = 1

@@ -106,8 +106,6 @@ country_event = {
 	}
 }
 
-
-
 country_event = {
 
 	id = 20220002
@@ -240,8 +238,6 @@ country_event = {
 	}
 }
 
-
-
 country_event = {
 
 	id = 20220004
@@ -360,7 +356,3 @@ country_event = {
 		ai_chance = { factor = 5 }
 	}
 }
-
-
-
-

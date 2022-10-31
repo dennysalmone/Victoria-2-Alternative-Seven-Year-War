@@ -72,8 +72,6 @@ country_event  = {
 	}
 }
 
-
-
 country_event  = {
 	id = 1000118
 	title = "Migration of the Circassians"
@@ -578,7 +576,7 @@ country_event  = {
 	any_country = { any_pop = { limit = { culture = persian } literacy = 0.011 } }
 	any_country = { any_pop = { limit = { culture = kurdish } literacy = 0.009 } }
 	any_country = { any_pop = { limit = { culture = ossetian } literacy = 0.012 } }
-	any_country = { any_pop = { limit = { culture = tajik } literacy = 0.003 } }
+	any_country = { any_pop = { limit = { culture = persian } literacy = 0.003 } }
 	any_country = { any_pop = { limit = { culture = manchu } literacy = 0.022 } }
 	any_country = { any_pop = { limit = { culture = panjabi } literacy = 0.005 } }
 	any_country = { any_pop = { limit = { culture = tamil } literacy = 0.011 } }

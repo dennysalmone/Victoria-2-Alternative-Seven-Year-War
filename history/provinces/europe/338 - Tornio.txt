@@ -3,5 +3,5 @@ controller = SWE
 add_core = FIN
 add_core = SWE
 trade_goods = copper
-life_rating = 25
+life_rating = 20
 terrain = tundra

@@ -1857,28 +1857,28 @@
 254 = {
 	aristocrats = { size = 1000 culture = british religion = protestant }
 	aristocrats = { size = 622 culture = scottish religion = reformed }
-	artisans = { size = 6111 culture = scottish religion = reformed }
-	artisans = { size = 3222 culture = british religion = protestant }
 	artisans = { size = 1831 culture = british religion = protestant }
+	artisans = { size = 3222 culture = british religion = protestant }
 	artisans = { size = 5036 culture = irish religion = catholic }
+	artisans = { size = 6111 culture = scottish religion = reformed }
 	bureaucrats = { size = 1030 culture = british religion = protestant }
-	clergymen = { size = 255 culture = british religion = protestant }
 	clergymen = { size = 200 culture = scottish religion = reformed }
 	clergymen = { size = 228 culture = irish religion = catholic }
+	clergymen = { size = 255 culture = british religion = protestant }
+	farmers = { size = 23121 culture = irish religion = catholic }
 	farmers = { size = 25468 culture = british religion = protestant }
 	farmers = { size = 5000 culture = british religion = reformed }
 	farmers = { size = 50000 culture = scottish religion = reformed }
-	farmers = { size = 23121 culture = irish religion = catholic }
+	soldiers = { size = 1111 culture = scottish religion = reformed }
 	soldiers = { size = 228 culture = british religion = protestant }
 	soldiers = { size = 3236 culture = british religion = protestant }
-	soldiers = { size = 1111 culture = scottish religion = reformed }
 	soldiers = { size = 686 culture = irish religion = catholic }
 }
 255 = {
 	artisans = { size = 1073 culture = irish religion = catholic }
 	artisans = { size = 3095 culture = british religion = protestant }
-	clergymen = { size = 243 culture = irish religion = catholic }
 	clergymen = { size = 148 culture = british religion = protestant }
+	clergymen = { size = 243 culture = irish religion = catholic }
 	farmers = { size = 28694 culture = irish religion = catholic }
 	farmers = { size = 43869 culture = british religion = protestant }
 }

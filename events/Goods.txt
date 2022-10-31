@@ -209,7 +209,6 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		change_province_name = "Johannesburg"
 		owner = {
 			add_country_modifier = {
 				name = witwatersrand_gold_rush
@@ -903,7 +902,7 @@ province_event = {
 	id = 1117
 
 	trigger = {
-		year = 1879
+		year = 1899
 		province_id = 1168		# Dubai
 		NOT = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
@@ -992,7 +991,7 @@ province_event = {
 	trigger = {
 		year = 1882
 		OR = {
-			province_id = 89		# Los Angeles
+			province_id = 225		# Williamsport
 			province_id = 133		# Austin
 			province_id = 126		# Topeka
 		}
@@ -1577,7 +1576,6 @@ province_event = {
 		year = 1910
 		OR = {
 			province_id = 1732		# Ghayran
-			province_id = 1720		# Timimoun
 			province_id = 1167		# Abu Dhabi
 			province_id = 1163		# Qatif
 			province_id = 2270		# Maracaibo
@@ -1697,7 +1695,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		change_province_name = "Calgary"
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1835,49 +1832,6 @@ province_event = {
 	}
 }
 
-province_event = {
-
-	id = 1138
-
-	trigger = {
-		year = 1927
-		province_id = 923		# Mosul
-		NOT = { trade_goods = oil }
-		NOT = { has_province_modifier = switched_production }
-		OR = {
-			owner = { organic_chemistry = 1 }
-			any_greater_power = { organic_chemistry = 1 }
-			owner = {
-				any_neighbor_country = { organic_chemistry = 1 }
-			}
-			owner = { has_global_flag = oil_found }
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 8
-		modifier = {
-			factor = 3
-			owner = {
-				NOT = { organic_chemistry = 1 }
-			}
-		}
-	}
-
-	title = "EVTNAME1109"
-	desc = "EVTDESC1109"
-
-	option = {
-		name = "EVTOPTA1109"
-		trade_goods = oil
-		add_province_modifier = {
-			name = switched_production
-			duration = 1825
-		}
-		# life_rate = 5
-	}
-}
-
 #############################
 #        LEAD EVENTS        #
 #############################
@@ -1901,7 +1855,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 90
+		months = 160
 		modifier = {
 			factor = 0.5
 			owner = {
@@ -2025,7 +1979,7 @@ province_event = {
 }
 
 province_event = {
-	id = 19981213
+	id = 19981214
 	title = "EVTNAME1141"
 	desc = "EVTDESC1141"
 	
@@ -2073,6 +2027,50 @@ province_event = {
 	option = {
 		name = "Let the digging begin!"
 		trade_goods = iron
+		add_province_modifier = {
+			name = switched_production
+			duration = 1825
+		}
+	}
+}
+
+province_event = {
+	id = 19981215
+	title = "EVTNAME1141"
+	desc = "EVTDESC1141"
+	
+	trigger = {
+		year = 1857
+		trade_goods = fur
+	}
+	
+	mean_time_to_happen =  {
+		months = 100
+		modifier = {
+			factor = 0.90
+			total_pops = 9444
+		}
+		modifier = {
+			factor = 0.80
+			total_pops = 17666
+		}
+		modifier = {
+			factor = 0.65
+			total_pops = 28777
+		}
+		modifier = {
+			factor = 0.65
+			total_pops = 45454
+		}
+		modifier = {
+			factor = 0.15
+			total_pops = 75333
+		}
+	}
+	
+	option = {
+		name = "Let the digging begin!"
+		trade_goods = cattle
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825

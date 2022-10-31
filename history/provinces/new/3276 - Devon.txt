@@ -1,6 +1,6 @@
 owner = LOU
 controller = LOU
 trade_goods = cattle
-life_rating = 31
+life_rating = 25
 terrain = dry_grassland
 colonial = 1

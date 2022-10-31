@@ -3,7 +3,6 @@
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
 christian = {
-
 	catholic = { icon = 1 color = { 241 211 5 } }
 	protestant = { icon = 2 color = { 17 5 162 } }
 	mormon = { icon = 19 color = { 162 5 157 } }
@@ -26,6 +25,9 @@ jewish_group = {
 
 eastern = {
 	hindu = { color = { 0 0.8 0.8 } icon = 11 }
+}
+
+japanese = {
 	shinto = { color = { 0.8 0 0 } icon = 12 }
 }
 

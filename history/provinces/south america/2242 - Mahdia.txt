@@ -3,6 +3,6 @@ controller = NET
 add_core = GUY
 add_core = VNZ
 trade_goods = sugar
-life_rating = 15
+life_rating = 10
 terrain = seasonal_jungle_hills
 colonial = 1

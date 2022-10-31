@@ -1807,7 +1807,7 @@ iron_mine = {
 oil_rig = {
 	template = RGO_template_labourers
 	output_goods = oil 
-	value = 10.0
+	value = 15.0
 	mine = yes
 }
 
@@ -1828,7 +1828,7 @@ orchard = {
 precious_metal_mine = {
 	template = RGO_template_labourers
 	output_goods = precious_metal 
-	value = 10
+	value = 15
 	mine = yes
 }
 

@@ -1,6 +1,6 @@
 owner = LOU
 controller = LOU
-trade_goods = cattle
+trade_goods = fruit
 life_rating = 30
 terrain = hilly_grassland
 colonial = 1

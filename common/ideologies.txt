@@ -382,8 +382,20 @@ socialist_group = {
 		remove_social_reform = {
 			base = 0
 			modifier = {
-				factor = 1
+				factor = 0.25
 				ruling_party_ideology = communist
+			}
+			modifier = {
+				factor = 0.1
+				not = { social_movement_strength = 0.05 }
+			}
+			modifier = {
+				factor = 0.1
+				not = { social_movement_strength = 0.10 }
+			}
+			modifier = {
+				factor = 0.1
+				not = { social_movement_strength = 0.15 }
 			}
 		}
 	}
@@ -541,22 +553,6 @@ liberal_group = {
 		remove_social_reform = {
 			base = 0
 		}
-	}
-	abolitionist = {
-		color = { 0 0 160 }
-		
-		add_political_reform = {
-			base = 1
-		}
-		remove_political_reform = {
-			base = 0
-		}
-		add_social_reform = {
-			base = 0
-		}
-		remove_social_reform = {
-			base = 0
-		}	
 	}
 }
 	

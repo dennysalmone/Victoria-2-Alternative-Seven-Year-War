@@ -1,6 +1,6 @@
 add_core = MEX
 trade_goods = cattle
-life_rating = 20
+life_rating = 15
 terrain = semi_desert_mountains
 colonial = 1
 1836.1.1 = {

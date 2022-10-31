@@ -1790,6 +1790,7 @@ manifest_destiny = {
 	effect = {
 		plurality = 0.02
 		war_exhaustion = -0.05
+		colonial_migration = 0.05
 		morale = 0.1
 	}
 	
@@ -1873,15 +1874,6 @@ separatism = {
 	
 	
 }
-#national_trauma = {
-#	limit = { nationalism_n_imperialism = 1 }
-#	chance = {
-#		base = 5
-#	}
-#	effect = {
-#		plularity = 
-#	}
-#}
 
 #revolution_n_counterrevolution
 dogma_of_violence = {
@@ -2307,9 +2299,6 @@ paramilitary_groups = {
 			value = 0.50
 		} 
 	}
-	
-	
-	
 }
 the_police_state = {
 	limit = { mass_politics = 1 }
@@ -2367,6 +2356,7 @@ mass_advertising = {
 	core_pop_consciousness_modifier = 0.01
 	effect = {
 		education_efficiency = 0.25
+		colonial_migration = 0.05
 	}
 }
 national_radio_networks = {

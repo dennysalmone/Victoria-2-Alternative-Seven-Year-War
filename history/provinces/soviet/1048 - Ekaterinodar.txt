@@ -3,5 +3,5 @@ controller = TER
 add_core = TER
 add_core = RUS
 trade_goods = grain
-life_rating = 35
+life_rating = 40
 terrain = dry_grassland

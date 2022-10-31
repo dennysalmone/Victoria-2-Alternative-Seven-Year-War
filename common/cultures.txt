@@ -657,7 +657,7 @@ polish_culture_group = {
 
 czecho_slovak_culture_group = { 
 	leader = european
-	unit = EuropeanGC
+	unit = AustriaHungaryGC
 	czech = { 
 		color = { 120 120 255 }
 			first_names = { Abraham Alexander Alfred Alois Antonin August Bedrich Benedikt Borivoj
@@ -708,27 +708,26 @@ east_slavic = {
 		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
 		primary = RUS
  }
-
 	cossack = { 
 		color = { 120 110 70 }
-			first_names = {
- 				Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
-				Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
-				Viktor Volodimir Vladislav Yuriy 
-			}
+		first_names = {
+			Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
 
-			last_names = { 
-				Golovatij Chub Zub Nosan Nosenko Guba Gubenko Shram 
-				Shramenko Suhij Suhina Lantuh Ryabko Strazhak B�lij 
-				B�lan Slinko Legkostup Prohvatilo Cipodriga Svistun 
-				Shvidkij Pokotilo Holodnij Solodkij GarkuSha Krut Khatskilevich 
-				Hizhnyak Kosach Hmara Sova Soroka Sinicya Vorona Sn�gur Golub 
-				Gorobec Leleka Selezen Shpak Chajka Sobol Shkapa Danilenko 
-				Vasilenko VasileviCh Klimenko Petrenko Pavlenko Gavrilenko 
-				Mus�enko Ohr�menko Ovs�enko Ladnou Luckievich Miadziolka
+		last_names = { 
+			Golovatij Chub Zub Nosan Nosenko Guba Gubenko Shram 
+			Shramenko Suhij Suhina Lantuh Ryabko Strazhak B�lij 
+			B�lan Slinko Legkostup Prohvatilo Cipodriga Svistun 
+			Shvidkij Pokotilo Holodnij Solodkij GarkuSha Krut Khatskilevich 
+			Hizhnyak Kosach Hmara Sova Soroka Sinicya Vorona Sn�gur Golub 
+			Gorobec Leleka Selezen Shpak Chajka Sobol Shkapa Danilenko 
+			Vasilenko VasileviCh Klimenko Petrenko Pavlenko Gavrilenko 
+			Mus�enko Ohr�menko Ovs�enko Ladnou Luckievich Miadziolka
 
-			}
-			radicalism = 45
+		}
+		radicalism = 45
  }
 	byelorussian = { 
 		color = { 100 140 110 }
@@ -844,6 +843,7 @@ baltic = {
 
 levantine = { 
 	leader = european
+	unit = EuropeanGC
 	greek = { 
 		color = { 2 200 249 }
 			first_names = { Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
@@ -878,7 +878,6 @@ levantine = {
 		}
 		primary = GEO
 	}
-
 	armenian = { 
 			color = { 255 216 0 }
 			first_names = { Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour
@@ -1324,7 +1323,6 @@ iranian_turanian = {
 		radicalism = 10
 		primary = KDS
 	}
-
 	tajik = { 
 		color = { 40 45 33 }
 			first_names = { 
@@ -1377,7 +1375,7 @@ iranian_turanian = {
 central_asian = { 
 	leader = asian
 	is_overseas = no
-	unit = MiddleEasternGC
+	unit = AsianGC
 	mongol = { 
 		color = { 218 32 50 }
 			first_names = { 
@@ -1419,7 +1417,6 @@ central_asian = {
 
 dravidian = { 
 	leader = indian
-	is_overseas = no
 	unit = IndianGC
 	kannada = { 
 		color = { 82 32 170 }
@@ -1470,7 +1467,6 @@ south_asian = {
 			last_names = { Sangma Marak Momin Lyngdoh Hajong Dkhar Koch Rabha        
 		}
 	}
-
 	bengali = { 
 		color = { 156 134 112 }
 		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
@@ -2083,7 +2079,6 @@ native_american = {
 			last_names = { Arawe Arawak Bororo Garifuna G� Guayane Jeik� Kaingang Kalinago Kamaken
 		Karaje Kayap� Matses Maxakali Puri Timbira Xavante Xerente Xokieng Yanomamu }
 	}
-	
 	patagonian = { 
 		color = { 88 99 133 }	
 			first_names = { 	Minchekewun
@@ -2222,6 +2217,7 @@ native_american = {
 
 american_cultures = { 
 	leader = european
+	unit = ConfederateGC
 	yankee = { 
 		color = { 46 49 177 }
 			first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
@@ -2348,13 +2344,6 @@ latin_american_cultures = {
 			last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd "Caama�o" "Carre�o" "Carri�n" Castro
 		}
 	}
-	chilean = { color = { 211 166 22 }
-			first_names = { Adolfo Agustin Alejandro Andres Anibal Antonio Bartolome Brayan Bernardo David Diego
-		}
-
-			last_names = { Abaroa egreda Altamirano Arteaga Ballivien Baquedano Belzu Blanche Blanco Bulnes
-		}
-	}	
 	south_andean = { 
 		color = { 116 156 146 }
 			first_names = { Adolfo Agustin Alejandro Andres Anibal Antonio Bartolome Bernardo David Diego
@@ -2363,6 +2352,14 @@ latin_american_cultures = {
 			last_names = { Abaroa egreda Altamirano Arteaga Ballivien Baquedano Belzu Blanche Blanco Bulnes
 		}
 	}	
+	chilean = { 
+		color = { 211 166 22 }
+			first_names = { Adolfo Agustin Alejandro Andres Anibal Antonio Bartolome Brayan Bernardo David Diego
+		}
+
+			last_names = { Abaroa egreda Altamirano Arteaga Ballivien Baquedano Belzu Blanche Blanco Bulnes
+		}
+	}
 	peruvian = { 
 		color = { 198 12 48 }
 			first_names = { Adolfo Agustin Alejandro Andres Anibal Antonio Bartolome Bernardo David Diego
@@ -2408,7 +2405,6 @@ latin_american_cultures = {
 
 african_diaspora_cultures = { 
 	leader = african
-	is_overseas = no
 	unit = AfricanGC
 	afro_american = { 
 		color = { 11 11 12 }
@@ -2422,12 +2418,12 @@ african_diaspora_cultures = {
 	}
 	black_spanish = { 
 		 color = { 11 120 65 }
-		 	first_names = { Afonso Aleixo Alexandre Anderson Andre Artur Candido Carlos Denilson Djalma Felix Francisco 
-						Guilherme Itamar Joao Joaquim Jorge Jose Kleber Leandro Luis Manuel Marco Marcos Mauricio Mauro 
-						Nilo Procopio Ricardo Ronaldo }
-		 	last_names = { Aragao Assuncao Bahia Barbosa Borges "de Cruz e Sousa" "da Lima" "de Lima Barreto" "de Ouro" 
-						"de Sousa" "de Souza" "dos Reis" "dos Santos" Fidalgo Filho Gil Gomes "Machado de Assis" Nunes 
-						Oliveira Otelo Paim Pandeiro Pecanha Pereira Pitanga Rodrigues Santos Silva Teixeira }
+		first_names = { Afonso Aleixo Alexandre Anderson Andre Artur Candido Carlos Denilson Djalma Felix Francisco 
+					Guilherme Itamar Joao Joaquim Jorge Jose Kleber Leandro Luis Manuel Marco Marcos Mauricio Mauro 
+					Nilo Procopio Ricardo Ronaldo }
+		last_names = { Aragao Assuncao Bahia Barbosa Borges "de Cruz e Sousa" "da Lima" "de Lima Barreto" "de Ouro" 
+					"de Sousa" "de Souza" "dos Reis" "dos Santos" Fidalgo Filho Gil Gomes "Machado de Assis" Nunes 
+					Oliveira Otelo Paim Pandeiro Pecanha Pereira Pitanga Rodrigues Santos Silva Teixeira }
 	}
 	afro_brazilian = { 
 		color = { 211 11 11 }
@@ -2453,8 +2449,6 @@ african_diaspora_cultures = {
 		Madiou Peralte Pierrot Planchet Price Price-Mars Riche Rigaud Riviere-Herard Roumain
 		Roy Saget Salnave Salomon Sam Simon Soulouque Theodore Vincent Zamor }
 	}
-
-
 
 	afro_caribbean = { 
 		color = { 12 47 12 }
