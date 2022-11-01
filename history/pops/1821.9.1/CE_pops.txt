@@ -735,9 +735,10 @@
 	farmers = { size = 200 culture = white_spanish religion = catholic }
 }
 139 = {
-	aristocrats = { size = 200 culture = french_canadian religion = catholic }
+	aristocrats = { size = 500 culture = french_canadian religion = catholic }
 	aristocrats = { size = 450 culture = french religion = catholic }
 	aristocrats = { size = 120 culture = french_canadian religion = reformed }
+	capitalists = { size = 80 culture = french_canadian religion = catholic }
 	artisans = { size = 2800 culture = french_canadian religion = reformed }
 	artisans = { size = 2800 culture = french_canadian religion = reformed }
 	artisans = { size = 2800 culture = french_canadian religion = reformed }
@@ -1723,6 +1724,7 @@
 	artisans = { size = 1148 culture = yankee religion = protestant }
 	artisans = { size = 5814 culture = irish religion = catholic }
 	artisans = { size = 1195 culture = irish religion = reformed }
+	capitalists = { size = 100 culture = yankee religion = reformed }
 	bureaucrats = { size = 231 culture = yankee religion = reformed }
 	artisans = { size = 239 culture = yankee religion = reformed }
 	clergymen = { size = 511 culture = yankee religion = reformed }
@@ -3036,6 +3038,7 @@
 }
 375 = {
 	aristocrats = { size = 3113 culture = dutch religion = reformed }
+	capitalists = { size = 500 culture = dutch religion = reformed }
 	artisans = { size = 6341 culture = ashkenazi religion = jewish }
 	artisans = { size = 9157 culture = dutch religion = reformed }
 	artisans = { size = 9157 culture = dutch religion = reformed }
@@ -3519,7 +3522,8 @@
 	farmers = { size = 113412 culture = breton religion = catholic }
 }
 425 = {
-	aristocrats = { size = 4180 culture = french religion = catholic }
+	aristocrats = { size = 8180 culture = french religion = catholic }
+	capitalists = { size = 500 culture = french religion = catholic }
 	artisans = { size = 9157 culture = french religion = catholic }
 	artisans = { size = 9157 culture = french religion = catholic }
 	artisans = { size = 9157 culture = french religion = catholic }
@@ -4077,6 +4081,7 @@
 }
 487 = {
 	aristocrats = { size = 7387 culture = spanish religion = catholic }
+	capitalists = { size = 350 culture = spanish religion = catholic }
 	artisans = { size = 9157 culture = spanish religion = catholic }
 	artisans = { size = 9157 culture = spanish religion = catholic }
 	artisans = { size = 9157 culture = spanish religion = catholic }
@@ -5290,6 +5295,7 @@
 }
 619 = {
 	aristocrats = { size = 7829 culture = german religion = catholic }
+	capitalists = { size = 200 culture = german religion = catholic }
 	artisans = { size = 9100 culture = german religion = catholic }
 	artisans = { size = 9100 culture = german religion = catholic }
 	artisans = { size = 9100 culture = german religion = catholic }
@@ -6892,6 +6898,7 @@
 }
 726 = {
 	aristocrats = { size = 12591 culture = italian religion = catholic }
+	capitalists = { size = 300 culture = italian religion = catholic }
 	artisans = { size = 4000 culture = italian religion = catholic }
 	artisans = { size = 4000 culture = italian religion = catholic }
 	artisans = { size = 4000 culture = italian religion = catholic }
@@ -10195,10 +10202,9 @@
 }
 1002 = {
 	artisans = { size = 979 culture = manchu religion = confucian }
-	artisans = { size = 148 culture = siberian religion = animist }
 	clergymen = { size = 218 culture = manchu religion = confucian }
 	farmers = { size = 16730 culture = manchu religion = confucian }
-	farmers = { size = 2671 culture = siberian religion = animist }
+	nomads = { size = 2671 culture = siberian religion = animist }
 }
 1003 = {
 	aristocrats = { size = 4807 culture = russian religion = orthodox }
@@ -11006,11 +11012,7 @@
 	soldiers = { size = 174 culture = russian religion = orthodox }
 }
 1070 = {
-	aristocrats = { size = 24 culture = siberian religion = animist }
-	artisans = { size = 25 culture = siberian religion = animist }
-	clergymen = { size = 9 culture = siberian religion = animist }
-	farmers = { size = 900 culture = siberian religion = animist }
-	soldiers = { size = 25 culture = siberian religion = animist }
+	nomads = { size = 900 culture = siberian religion = animist }
 }
 1071 = {
 	nomads = { size = 770 culture = aborigine religion = animist }
@@ -11022,20 +11024,14 @@
 	farmers = { size = 22 culture = yakut religion = orthodox }
 }
 1073 = {
-	artisans = { size = 24 culture = siberian religion = animist }
-	clergymen = { size = 9 culture = siberian religion = animist }
-	farmers = { size = 445 culture = siberian religion = animist }
+	nomads = { size = 900 culture = siberian religion = animist }
 }
 1074 = {
-	aristocrats = { size = 15 culture = siberian religion = animist }
-	artisans = { size = 4 culture = siberian religion = animist }
+	nomads = { size = 900 culture = siberian religion = animist }
 	artisans = { size = 37 culture = russian religion = orthodox }
 	bureaucrats = { size = 2 culture = russian religion = orthodox }
-	clergymen = { size = 2 culture = siberian religion = animist }
 	clergymen = { size = 3 culture = russian religion = orthodox }
-	farmers = { size = 138 culture = siberian religion = animist }
 	farmers = { size = 746 culture = russian religion = orthodox }
-	soldiers = { size = 15 culture = siberian religion = animist }
 	soldiers = { size = 2 culture = russian religion = orthodox }
 }
 1075 = {
@@ -11048,7 +11044,6 @@
 	clergymen = { size = 116 culture = buryat religion = gelugpa }
 	farmers = { size = 48085 culture = russian religion = orthodox }
 	farmers = { size = 10238 culture = buryat religion = gelugpa }
-	farmers = { size = 227 culture = siberian religion = animist }
 	soldiers = { size = 121 culture = russian religion = orthodox }
 	soldiers = { size = 1302 culture = russian religion = orthodox }
 	soldiers = { size = 279 culture = buryat religion = gelugpa }
@@ -11120,15 +11115,13 @@
 	farmers = { size = 22 culture = yakut religion = orthodox }
 }
 1081 = {
-	artisans = { size = 29 culture = siberian religion = animist }
 	clergymen = { size = 16 culture = russian religion = orthodox }
 	farmers = { size = 165 culture = manchu religion = confucian }
 	farmers = { size = 772 culture = russian religion = orthodox }
-	farmers = { size = 915 culture = siberian religion = animist }
+	nomads = { size = 900 culture = siberian religion = animist }
 }
 1082 = {
 	aristocrats = { size = 233 culture = manchu religion = confucian }
-	aristocrats = { size = 33 culture = siberian religion = animist }
 	artisans = { size = 211 culture = manchu religion = confucian }
 	artisans = { size = 34 culture = korean religion = mahayana }
 	clergymen = { size = 56 culture = manchu religion = confucian }
@@ -11157,26 +11150,23 @@
 }
 1083 = {
 	artisans = { size = 433 culture = manchu religion = confucian }
-	artisans = { size = 44 culture = siberian religion = animist }
 	clergymen = { size = 88 culture = manchu religion = confucian }
 	farmers = { size = 3692 culture = manchu religion = confucian }
 	farmers = { culture = han_chinese religion = confucian size = 4000 }
-	farmers = { size = 777 culture = siberian religion = animist }
+	nomads = { size = 900 culture = siberian religion = animist }
 }
 1084 = {
 	artisans = { size = 249 culture = manchu religion = confucian }
-	artisans = { size = 98 culture = siberian religion = animist }
 	clergymen = { size = 62 culture = manchu religion = confucian }
 	farmers = { size = 1532 culture = manchu religion = confucian }
-	farmers = { size = 981 culture = siberian religion = animist }
+	nomads = { size = 900 culture = siberian religion = animist }
 }
 1085 = {
 	artisans = { size = 65 culture = manchu religion = confucian }
-	artisans = { size = 45 culture = siberian religion = animist }
 	bureaucrats = { size = 6 culture = manchu religion = confucian }
 	clergymen = { size = 13 culture = manchu religion = confucian }
 	farmers = { size = 865 culture = manchu religion = confucian }
-	farmers = { size = 1000 culture = siberian religion = animist }
+	nomads = { size = 1100 culture = siberian religion = animist }
 }
 1086 = {
 	aristocrats = { size = 35 culture = ainu religion = animist }
@@ -17150,7 +17140,6 @@
 }
 1532 = {
 	aristocrats = { size = 5154 culture = mongol religion = gelugpa }
-	aristocrats = { size = 24 culture = siberian religion = animist }
 	artisans = { size = 3918 culture = mongol religion = gelugpa }
 	artisans = { size = 186 culture = han_chinese religion = confucian }
 	bureaucrats = { size = 209 culture = mongol religion = gelugpa }
@@ -17420,7 +17409,6 @@
 }
 1552 = {
 	aristocrats = { size = 7035 culture = manchu religion = confucian }
-	aristocrats = { size = 98 culture = siberian religion = animist }
 	artisans = { size = 10261 culture = manchu religion = confucian }
 	artisans = { size = 1415 culture = manchu religion = confucian }
 	artisans = { size = 233 culture = korean religion = mahayana }
@@ -17430,10 +17418,9 @@
 	farmers = { size = 4267 culture = korean religion = mahayana }
 	soldiers = { size = 4041 culture = manchu religion = confucian }
 	artisans = { size = 1000 culture = manchu religion = confucian }
-	artisans = { size = 77 culture = siberian religion = animist }
 	clergymen = { size = 500 culture = manchu religion = confucian }
 	farmers = { size = 47555 culture = manchu religion = confucian }
-	farmers = { size = 1333 culture = siberian religion = animist }
+	nomads = { size = 2500 culture = siberian religion = animist }
 }
 3499 = {
 	farmers = { size = 15000 culture = manchu religion = confucian }
@@ -17443,10 +17430,9 @@
 }
 1553 = {
 	artisans = { size = 3111 culture = manchu religion = confucian }
-	artisans = { size = 77 culture = siberian religion = animist }
 	clergymen = { size = 622 culture = manchu religion = confucian }
 	farmers = { size = 42555 culture = manchu religion = confucian }
-	farmers = { size = 1333 culture = siberian religion = animist }
+	nomads = { size = 1500 culture = siberian religion = animist }
 }
 3354 = {
 	artisans = { size = 1800 culture = manchu religion = confucian }
@@ -27052,22 +27038,16 @@
 	soldiers = { size = 32 culture = ugrian religion = animist }
 }
 2616 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
+	nomads = { size = 500 culture = siberian religion = animist }
 }
 2617 = {
 	artisans = { size = 364 culture = han_chinese religion = confucian }
 	clergymen = { size = 43 culture = han_chinese religion = confucian }
 	farmers = { size = 1533 culture = han_chinese religion = confucian }
-	farmers = { size = 1905 culture = siberian religion = animist }
+	nomads = { size = 1900 culture = siberian religion = animist }
 }
 2618 = {
-	aristocrats = { size = 11 culture = siberian religion = animist }
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
-	soldiers = { size = 14 culture = siberian religion = animist }
+	nomads = { size = 500 culture = siberian religion = animist }
 }
 2619 = {
 	aristocrats = { size = 28 culture = pashtun religion = sunni }
@@ -27078,19 +27058,10 @@
 	farmers = { size = 36004 culture = pashtun religion = sunni }
 }
 2620 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
+	nomads = { size = 455 culture = siberian religion = animist }
 }
 2621 = {
-	aristocrats = { size = 9 culture = siberian religion = animist }
-	artisans = { size = 9 culture = siberian religion = animist }
-	bureaucrats = { size = 1 culture = russian religion = orthodox }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	clergymen = { size = 2 culture = russian religion = orthodox }
-	farmers = { size = 202 culture = siberian religion = animist }
-	farmers = { size = 18 culture = russian religion = orthodox }
-	soldiers = { size = 13 culture = siberian religion = animist }
+	nomads = { size = 390 culture = siberian religion = animist }
 }
 2622 = {
 	nomads = { size = 770 culture = aborigine religion = animist }
@@ -27165,9 +27136,7 @@
 	farmers = { size = 8594 culture = baluchi religion = sunni }
 }
 2639 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2640 = {
 	artisans = { size = 1200 culture = panjabi religion = sunni }
@@ -27180,12 +27149,8 @@
 	farmers = { size = 8000 culture = panjabi religion = hindu }
 }
 2641 = {
-	artisans = { size = 24 culture = siberian religion = animist }
-	artisans = { size = 9 culture = russian religion = orthodox }
-	clergymen = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = russian religion = orthodox }
-	farmers = { size = 445 culture = siberian religion = animist }
-	farmers = { size = 219 culture = russian religion = orthodox }
+	nomads = { size = 450 culture = siberian religion = animist }
+	farmers = { size = 180 culture = russian religion = orthodox }
 }
 2642 = {
 	artisans = { size = 77 culture = yakut religion = animist }
@@ -27198,19 +27163,15 @@
 	farmers = { size = 8162 culture = kazak religion = sunni }
 }
 2644 = {
-	artisans = { size = 24 culture = siberian religion = animist }
+	nomads = { size = 890 culture = siberian religion = animist }
 	artisans = { size = 49 culture = yakut religion = animist }
-	clergymen = { size = 9 culture = siberian religion = animist }
 	clergymen = { size = 24 culture = yakut religion = animist }
-	farmers = { size = 445 culture = siberian religion = animist }
 	farmers = { size = 890 culture = yakut religion = animist }
 }
 2645 = {
-	artisans = { size = 24 culture = siberian religion = animist }
+	nomads = { size = 480 culture = siberian religion = animist }
 	artisans = { size = 24 culture = yakut religion = animist }
-	clergymen = { size = 9 culture = siberian religion = animist }
 	clergymen = { size = 9 culture = yakut religion = animist }
-	farmers = { size = 445 culture = siberian religion = animist }
 	farmers = { size = 445 culture = yakut religion = animist }
 }
 2646 = {
@@ -27266,9 +27227,7 @@
 }
 
 2655 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 222 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2656 = {
 	aristocrats = { size = 8333 culture = han_chinese religion = confucian }
@@ -27322,14 +27281,10 @@
 	farmers = { size = 209 culture = ugrian religion = animist }
 }
 2660 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2661 = {
-	artisans = { size = 3 culture = siberian religion = animist }
-	clergymen = { size = 2 culture = siberian religion = animist }
-	farmers = { size = 133 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2662 = {
 	nomads = { size = 770 culture = aborigine religion = animist }
@@ -27339,9 +27294,7 @@
 	soldiers = { size = 25 culture = dutch religion = reformed }
 }
 2663 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2664 = {
 	farmers = { size = 1310 culture = kazak religion = sunni }
@@ -27367,13 +27320,11 @@
 	farmers = { size = 445 culture = baluchi religion = sunni }
 }
 2669 = {
-	artisans = { size = 9 culture = siberian religion = animist }
 	artisans = { size = 64 culture = yakut religion = animist }
 	bureaucrats = { size = 2 culture = russian religion = orthodox }
-	clergymen = { size = 4 culture = siberian religion = animist }
 	clergymen = { size = 24 culture = yakut religion = animist }
 	clergymen = { size = 4 culture = russian religion = orthodox }
-	farmers = { size = 227 culture = siberian religion = animist }
+	nomads = { size = 250 culture = siberian religion = animist }
 	farmers = { size = 1014 culture = yakut religion = animist }
 	farmers = { size = 83 culture = russian religion = orthodox }
 }
@@ -27411,9 +27362,7 @@
 	farmers = { size = 1200 culture = uzbek religion = sunni }
 }
 2674 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 222 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2675 = {
 	artisans = { size = 350 culture = asian_minor religion = animist }
@@ -27426,17 +27375,13 @@
 	farmers = { size = 12000 culture = lao religion = theravada }
 }
 2676 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 400 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 	artisans = { size = 66 culture = buryat religion = gelugpa }
 	clergymen = { size = 8 culture = buryat religion = gelugpa }
 	farmers = { size = 1000 culture = buryat religion = gelugpa }
 }
 2677 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 400 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 	artisans = { size = 66 culture = buryat religion = gelugpa }
 	clergymen = { size = 8 culture = buryat religion = gelugpa }
 	farmers = { size = 1000 culture = buryat religion = gelugpa }
@@ -27455,9 +27400,7 @@
 	farmers = { size = 10238 culture = kazak religion = sunni }
 }
 2680 = {
-	artisans = { size = 7 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 224 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2681 = {
 	artisans = { size = 23 culture = russian religion = orthodox }
@@ -27484,7 +27427,7 @@
 	artisans = { size = 102 culture = russian religion = orthodox }
 	clergymen = { size = 27 culture = russian religion = orthodox }
 	farmers = { size = 102 culture = russian religion = orthodox }
-	farmers = { size = 890 culture = siberian religion = animist }
+	nomads = { size = 925 culture = siberian religion = animist }
 	farmers = { size = 839 culture = ugrian religion = animist }
 }
 2684 = {
@@ -27533,8 +27476,7 @@
 	farmers = { size = 1200 culture = russian religion = orthodox }
 }
 2691 = {
-	artisans = { size = 25 culture = siberian religion = animist }
-	farmers = { size = 900 culture = siberian religion = animist }
+	nomads = { size = 1000 culture = siberian religion = animist }
 	artisans = { size = 35 culture = yakut religion = animist }
 	clergymen = { size = 10 culture = yakut religion = animist }
 	farmers = { size = 950 culture = yakut religion = animist }
@@ -27543,16 +27485,10 @@
 	farmers = { size = 900 culture = siberian religion = animist }
 }
 2693 = {
-	artisans = { size = 24 culture = siberian religion = animist }
-	clergymen = { size = 9 culture = siberian religion = animist }
-	farmers = { size = 445 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2694 = {
-	aristocrats = { size = 18 culture = siberian religion = animist }
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
-	soldiers = { size = 20 culture = siberian religion = animist }
+	nomads = { size = 450 culture = siberian religion = animist }
 }
 2695 = {
 	artisans = { size = 2609 culture = tatar religion = orthodox }
@@ -27567,16 +27503,12 @@
 	farmers = { size = 500 culture = tatar religion = animist }
 }
 2696 = {
-	artisans = { size = 9 culture = siberian religion = animist }
-	clergymen = { size = 4 culture = siberian religion = animist }
-	farmers = { size = 227 culture = siberian religion = animist }
+	nomads = { size = 350 culture = siberian religion = animist }
 }
 2697 = {
 	artisans = { size = 166 culture = manchu religion = confucian }
-	artisans = { size = 49 culture = siberian religion = animist }
-	clergymen = { size = 7 culture = siberian religion = animist }
+	nomads = { size = 1450 culture = siberian religion = animist }
 	farmers = { size = 582 culture = manchu religion = confucian }
-	farmers = { size = 1415 culture = siberian religion = animist }
 }
 2698 = {
 	artisans = { size = 559 culture = russian religion = orthodox }

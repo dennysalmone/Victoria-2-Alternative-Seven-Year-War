@@ -666,7 +666,9 @@ conversion_chance =
  	modifier = { factor = 0.20 country = { religious_policy = moralism } }
 	modifier = { factor = -0.50 country = { religious_policy = secularized } }
 	modifier = { factor = -5.00 country = { religious_policy = pro_atheism } }
-	modifier = { factor = 5.00 has_pop_religion = animist }
+	modifier = { factor = 1.00 has_pop_religion = animist }
+	modifier = { factor = 2.00 has_pop_religion = animist location = { pop_majority_religion = animist } }
+	modifier = { factor = 2.00 has_pop_religion = animist state_scope = { pop_majority_religion = animist } }
 	modifier = { factor = -1.50 has_pop_religion = mormon }
 	modifier = { factor = -1.50 has_pop_religion = jewish }
 	modifier = { factor = -0.15 location = { is_state_religion = no } }

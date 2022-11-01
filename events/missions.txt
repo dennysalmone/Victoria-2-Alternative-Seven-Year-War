@@ -1,0 +1,3447 @@
+#ZUL MAD GAZ XHO 
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = ZUL
+        owns = 2113
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2113
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2113
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2113
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2113
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = MAD
+        owns = 2115
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2115
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2115
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2115
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2115
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = GAZ
+        owns = 2051
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2051
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2051
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2051
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2051
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = XHO
+        owns = 2100
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2100
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2100
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2100
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2100
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+#BSH 2104, MAT 2071, GBU 1878, SEG 1800
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = BSH
+        owns = 2104
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2104
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2104
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2104
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2104
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = MAT
+        owns = 2071
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2071
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2071
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2071
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2071
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = GBU
+        owns = 1878
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1878
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1878
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1878
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1878
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = SEG
+        owns = 1800
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1800
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1800
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1800
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1800
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+#ARO 1935, WRI 1931, BEN 1928, OYO 1926
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = ARO
+        owns = 1935
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1935
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1935
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1935
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1935
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = WRI
+        owns = 1931
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1931
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1931
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1931
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1931
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = BEN
+        owns = 1928
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1928
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1928
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1928
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1928
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = OYO
+        owns = 1926
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1926
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1926
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1926
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1926
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+#ASH 1910, KON 1982, LOA 2624, TSW 2074
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = ASH
+        owns = 1910
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1910
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1910
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1910
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1910
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = KON
+        owns = 1982
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1982
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1982
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1982
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 1982
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = LOA
+        owns = 2624
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2624
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2624
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2624
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2624
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
+
+country_event = {
+
+	id = 20221101
+	title = "Call for missionaries"
+	desc = "Our country has come to the conclusion that it is time for us to abandon our values and carry out Westernization, one of the great powers should help us in this. First we need to let the missionaries"
+	picture = "munch"
+
+	trigger = {
+		year = 1875
+        tag = TSW
+        owns = 2074
+        NOT = { religious_policy = moralism }
+        NOT = { moralism = 30 }
+        NOT = { ruling_party_ideology = reactionary }
+        NOT = { pop_majority_ideology = reactionary }
+        pop_majority_religion = animist
+        religion = animist
+        civilized = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = { factor = 0.75 average_consciousness = 6 }
+		modifier = { factor = 0.75 average_consciousness = 7 }
+		modifier = { factor = 0.75 average_consciousness = 8 }
+        modifier = { factor = 0.75 average_consciousness = 9 }
+		modifier = { factor = 2.5 moralism = 5 }
+		modifier = { factor = 2.5 moralism = 10 }
+        modifier = { factor = 2.5 moralism = 15 }
+		modifier = { factor = 2.5 moralism = 20 }
+        modifier = { factor = 2.5 moralism = 25 }
+	} 
+
+	option = {
+		name = "Should offer it to catholic"
+        religion = catholic
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = catholic }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = catholic
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2074
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = catholic }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = catholic }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to protestant"
+        religion = protestant
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = protestant }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = protestant
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2074
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = protestant }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = protestant }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to sunni"
+        religion = sunni
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = sunni }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = sunni
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2074
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = sunni }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = sunni }
+			}
+		}
+	}
+
+    option = {
+		name = "Should offer it to reformed"
+        religion = reformed
+        random_country = {
+			limit = {
+				capital_scope = { pop_majority_religion = reformed }
+                OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+            relation = {
+                who = THIS
+                value = 200
+            }
+            diplomatic_influence = {
+                who = THIS
+                value = 400
+            }
+            random_pop = {
+                limit = {
+                    has_pop_religion = reformed
+                    type = clergymen
+                }
+                money = 5000
+                move_pop = 2074
+            }
+		}
+        ai_chance = {
+			factor = 10
+            modifier = {
+				factor = 5
+				any_neighbor_country = { pop_majority_religion  = reformed }
+			}
+            modifier = {
+				factor = 5
+				any_pop = { has_pop_religion = reformed }
+			}
+		}
+	}
+
+    option = {
+		name = "No, thanks"
+        prestige = 20
+        ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				NOT = { average_consciousness = 6 }
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = conservative
+			}
+		}
+    }
+
+}
