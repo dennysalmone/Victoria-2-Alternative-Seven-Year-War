@@ -2010,7 +2010,8 @@ oceanic = {
 native_american = { 
 	leader = nativeamerican
 	is_overseas = no
-	zapotec = { color = { 87 199 81 }
+	zapotec = { 
+		color = { 87 199 81 }
 			first_names = { Agustin Alberto Alfonso Alfredo Andres Benito Carlos Cesar Eduardo Eugenio
 		Felipe Fernando Gabriel Gilberto Gregorio Jacinto Jesus Jose Juan Julio
 		Macario Manuel Miguel Nazario Nicoles Oliverio Pablo Porfirio Rodolfo Rufino }
@@ -2482,7 +2483,7 @@ west_african = {
 	is_overseas = no
 	unit = AfricanGC
 	akan = { 
-		color = { 88 68 147 }
+		color = { 41 23 2 }
 			first_names = { Amanquatia Agyeman Onsei Kwaku Kofi Atakora Kwabena Mensa Owusu Akyampon Kwame Opoku 
 		}
 
@@ -2490,7 +2491,7 @@ west_african = {
 		}
 	}
 	bambara = { 
-		color = { 45 88 164 }
+		color = { 78 43 6 }
 			first_names = { Kaladian Mamari Biton Do Tyefolo Nyenemba Ben Kuma Masala Turukoro Bina Kege Mamuru Masaloma Karamoko Mari Bodyan
 		}
 
@@ -2498,7 +2499,7 @@ west_african = {
 		}
 	}
 	dyula = { 
-		color = { 78 99 230 }
+		color = { 90 42 15 }
 			first_names = { Seku Famagan Samory Al-Hajj Koumbi Maghari Fode Muhammad al-Mustafa 
 		}
 
@@ -2506,7 +2507,7 @@ west_african = {
 		}
 	}
 	edo = { 
-		color = { 88 99 154 }
+		color = { 126 67 37 }
 			first_names = { Odayon Ode Edegbe Osahon Igodo Erediauwa Osemwende Adolo Ovonramwen Eweka Akenzua Ezoti Esigie
 		}
 
@@ -2514,7 +2515,7 @@ west_african = {
 		}
 	}
 	ewe = { 
-		color = { 43 99 156 }
+		color = { 146 72 45 }
 			first_names = { Adika Kofi Coujoe Kpodo Mavuli Mensah Quaashie Mawwolawde Kwakou Coblah Atsu Ametefe
 		}
 
@@ -2522,7 +2523,7 @@ west_african = {
 		}
 	}
 	fon = { 
-		color = { 188 92 47 }
+		color = { 174 102 75 }
 			first_names = { Behanzin Ghezo Glele Adandozan Agonglo Kpengla Tegbessou Agadja
 		}
 
@@ -2530,7 +2531,7 @@ west_african = {
 		}
 	}
 	fulbe = { 
-		color = { 22 146 187 }
+		color = { 202 142 120 }
 			first_names = { Dan Muhammed Abdullahi Seku Amadu Balobo Alfa Usman Yaqub Tukur Yusufu Malam Abubakar Umar Tidiani Ahmadu 
 		}
 
@@ -2538,7 +2539,7 @@ west_african = {
 		}
 	}
 	hausa  = { 
-		color = { 218 68 212 }
+		color = { 220 168 160 }
 			first_names = { Muhammad Kumbari Sharif Yaji Baba Daud Abdullah Kanajeji Bugaya Usman Tsamiya
 		}
 
@@ -2546,7 +2547,7 @@ west_african = {
 		}
 	}
 	ibibio = { 
-		color = { 99 157 68 }
+		color = { 220 198 160 }
 			first_names = { Ekpenyong Effiom Offiong Edem Okoho Asibong Eyo Orok Eyamba Ekpo Effefiong Ededem Tete 
 		}
 
@@ -2554,7 +2555,7 @@ west_african = {
 		}
 	}
 	itsekari = { 
-		color = { 209 251 255 }
+		color = { 202 183 120 }
 			first_names = { Taabansi Enweleana Jiofo Obalike Ewenetem Chiemeka Elechi Ikenna Nonyelum Obijiaku Oji Onyeka Orji Rapuluchukwu Udoka Zebenjo Zinachukwudi Dibia Dumaka Azuka Anene Jideofor Nnaemeka Nnamdi Nnanna
 		}
 
@@ -2562,7 +2563,7 @@ west_african = {
 		}
 	}
 	ibo = { 
-		color = { 88 27 192 }
+		color = { 174 151 75 }
 			first_names = { Taabansi Enweleana Jiofo Obalike Ewenetem Chiemeka Elechi Ikenna Nonyelum Obijiaku Oji Onyeka Orji Rapuluchukwu Udoka Zebenjo Zinachukwudi Dibia Dumaka Azuka Anene Jideofor Nnaemeka Nnamdi Nnanna
 		}
 
@@ -2570,7 +2571,7 @@ west_african = {
 		}
 	}
 	kru = { 
-		color = { 24 175 75 }
+		color = { 146 123 45 }
 			first_names = { Nyennoh Borforh Konmlan Tehpoe Pennon Togba Teh Jlakon Forkay Nimene Boryee Yenseloh Odeleia Gbwe
 		}
 
@@ -2578,7 +2579,7 @@ west_african = {
 		}
 	}
 	mande = { 
-		color = { 44 188 87 }
+		color = { 126 111 37 }
 			first_names = { Neneh Tejan Sheka Kanji Lansana Brima Foda Sekouba Alhassani Sekou Amara Losene Fodey Kaleefa Hatab Daba Massa Aoua Soumaila
 		}
 
@@ -2586,7 +2587,7 @@ west_african = {
 		}
 	}
 	mossi = { 
-		color = { 230 14 213 }
+		color = { 90 79 15 }
 			first_names = { Builsa Babato Gazari Alfa Dyori Bako Laganfyela Ali Kokoroko Sabana Tyeba Pintyeba Karamoko Sapilem Nyambre Salma Korongo Koom Yamba Tigre 
 		}
 
@@ -2602,7 +2603,7 @@ west_african = {
 		}
 	}
 	songhai = { 
-		color = { 142 28 67 }
+		color = { 77 78 6 }
 			first_names = { Hanga Samsu Hargani Fodi Tomo Bassaru Bumi Koyze Wankoy Bigo Dauda Malla
 		}
 
@@ -2610,7 +2611,7 @@ west_african = {
 		}
 	}
 	tiv = { 
-		color = { 252 255 161 }
+		color = { 40 41 2 }
 			first_names = { Makare Malam Gondo Orchivirigh Akawe
 		}
 
@@ -2618,7 +2619,7 @@ west_african = {
 		}
 	}
 	tuareg = { 
-		color = { 84 75 240 }
+		color = { 70 20 1 }
 			first_names = { Attici Musa Aytarel Ahmad "Ag Mama" Moussa Majila Islaman "In Tayaden" Abareybon Hasso Kiddu
 		}
 
@@ -2626,7 +2627,7 @@ west_african = {
 		}
 	}
 	wolof = { 
-		color = { 91 146 180 }
+		color = { 130 32 1 }
 			first_names = { Birayamb Al-Buri Baka Birayma Mbanyi Lat Bakan-Tam Taanor Amado "Ali Buri" Mba Birawa Samba
 		}
 
@@ -2634,7 +2635,7 @@ west_african = {
 		}
 	}
 	yoruba = { 
-		color = { 240 75 89 }
+		color = { 156 22 0 }
 			first_names = { Siyanbola Lawani Adeyemi Adelu Atiba Oluewu Amodo Majotu Makua Adebo Bello Onikepe Gbadegesin Ajikin Abisi Lauru Kase Agidigbo Ademufekun
 		}
 
@@ -2648,7 +2649,7 @@ central_african = {
 	is_overseas = no
 	unit = AfricanGC
 	bakongo = { 
-		color = { 87 154 62 }
+		color = { 32 188 231 }
 			first_names = { Poaty Loembe M'voudoukousala Pratt N'Gangue M'voumbe Mfutila Kivuzi Nteve Kenje
 		}
 
@@ -2656,7 +2657,7 @@ central_african = {
 		}
 	}
 	baguirmi = { 
-		color = { 48 192 75 }
+		color = { 11 136 179 }
 			first_names = { Abdul Abu-Sekkin Burkomanda Ngarmane "Abd al-Rahman" Uthman Muhammad Malam Ngarmaba
 		}
 
@@ -2664,7 +2665,7 @@ central_african = {
 		}
 	}
 	fang = { 
-		color = { 164 45 180 }
+		color = { 11 109 138 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2672,7 +2673,7 @@ central_african = {
 		}
 	}
 	kanuri = { 
-		color = { 189 142 177 }
+		color = { 11 85 117 }
 			first_names = { Muhammad al-Amin Umar Mustapha Ahmad Dunama Ibrahim Ali Waziri Mamane
 		}
 
@@ -2680,7 +2681,7 @@ central_african = {
 		}
 	}
 	kuba = { 
-		color = { 166 72 57 }
+		color = { 7 71 99 }
 			first_names = { Kasongo Umpafu Ilunga Kisula Nday Kitamba Maloba Ndaye Kumwimba Maniema 
 		}
 
@@ -2688,7 +2689,7 @@ central_african = {
 		}
 	}
 	luba = { 
-		color = { 87 45 69 }
+		color = { 4 59 82 }
 			first_names = { Kasongo Umpafu Ilunga Kisula Nday Kitamba Maloba Ndaye Kumwimba Maniema 
 		}
 
@@ -2704,7 +2705,7 @@ central_african = {
 		}
 	}
 	mongo = { 
-		color = { 150 44 197 }
+		color = { 3 44 62 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2712,7 +2713,7 @@ central_african = {
 		}
 	}
 	sara = { 
-		color = { 145 64 125 }
+		color = { 3 27 39 }
 			first_names = { Nounga Zangabirou Tikima Ikpiro Mbomou Momi
 		}
 
@@ -2720,7 +2721,7 @@ central_african = {
 		}
 	}
 	teda = { 
-		color = { 156 198 100 }
+		color = { 3 5 15 }
 			first_names = { Yusuf Raqib Muhammad Adham Ali Ibrahim Ahmad Yakob Kharut Salih Jawda 
 		}
 
@@ -2741,7 +2742,7 @@ cushitic = {
 	leader = african
 	unit = AfricanGC
 	oromo = { 
-		color = { 162 23 199 }
+		color = { 204 70 105 }
 			first_names = { Ras Debela Alemayehu Dirribi Heile Gobana Tsegaye Tilahun Waqo Ahmad Galasa Hailu Yilma Abadula Abdus
 		}
 
@@ -2749,7 +2750,7 @@ cushitic = {
 		}
 	}
 	afar = { 
-		color = { 198 46 99 }
+		color = { 156 44 71 }
 			first_names = { Mahammad Umar Kedafu Alimirah Amda Baeda Kadhafo 
 		}
 
@@ -2757,7 +2758,7 @@ cushitic = {
 		}
 	}
 	somali = { 
-		color = { 226 22 48 }
+		color = { 121 36 59 }
 			first_names = { Yusuf Mahamud Ahmed Osman Ali Aul Shire Mohamud Naleye Abdikarim Dalmar Ghdi Labaan Roble Taban Erasto Abdi
 		}
 
@@ -2765,7 +2766,7 @@ cushitic = {
 		}
 	}
 	beja = { 
-		color = { 131 131 25 }
+		color = { 103 32 46 }
 			first_names = { Badi Adlan Idris Ranfa Nawwar Hassab Tabl Nasir Awkal Rajab Isma'il Nul Unsa
 		}
 
@@ -2773,7 +2774,7 @@ cushitic = {
 		}
 	}
 	sidama = { 
-		color = { 84 97 38 }
+		color = { 87 25 37 }
 			first_names = { Aba Tekle Sacho Gawa Gaha Shagi Jilcha Jawe Sana Gunji Galli Gaki Beshi Hoti Kaye 
 		}
 
@@ -2787,7 +2788,7 @@ east_african = {
 	is_overseas = no
 	unit = AfricanGC
 	amhara = { 
-		color = { 88 142 37 }
+		color = { 53 216 69 }
 			first_names = { Amare Bekele Berhanu Saleh Haile Berihun Demissie Desta Geteye Girma Kelile Negasi
 		}
 
@@ -2795,7 +2796,7 @@ east_african = {
 		}
 	}
 	azande = { 
-		color = { 31 89 150 }
+		color = { 29 166 46 }
 			first_names = { Souau Mwerve Ngabwe Birhenjira Rutanganda Rugema Kabare Rugemaninzi Makome Bigomokero
 		}
 
@@ -2803,7 +2804,7 @@ east_african = {
 		}
 	}
 	baganda = { 
-		color = { 98 155 187 }
+		color = { 25 129 35 }
 			first_names = { Mutesa Mwanga Kalema Kiweewa Ssemakookiro Jjunju Kyabaggo Namugala Kikulwe Kabulu
 		}
 
@@ -2811,7 +2812,7 @@ east_african = {
 		}
 	}
 	dinka = { 
-		color = { 59 91 247 }
+		color = { 22 109 37 }
 			first_names = { Abel Alier Kiir Yar Manyang Manute Luol Awino Nyankol Akex Ayak Bul Mach 
 		}
 
@@ -2819,7 +2820,7 @@ east_african = {
 		}
 	}
 	fur = { 
-		color = { 84 75 91 }
+		color = { 17 93 30 }
 			first_names = { Mohammed Abu "Abd al-rahman" Ahmad Hussein Bush Harun Bulad Abdallahi Jussuf Ali
 		}
 
@@ -2827,7 +2828,7 @@ east_african = {
 		}
 	}
 	kikuyu = { 
-		color = { 99 164 74 }
+		color = { 12 76 23 }
 			first_names = { Gacoki Kanja Kirimi Kioi Muiru Mukanda Muthengi Nderitu Nyamu Riitho Runo Waitimu Wamungunda Wamwara Warui Kariuki Githinji Gitonga Hiuhu Ikinya Kiara Matu Murathi Mbogo Ngigi Muriu
 		}
 
@@ -2835,7 +2836,7 @@ east_african = {
 		}
 	}
 	luo = { 
-		color = { 156 156 89 }
+		color = { 8 58 17 }
 			first_names = { Okeyo Wanyanga Jaramobi Oluoch Oso Othiamba Waga Okoth Odongo 
 		}
 
@@ -2843,7 +2844,7 @@ east_african = {
 		}
 	}
 	maasai = { 
-		color = { 134 57 84 }
+		color = { 58 213 151 }
 			first_names = { Mbatian Lenana Segi Parasayip Koyati Kakenya Lekuton Olemeeli Meitikini 
 		}
 
@@ -2851,7 +2852,7 @@ east_african = {
 		}
 	}
 	nuer = { 
-		color = { 68 199 204 }
+		color = { 33 163 114 }
 			first_names = { Diu Chol Dei Tongyiik Hon Pal Nyuon Deng Gai Ochan Puot Ruai 
 		}
 
@@ -2859,7 +2860,7 @@ east_african = {
 		}
 	}
 	nuba = { 
-		color = { 48 213 48 }
+		color = { 28 127 87 }
 			first_names = { Awin Akoc Nyidok Kwadker Ajang Dedunyal Kuikon Yor Kur Fadyet Fafiti Nyadwai Muko Wak Tyelgut Kodit Aney
 		}
 
@@ -2867,7 +2868,7 @@ east_african = {
 		}
 	}
 	ruanda = { 
-		color = { 184 21 46 }
+		color = { 25 108 80 }
 			first_names = { Yuhi Rwabuguri Sentwali Runihura Sebahive Nkundiushuti Kagame Nyillingondo Habimana Hakizimana Gahiji Dukuzumuremyi
 		}
 
@@ -2875,7 +2876,7 @@ east_african = {
 		}
 	}
 	rundi = { 
-		color = { 48 213 48 }
+		color = { 19 91 67 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2883,7 +2884,7 @@ east_african = {
 		}
 	}
 	sukuma = { 
-		color = { 54 167 122 } 
+		color = { 14 75 56 } 
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2891,7 +2892,7 @@ east_african = {
 		}
 	}
 	swahili = { 
-		color = { 84 96 204 }
+		color = { 5 35 26 }
 			first_names = { Ahmed Jabari Kamari Amiri  Asani Babu Balozi Darweshi Erevu Faraji Fupi Heri Hishima Ibada Huru Husani Imara Issa Jahidi Jalali Juma Jumaane Kafeel Khamisi Kifimbo Kivuli Kondo Lumbwi Machupa Mbwana Mosi Salehe Safi Zuberi
 		}
 
@@ -2899,7 +2900,7 @@ east_african = {
 		}
 	}
 	tigray = { 
-		color = { 61 49 183 }
+		color = { 53 114 89 }
 			first_names = { Abraha Atsbaha Gidey "Mitslal Muz" Zenabu Ras Meles Isaias Petros Siye Gebru Abune Zeresenay Miruts Mesfin
 		}
 
@@ -2907,7 +2908,7 @@ east_african = {
 		}
 	}
 	unyamwezi = { 
-		color = { 46 146 246 }
+		color = { 37 82 67 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2921,7 +2922,7 @@ southern_african = {
 	is_overseas = no
 	unit = ZuluGC
 	chewa = { 
-		color = { 88 88 88 }
+		color = { 156 139 228 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2929,7 +2930,7 @@ southern_african = {
 		}
 	}
 	herero = { 
-		color = { 94 180 42 }
+		color = { 212 139 228 }
 			first_names = { Samuel Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2937,7 +2938,7 @@ southern_african = {
 		}
 	}
 	khoisan = { 
-		color = { 122 46 133 }
+		color = { 146 55 0 }
 			first_names = { Naresib Gabeb Gorakhab Oasib Na-khom Tsawub Gaob Hanab O-Naib Khaub Khomab Hab
 		}
 
@@ -2945,7 +2946,7 @@ southern_african = {
 		}
 	}
 	lomwe = { 
-		color = { 184 220 31 }
+		color = { 136 119 210 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2953,7 +2954,7 @@ southern_african = {
 		}
 	}
 	makua = { 
-		color = { 94 156 82 }
+		color = { 117 99 194 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2961,7 +2962,7 @@ southern_african = {
 		}
 	}
 	malagasy = { 
-		color = { 87 164 95 }
+		color = { 177 99 194 }
 			first_names = { Radama Rainilaiarivony Rabiby Andriamanely Ndriantompoinairivo Tonanahary Ratsimivila Ramasoandro Andriantsirotso Lamboina Tsialana Tsimiharo
 		}
 
@@ -2969,7 +2970,7 @@ southern_african = {
 		}
 	}
 	nguni = { 
-		color = { 165 43 18 }
+		color = { 80 65 146 }
 			first_names = { Kinjikitile Fambaltate Songea Ebabruma Mputa Mbemchapa Atepa Matola Magobi Rjoroza Wasesse Rinyizea Chapwanya Chakoma Kapola Kapungu Kindunda Kinjalla Kiwanga Mahengu Mburu Mhavanginonya Namkina Ngosingosi Schabruma Sentambandu Uawula Ulanga 
 		}
 
@@ -2977,7 +2978,7 @@ southern_african = {
 		}
 	}
 	ovimbundu = { 
-		color = { 91 63 231 }
+		color = { 130 65 146 }
 			first_names = { Kakembembe Ciponge Cikunyu Kinya Nguvenge Kayangula Kahala Cingi Ngelo Ciasungu Kapoko Vilombo Hungulu Livonge Wambu
 		}
 
@@ -2985,7 +2986,7 @@ southern_african = {
 		}
 	}
 	sena = { 
-		color = { 81 212 142 }
+		color = { 65 52 121 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2993,7 +2994,7 @@ southern_african = {
 		}
 	}
 	shona = { 
-		color = { 98 134 18 }
+		color = { 109 52 121 }
 			first_names = { Zuka Sundai Tichawonna Sekayi Runako Petiri Pepukayi Mwanyisa Muchaneta Mashama Mboro Goredenna Gamba Chionesu Chinouyazue Banga
 		}
 
@@ -3001,7 +3002,7 @@ southern_african = {
 		}
 	}
 	sotho = { 
-		color = { 42 121 176 }
+		color = { 45 34 95 }
 			first_names = { Letsie Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -3009,7 +3010,7 @@ southern_african = {
 		}
 	}
 	tonga = { 
-		color = { 94 187 36 }
+		color = { 84 34 95 }
 			first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -3017,7 +3018,7 @@ southern_african = {
 		}
 	}
 	tswana = { 
-		color = { 91 212 36 }
+		color = { 67 11 41 }
 			first_names = { Khama Bathoen Sebele Baruti Boipelu Gaone Kabelo Kedikilwe Kefentse Thabo Tale Mothudi Mosegi Mowen Moetapele Molefi Turnelo
 		}
 
@@ -3025,7 +3026,7 @@ southern_african = {
 		}
 	}
 	xhosa = { 
-		color = { 49 58 156 }
+		color = { 26 17 67 }
 			first_names = { Mthuthuzeli Nolizwe Nonceba Paki Sipliwo Themba Uuka Thandiwe 
 		}
 
@@ -3033,7 +3034,7 @@ southern_african = {
 		}
 	}
 	yao = { 
-		color = { 189 20 31 }
+		color = { 58 17 67 }
 			first_names = { Chekandino Chikumbu Chisisi Kapendi Linje Lukongolo Mapira Masibuwa Ndembo Ngolinga Ngombe Thenga Umi Utni Citiwala Kajombo Mbiya
 		}
 
@@ -3041,7 +3042,7 @@ southern_african = {
 		}
 	}
 	zulu = { 
-		color = { 0 0 0 }
+		color = { 16 11 41 }
 			first_names = { Cetshwayo Ntshingwayo Dabulamanzi Sikukuni Sihayo Mavumengwana Mbilini Mnyamana Hamu Gawozi Mgojana Zibhebhu Hehlokazulu Manyonyoba Mahubulwana Mkhosana Dingiswayo Senzagkhona Sekhukhune Sekethwayo Somopho
 		}
 

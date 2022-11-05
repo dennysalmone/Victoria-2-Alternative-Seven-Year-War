@@ -1925,6 +1925,7 @@
 	bureaucrats = { size = 228 culture = irish religion = catholic }
 	clergymen = { size = 1211 culture = irish religion = catholic }
 	farmers = { size = 101393 culture = irish religion = catholic }
+	nomads = { culture = gypsy religion = catholic size = 1000 }
 }
 3417 = {
 	artisans = { size = 2000 culture = irish religion = catholic }
@@ -1953,6 +1954,7 @@
 	farmers = { size = 3000 culture = irish religion = protestant }
 	artisans = { size = 3500 culture = irish religion = catholic }
 	clergymen = { size = 140 culture = irish religion = catholic }
+	nomads = { culture = gypsy religion = catholic size = 500 }
 }
 261 = {
 	artisans = { size = 3000 culture = irish religion = catholic }
@@ -1998,11 +2000,14 @@
 	artisans = { size = 4000 culture = irish religion = catholic }
 	farmers = { size = 79005 culture = irish religion = catholic }
 	clergymen = { size = 366 culture = irish religion = catholic }
+	nomads = { culture = gypsy religion = catholic size = 480 }
 }
 3291 = {
 	artisans = { size = 2000 culture = irish religion = catholic }
-	farmers = { size = 82000 culture = irish religion = catholic }
+	farmers = { size = 81000 culture = irish religion = catholic }
+	nomads = { size = 1000 culture = irish religion = catholic }
 	clergymen = { size = 322 culture = irish religion = catholic }
+	nomads = { culture = gypsy religion = catholic size = 500 }
 }
 265 = {
 	artisans = { size = 5036 culture = irish religion = catholic }
@@ -3547,8 +3552,8 @@
 	artisans = { size = 2000 culture = dutch religion = reformed }
 	artisans = { size = 3000 culture = ashkenazi religion = jewish }
 	farmers = { size = 20000 culture = french religion = reformed }
-	artisans = { culture = gypsy religion = catholic size = 200 }
-	farmers = { culture = gypsy religion = catholic size = 8000 }
+	farmers = { culture = gypsy religion = catholic size = 200 }
+	nomads = { culture = gypsy religion = catholic size = 8000 }
 	artisans = { size = 4416 culture = ashkenazi religion = jewish }
 	bureaucrats = { size = 1375 culture = french religion = catholic }
 	artisans = { size = 31 culture = french religion = catholic }
@@ -4095,7 +4100,7 @@
 	farmers = { size = 20236 culture = spanish religion = catholic }
 	soldiers = { size = 457 culture = spanish religion = catholic }
 	soldiers = { size = 13323 culture = spanish religion = catholic }
-	farmers = { culture = gypsy religion = catholic size = 2500 }
+	nomads = { culture = gypsy religion = catholic size = 2500 }
 }
 488 = {
 	artisans = { size = 2289 culture = spanish religion = catholic }
@@ -5376,7 +5381,7 @@
 	farmers = { size = 209543 culture = czech religion = catholic }
 	farmers = { size = 8782 culture = german religion = catholic }
 	farmers = { size = 1694 culture = ashkenazi religion = jewish }
-	farmers = { culture = gypsy religion = catholic size = 5500 }
+	nomads = { culture = gypsy religion = catholic size = 5500 }
 	soldiers = { size = 228 culture = czech religion = catholic }
 	soldiers = { size = 732 culture = german religion = catholic }
 	soldiers = { size = 10459 culture = czech religion = catholic }
@@ -5420,7 +5425,7 @@
 	farmers = { size = 75252 culture = czech religion = catholic }
 	farmers = { size = 63889 culture = german religion = catholic }
 	farmers = { size = 834 culture = ashkenazi religion = jewish }
-	farmers = { culture = gypsy religion = catholic size = 900 }
+	nomads = { culture = gypsy religion = catholic size = 900 }
 }
 630 = {
 	artisans = { size = 2609 culture = czech religion = catholic }
@@ -5491,7 +5496,7 @@
 	soldiers = { size = 343 culture = ashkenazi religion = jewish }
 	soldiers = { size = 160 culture = german religion = catholic }
 	soldiers = { size = 1030 culture = ukrainian religion = orthodox }
-	farmers = { culture = gypsy religion = catholic size = 1500 }
+	nomads = { culture = gypsy religion = catholic size = 1500 }
 }
 634 = {
 	artisans = { size = 2380 culture = slovak religion = catholic }
@@ -5508,7 +5513,7 @@
 	clergymen = { size = 45 culture = german religion = catholic }
 	farmers = { size = 57964 culture = slovak religion = catholic }
 	farmers = { size = 518 culture = german religion = catholic }
-	farmers = { culture = gypsy religion = catholic size = 1500 }
+	nomads = { culture = gypsy religion = catholic size = 1500 }
 }
 636 = {
 	artisans = { size = 2626 culture = slovak religion = catholic }
@@ -5707,7 +5712,7 @@
 	clergymen = { size = 30 culture = ashkenazi religion = jewish }
 	clergymen = { size = 30 culture = german religion = catholic }
 	farmers = { size = 57200 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 5000 }
+	nomads = { culture = gypsy religion = orthodox size = 5000 }
 	farmers = { size = 17574 culture = hungarian religion = catholic }
 	farmers = { size = 26928 culture = hungarian religion = reformed }
 	farmers = { size = 505 culture = ashkenazi religion = jewish }
@@ -5773,7 +5778,7 @@
 	farmers = { size = 46197 culture = romanian religion = orthodox }
 	farmers = { size = 14170 culture = hungarian religion = catholic }
 	farmers = { size = 19893 culture = hungarian religion = reformed }
-	farmers = { culture = gypsy religion = orthodox size = 2000 }
+	nomads = { culture = gypsy religion = orthodox size = 2000 }
 	farmers = { size = 755 culture = ashkenazi religion = jewish }
 	farmers = { size = 5883 culture = german religion = catholic }
 	farmers = { size = 3800 culture = ashkenazi religion = jewish }
@@ -5800,7 +5805,7 @@
 	farmers = { size = 9846 culture = hungarian religion = catholic }
 	farmers = { size = 16081 culture = hungarian religion = reformed }
 	farmers = { size = 63701 culture = german religion = catholic }
-	farmers = { culture = gypsy religion = orthodox size = 5000 }
+	nomads = { culture = gypsy religion = orthodox size = 5000 }
 	farmers = { size = 17215 culture = croat religion = catholic }
 	farmers = { size = 53583 culture = serb religion = orthodox }
 	soldiers = { size = 206 culture = hungarian religion = catholic }
@@ -5870,7 +5875,7 @@
 	farmers = { size = 5760 culture = hungarian religion = reformed }
 	farmers = { size = 5654 culture = german religion = protestant }
 	farmers = { size = 1075 culture = ashkenazi religion = jewish }
-	farmers = { culture = gypsy religion = orthodox size = 1500 }
+	nomads = { culture = gypsy religion = orthodox size = 1500 }
 }
 656 = {
 	artisans = { size = 2289 culture = romanian religion = orthodox }
@@ -5919,7 +5924,7 @@
 	soldiers = { size = 1024 culture = hungarian religion = reformed }
 	soldiers = { size = 228 culture = german religion = protestant }
 	soldiers = { size = 91 culture = ashkenazi religion = jewish }
-	farmers = { culture = gypsy religion = orthodox size = 1500 }
+	nomads = { culture = gypsy religion = orthodox size = 1500 }
 	farmers = { size = 7000 culture = ukrainian religion = catholic }
 }
 3410 = {
@@ -5960,7 +5965,7 @@
 	farmers = { size = 10313 culture = romanian religion = orthodox }
 	farmers = { size = 1213 culture = hungarian religion = catholic }
 	farmers = { size = 1586 culture = hungarian religion = reformed }
-	farmers = { culture = gypsy religion = orthodox size = 1500 }
+	nomads = { culture = gypsy religion = orthodox size = 1500 }
 	farmers = { size = 1075 culture = ashkenazi religion = jewish }
 	farmers = { size = 1000 culture = hungarian religion = reformed }
 	artisans = { size = 550 culture = german religion = protestant }
@@ -6004,7 +6009,7 @@
 	farmers = { size = 25868 culture = hungarian religion = reformed }
 	farmers = { size = 1625 culture = german religion = protestant }
 	farmers = { size = 1075 culture = ashkenazi religion = jewish }
-	farmers = { culture = gypsy religion = orthodox size = 1100 }
+	nomads = { culture = gypsy religion = orthodox size = 1100 }
 }
 661 = {
 	artisans = { size = 2289 culture = romanian religion = orthodox }
@@ -6096,7 +6101,7 @@
 	artisans = { size = 1785 culture = romanian religion = orthodox }
 	clergymen = { size = 366 culture = romanian religion = orthodox }
 	farmers = { size = 42507 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 2500 }
+	nomads = { culture = gypsy religion = orthodox size = 2500 }
 	slaves = { size = 3662 culture = romanian religion = orthodox }
 	farmers = { size = 120 culture = german religion = catholic }
 	farmers = { size = 200 culture = hungarian religion = catholic }
@@ -6107,7 +6112,7 @@
 	clergymen = { size = 412 culture = romanian religion = orthodox }
 	farmers = { size = 43498 culture = romanian religion = orthodox }
 	slaves = { size = 3662 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 2500 }
+	nomads = { culture = gypsy religion = orthodox size = 2500 }
 	artisans = { size = 250 culture = ukrainian religion = catholic }
 	farmers = { size = 3500 culture = ukrainian religion = catholic }
 }
@@ -6115,7 +6120,7 @@
 	artisans = { size = 1968 culture = romanian religion = orthodox }
 	clergymen = { size = 389 culture = romanian religion = orthodox }
 	farmers = { size = 46651 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 3500 }
+	nomads = { culture = gypsy religion = orthodox size = 3500 }
 	slaves = { size = 2930 culture = romanian religion = orthodox }
 	artisans = { size = 55 culture = ukrainian religion = catholic }
 	farmers = { size = 155 culture = ukrainian religion = catholic }
@@ -6124,7 +6129,7 @@
 	artisans = { size = 2838 culture = romanian religion = orthodox }
 	clergymen = { size = 572 culture = romanian religion = orthodox }
 	farmers = { size = 51410 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 3100 }
+	nomads = { culture = gypsy religion = orthodox size = 3100 }
 	slaves = { size = 5494 culture = romanian religion = orthodox }
 	artisans = { size = 55 culture = ukrainian religion = catholic }
 	farmers = { size = 155 culture = ukrainian religion = catholic }
@@ -6134,7 +6139,7 @@
 	clergymen = { size = 297 culture = romanian religion = orthodox }
 	farmers = { size = 26029 culture = romanian religion = orthodox }
 	slaves = { size = 2747 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 1800 }
+	nomads = { culture = gypsy religion = orthodox size = 1800 }
 }
 670 = {
 	artisans = { size = 9157 culture = romanian religion = orthodox }
@@ -6150,14 +6155,14 @@
 	clergymen = { size = 412 culture = romanian religion = orthodox }
 	farmers = { size = 33011 culture = romanian religion = orthodox }
 	slaves = { size = 3662 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 1250 }
+	nomads = { culture = gypsy religion = orthodox size = 1250 }
 }
 672 = {
 	artisans = { size = 4120 culture = romanian religion = orthodox }
 	clergymen = { size = 961 culture = romanian religion = orthodox }
 	farmers = { size = 83741 culture = romanian religion = orthodox }
 	slaves = { size = 9157 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 3600 }
+	nomads = { culture = gypsy religion = orthodox size = 3600 }
 }
 673 = {
 	aristocrats = { size = 5860 culture = romanian religion = orthodox }
@@ -6168,7 +6173,7 @@
 	soldiers = { size = 320 culture = romanian religion = orthodox }
 	slaves = { size = 5494 culture = romanian religion = orthodox }
 	soldiers = { size = 5997 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 3250 }
+	nomads = { culture = gypsy religion = orthodox size = 3250 }
 }
 674 = {
 	aristocrats = { size = 1098 culture = turkish religion = sunni }
@@ -6211,7 +6216,7 @@
 	clergymen = { size = 68 culture = ashkenazi religion = jewish }
 	farmers = { size = 32966 culture = romanian religion = orthodox }
 	farmers = { size = 5723 culture = ashkenazi religion = jewish }
-	farmers = { culture = gypsy religion = catholic size = 450 }
+	nomads = { culture = gypsy religion = catholic size = 450 }
 	soldiers = { size = 160 culture = romanian religion = orthodox }
 	soldiers = { size = 2037 culture = romanian religion = orthodox }
 	soldiers = { size = 206 culture = ashkenazi religion = jewish }
@@ -6223,7 +6228,7 @@
 	farmers = { size = 2235 culture = turkish religion = orthodox }
 	artisans = { size = 58 culture = turkish religion = orthodox }
 	clergymen = { size = 15 culture = turkish religion = orthodox }
-	farmers = { culture = gypsy religion = catholic size = 200 }
+	nomads = { culture = gypsy religion = catholic size = 200 }
 }
 3498 = {
 	farmers = { size = 25000 culture = romanian religion = orthodox }
@@ -6236,7 +6241,7 @@
 	clergymen = { size = 370 culture = romanian religion = orthodox }
 	clergymen = { size = 68 culture = ashkenazi religion = jewish }
 	farmers = { size = 31139 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = catholic size = 550 }
+	nomads = { culture = gypsy religion = catholic size = 550 }
 	farmers = { size = 6455 culture = ashkenazi religion = jewish }
 }
 3576 = {
@@ -6252,7 +6257,7 @@
 	artisans = { size = 800 culture = romanian religion = orthodox }
 	clergymen = { size = 125 culture = romanian religion = orthodox }
 	farmers = { size = 15000 culture = romanian religion = orthodox }
-	farmers = { culture = gypsy religion = catholic size = 250 }
+	nomads = { culture = gypsy religion = catholic size = 250 }
 	farmers = { size = 18200 culture = cossack religion = orthodox }
 	farmers = { size = 1800 culture = ashkenazi religion = jewish }
 	clergymen = { size = 200 culture = cossack religion = orthodox }
@@ -6281,7 +6286,7 @@
 	farmers = { size = 9000 culture = bulgarian religion = orthodox }
 	farmers = { size = 7000 culture = cossack religion = orthodox }
 	farmers = { size = 2500 culture = turkish religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 800 }
+	nomads = { culture = gypsy religion = orthodox size = 800 }
 	soldiers = { size = 1090 culture = cossack religion = orthodox }
 }
 3578 = {
@@ -6590,7 +6595,7 @@
 	soldiers = { size = 5976 culture = ukrainian religion = catholic }
 	soldiers = { size = 3462 culture = polish religion = catholic }
 	soldiers = { size = 663 culture = ashkenazi religion = jewish }
-	farmers = { culture = gypsy religion = orthodox size = 1300 }
+	nomads = { culture = gypsy religion = orthodox size = 1300 }
 	soldiers = { size = 22 culture = german religion = catholic }
 }
 703 = {
@@ -6622,7 +6627,7 @@
 	farmers = { size = 7508 culture = ashkenazi religion = jewish }
 	farmers = { size = 5500 culture = slovak religion = catholic }
 	farmers = { size = 1671 culture = german religion = catholic }
-	farmers = { culture = gypsy religion = catholic size = 1000 }
+	nomads = { culture = gypsy religion = catholic size = 1000 }
 }
 705 = {
 	artisans = { size = 640 culture = ukrainian religion = catholic }
@@ -6638,7 +6643,7 @@
 	farmers = { size = 6000 culture = polish religion = catholic }
 	farmers = { size = 1500 culture = ashkenazi religion = jewish }
 	farmers = { size = 671 culture = german religion = catholic }
-	farmers = { culture = gypsy religion = catholic size = 700 }
+	nomads = { culture = gypsy religion = catholic size = 700 }
 }
 706 = {
 	aristocrats = { size = 11812 culture = polish religion = catholic }
@@ -7430,7 +7435,7 @@
 	soldiers = { size = 509 culture = croat religion = catholic }
 	soldiers = { size = 222 culture = italian religion = catholic }
 	soldiers = { size = 206 culture = serb religion = orthodox }
-	farmers = { culture = gypsy religion = catholic size = 555 }
+	nomads = { culture = gypsy religion = catholic size = 555 }
 }
 781 = {
 	artisans = { size = 349 culture = croat religion = catholic }
@@ -7634,7 +7639,7 @@
 	farmers = { size = 69250 culture = serb religion = orthodox }
 	soldiers = { size = 228 culture = serb religion = orthodox }
 	soldiers = { size = 4030 culture = serb religion = orthodox }
-	farmers = { culture = gypsy religion = catholic size = 2100 }
+	nomads = { culture = gypsy religion = catholic size = 2100 }
 }
 795 = {
 	artisans = { size = 2518 culture = serb religion = orthodox }
@@ -7799,8 +7804,8 @@
 	soldiers = { size = 274 culture = turkish religion = sunni }
 	soldiers = { size = 2518 culture = bulgarian religion = orthodox }
 	soldiers = { size = 5127 culture = turkish religion = sunni }
-	farmers = { culture = gypsy religion = sunni size = 400 }
-	farmers = { culture = gypsy religion = orthodox size = 800 }
+	nomads = { culture = gypsy religion = sunni size = 400 }
+	nomads = { culture = gypsy religion = orthodox size = 800 }
 }
 810 = {
 	artisans = { size = 732 culture = turkish religion = sunni }
@@ -7819,8 +7824,8 @@
 	clergymen = { size = 222 culture = bulgarian religion = orthodox }
 	farmers = { size = 4807 culture = turkish religion = sunni }
 	farmers = { size = 47011 culture = bulgarian religion = orthodox }
-	farmers = { culture = gypsy religion = sunni size = 500 }
-	farmers = { culture = gypsy religion = orthodox size = 1500 }
+	nomads = { culture = gypsy religion = sunni size = 500 }
+	nomads = { culture = gypsy religion = orthodox size = 1500 }
 }
 812 = {
 	artisans = { size = 1236 culture = turkish religion = sunni }
@@ -7829,8 +7834,8 @@
 	clergymen = { size = 228 culture = bulgarian religion = orthodox }
 	farmers = { size = 6112 culture = turkish religion = sunni }
 	farmers = { size = 51476 culture = bulgarian religion = orthodox }
-	farmers = { culture = gypsy religion = sunni size = 500 }
-	farmers = { culture = gypsy religion = orthodox size = 1500 }
+	nomads = { culture = gypsy religion = sunni size = 500 }
+	nomads = { culture = gypsy religion = orthodox size = 1500 }
 }
 813 = {
 	artisans = { size = 869 culture = turkish religion = sunni }
@@ -7839,8 +7844,8 @@
 	clergymen = { size = 137 culture = bulgarian religion = orthodox }
 	farmers = { size = 8493 culture = turkish religion = sunni }
 	farmers = { size = 32061 culture = bulgarian religion = orthodox }
-	farmers = { culture = gypsy religion = sunni size = 500 }
-	farmers = { culture = gypsy religion = orthodox size = 1500 }
+	nomads = { culture = gypsy religion = sunni size = 500 }
+	nomads = { culture = gypsy religion = orthodox size = 1500 }
 }
 814 = {
 	artisans = { size = 1922 culture = turkish religion = sunni }
@@ -7849,8 +7854,8 @@
 	clergymen = { size = 206 culture = bulgarian religion = orthodox }
 	farmers = { size = 11377 culture = turkish religion = sunni }
 	farmers = { size = 37851 culture = bulgarian religion = orthodox }
-	farmers = { culture = gypsy religion = sunni size = 500 }
-	farmers = { culture = gypsy religion = orthodox size = 1500 }
+	nomads = { culture = gypsy religion = sunni size = 500 }
+	nomads = { culture = gypsy religion = orthodox size = 1500 }
 }
 815 = {
 	artisans = { size = 1007 culture = turkish religion = sunni }
@@ -7864,8 +7869,8 @@
 	farmers = { size = 5883 culture = turkish religion = sunni }
 	farmers = { size = 14811 culture = bulgarian religion = orthodox }
 	farmers = { size = 2106 culture = greek religion = orthodox }
-	farmers = { culture = gypsy religion = sunni size = 400 }
-	farmers = { culture = gypsy religion = orthodox size = 800 }
+	nomads = { culture = gypsy religion = sunni size = 400 }
+	nomads = { culture = gypsy religion = orthodox size = 800 }
 }
 816 = {
 	artisans = { size = 503 culture = turkish religion = sunni }
@@ -8597,9 +8602,20 @@
 	bureaucrats = { size = 186 culture = turkish religion = sunni }
 	clergymen = { size = 186 culture = turkish religion = sunni }
 	clergymen = { size = 186 culture = kurdish religion = sunni }
-	farmers = { size = 20145 culture = turkish religion = sunni }
-	farmers = { size = 8186 culture = armenian religion = coptic }
+	farmers = { size = 16145 culture = turkish religion = sunni }
+	farmers = { size = 7186 culture = armenian religion = coptic }
 	farmers = { size = 6185 culture = kurdish religion = sunni }
+}
+3564 = {
+	artisans = { size = 125 culture = turkish religion = sunni }
+	artisans = { size = 765 culture = armenian religion = coptic }
+	artisans = { size = 255 culture = kurdish religion = sunni }
+	bureaucrats = { size = 25 culture = turkish religion = sunni }
+	clergymen = { size = 99 culture = armenian religion = coptic }
+	clergymen = { size = 99 culture = kurdish religion = sunni }
+	farmers = { size = 3000 culture = turkish religion = sunni }
+	farmers = { size = 8700 culture = armenian religion = coptic }
+	farmers = { size = 8700 culture = kurdish religion = sunni }
 }
 888 = {
 	artisans = { size = 1072 culture = turkish religion = sunni }
@@ -9544,7 +9560,7 @@
 	clergymen = { size = 18 culture = german religion = catholic }
 	farmers = { size = 140673 culture = ukrainian religion = catholic }
 	farmers = { size = 10000 culture = ukrainian religion = orthodox }
-	farmers = { culture = gypsy religion = orthodox size = 1455 }
+	nomads = { culture = gypsy religion = orthodox size = 1455 }
 	farmers = { size = 31920 culture = polish religion = catholic }
 	farmers = { size = 7156 culture = ashkenazi religion = jewish }
 	farmers = { size = 842 culture = german religion = catholic }
@@ -9811,20 +9827,22 @@
 	soldiers = { size = 1200 culture = crimean_tatar religion = sunni }
 }
 968 = {
+	artisans = { size = 300 culture = french religion = catholic }
+	artisans = { size = 250 culture = german religion = protestant }
 	artisans = { size = 5700 culture = cossack religion = orthodox }
-	artisans = { size = 4000 culture = ashkenazi religion = jewish }
+	artisans = { size = 7000 culture = ashkenazi religion = jewish }
 	artisans = { size = 300 culture = german religion = catholic }
-	bureaucrats = { size = 120 culture = cossack religion = orthodox }
+	bureaucrats = { size = 150 culture = cossack religion = orthodox }
 	clergymen = { size = 50 culture = cossack religion = orthodox }
 	clergymen = { size = 200 culture = ashkenazi religion = jewish }
-	clergymen = { size = 250 culture = cossack religion = orthodox }
+	clergymen = { size = 450 culture = cossack religion = orthodox }
 	clergymen = { size = 50 culture = german religion = catholic }
-	farmers = { size = 7000 culture = cossack religion = orthodox }
-	farmers = { size = 800 culture = ashkenazi religion = jewish }
+	farmers = { size = 21000 culture = cossack religion = orthodox }
+	farmers = { size = 2500 culture = ashkenazi religion = jewish }
 	farmers = { size = 3000 culture = cossack religion = orthodox }
 	farmers = { size = 5000 culture = german religion = catholic }
 	soldiers = { size = 100 culture = cossack religion = orthodox }
-	soldiers = { size = 1243 culture = cossack religion = orthodox }
+	soldiers = { size = 4555 culture = cossack religion = orthodox }
 }
 969 = {
 	artisans = { size = 167 culture = ukrainian religion = orthodox }
@@ -27736,7 +27754,7 @@
 	farmers = { size = 4111 culture = slovak religion = catholic }
 	farmers = { size = 5111 culture = romanian religion = orthodox }
 	artisans = { size = 655 culture = german religion = reformed }
-	farmers = { culture = gypsy religion = catholic size = 1700 }
+	nomads = { culture = gypsy religion = catholic size = 1700 }
 }
 3268 = {
 	artisans = { size = 500 culture = russian religion = orthodox }
