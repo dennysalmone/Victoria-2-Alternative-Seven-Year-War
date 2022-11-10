@@ -1,6 +1,5 @@
 owner = RUS
 controller = RUS
-add_core = RUS
 add_core = AKH
 trade_goods = horses
 life_rating = 30

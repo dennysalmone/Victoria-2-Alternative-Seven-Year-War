@@ -5,4 +5,3 @@ terrain = deciduous_forest_hills
 1861.1.1 = {
 	add_core = NZL
 }
-

@@ -8,4 +8,5 @@ terrain = forest_steppe
 1836.1.1 = {
 	owner = RUS
 	controller = RUS
+add_core = RUS
 }

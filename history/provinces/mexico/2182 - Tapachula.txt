@@ -13,4 +13,3 @@ terrain = seasonal_jungle_mountains
 	controller = MEX
 	add_core = MEX
 }
-

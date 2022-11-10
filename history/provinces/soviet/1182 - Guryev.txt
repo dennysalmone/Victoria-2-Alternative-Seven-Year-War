@@ -2,10 +2,10 @@ add_core = AKH
 trade_goods = wool
 life_rating = 15
 terrain = semi_desert
-
 1846.1.1 = {
 	owner = RUS
 	controller = RUS
+add_core = RUS
 	remove_core = AKH
 	colonial = 2
 }

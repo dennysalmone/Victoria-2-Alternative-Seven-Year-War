@@ -8,7 +8,6 @@ trade_goods = silk
 life_rating = 25
 terrain = seasonal_jungle
 colonial = 2
-
 1845.1.1 = {
 	owner = ENG
 	controller = ENG

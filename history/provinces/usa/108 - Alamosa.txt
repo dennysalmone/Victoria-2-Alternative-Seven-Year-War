@@ -6,5 +6,4 @@ owner = USA
 controller = USA
 add_core = USA
 }
-
 colonial = 1

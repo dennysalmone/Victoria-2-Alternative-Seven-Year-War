@@ -14,4 +14,3 @@ terrain = dry_forest_hills
 	controller = SPA
 	railroad = 3
 }
-

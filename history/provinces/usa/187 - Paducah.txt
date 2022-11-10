@@ -5,5 +5,4 @@ life_rating = 35
 terrain = forested_farmland
 1861.1.1 = { add_core = CSA }
 1861.1.1 = { railroad = 3 }
-
 colonial = 1

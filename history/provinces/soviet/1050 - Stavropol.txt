@@ -1,11 +1,11 @@
 owner = TER
 controller = TER
 add_core = TER
-add_core = RUS
 trade_goods = grain
 life_rating = 35
 terrain = dry_grassland
 1836.1.1 = {
 	owner = RUS
 	controller = RUS
+add_core = RUS
 }

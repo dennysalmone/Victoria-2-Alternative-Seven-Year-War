@@ -12,4 +12,3 @@ terrain = deciduous_forest_hills
 	add_core = NZL
 	colonial = 1
 }
-

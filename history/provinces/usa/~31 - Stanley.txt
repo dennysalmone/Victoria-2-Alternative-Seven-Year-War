@@ -1,9 +1,0 @@
-trade_goods = fur
-life_rating = 15
-terrain = boreal_forest
-colonial = 1
-1861.1.1 = {
-	owner = ENG
-	controller = ENG
-		colonial = 1
-}

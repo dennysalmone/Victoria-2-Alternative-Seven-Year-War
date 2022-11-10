@@ -4,7 +4,6 @@ add_core = FRA
 trade_goods = grain
 life_rating = 45
 terrain = good_farmland
-
 state_building = {
 	level = 2
 	building = fabric_factory

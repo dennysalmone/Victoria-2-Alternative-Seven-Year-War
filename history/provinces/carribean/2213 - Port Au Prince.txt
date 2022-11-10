@@ -5,5 +5,4 @@ trade_goods = cattle
 life_rating = 40
 terrain = hilly_farmland
 naval_base = 1
-
 colonial = 1

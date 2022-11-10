@@ -8,4 +8,5 @@ terrain = hilly_farmland
 1836.1.1 = {
 	owner = RUS
 	controller = RUS
+add_core = RUS
 }

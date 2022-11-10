@@ -2426,6 +2426,15 @@ african_diaspora_cultures = {
 					"de Sousa" "de Souza" "dos Reis" "dos Santos" Fidalgo Filho Gil Gomes "Machado de Assis" Nunes 
 					Oliveira Otelo Paim Pandeiro Pecanha Pereira Pitanga Rodrigues Santos Silva Teixeira }
 	}
+	black_dutch = { 
+		 color = { 36 33 11 }
+		 first_names = { Taabansi Enweleana Jiofo Obalike Ewenetem Chiemeka Elechi Ikenna Nonyelum Obijiaku Oji Onyeka Orji Rapuluchukwu Udoka 
+			Zebenjo Zinachukwudi Dibia Dumaka Azuka Anene Jideofor Nnaemeka Nnamdi Nnanna Aaron Alexander Andre Benton Caesar Cathay Charles Colin 
+			Ebenezer Edgar Edward Frederick George Henry James Joseph Lewis Lloyd Matin Michael Milton Osborne Pinckney Powhatan Robert Samuel Stewart 
+			Thomas William Wilson }
+		 last_names = { Anderson Antoine Augusta Basset Beaty Blake Brooks Brown Cailloux Carney Delany Douglass "Du Bois" Fields Flipper Gardner Griffin 
+			Hawkins Holland Jackson King Mink Nell Pinn Ratcliff Remond Smith Stukes Tubman Veale }
+	}
 	afro_brazilian = { 
 		color = { 211 11 11 }
 			first_names = { Afonso Aleixo Alexandre Anderson Andre Artur Candido Carlos Denilson Djalma

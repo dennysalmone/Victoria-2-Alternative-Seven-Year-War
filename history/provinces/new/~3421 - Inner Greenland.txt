@@ -1,7 +1,0 @@
-owner = DEN
-controller = DEN
-add_core = DEN
-trade_goods = copper
-life_rating = 5
-terrain = tundra_mountains
-colonial = 1

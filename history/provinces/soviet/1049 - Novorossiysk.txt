@@ -7,6 +7,7 @@ terrain = deciduous_forest_hills
 1836.1.1 = {
 	owner = RUS
 	controller = RUS
-	add_core = RUS
+add_core = RUS
+	
 	remove_core = TUR
 }

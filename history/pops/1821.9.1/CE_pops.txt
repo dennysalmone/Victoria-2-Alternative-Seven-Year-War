@@ -2682,8 +2682,8 @@
 	bureaucrats = { size = 206 culture = swedish religion = protestant }
 	clergymen = { size = 137 culture = finnish religion = protestant }
 	clergymen = { size = 91 culture = swedish religion = protestant }
-	farmers = { size = 37764 culture = finnish religion = protestant }
-	farmers = { size = 6707 culture = swedish religion = protestant }
+	farmers = { size = 41000 culture = finnish religion = protestant }
+	farmers = { size = 7000 culture = swedish religion = protestant }
 	soldiers = { size = 45 culture = finnish religion = protestant }
 	soldiers = { size = 137 culture = swedish religion = protestant }
 	soldiers = { size = 1520 culture = finnish religion = protestant }
@@ -2692,7 +2692,7 @@
 344 = {
 	artisans = { size = 526 culture = finnish religion = protestant }
 	clergymen = { size = 68 culture = finnish religion = protestant }
-	farmers = { size = 8561 culture = finnish religion = protestant }
+	farmers = { size = 9000 culture = finnish religion = protestant }
 	farmers = { size = 732 culture = swedish religion = protestant }
 }
 345 = {
@@ -2701,26 +2701,26 @@
 	artisans = { size = 503 culture = swedish religion = protestant }
 	clergymen = { size = 526 culture = finnish religion = protestant }
 	clergymen = { size = 91 culture = swedish religion = protestant }
-	farmers = { size = 49916 culture = finnish religion = protestant }
-	farmers = { size = 9363 culture = swedish religion = protestant }
+	farmers = { size = 50000 culture = finnish religion = protestant }
+	farmers = { size = 9500 culture = swedish religion = protestant }
 	soldiers = { size = 7 culture = finnish religion = protestant }
 	soldiers = { size = 2443 culture = finnish religion = protestant }
 	soldiers = { size = 114 culture = swedish religion = protestant }
 }
 346 = {
-	artisans = { size = 2380 culture = finnish religion = protestant }
-	artisans = { size = 1007 culture = swedish religion = protestant }
-	clergymen = { size = 434 culture = finnish religion = protestant }
-	clergymen = { size = 137 culture = swedish religion = protestant }
-	farmers = { size = 23885 culture = finnish religion = protestant }
-	farmers = { size = 9522 culture = swedish religion = protestant }
+	artisans = { size = 1380 culture = finnish religion = protestant }
+	artisans = { size = 2007 culture = swedish religion = protestant }
+	clergymen = { size = 134 culture = finnish religion = protestant }
+	clergymen = { size = 437 culture = swedish religion = protestant }
+	farmers = { size = 18000 culture = finnish religion = protestant }
+	farmers = { size = 15500 culture = swedish religion = protestant }
 }
 347 = {
 	artisans = { size = 1007 culture = finnish religion = protestant }
 	artisans = { size = 91 culture = swedish religion = protestant }
 	clergymen = { size = 160 culture = finnish religion = protestant }
-	farmers = { size = 17077 culture = finnish religion = protestant }
-	farmers = { size = 549 culture = swedish religion = protestant }
+	farmers = { size = 17000 culture = finnish religion = protestant }
+	farmers = { size = 600 culture = swedish religion = protestant }
 }
 348 = {
 	artisans = { size = 137 culture = swedish religion = protestant }
@@ -2735,7 +2735,7 @@
 	aristocrats = { size = 1121 culture = russian religion = orthodox }
 	artisans = { size = 686 culture = estonian religion = protestant }
 	artisans = { size = 755 culture = german religion = protestant }
-	artisans = { size = 274 culture = swedish religion = protestant }
+	artisans = { size = 400 culture = swedish religion = protestant }
 	artisans = { size = 160 culture = russian religion = orthodox }
 	bureaucrats = { size = 68 culture = german religion = protestant }
 	bureaucrats = { size = 22 culture = russian religion = orthodox }
@@ -2744,7 +2744,7 @@
 	clergymen = { size = 22 culture = swedish religion = protestant }
 	clergymen = { size = 22 culture = russian religion = orthodox }
 	farmers = { size = 31981 culture = estonian religion = protestant }
-	farmers = { size = 366 culture = swedish religion = protestant }
+	farmers = { size = 500 culture = swedish religion = protestant }
 	soldiers = { size = 114 culture = german religion = protestant }
 	soldiers = { size = 45 culture = russian religion = orthodox }
 	soldiers = { size = 2048 culture = estonian religion = protestant }
@@ -2795,7 +2795,9 @@
 	clergymen = { size = 297 culture = latvian religion = protestant }
 	clergymen = { size = 68 culture = german religion = protestant }
 	clergymen = { size = 137 culture = russian religion = orthodox }
-	farmers = { size = 35506 culture = latvian religion = protestant }
+	farmers = { size = 33000 culture = latvian religion = protestant }
+	farmers = { size = 2000 culture = latvian religion = catholic }
+	farmers = { size = 1000 culture = german religion = protestant }
 	soldiers = { size = 143 culture = german religion = protestant }
 	soldiers = { size = 51 culture = russian religion = orthodox }
 	soldiers = { size = 1363 culture = latvian religion = protestant }
@@ -12228,7 +12230,7 @@
 	aristocrats = { size = 3638 culture = kirgiz religion = sunni }
 	aristocrats = { size = 93 culture = kazak religion = sunni }
 	aristocrats = { size = 116 culture = uighur religion = sunni }
-	aristocrats = { size = 93 culture = kirgiz religion = animist }
+	aristocrats = { size = 93 culture = kirgiz religion = sunni }
 	artisans = { size = 1865 culture = kirgiz religion = sunni }
 	artisans = { size = 279 culture = kazak religion = sunni }
 	artisans = { size = 324 culture = uighur religion = sunni }
@@ -12242,11 +12244,11 @@
 }
 1190 = {
 	artisans = { size = 93 culture = kirgiz religion = sunni }
-	artisans = { size = 233 culture = kirgiz religion = animist }
+	artisans = { size = 233 culture = kirgiz religion = sunni }
 	artisans = { size = 186 culture = kazak religion = sunni }
 	clergymen = { size = 139 culture = kirgiz religion = sunni }
 	farmers = { size = 2588 culture = kirgiz religion = sunni }
-	farmers = { size = 4267 culture = kirgiz religion = animist }
+	farmers = { size = 4267 culture = kirgiz religion = sunni }
 	farmers = { size = 4291 culture = kazak religion = sunni }
 }
 1191 = {
@@ -15894,17 +15896,17 @@
 	aristocrats = { size = 349 culture = moluccan religion = animist }
 	aristocrats = { size = 205 culture = moluccan religion = sunni }
 	artisans = { size = 93 culture = moluccan religion = animist }
-	artisans = { size = 373 culture = moluccan religion = protestant }
+	artisans = { size = 373 culture = moluccan religion = reformed }
 	artisans = { size = 1026 culture = moluccan religion = sunni }
 	bureaucrats = { size = 46 culture = dutch religion = reformed }
 	clergymen = { size = 163 culture = moluccan religion = animist }
-	clergymen = { size = 46 culture = moluccan religion = protestant }
+	clergymen = { size = 46 culture = moluccan religion = reformed }
 	clergymen = { size = 93 culture = moluccan religion = sunni }
 	farmers = { size = 15276 culture = moluccan religion = animist }
-	farmers = { size = 1399 culture = moluccan religion = protestant }
+	farmers = { size = 1399 culture = moluccan religion = reformed }
 	farmers = { size = 9002 culture = moluccan religion = sunni }
 	soldiers = { size = 349 culture = moluccan religion = animist }
-	soldiers = { size = 233 culture = moluccan religion = protestant }
+	soldiers = { size = 233 culture = moluccan religion = reformed }
 	soldiers = { size = 209 culture = moluccan religion = sunni }
 }
 1448 = {
@@ -15916,13 +15918,13 @@
 	farmers = { size = 634 culture = moluccan religion = sunni }
 }
 1449 = {
-	artisans = { size = 557 culture = moluccan religion = protestant }
+	artisans = { size = 557 culture = moluccan religion = reformed }
 	artisans = { size = 13 culture = dutch religion = reformed }
-	bureaucrats = { size = 9 culture = moluccan religion = protestant }
+	bureaucrats = { size = 9 culture = moluccan religion = reformed }
 	bureaucrats = { size = 9 culture = dutch religion = reformed }
-	clergymen = { size = 116 culture = moluccan religion = protestant }
+	clergymen = { size = 116 culture = moluccan religion = reformed }
 	clergymen = { size = 23 culture = dutch religion = reformed }
-	farmers = { size = 1028 culture = moluccan religion = protestant }
+	farmers = { size = 1028 culture = moluccan religion = reformed }
 }
 1450 = {
 	artisans = { size = 513 culture = moluccan religion = sunni }
@@ -18063,23 +18065,23 @@
 }
 1594 = {
 	aristocrats = { size = 2378 culture = uighur religion = sunni }
-	aristocrats = { size = 209 culture = kirgiz religion = animist }
+	aristocrats = { size = 209 culture = kirgiz religion = sunni }
 	aristocrats = { size = 46 culture = mongol religion = gelugpa }
 	artisans = { size = 2425 culture = uighur religion = sunni }
-	artisans = { size = 536 culture = kirgiz religion = animist }
+	artisans = { size = 536 culture = kirgiz religion = sunni }
 	artisans = { size = 466 culture = tajik religion = sunni }
 	artisans = { size = 909 culture = uzbek religion = sunni }
 	bureaucrats = { size = 233 culture = uighur religion = sunni }
 	clergymen = { size = 489 culture = uighur religion = sunni }
-	clergymen = { size = 116 culture = kirgiz religion = animist }
+	clergymen = { size = 116 culture = kirgiz religion = sunni }
 	clergymen = { size = 46 culture = tajik religion = sunni }
 	clergymen = { size = 23 culture = uzbek religion = sunni }
 	farmers = { size = 62148 culture = uighur religion = sunni }
-	farmers = { size = 10238 culture = kirgiz religion = animist }
+	farmers = { size = 10238 culture = kirgiz religion = sunni }
 	farmers = { size = 1352 culture = tajik religion = sunni }
 	soldiers = { size = 303 culture = uighur religion = sunni }
 	soldiers = { size = 3078 culture = uighur religion = sunni }
-	soldiers = { size = 93 culture = kirgiz religion = animist }
+	soldiers = { size = 93 culture = kirgiz religion = sunni }
 	soldiers = { size = 23 culture = mongol religion = gelugpa }
 }
 1595 = {
@@ -21213,14 +21215,14 @@
 	soldiers = { size = 148 culture = african_minor religion = catholic }
 }
 1877 = {
-	aristocrats = { size = 9 culture = portuguese religion = catholic }
-	artisans = { size = 22 culture = portuguese religion = catholic }
-	artisans = { size = 371 culture = african_minor religion = catholic }
-	bureaucrats = { size = 4 culture = portuguese religion = catholic }
-	clergymen = { size = 59 culture = portuguese religion = catholic }
-	farmers = { size = 5442 culture = african_minor religion = catholic }
-	slaves = { size = 1979 culture = african_minor religion = catholic }
-	soldiers = { size = 86 culture = portuguese religion = catholic }
+	aristocrats = { size = 80 culture = portuguese religion = catholic }
+	artisans = { size = 250 culture = portuguese religion = catholic }
+	artisans = { size = 100 culture = african_minor religion = catholic }
+	bureaucrats = { size = 5 culture = portuguese religion = catholic }
+	clergymen = { size = 75 culture = portuguese religion = catholic }
+	farmers = { size = 5400 culture = african_minor religion = catholic }
+	slaves = { size = 4000 culture = african_minor religion = catholic }
+	soldiers = { size = 120 culture = portuguese religion = catholic }
 }
 1878 = {
 	aristocrats = { size = 1286 culture = mande religion = animist }
@@ -21921,10 +21923,14 @@
 	slaves = { size = 2968 culture = african_minor religion = animist }
 }
 1940 = {
-	artisans = { size = 692 culture = african_minor religion = animist }
-	clergymen = { size = 173 culture = african_minor religion = animist }
-	farmers = { size = 10513 culture = african_minor religion = animist }
+	artisans = { size = 492 culture = african_minor religion = animist }
+	clergymen = { size = 123 culture = african_minor religion = animist }
+	farmers = { size = 9513 culture = african_minor religion = animist }
 	slaves = { size = 4947 culture = african_minor religion = animist }
+	artisans = { size = 200 culture = fulbe religion = sunni }
+	clergymen = { size = 50 culture = fulbe religion = sunni }
+	farmers = { size = 1000 culture = fulbe religion = sunni }
+	
 }
 1941 = {
 	artisans = { size = 643 culture = african_minor religion = animist }
@@ -24861,56 +24867,56 @@
 }
 2234 = {
 	artisans = { size = 57 culture = dutch religion = reformed }
-	artisans = { size = 122 culture = black_spanish religion = catholic }
+	artisans = { size = 122 culture = black_dutch religion = reformed }
 	bureaucrats = { size = 4 culture = dutch religion = reformed }
-	clergymen = { size = 16 culture = black_spanish religion = catholic }
-	farmers = { size = 2298 culture = black_spanish religion = catholic }
+	clergymen = { size = 16 culture = black_dutch religion = reformed }
+	farmers = { size = 2298 culture = black_dutch religion = reformed }
 }
 2235 = {
-	artisans = { size = 20 culture = black_spanish religion = catholic }
-	clergymen = { size = 20 culture = black_spanish religion = catholic }
-	farmers = { size = 450 culture = black_spanish religion = catholic }
+	artisans = { size = 20 culture = black_dutch religion = reformed }
+	clergymen = { size = 20 culture = black_dutch religion = reformed }
+	farmers = { size = 450 culture = black_dutch religion = reformed }
 	soldiers = { size = 45 culture = dutch religion = reformed }
 }
 2236 = {
 	artisans = { size = 57 culture = dutch religion = reformed }
-	artisans = { size = 45 culture = black_spanish religion = protestant }
-	clergymen = { size = 20 culture = black_spanish religion = protestant }
-	farmers = { size = 918 culture = black_spanish religion = protestant }
+	artisans = { size = 45 culture = black_dutch religion = reformed }
+	clergymen = { size = 20 culture = black_dutch religion = reformed }
+	farmers = { size = 918 culture = black_dutch religion = reformed }
 }
 2237 = {
 	artisans = { size = 709 culture = dutch religion = reformed }
-	artisans = { size = 414 culture = black_spanish religion = protestant }
+	artisans = { size = 414 culture = black_dutch religion = reformed }
 	bureaucrats = { size = 12 culture = dutch religion = reformed }
 	clergymen = { size = 81 culture = dutch religion = reformed }
 	farmers = { size = 336 culture = dutch religion = reformed }
-	farmers = { size = 3939 culture = black_spanish religion = protestant }
-	slaves = { size = 3500 culture = black_spanish religion = protestant }
+	farmers = { size = 3939 culture = black_dutch religion = reformed }
+	slaves = { size = 3500 culture = black_dutch religion = reformed }
 }
 2238 = {
 	artisans = { size = 20 culture = dutch religion = reformed }
-	artisans = { size = 122 culture = black_spanish religion = protestant }
+	artisans = { size = 122 culture = black_dutch religion = reformed }
 	clergymen = { size = 45 culture = dutch religion = reformed }
-	farmers = { size = 1587 culture = black_spanish religion = protestant }
-	slaves = { size = 1200 culture = black_spanish religion = protestant }
+	farmers = { size = 1587 culture = black_dutch religion = reformed }
+	slaves = { size = 1200 culture = black_dutch religion = reformed }
 }
 2239 = {
-	artisans = { size = 286 culture = french religion = catholic }
-	artisans = { size = 573 culture = black_spanish religion = protestant }
-	bureaucrats = { size = 40 culture = french religion = catholic }
-	clergymen = { size = 81 culture = french religion = catholic }
-	farmers = { size = 81 culture = french religion = catholic }
-	farmers = { size = 4718 culture = black_spanish religion = protestant }
-	slaves = { size = 6000 culture = black_spanish religion = protestant }
+	artisans = { size = 286 culture = dutch religion = reformed }
+	artisans = { size = 573 culture = black_dutch religion = reformed }
+	bureaucrats = { size = 40 culture = dutch religion = reformed }
+	clergymen = { size = 81 culture = dutch religion = reformed }
+	farmers = { size = 81 culture = dutch religion = reformed }
+	farmers = { size = 4718 culture = black_dutch religion = reformed }
+	slaves = { size = 6000 culture = black_dutch religion = reformed }
 }
 2240 = {
 	aristocrats = { size = 81 culture = dutch religion = reformed }
 	artisans = { size = 81 culture = dutch religion = reformed }
-	artisans = { size = 1434 culture = black_spanish religion = protestant }
+	artisans = { size = 1434 culture = black_dutch religion = reformed }
 	bureaucrats = { size = 49 culture = dutch religion = reformed }
-	clergymen = { size = 20 culture = black_spanish religion = protestant }
-	farmers = { size = 983 culture = black_spanish religion = protestant }
-	slaves = { size = 7378 culture = black_spanish religion = animist }
+	clergymen = { size = 20 culture = black_dutch religion = reformed }
+	farmers = { size = 983 culture = black_dutch religion = reformed }
+	slaves = { size = 7378 culture = black_dutch religion = animist }
 	soldiers = { size = 102 culture = dutch religion = reformed }
 }
 2241 = {

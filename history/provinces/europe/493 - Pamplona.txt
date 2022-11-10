@@ -15,4 +15,3 @@ terrain = mountain_farmland
 	controller = SPA
 	railroad = 3
 }
-

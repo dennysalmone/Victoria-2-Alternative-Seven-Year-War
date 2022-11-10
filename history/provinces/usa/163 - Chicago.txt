@@ -4,5 +4,4 @@ trade_goods = iron
 life_rating = 40
 terrain = forest_steppe
 1861.1.1 = { railroad = 3 }
-
 colonial = 1
