@@ -633,7 +633,6 @@
 	nomads = { size = 1000 culture = native_american_minor religion = animist }
 }
 113 = {
-
 	nomads = { size = 1781 culture = native_american_minor religion = animist }
 }
 114 = {
@@ -1192,7 +1191,6 @@
 	clergymen = { size = 44 culture = white_spanish religion = catholic }
 	artisans = { size = 122 culture = white_spanish religion = catholic }
 	soldiers = { size = 1042 culture = white_spanish religion = catholic }
-
 }
 200 = {
 	nomads = { size = 890 culture = native_american_minor religion = animist }
@@ -1336,8 +1334,6 @@
 	artisans = { size = 250 culture = yankee religion = protestant }
 	clergymen = { size = 50 culture = yankee religion = protestant }
 }
-
-
 212 = {
 	artisans = { size = 153 culture = yankee religion = protestant }
 	artisans = { size = 338 culture = afro_american religion = protestant }
@@ -1537,7 +1533,6 @@
 	artisans = { size = 700 culture = german religion = reformed }
 	farmers = { size = 6000 culture = german religion = reformed }
 	soldiers = { size = 400 culture = german religion = reformed }
-
 }
 226 = {
 	artisans = { size = 1744 culture = yankee religion = protestant }
@@ -7486,7 +7481,6 @@
 	clergymen = { culture = sephardic religion = jewish size = 25 }
 	artisans = { culture = sephardic religion = jewish size = 1000 }
 }
-#Bihac (100000/25000 POPS)
 784 = {
 	aristocrats = { culture = bosniak religion = sunni size = 400 }	
 	soldiers = { culture = bosniak religion = sunni size = 100 }
@@ -7502,7 +7496,6 @@
 	artisans = { culture = croat religion = catholic size = 200 }
 	farmers = { culture = croat religion = catholic size = 2650 }
 }
-#Banja Luka (116000/29000 POPS)
 785 = {
 	aristocrats = { culture = bosniak religion = sunni size = 500 }	
 	soldiers = { culture = bosniak religion = sunni size = 100 }
@@ -7518,7 +7511,6 @@
 	artisans = { culture = croat religion = catholic size = 150 }
 	farmers = { culture = croat religion = catholic size = 3675 }
 }
-#Tuzla (168000/42000 POPS)
 786 = {
 	aristocrats = { culture = bosniak religion = sunni size = 700 }	
 	soldiers = { culture = bosniak religion = sunni size = 100 }
@@ -7536,7 +7528,6 @@
 	clergymen = { culture = sephardic religion = jewish size = 5 }
 	artisans = { culture = sephardic religion = jewish size = 175 }
 }
-#Foca (92000/23000 POPS)
 787 = {
 	aristocrats = { culture = bosniak religion = sunni size = 400 }	
 	soldiers = { culture = bosniak religion = sunni size = 100 }
@@ -7548,7 +7539,6 @@
 	artisans = { culture = serb religion = orthodox size = 500 }
 	farmers = { culture = serb religion = orthodox size = 12300 }
 }
-#Mostar (104000/26000 POPS)
 788 = {
 	aristocrats = { culture = bosniak religion = sunni size = 450 }	
 	soldiers = { culture = bosniak religion = sunni size = 100 }
@@ -7564,7 +7554,6 @@
 	artisans = { culture = serb religion = orthodox size = 200 }
 	farmers = { culture = serb religion = orthodox size = 12750 }
 }
-#Livno (136000/34000 POPS)
 789 = {
 	aristocrats = { culture = bosniak religion = sunni size = 350 }	
 	soldiers = { culture = bosniak religion = sunni size = 100 }
@@ -8584,7 +8573,6 @@
 	artisans = { size = 300 culture = turkish religion = sunni }
 	artisans = { size = 622 culture = armenian religion = coptic }
 	artisans = { size = 611 culture = kurdish religion = sunni }
-
 }
 886 = {
 	artisans = { size = 2005 culture = turkish religion = sunni }
@@ -9135,7 +9123,6 @@
 	farmers = { size = 8348 culture = mashriqi religion = catholic }
 	soldiers = { size = 33 culture = mashriqi religion = sunni }
 	soldiers = { size = 1814 culture = mashriqi religion = sunni }
-
 	soldiers = { size = 511 culture = kurdish religion = sunni }
 	aristocrats = { size = 141 culture = turkish religion = sunni }
 	artisans = { size = 559 culture = turkish religion = sunni }
@@ -9143,7 +9130,6 @@
 	clergymen = { size = 116 culture = turkish religion = sunni }
 	farmers = { size = 3305 culture = turkish religion = sunni }
 	soldiers = { size = 1026 culture = turkish religion = sunni }
-
 	farmers = { size = 2411 culture = kurdish religion = sunni }
 	clergymen = { size = 26 culture = kurdish religion = sunni }
 	artisans = { size = 133 culture = kurdish religion = sunni }
@@ -9643,9 +9629,6 @@
 	farmers = { size = 377 culture = german religion = catholic }
 	soldiers = { size = 177 culture = ukrainian religion = orthodox }
 }
-
-
-
 956 = {
 	aristocrats = { size = 3300 culture = polish religion = catholic }
 	artisans = { size = 2197 culture = ukrainian religion = orthodox }
@@ -10199,7 +10182,6 @@
 	farmers = { size = 98413 culture = russian religion = orthodox }
 	soldiers = { size = 3800 culture = russian religion = orthodox }
 }
-
 999 = {
 	artisans = { size = 4120 culture = russian religion = orthodox }
 	artisans = { size = 501 culture = ugrian religion = orthodox }
@@ -11454,7 +11436,6 @@
 	clergymen = { size = 8 culture = armenian religion = coptic }
 	artisans = { size = 55 culture = armenian religion = coptic }
 	farmers = { size = 700 culture = armenian religion = coptic }
-
 }
 1107 = {
 	artisans = { size = 640 culture = azerbaijani religion = shiite }
@@ -12954,7 +12935,6 @@
 	farmers = { size = 65000 culture = hindus religion = hindu }
 	artisans = { size = 600 culture = hindus religion = hindu }
 	artisans = { size = 1400 culture = sunni_hindus religion = sunni }
-
 }
 3409 = {
 	farmers = { size = 195100 culture = hindus religion = hindu }
@@ -15559,8 +15539,6 @@
 	artisans = { size = 2000 culture = javan religion = sunni }
 	artisans = { size = 1000 culture = javan religion = animist }
 }
-
-
 1418 = {
 	aristocrats = { size = 6297 culture = javan religion = sunni }
 	aristocrats = { size = 419 culture = javan religion = animist }
@@ -17777,7 +17755,6 @@
 	artisans = { size = 5555 culture = han_chinese religion = confucian }
 	artisans = { size = 5555 culture = han_chinese religion = confucian }
 	artisans = { size = 5555 culture = han_chinese religion = confucian }
-
 	artisans = { size = 5555 culture = han_chinese religion = confucian }
 	artisans = { size = 2431 culture = han_chinese religion = confucian }
 	artisans = { size = 653 culture = han_chinese religion = sunni }
@@ -17793,7 +17770,6 @@
 	soldiers = { size = 396 culture = han_chinese religion = sunni }
 	soldiers = { size = 349 culture = manchu religion = confucian }
 }
-
 1573 = {
 	artisans = { size = 5555 culture = han_chinese religion = confucian }
 	artisans = { size = 5555 culture = han_chinese religion = confucian }
@@ -18451,7 +18427,6 @@
 	farmers = { culture = manchu religion = confucian size = 13083 }
 	farmers = { culture = han_chinese religion = sunni size = 38033 }
 }
-
 3420 = {
 	artisans = { culture = han_chinese religion = confucian size = 8000 }
 	artisans = { culture = han_chinese religion = confucian size = 8000 }
@@ -18463,7 +18438,6 @@
 	clergymen = { culture = han_chinese religion = confucian size = 1500 }
 	soldiers = { culture = han_chinese religion = confucian size = 10000 }
 }
-
 3337 = {
 	farmers = { size = 18000 culture = han_chinese religion = confucian }
 	clergymen = { size = 200 culture = han_chinese religion = confucian }
@@ -18513,7 +18487,6 @@
 	artisans = { size = 5111 culture = han_chinese religion = confucian }
 	clergymen = { size = 3400 culture = han_chinese religion = confucian }
 }
-
 1619 = {
 	aristocrats = { size = 10588 culture = korean religion = mahayana }
 	artisans = { size = 8864 culture = korean religion = mahayana }
@@ -19619,7 +19592,6 @@
 	clergymen = { culture = hungarian religion = sunni size = 5 }
 	artisans = { culture = hungarian religion = sunni size = 5 }
 }
-#Tanta (341600/85400 POPS)
 1747 = {
 	aristocrats = { culture = circassians religion = sunni size = 750 }
 	artisans = { culture = circassians religion = sunni size = 5575 }
@@ -19642,7 +19614,6 @@
 	farmers = { culture = hungarian religion = sunni size = 55 }
 	clergymen = { culture = hungarian religion = sunni size = 5 }
 }
-#Mansura (256200/64050 POPS)
 1748 = {
 	aristocrats = { culture = circassians religion = sunni size = 600 }
 	artisans = { culture = circassians religion = sunni size = 2400 }
@@ -19668,7 +19639,6 @@
 	clergymen = { culture = hungarian religion = sunni size = 20 }
 	artisans = { culture = hungarian religion = sunni size = 15 }
 }
-#Ziqaziq (272600/68150 POPS)
 1749 = {
 	aristocrats = { culture = circassians religion = sunni size = 650 }
 	artisans = { culture = circassians religion = sunni size = 425 }
@@ -19689,7 +19659,6 @@
 	artisans = { culture = greek religion = orthodox size = 2500 }
 	bureaucrats = { culture = greek religion = orthodox size = 125 }
 }
-#Giza (386400/96600 POPS)
 1750 = {
 	aristocrats = { culture = circassians religion = sunni size = 950 }
 	artisans = { culture = circassians religion = sunni size = 550 }
@@ -19876,7 +19845,6 @@
 	soldiers = { culture = misri religion = coptic size = 35 }
 	farmers = { culture = misri religion = coptic size = 2175 }
 }
-#Idfu (76000/19000 POPS)
 1768 = {
 	aristocrats = { culture = misri religion = sunni size = 300 }
 	clergymen = { culture = misri religion = sunni size = 140 }
@@ -19891,7 +19859,6 @@
 	soldiers = { culture = misri religion = coptic size = 40 }
 	farmers = { culture = misri religion = coptic size = 3095 }
 }
-#Qina (52000/13000 POPS)
 1769 = {
 	aristocrats = { culture = misri religion = sunni size = 200 }
 	clergymen = { culture = misri religion = sunni size = 80 }
@@ -25346,9 +25313,6 @@
 	clergymen = { size = 1 culture = mestizo religion = catholic }
 	farmers = { size = 45 culture = mestizo religion = catholic }
 }
-#Perú 2286-2304 ; 2578
-#Chile #2305,2307-2309, 2322-2335
-#Brasil
 2306 = {
 	aristocrats = { size = 19 culture = tupinamba religion = animist }
 	aristocrats = { size = 2377 culture = brazilian religion = catholic }
@@ -25359,8 +25323,6 @@
 	soldiers = { size = 122 culture = brazilian religion = catholic }
 	soldiers = { size = 1787 culture = brazilian religion = catholic }
 }
-#Bolivia 2310 - 2321
-#Chile 2322-2335
 2336 = {
 	artisans = { size = 34 culture = polynesian religion = animist }
 	clergymen = { size = 14 culture = polynesian religion = animist }
@@ -25476,7 +25438,6 @@
 	farmers = { size = 5467 culture = white_spanish religion = catholic militancy = 6 }
 	farmers = { size = 1274 culture = brazilian religion = catholic }
 }
-#Argentina 2348-2400 ;2554
 2401 = {
 	nomads = { size = 2892 culture = tupinamba religion = animist }
 }
@@ -26614,7 +26575,6 @@
 	clergymen = { size = 34 culture = polynesian religion = animist }
 	farmers = { size = 1335 culture = polynesian religion = animist }
 }
-#Argentina 2554
 2555 = {
 	artisans = { size = 446 culture = yankee religion = protestant }
 	artisans = { size = 200 culture = afro_american religion = protestant }
@@ -26811,7 +26771,6 @@
 	farmers = { size = 11240 culture = albanian religion = sunni }
 	farmers = { size = 2967 culture = greek religion = orthodox }
 }
-#2578 Perú
 2579 = {
 	artisans = { size = 39 culture = micronesian religion = animist }
 	clergymen = { size = 19 culture = micronesian religion = animist }
@@ -27253,7 +27212,6 @@
 	farmers = { size = 444 culture = greek religion = orthodox }
 	farmers = { size = 555 culture = armenian religion = coptic }
 }
-
 2655 = {
 	nomads = { size = 450 culture = siberian religion = animist }
 }
@@ -27851,9 +27809,6 @@
 	soldiers = { size = 33 culture = dutch religion = reformed }
 	soldiers = { size = 1011 culture = dutch religion = reformed }
 }
-#2348-2400 ;2554
-#Under rule of Argentina 1836
-#Buenos Aires (132000/33000 POPS)
 2348 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 625 }
 	bureaucrats = { culture = white_spanish religion = catholic size = 340 }
@@ -27867,7 +27822,6 @@
 	farmers = { size = 500 culture = sicilian religion = catholic }
 	farmers = { size = 500 culture = italian religion = catholic }
 }
-#Junin (56000/14000 POPS)
 2349 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 122 }
 	clergymen = { culture = white_spanish religion = catholic size = 122 }
@@ -27878,7 +27832,6 @@
 	farmers = { size = 500 culture = sicilian religion = catholic }
 	farmers = { size = 500 culture = italian religion = catholic }
 }
-#Azul (12000/3000 POPS)
 3544 = {
 	farmers = { culture = patagonian religion = animist size = 480 }
 }
@@ -27891,11 +27844,9 @@
 2350 = {
 	farmers = { culture = patagonian religion = animist size = 800 }
 }
-#La Plata (4000/1000 POPS)
 2351 = {
 	farmers = { culture = patagonian religion = animist size = 800 }
 }
-#Mar del Plata (12000/3000 POPS)
 2352 = {
 	farmers = { culture = patagonian religion = animist size = 800 }
 }
@@ -27906,8 +27857,6 @@
 	farmers = { size = 500 culture = sicilian religion = catholic }
 	farmers = { size = 500 culture = italian religion = catholic }
 }
-#Under loose authority of Argentina 1836
-#Trenque Lanquen (12000/9000 POPS)
 2353 = {
 	clergymen = { culture = white_spanish religion = catholic size = 25 }
 	farmers = { culture = mestizo religion = catholic size = 900 }
@@ -27915,19 +27864,14 @@
 	clergymen = { culture = patagonian religion = animist size = 50 }
 	farmers = { culture = patagonian religion = animist size = 1800 }
 }
-#Bahia Blanca (24000/6000 POPS)
 2354 = {
 	clergymen = { culture = patagonian religion = animist size = 75 }
 	farmers = { culture = patagonian religion = animist size = 1700 }
 }
-#Carmen (20000/5000 POPS)
 2355 = {
 	clergymen = { culture = patagonian religion = animist size = 75 }
 	farmers = { culture = patagonian religion = animist size = 1700 }
 }
-#Corrientes Region (164000)
-#Under rule of Argentina 1836
-#Corrientes (96000/24000 POPS)
 2356 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 450 }
 	bureaucrats = { culture = white_spanish religion = catholic size = 1100 }
@@ -27940,7 +27884,6 @@
 	soldiers = { culture = guarani religion = animist size = 25 }
 	farmers = { culture = guarani religion = animist size = 15750 }
 }
-#Curuzu Cuatia (16000/4000 POPS)
 2357 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = white_spanish religion = catholic size = 50 }
@@ -27950,7 +27893,6 @@
 	soldiers = { culture = brazilian religion = catholic size = 25 }
 	farmers = { culture = brazilian religion = catholic size = 1825 }
 }
-#Santo Tomas (28000/7000 POPS)
 2358 = {
 	clergymen = { culture = white_spanish religion = catholic size = 50 }
 	soldiers = { culture = white_spanish religion = catholic size = 25 }
@@ -27961,77 +27903,60 @@
 	soldiers = { culture = guarani religion = animist size = 25 }
 	farmers = { culture = guarani religion = animist size = 2700 }
 }
-#Colon (8000/2000 POPS)
 2359 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = white_spanish religion = catholic size = 50 }
 	soldiers = { culture = white_spanish religion = catholic size = 25 }
 	farmers = { culture = white_spanish religion = catholic size = 1900 }
 }
-#Parana (16000/4000 POPS)
 2360 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 75 }
 	clergymen = { culture = white_spanish religion = catholic size = 50 }
 	soldiers = { culture = white_spanish religion = catholic size = 50 }
 	farmers = { culture = white_spanish religion = catholic size = 3825 }
 }
-#Santa Fe Region (72000)
-#Under rule of Argentina 1836
-#Santa Esperitu (8000/2000 POPS)
 2361 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = white_spanish religion = catholic size = 50 }
 	soldiers = { culture = mestizo religion = catholic size = 25 }
 	farmers = { culture = mestizo religion = catholic size = 5800 }
 }
-#Rosario (56000/14000 POPS)
 2362 = {
 	artisans = { culture = guarani religion = animist size = 33 }
 	farmers = { culture = guarani religion = animist size = 835 }
 	artisans = { culture = mestizo religion = animist size = 33 }
 	farmers = { culture = mestizo religion = animist size = 735 }
 }
-#Reconquista (8000/2000 POPS)
 2363 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
 	soldiers = { culture = mestizo religion = catholic size = 25 }
 	farmers = { culture = mestizo religion = catholic size = 1800 }
 }
-#Chaco Region (76000) #see Paraguay.txt for balance of region
-#Under loose authority of Argentina 1836
-#Resistencia (16000/4000 POPS)
 2364 = {
 	aristocrats = { culture = guarani religion = animist size = 50 }
 	clergymen = { culture = guarani religion = animist size = 75 }
 	soldiers = { culture = guarani religion = animist size = 25 }
 	farmers = { culture = guarani religion = animist size = 2700 }
 }
-#Villa Angela (16000/4000 POPS)
 2365 = {
 	aristocrats = { culture = guarani religion = animist size = 50 }
 	clergymen = { culture = guarani religion = animist size = 75 }
 	soldiers = { culture = guarani religion = animist size = 25 }
 	farmers = { culture = guarani religion = animist size = 2700 }
 }
-#Under loose authority of Paraguay 1836
-#Formosa (24000/6000 POPS) #now part of Argentina
 2366 = {
 	aristocrats = { culture = guarani religion = animist size = 75 }
 	clergymen = { culture = guarani religion = animist size = 75 }
 	soldiers = { culture = guarani religion = animist size = 50 }
 	farmers = { culture = guarani religion = animist size = 4575 }
 }
-#Xolotas (20000/5000 POPS) #now part of Argentina
 2367 = {
 	aristocrats = { culture = guarani religion = animist size = 75 }
 	clergymen = { culture = guarani religion = animist size = 75 }
 	soldiers = { culture = guarani religion = animist size = 50 }
 	farmers = { culture = guarani religion = animist size = 4575 }
 }
-#Salta Region (36000)
-#Under rule of Argentina 1836
-#Salta (16000/4000 POPS)
 2368 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 75 }
 	bureaucrats = { culture = white_spanish religion = catholic size = 15 }
@@ -28041,7 +27966,6 @@
 	soldiers = { culture = mestizo religion = catholic size = 50 }
 	farmers = { culture = mestizo religion = catholic size = 2300 }
 }
-#Jujuy (8000/2000 POPS)
 2369 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
@@ -28049,28 +27973,22 @@
 	soldiers = { culture = mestizo religion = catholic size = 25 }
 	farmers = { culture = mestizo religion = catholic size = 900 }
 }
-#Cochinoca (4000/1000 POPS)
 2370 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 15 }
 	clergymen = { culture = mestizo religion = catholic size = 25 }
 	soldiers = { culture = mestizo religion = catholic size = 10 }
 	farmers = { culture = mestizo religion = catholic size = 900 }
 }
-#Equia (4000/1000 POPS)
 2371 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 150 }
 	clergymen = { culture = white_spanish religion = catholic size = 250 }
 	soldiers = { culture = white_spanish religion = catholic size = 100 }
 	farmers = { culture = white_spanish religion = catholic size = 9000 }
 }
-#Rivadavia (4000/1000 POPS)
 2372 = {
 	artisans = { culture = mestizo religion = animist size = 33 }
 	farmers = { culture = mestizo religion = animist size = 735 }
 }
-#Tucuman Region (36000)
-#Under rule of Argentina 1836
-#Tucuman (20000/5000 POPS)
 2373 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 100 }
 	bureaucrats = { culture = white_spanish religion = catholic size = 15 }
@@ -28081,23 +27999,18 @@
 	farmers = { culture = white_spanish religion = catholic size = 12225 }
 	farmers = { culture = mestizo religion = catholic size = 3225 }
 }
-#Catamarca (12000/3000 POPS)
 2374 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 50 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
 	soldiers = { culture = mestizo religion = catholic size = 25 }
 	farmers = { culture = mestizo religion = catholic size = 2700 }
 }
-#Vinchina (4000/1000 POPS)
 2375 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 15 }
 	clergymen = { culture = mestizo religion = catholic size = 25 }
 	soldiers = { culture = mestizo religion = catholic size = 10 }
 	farmers = { culture = mestizo religion = catholic size = 900 }
 }
-#Santiago del Estero Region (40000)
-#Under rule of Argentina 1836
-#Santiago del Estero (16000/4000 POPS)
 2376 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 75 }
 	bureaucrats = { culture = mestizo religion = catholic size = 10 }
@@ -28106,7 +28019,6 @@
 	soldiers = { culture = mestizo religion = catholic size = 50 }
 	farmers = { culture = mestizo religion = catholic size = 3605 }
 }
-#Anatuya (16000/4000 POPS)
 2377 = {
 	clergymen = { culture = white_spanish religion = catholic size = 25 }
 	soldiers = { culture = white_spanish religion = catholic size = 25 }
@@ -28116,7 +28028,6 @@
 	soldiers = { culture = guarani religion = animist size = 25 }
 	farmers = { culture = guarani religion = animist size = 2700 }
 }
-#Mailin (8000/2000 POPS)
 2378 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = white_spanish religion = catholic size = 15 }
@@ -28124,9 +28035,6 @@
 	farmers = { culture = white_spanish religion = catholic size = 800 }
 	farmers = { culture = mestizo religion = catholic size = 1000 }
 }
-#Cordoba Region (136000)
-#Under rule of Argentina 1836
-#Cordoba de Argentina (84000/21000 POPS)
 2379 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 425 }
 	bureaucrats = { culture = white_spanish religion = catholic size = 40 }
@@ -28138,29 +28046,24 @@
 	farmers = { culture = mestizo religion = catholic size = 3300 }
 	farmers = { culture = white_spanish religion = catholic size = 8300 }
 }
-#Villa Nueva (8000/2000 POPS)
 2380 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
 	soldiers = { culture = mestizo religion = catholic size = 125 }
 	farmers = { culture = mestizo religion = catholic size = 1800 }
 }
-#Rio Cuarto (8000/2000 POPS)
 2381 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
 	soldiers = { culture = mestizo religion = catholic size = 125 }
 	farmers = { culture = mestizo religion = catholic size = 1800 }
 }
-#San Luis (8000/2000 POPS)
 2383 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
 	soldiers = { culture = mestizo religion = catholic size = 125 }
 	farmers = { culture = mestizo religion = catholic size = 1800 }
 }
-#Under the loose rule of Argentina 1836
-#Renanco (20000/5000 POPS)
 2382 = {
 	clergymen = { culture = mestizo religion = catholic size = 50 }
 	soldiers = { culture = mestizo religion = catholic size = 125 }
@@ -28170,7 +28073,6 @@
 	soldiers = { culture = patagonian religion = animist size = 175 }
 	farmers = { culture = patagonian religion = animist size = 2700 }
 }
-#Mercedes (8000/2000 POPS)
 2384 = {
 	clergymen = { culture = mestizo religion = catholic size = 25 }
 	soldiers = { culture = white_spanish religion = catholic size = 125 }
@@ -28180,9 +28082,6 @@
 	soldiers = { culture = patagonian religion = animist size = 5 }
 	farmers = { culture = patagonian religion = animist size = 900 }
 }
-#La Rioja Region (40000)
-#Under rule of Argentina 1836
-#La Rioja (16000/4000 POPS)
 2385 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 75 }
 	bureaucrats = { culture = mestizo religion = catholic size = 15 }
@@ -28191,21 +28090,18 @@
 	soldiers = { culture = mestizo religion = catholic size = 250 }
 	farmers = { culture = mestizo religion = catholic size = 3700 }
 }
-#Santa Rita (8000/2000 POPS)
 2386 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
 	soldiers = { culture = mestizo religion = catholic size = 125 }
 	farmers = { culture = mestizo religion = catholic size = 1800 }
 }
-#San Juan de la Frontera (12000/3000 POPS)
 2387 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 50 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
 	soldiers = { culture = mestizo religion = catholic size = 75 }
 	farmers = { culture = mestizo religion = catholic size = 2700 }
 }
-#Calingasta (4000/1000 POPS)
 2388 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 15 }
 	clergymen = { culture = mestizo religion = catholic size = 25 }
@@ -28230,9 +28126,6 @@
 	soldiers = { culture = mestizo religion = catholic size = 25 }
 	farmers = { culture = mestizo religion = catholic size = 555 }
 }
-#Mendoza Region (32000)
-#Under rule of Argentina 1836
-#Mendoza (12000/3000 POPS)
 2389 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 50 }
 	bureaucrats = { culture = mestizo religion = catholic size = 5 }
@@ -28241,12 +28134,9 @@
 	soldiers = { culture = mestizo religion = catholic size = 200 }
 	farmers = { culture = mestizo religion = catholic size = 2660 }
 }
-#San Rafael (8000/2000 POPS)
 2390 = {
 	farmers = { culture = patagonian religion = animist size = 600 }
 }
-#Under the loose rule of Argentina 1836
-#Neuquen (12000/3000 POPS)
 2391 = {
 	clergymen = { culture = mestizo religion = catholic size = 25 }
 	soldiers = { culture = mestizo religion = catholic size = 75 }
@@ -28256,23 +28146,18 @@
 	soldiers = { culture = patagonian religion = animist size = 125 }
 	farmers = { culture = patagonian religion = animist size = 3800 }
 }
-#Rio Negro-La Pampa Region (52000)
-#Under the loose rule of Argentina 1836
-#Viedma (12000/3000 POPS)
 2392 = {
 	aristocrats = { culture = patagonian religion = animist size = 50 }
 	clergymen = { culture = patagonian religion = animist size = 75 }
 	soldiers = { culture = patagonian religion = animist size = 175 }
 	farmers = { culture = patagonian religion = animist size = 2700 }
 }
-#Telen (12000/3000 POPS)
 2393 = {
 	aristocrats = { culture = patagonian religion = animist size = 50 }
 	clergymen = { culture = patagonian religion = animist size = 75 }
 	soldiers = { culture = patagonian religion = animist size = 175 }
 	farmers = { culture = patagonian religion = animist size = 2700 }
 }
-#Bariloche (16000/4000 POPS)
 2394 = {
 	clergymen = { culture = white_spanish religion = catholic size = 25 }
 	soldiers = { culture = white_spanish religion = catholic size = 75 }
@@ -28282,47 +28167,36 @@
 	soldiers = { culture = patagonian religion = animist size = 250 }
 	farmers = { culture = patagonian religion = animist size = 3675 }
 }
-#Curaco (12000/3000 POPS)
 2395 = {
 	aristocrats = { culture = patagonian religion = animist size = 50 }
 	clergymen = { culture = patagonian religion = animist size = 75 }
 	soldiers = { culture = patagonian religion = animist size = 175 }
 	farmers = { culture = patagonian religion = animist size = 2700 }
 }
-#Patagonia Region (20000)
-#Under the loose rule of Argentina 1836
-#Rawson (4000/1000 POPS)
 2396 = {
 	aristocrats = { culture = patagonian religion = animist size = 10 }
 	clergymen = { culture = patagonian religion = animist size = 25 }
 	soldiers = { culture = patagonian religion = animist size = 65 }
 	farmers = { culture = patagonian religion = animist size = 900 }
 }
-#Esquel (4000/1000 POPS)
 2397 = {
 	aristocrats = { culture = patagonian religion = animist size = 10 }
 	clergymen = { culture = patagonian religion = animist size = 25 }
 	soldiers = { culture = patagonian religion = animist size = 65 }
 	farmers = { culture = patagonian religion = animist size = 900 }
 }
-#Puerto Deseado (4000/1000 POPS)
 2398 = {
 	aristocrats = { culture = patagonian religion = animist size = 10 }
 	clergymen = { culture = patagonian religion = animist size = 25 }
 	soldiers = { culture = patagonian religion = animist size = 65 }
 	farmers = { culture = patagonian religion = animist size = 900 }
 }
-#Rio Gallegos (4000/1000 POPS)
 2399 = {
 	nomads = { culture = patagonian religion = animist size = 867 }
 }
-#Rio Grande (4000/1000 POPS)
 2400 = {
 	nomads = { culture = patagonian religion = animist size = 789 }
 }
-#Paraguay Region (16000) #see Paraguay.txt & Brazil.txt for balance of region
-#Under loose authority of Paraguay 1836
-#Posadas (16000/4000 POPS) #now part of Argentina
 2554 = {
 	clergymen = { culture = white_spanish religion = catholic size = 75 }
 	soldiers = { culture = white_spanish religion = catholic size = 25 }
@@ -28332,9 +28206,6 @@
 	soldiers = { culture = guarani religion = animist size = 175 }
 	farmers = { culture = guarani religion = animist size = 2700 }
 }
-#2286 - 2304 ;2578 Loreto Region (96000)
-#Ruled by Peru 1836
-#Iquitos (60000/15000 POPS)
 2286 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 75 }
 	bureaucrats = { culture = mestizo religion = catholic size = 5 }
@@ -28353,8 +28224,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 100 }
 	farmers = { culture = tupinamba religion = animist size = 9125 }
 }
-#"Ruled" by Ecuador 1836
-#Yurimagues (12000/3000 POPS)
 2287 = {
 	aristocrats = { culture = tupinamba religion = animist size = 50 }
 	clergymen = { culture = tupinamba religion = animist size = 75 }
@@ -28362,7 +28231,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 25 }
 	farmers = { culture = tupinamba religion = animist size = 2700 }
 }
-#Yuncos (12000/3000 POPS)
 2288 = {
 	aristocrats = { culture = tupinamba religion = animist size = 50 }
 	clergymen = { culture = tupinamba religion = animist size = 75 }
@@ -28370,7 +28238,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 25 }
 	farmers = { culture = tupinamba religion = animist size = 2700 }
 }
-#Puca Urco (12000/3000 POPS)
 2289 = {
 	aristocrats = { culture = tupinamba religion = animist size = 50 }
 	clergymen = { culture = tupinamba religion = animist size = 75 }
@@ -28378,9 +28245,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 25 }
 	farmers = { culture = tupinamba religion = animist size = 2700 }
 }
-#Cajamarca Region (296000)
-#Ruled by Peru 1836
-#Cajamarca (144000/38000 POPS)
 2290 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 800 }
 	bureaucrats = { culture = mestizo religion = catholic size = 100 }
@@ -28394,7 +28258,6 @@
 	soldiers = { culture = quechua religion = catholic size = 250 }
 	farmers = { culture = quechua religion = catholic size = 19325 }
 }
-#Piura (60000/15000 POPS)
 2291 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 325 }
 	clergymen = { culture = mestizo religion = catholic size = 100 }
@@ -28411,7 +28274,6 @@
 	farmers = { culture = black_spanish religion = catholic size = 1100 }
 	slaves = { culture = black_spanish religion = catholic size = 750 }
 }
-#Trujillo (68000/17000 POPS)
 2292 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 375 }
 	clergymen = { culture = mestizo religion = catholic size = 125 }
@@ -28428,7 +28290,6 @@
 	farmers = { culture = black_spanish religion = catholic size = 1100 }
 	slaves = { culture = black_spanish religion = catholic size = 750 }
 }
-#Moyobamba (24000/6000 POPS)
 2294 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 50 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
@@ -28445,9 +28306,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 25 }
 	farmers = { culture = tupinamba religion = animist size = 2700 }
 }
-#Junin Region (204000)
-#Ruled by Peru 1836
-#Huanuco (36000/9000 POPS)
 2293 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 200 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
@@ -28459,7 +28317,6 @@
 	soldiers = { culture = quechua religion = catholic size = 75 }
 	farmers = { culture = quechua religion = catholic size = 6500 }
 }
-#Jauja (60000/15000 POPS)
 2296 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 325 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
@@ -28471,7 +28328,6 @@
 	soldiers = { culture = quechua religion = catholic size = 125 }
 	farmers = { culture = quechua religion = catholic size = 12175 }
 }
-#Ayacucho (108000/27000 POPS)
 2299 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 575 }
 	bureaucrats = { culture = mestizo religion = catholic size = 75 }
@@ -28485,12 +28341,8 @@
 	soldiers = { culture = quechua religion = catholic size = 225 }
 	farmers = { culture = quechua religion = catholic size = 21525 }
 }
-#Lima Region (484000)
-#Ruled by Peru 1836
-#Lima (324000/81000 POPS)
 2295 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 1300 }
-	
 	bureaucrats = { culture = white_spanish religion = catholic size = 200 }
 	soldiers = { culture = mestizo religion = catholic size = 150 }
 	clergymen = { culture = mestizo religion = catholic size = 700 }
@@ -28510,7 +28362,6 @@
 	farmers = { culture = black_spanish religion = catholic size = 1400 }
 	slaves = { culture = black_spanish religion = catholic size = 1500 }
 }
-#Ica (60000/15000 POPS)
 2297 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 325 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
@@ -28527,7 +28378,6 @@
 	farmers = { culture = black_spanish religion = catholic size = 500 }
 	slaves = { culture = black_spanish religion = catholic size = 400 }
 }
-#Huaraz (100000/25000 POPS)
 2298 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 525 }
 	clergymen = { culture = mestizo religion = catholic size = 150 }
@@ -28544,9 +28394,6 @@
 	farmers = { culture = black_spanish religion = catholic size = 1100 }
 	slaves = { culture = black_spanish religion = catholic size = 750 }
 }
-#Ucayali Region (32000)
-#Ruled by Peru 1836
-#Pucallpa (20000/5000 POPS)
 2300 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 14 }
 	bureaucrats = { culture = mestizo religion = catholic size = 1 }
@@ -28560,7 +28407,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 50 }
 	farmers = { culture = tupinamba religion = animist size = 36225 }
 }
-#Puerto Maldonado (12000/3000 POPS)
 2301 = {
 	aristocrats = { culture = tupinamba religion = animist size = 50 }
 	clergymen = { culture = tupinamba religion = animist size = 75 }
@@ -28568,9 +28414,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 25 }
 	farmers = { culture = tupinamba religion = animist size = 2700 }
 }
-#Cusco Region (404000)
-#Ruled by Peru 1836
-#Cusco (228000/57000 POPS)
 2302 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 1150 }
 	bureaucrats = { culture = mestizo religion = catholic size = 125 }
@@ -28583,7 +28426,6 @@
 	artisans = { culture = quechua religion = catholic size = 2100 }
 	farmers = { culture = quechua religion = catholic size = 39275 }
 }
-#Puno (104000/26000 POPS)
 2303 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 575 }
 	clergymen = { culture = mestizo religion = catholic size = 150 }
@@ -28595,7 +28437,6 @@
 	soldiers = { culture = quechua religion = catholic size = 250 }
 	farmers = { culture = quechua religion = catholic size = 21500 }
 }
-#Arequipa (72000/18000 POPS)
 2304 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 375 }
 	clergymen = { culture = mestizo religion = catholic size = 125 }
@@ -28607,9 +28448,6 @@
 	soldiers = { culture = quechua religion = catholic size = 150 }
 	farmers = { culture = quechua religion = catholic size = 13100 }
 }
-#Atacama Region (100000) #see Chile.txt for balance of Region
-#Ruled by Peru 1836
-#Tacna (100000/25000 POPS)
 2578 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 550 }
 	bureaucrats = { culture = mestizo religion = catholic size = 25 }
@@ -28623,9 +28461,6 @@
 	soldiers = { culture = aimara religion = catholic size = 200 }
 	farmers = { culture = aimara religion = catholic size = 18700 }
 }
-#2305 -2335 Atacama Region (164000) #see Peru.txt for balance of Region
-#Ruled by Bolivia 1836
-#Antofagasta (80000/20000 POPS)
 2305 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 25 }
 	bureaucrats = { culture = mestizo religion = catholic size = 25 }
@@ -28639,7 +28474,6 @@
 	soldiers = { culture = aimara religion = catholic size = 125 }
 	farmers = { culture = aimara religion = catholic size = 1225 }
 }
-#Calama (32000/8000 POPS)
 2309 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 175 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
@@ -28651,8 +28485,6 @@
 	soldiers = { culture = aimara religion = catholic size = 50 }
 	farmers = { culture = aimara religion = catholic size = 1700 }
 }
-#Ruled by Peru 1836
-#Iquique (32000/8000 POPS)
 2307 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 175 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
@@ -28664,7 +28496,6 @@
 	soldiers = { culture = aimara religion = catholic size = 75 }
 	farmers = { culture = aimara religion = catholic size = 1575 }
 }
-#Arica (20000/5000 POPS)
 2308 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 125 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
@@ -28676,9 +28507,6 @@
 	soldiers = { culture = aimara religion = catholic size = 50 }
 	farmers = { culture = aimara religion = catholic size = 1725 }
 }
-#Chile Norte Region (116000)
-#Ruled by Chile 1836
-#Copiapo (52000/13000 POPS)
 2322 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 275 }
 	clergymen = { culture = mestizo religion = catholic size = 125 }
@@ -28686,7 +28514,6 @@
 	soldiers = { culture = mestizo religion = catholic size = 125 }
 	farmers = { culture = mestizo religion = catholic size = 6825 }
 }
-#La Serena (64000/16000 POPS)
 2323 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 350 }
 	bureaucrats = { culture = mestizo religion = catholic size = 100 }
@@ -28696,9 +28523,6 @@
 	soldiers = { culture = mestizo religion = catholic size = 175 }
 	farmers = { culture = mestizo religion = catholic size = 8450 }
 }
-#Valle Central Region (640000)
-#Ruled by Chile 1836
-#Santiago (420100/105000 POPS)
 2324 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 550 }	
 	aristocrats = { culture = white_spanish religion = catholic size = 1500 }
@@ -28713,7 +28537,6 @@
 	farmers = { culture = patagonian religion = catholic size = 2000 }	
 	farmers = { culture = mestizo religion = catholic size = 6000 }	
 }
-#Valparaiso (128000/32000 POPS)
 2325 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 375 }
 	clergymen = { culture = white_spanish religion = catholic size = 25 }
@@ -28731,7 +28554,6 @@
 	artisans = { culture = white_spanish religion = catholic size = 150 }
 	clergymen = { culture = white_spanish religion = catholic size = 150 }
 }
-#Vina del Mar (72000/18000 POPS)
 2326 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 375 }
 	clergymen = { culture = white_spanish religion = catholic size = 175 }
@@ -28749,7 +28571,6 @@
 	clergymen = { culture = mestizo religion = catholic size = 30 }
 	clergymen = { culture = white_spanish religion = catholic size = 130 }
 }
-#Talca (20000/5000 POPS)
 2327 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 125 }
 	clergymen = { culture = white_spanish religion = catholic size = 50 }
@@ -28757,9 +28578,6 @@
 	soldiers = { culture = mestizo religion = catholic size = 50 }
 	farmers = { culture = patagonian religion = catholic size = 4525 }
 }
-#Bio-Bio Region (232000)
-#Ruled by Chile 1836
-#Valdivia (92000/23000 POPS)
 2328 = {
 	aristocrats = { culture = patagonian religion = animist size = 22 }
 	clergymen = { culture = patagonian religion = animist size = 22 }
@@ -28767,7 +28585,6 @@
 	soldiers = { culture = patagonian religion = animist size = 1111 }
 	farmers = { culture = patagonian religion = animist size = 12475 }
 }
-#Temuco (36000/9000 POPS)
 2329 = {
 	aristocrats = { culture = patagonian religion = catholic size = 125 }
 	clergymen = { culture = patagonian religion = catholic size = 50 }
@@ -28785,7 +28602,6 @@
 	clergymen = { culture = patagonian religion = animist size = 85 }
 	farmers = { culture = patagonian religion = animist size = 2100 }
 }
-#Cauquenes (68000/17000 POPS)
 2330 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 350 }
 	clergymen = { culture = mestizo religion = catholic size = 150 }
@@ -28793,7 +28609,6 @@
 	soldiers = { culture = white_spanish religion = catholic size = 1100 }
 	farmers = { culture = mestizo religion = catholic size = 4650 }
 }
-#Chillan (36000/9000 POPS)
 2331 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 175 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
@@ -28806,9 +28621,6 @@
 	soldiers = { culture = patagonian religion = animist size = 25 }
 	farmers = { culture = patagonian religion = animist size = 1800 }
 }
-#Magellanes Region (92000)
-#Ruled by Chile 1836
-#Osorno (68000/17000 POPS)
 2332 = {
 	aristocrats = { culture = patagonian religion = catholic size = 275 }
 	bureaucrats = { culture = patagonian religion = catholic size = 15 }
@@ -28817,23 +28629,18 @@
 	artisans = { culture = patagonian religion = catholic size = 650 }
 	soldiers = { culture = patagonian religion = catholic size = 125 }
 	farmers = { culture = patagonian religion = catholic size = 1800 }
-#
 	aristocrats = { culture = white_spanish religion = animist size = 75 }
 	clergymen = { culture = mestizo religion = animist size = 75 }
 	artisans = { culture = mestizo religion = animist size = 200 }
 	soldiers = { culture = mestizo religion = animist size = 50 }
 	farmers = { culture = patagonian religion = animist size = 3600 }
 }
-#uncolonized/claimed by Chile 1836
-#Puerto Aisen (12000/3000 POPS)
 2333 = {
 	nomads = { culture = patagonian religion = animist size = 2674 }
 }
-#Punta Arenas (8000/2000 POPS)
 2334 = {
 	nomads = { culture = patagonian religion = animist size = 1800 }
 }
-#Porvenir (4000/1000 POPS)
 2335 = {
 	aristocrats = { culture = patagonian religion = animist size = 10 }
 	clergymen = { culture = patagonian religion = animist size = 25 }
@@ -28841,9 +28648,6 @@
 	soldiers = { culture = patagonian religion = animist size = 15 }
 	farmers = { culture = patagonian religion = animist size = 900 }
 }
-#2310 - 2321 La Paz Region (784000)
-#Ruled by Bolivia 1836
-#La Paz (392000/98000 POPS)
 2310 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 1100 }
 	bureaucrats = { culture = white_spanish religion = catholic size = 400 }
@@ -28861,7 +28665,6 @@
 	soldiers = { culture = quechua religion = catholic size = 50 }
 	farmers = { culture = quechua religion = catholic size = 2775 }
 }
-#Cochabamba (352000/88000 POPS)
 2311 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 1700 }
 	clergymen = { culture = mestizo religion = catholic size = 550 }
@@ -28872,7 +28675,6 @@
 	artisans = { culture = quechua religion = catholic size = 3250 }
 	farmers = { culture = quechua religion = catholic size = 61500 }
 }
-#Oruro (40000/10000 POPS)
 2312 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 225 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
@@ -28883,9 +28685,6 @@
 	artisans = { culture = aimara religion = catholic size = 350 }
 	farmers = { culture = aimara religion = catholic size = 6575 }
 }
-#Chuquisaca Region (288000)
-#Ruled by Bolivia 1836
-#Chuquisaca (116000/29000 POPS)
 2313 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 600 }
 	bureaucrats = { culture = mestizo religion = catholic size = 75 }
@@ -28899,7 +28698,6 @@
 	soldiers = { culture = quechua religion = catholic size = 1050 }
 	farmers = { culture = quechua religion = catholic size = 23325 }
 }
-#Potosi (120000/30000 POPS)
 2314 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 625 }
 	clergymen = { culture = mestizo religion = catholic size = 150 }
@@ -28910,7 +28708,6 @@
 	artisans = { culture = aimara religion = catholic size = 1350 }
 	farmers = { culture = aimara religion = catholic size = 25525 }
 }
-#Tarija (52000/13000 POPS)
 2315 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 275 }
 	clergymen = { culture = mestizo religion = catholic size = 75 }
@@ -28922,9 +28719,6 @@
 	soldiers = { culture = quechua religion = catholic size = 125 }
 	farmers = { culture = quechua religion = catholic size = 11225 }
 }
-#Santa Cruz Region (48000)
-#Ruled by Bolivia 1836
-#Santa Cruz (16000/4000 POPS)
 2316 = {
 	aristocrats = { culture = spanish religion = catholic size = 100 }
 	bureaucrats = { culture = mestizo religion = catholic size = 5 }
@@ -28938,7 +28732,6 @@
 	soldiers = { culture = guarani religion = animist size = 50 }
 	farmers = { culture = guarani religion = animist size = 2775 }
 }
-#San Ignacio (20000/5000 POPS)
 2317 = {
 	clergymen = { culture = mestizo religion = catholic size = 25 }
 	artisans = { culture = mestizo religion = catholic size = 50 }
@@ -28955,7 +28748,6 @@
 	soldiers = { culture = guarani religion = animist size = 25 }
 	farmers = { culture = guarani religion = animist size = 1800 }
 }
-#Robore (12000/3000 POPS)
 2318 = {
 	aristocrats = { culture = guarani religion = animist size = 50 }
 	clergymen = { culture = guarani religion = animist size = 75 }
@@ -28963,9 +28755,6 @@
 	soldiers = { culture = guarani religion = animist size = 25 }
 	farmers = { culture = guarani religion = animist size = 2700 }
 }
-#Beni Region (116000) #see Brazil.txt for balance of region
-#Ruled by Bolivia 1836
-#Santa Ana (76000/19000 POPS)
 2319 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 275 }
 	bureaucrats = { culture = mestizo religion = catholic size = 25 }
@@ -28984,7 +28773,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 75 }
 	farmers = { culture = tupinamba religion = animist size = 5475 }
 }
-#Riberalta (12000/3000 POPS)
 2320 = {
 	aristocrats = { culture = tupinamba religion = animist size = 50 }
 	clergymen = { culture = tupinamba religion = animist size = 75 }
@@ -28992,7 +28780,6 @@
 	soldiers = { culture = tupinamba religion = animist size = 25 }
 	farmers = { culture = tupinamba religion = animist size = 2700 }
 }
-#Cobija (28000/7000 POPS)
 2321 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 100 }
 	clergymen = { culture = mestizo religion = catholic size = 50 }
