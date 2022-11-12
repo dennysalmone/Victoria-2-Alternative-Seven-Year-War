@@ -1,25 +1,25 @@
-#;X
-COLONIAL_RANGE;Колониальная дистанция: §G+$VAL$§W;X
-MODIFIER_LOCAL_SHIP_BUILD;Время строительства кораблей в провинции;X
-CB_ALLOWED_ANNEX;Полное присоединение;X
-CB_ALLOWED_ADD_TO_SPHERE;Присоединение к сфере;X
-CB_ALLOWED_RELEASE_PUPPET;Освобождение вассала;X
-CB_ALLOWED_STATUS_QUO;Возвращение к статусу-кво;X
-CB_ALLOWED_TRANSFER_PROVINCES;Передача провинций;X
-CB_ALLOWED_PRESTIGE;Снижение престижа;X
-CB_ALLOWED_CONCESSION;Признание поражения;X
-MAINTENANCE_DESC;Требуется товаров для работы:;X
-MISSING_MAINTENANCE;Поскольку фабрике не хватает материалов, выпуск ею товаров сокращается на §R$PERC$§W.;X
-PROCEED;Принять;X
-ENDGAME_HEADLINE;Конец игры;X
-ENDGAME_DESC;Прошло сто судьбоносных лет, и теперь вы вступаете в современную эпоху. За это время мир изменился просто радикально. А что произошло с вашей страной?;X
-NEEDS_BOUGHT;Ожидаемые нужды на сегодня:;X
-TOTAL_NEEDS_BOUGHT;Ожидаемые затраты на нужды:;X
-TOTAL_SOLD_FOR;Вчера мы произвели $NUM$ ед. товара §Y$GOOD$§W, которые были проданы за $CASH$¤.;X
-COULDNT_AFFORD;Фабрика не смогла вчера приобрести все необходимые ей для производства материалы.;X
-INPUT_LACKING;На рынке не хватает товара §Y$GOOD$§W, чтобы удовлетворить все потребности фабрики в материалах на производство.;X
-OUTPUT_WASTED;$NUM$ из $PRODUCED$ ед. товара §Y$GOOD$§W не были проданы вчера.;X
-TRADE_CONFIRM_DESC;Ручное управление торговли означает, что нам однажды может потребоваться взять заем, чтобы купить требуемый товар.;X
-BUDGET_TAX_EFFICIENCY;Эффективность налогообложения: §Y$VALUE$%§W;X
-BUDGET_TAX_EFFECT;Эффективная ставка налогообложения: §Y$VALUE$%§W;X
-LEADERSHIP_EFFECT;Лидерство: §G$VALUE$§W.\n;X
+#;;;;;;;;;;;;;x
+COLONIAL_RANGE;Colonial Range: пїЅG+$VAL$пїЅW;PortпїЅe colonialeпїЅ: пїЅG+$VAL$пїЅW;Kolonialreichweite: пїЅG+$VAL$пїЅW;;Alcance colonial: пїЅG+$VAL$пїЅW;;;;;;;;x
+MODIFIER_LOCAL_SHIP_BUILD;Local Ship Build Time;DпїЅlai de construction de navire;Lokale Schiffsbauzeit;;Tiempo de construcciпїЅn de barco en la zona;;;;;;;;x
+CB_ALLOWED_ANNEX;Allow Annexation;Autoriser l'annexion;Annektierung erlauben;;Permitir anexiпїЅn;;;;;;;;x
+CB_ALLOWED_ADD_TO_SPHERE;Add to Sphere;Ajouter пїЅ la sphпїЅre;Zu SphпїЅre hinzufпїЅgen;;AпїЅadir a la esfera;;;;;;;;x
+CB_ALLOWED_RELEASE_PUPPET;Release of Puppet;LibпїЅration d'un пїЅtat fantoche;Entlassung von Marionettenstaat;;LiberaciпїЅn de tпїЅtere;;;;;;;;x
+CB_ALLOWED_STATUS_QUO;Return to Status Quo;Retour au statu quo;RпїЅckkehr zum Status Quo;;Volver al 'Statu Quo'.;;;;;;;;x
+CB_ALLOWED_TRANSFER_PROVINCES;Transfer of provinces;Transfert des provinces;пїЅbertragung von Provinzen;;Transferencia de provincias;;;;;;;;x
+CB_ALLOWED_PRESTIGE;Reduction of Prestige;Diminution du prestige;Prestige-Reduzierung;;ReducciпїЅn de prestigio;;;;;;;;x
+CB_ALLOWED_CONCESSION;Concede Defeat;ConcпїЅder la dпїЅfaite;Niederlage eingestehen;;Admitir derrota;;;;;;;;x
+MAINTENANCE_DESC;Maintenance goods need:;Besoin en matпїЅriaux pour la maintenance :;BenпїЅtigte InstandhaltungsgпїЅter:;;Bienes de mantenimiento necesarios:;;;;;;;;x
+MISSING_MAINTENANCE;Output is reduced to пїЅR$PERC$пїЅW since factory is missing maintenance goods;La production est rпїЅduite пїЅ пїЅR$PERC$пїЅW, car l'usine manque de matпїЅriaux pour la maintenance.;Leistung wird auf пїЅR$PERC$пїЅW reduziert, da es der Fabrik an InstandhaltungsgпїЅtern fehlt.;;La producciпїЅn se ha reducido hasta un пїЅR$PERC$пїЅW, ya que a la fпїЅbrica le faltan bienes de mantenimiento;;;;;;;;x
+PROCEED;Proceed;Accepter;Fortfahren;;Proceder;;;;;;;;x
+ENDGAME_HEADLINE;Game Over;Game Over;Das Spiel ist jetzt zu Ende;;Fin de la partida;;;;;;;;x
+ENDGAME_DESC;One hundred Momentous years have passed and we have entered the modern age. The world is a radically different place, how did your country do?;Cent ans ont passпїЅ et nous sommes entrпїЅs dans une пїЅre moderne. Le monde est un endroit radicalement diffпїЅrent, comment cela s'est-il  passпїЅ pour votre pays ?;Einhundert bedeutsame Jahre sind vergangen und die Neuzeit ist jetzt angebrochen. Die Welt hat sich radikal verпїЅndert, wie ist es Ihrem Land ergangen?;;Ha transcurrido un centenar de aпїЅos transcendentales y hemos entrado en la era moderna. El mundo es lugar radicalmente distinto, пїЅcпїЅmo le ha ido a tu paпїЅs?;;;;;;;;x 
+NEEDS_BOUGHT;Estimated needs for today:;Estimation des besoins pour aujourd'hui :;GeschпїЅtzte heutige BedпїЅrfnisse:;;Necesidades estimadas para hoy:;;;;;;;;x
+TOTAL_NEEDS_BOUGHT;Estimated needs cost:;Estimation du coпїЅt des besoins:;Kosten der geschпїЅtzten BedпїЅrfnisse:;;Coste de necesidades estimadas:;;;;;;;;x
+TOTAL_SOLD_FOR;Yesterday we produced $NUM$ пїЅY$GOOD$пїЅW which sold for $CASH$пїЅ;Hier, nous avons produit $NUM$ пїЅY$GOOD$пїЅW qui se sont vendus pour $CASH$пїЅ;Gestern haben wir $NUM$ пїЅY$GOOD$пїЅW produziert, die fпїЅr $CASH$пїЅ verkauft wurden;;Ayer produjimos $NUM$ пїЅY$GOOD$пїЅW, que vendimos por $CASH$пїЅ;;;;;;;;x
+COULDNT_AFFORD;Factory couldn't afford to buy all its inputs yesterday;Hier, l'usine ne pouvait pas se permettre d'acheter toutes ses matiпїЅres premiпїЅres.;Die Fabrik hatte gestern nicht genug Geld um alle nпїЅtigen InputgпїЅter zu kaufen;;Ayer, la fпїЅbrica no pudo comprar todos sus recursos;;;;;;;;x
+INPUT_LACKING;There's not enough пїЅY$GOOD$пїЅW on the market to satisfy factory input needs;Il n'y a pas assez de пїЅY$GOOD$пїЅW sur le marchпїЅ pour satisfaire les besoins en matiпїЅres premiпїЅres de l'usine.;Es gibt nicht genug пїЅY$GOOD$пїЅW auf dem Markt um alle InputgпїЅter fпїЅr die Fabrik zu befriedigen;;No hay suficiente пїЅY$GOOD$пїЅW en el mercado para satisfacer los recursos que necesita la fпїЅbrica;;;;;;;;x
+OUTPUT_WASTED;$NUM$ of $PRODUCED$ пїЅY$GOOD$пїЅW didn't get sold yesterday;$NUM$ de $PRODUCED$ пїЅY$GOOD$пїЅW n'ont pas пїЅtпїЅ vendus hier.;Gestern wurden $NUM$ von $PRODUCED$ пїЅY$GOOD$пїЅW nicht verkauft;;$NUM$ de lo(a)s $PRODUCED$ пїЅY$GOOD$пїЅW no se vendieron ayer;;;;;;;;x
+TRADE_CONFIRM_DESC;Setting a manual trade means we might end up taking loans to afford purchases.;Mettre le commerce en manuel, signifie que nous pourrions avoir пїЅ prendre des prпїЅts pour payer les achats.;Mit einer manuellen Handelsorder kann es passieren, dass wir Kredite aufnehmen um die EinkпїЅufe zu tпїЅtigen;;Fijar un comercio manual significa que podemos acabar pidiendo prпїЅstamos para hacer compras.;;;;;;;;x
+BUDGET_TAX_EFFICIENCY;Tax Efficiency: пїЅY$VALUE$%пїЅW;EfficacitпїЅ fiscale : пїЅY$VALUE$%пїЅW;Steuereffizienz: пїЅY$VALUE$%пїЅW;;Eficacia impositiva: пїЅY$VALUE$%пїЅW;;;;;;;;x
+BUDGET_TAX_EFFECT;Effective tax: пїЅY$VALUE$%пїЅW;Imposition effective : пїЅY$VALUE$%пїЅW;Effektiver Steuersatz: пїЅY$VALUE$%пїЅW;;Impuesto efectivo: пїЅY$VALUE$%пїЅW;;;;;;;;x
+LEADERSHIP_EFFECT;Leadership: пїЅG$VALUE$пїЅW.\n;Commandement : пїЅG$VALUE$пїЅW.\n;AnfпїЅhrer: пїЅG$VALUE$пїЅW.\n;;Liderazgo: пїЅG$VALUE$пїЅW.\n;;;;;;;;x

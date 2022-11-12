@@ -1,90 +1,90 @@
-disarming;Принуждение к разоружению!;X
-HAS_NOT_RECENTLY_LOST_WAR;Не терпели поражение в войне в течение предыдущих пяти лет;X
-HAS_RECENTLY_LOST_WAR;Терпели поражение в войне в течение предыдущих пяти лет;X
-IN_SAME_SPHERE;Эта страна в сфере той же великой державы, что и мы;X
-NOR_reactionary;Партия Конге;X
-ATJ_reactionary;Партия государственных основ;X
-ATJ_liberal;Партия свободы;X
-ATJ_anarcho_liberal;Партия радикального обновления;X
-ATJ_socialist;Партия справедливости;X
-ATJ_communist;Партия рабочих и крестьян;X
-ATJ_fascist;Партия нового порядка;X
-CAL_conservative;Республиканская партия;X
-KHI_conservative;Фракция эмира;X
-KHI_liberal;Фракция шуры;X
-KHI_reactionary;Фракция беев;X
-KHI_anarcho_liberal;Радикальные республиканцы;X
-KHI_socialist;Социал-демократический союз;X
-KHI_communist;Рабочая коммунистическая партия;X
-KHI_fascist;Фракция басмачества;X
-MAD_conservative;Партия стабильности;X
-MAD_liberal;Партия свободы;X
-MAD_reactionary;Партия порядка;X
-MAD_anarcho_liberal;Партия радикального обновления;X
-MAD_socialist;Партия справедливости;X
-MAD_communist;Партия возрождения Либерталии;X
-MAD_fascist;Партия нового порядка;X
-TRI_conservative;Суннитская партия;X
-TRI_liberal;Демократический союз;X
-TRI_reactionary;Абсолютистская партия;X
-TRI_anarcho_liberal;Панарабская партия;X
-TRI_socialist;Левый демократический альянс;X
-TRI_communist;Федерация независимых общин;X
-TRI_fascist;Народный конгресс ;X
-TEX_communist;Коммунистическая партия;X
-BAD_fascist;НСДАП;X
-BAV_fascist;НСДАП;X
-WEI_fascist;НСДАП;X
-WLL_fascist;Рексистская партия;X
-NEW_fascist;Национал-фашистская партия;X
-DIPLOMACY_CHANCE_JOIN_WAR;Повод вступления в войну: §Y$VAL$§W;X
-PO_ISBETTER;Если мы отклоним это предложение, то произойдёт:\n §R+$MIL$§W Militancy, §R+$WE$§W War exhaustion;X
-leave_soi_title;Покинуть сферу влияния;X
-leave_soi_desc;Мы можем выйти из сферы влияния, но у великой державы появится повод объявить нам войну;X
-NEW_PARTY_AVAIL_SETUP;Новая политическая партия;X
-NEW_PARTY_AVAIL_HEADER;Сформирована новая политическая партия;X
-NEW_PARTY_AVAIL_1;$PARTY$ сформирована;X
-NEW_PARTY_AVAIL_2;*;X
-NEW_PARTY_AVAIL_3;*;X
-NEW_PARTY_AVAIL_4;*;X
-NEW_PARTY_AVAIL_5;*;X
-NEW_PARTY_AVAIL_6;*;X
-NEW_PARTY_AVAIL_BTN1;OK;X
-NEW_PARTY_AVAIL_BTN2;OK;X
-NEW_PARTY_AVAIL_BTN3;Теперь;X
-NEW_PARTY_AVAIL_LOG;Сформирована новая политическая партия;X
-PARTY_UNAVAIL_SETUP;Политическая партия расформирована;X
-PARTY_UNAVAIL_HEADER;Политическая партия расформирована;X
-PARTY_UNAVAIL_1;$PARTY$ расформирована;X
-PARTY_UNAVAIL_2;*;X
-PARTY_UNAVAIL_3;*;X
-PARTY_UNAVAIL_4;*;X
-PARTY_UNAVAIL_5;*;X
-PARTY_UNAVAIL_6;*;X
-PARTY_UNAVAIL_BTN1;OK;X
-PARTY_UNAVAIL_BTN2;OK;X
-PARTY_UNAVAIL_BTN3;Теперь;X
-PARTY_UNAVAIL_LOG;Политическая партия расформирована;X
-PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Дни банкротства: §R$DAYS$§W;X
-EXPENSE_NO_AFFORD;Мы можем выплатить §R$VAL$§W¤ из наших расходов!;X
-PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Дни банкротства: §R$DAYS$§W;X
-ENG_presidential_dictatorship;Великобритания;X
-EVTNAME16451;Набег на гарнизоны;X
-EVTDESC16451;С началом техасской войны за независимость повстанческие войска смогли атаковать несколько мексиканских гарнизонов. Это предоставило техасской армии необходимые средства.;X
-CB_ALLOWED_GUNBOAT;Долговая выплата;X
-po_gunboat;Возместить долги;X
-IS_IN_DEFAULT_TO;Находится в долговых обязательствах;X
-IS_NOT_IN_DEFAULT_TO;Не имеет долговых обязательств;X
-gunboat;Возместить долги;X
-gunboat_desc;Вынудить должника к выплате нам.;X
-gunboat_setup;Вынудить их соблюдать долговые обязательства;X
-gunboat_short;Возместить долги;X
-EVTNAME70002;Должники из державы $FROMCOUNTRY$ обанкротились!;X
-EVTDESC70002;Должники из державы $FROMCOUNTRY$ обанкротились и утверждают, что ничего не должны нам! Мы можем использовать наши вооруженные силы, чтобы сохранить наши инвестиции;X
-EVTOPTA70002;OK;X
-USE_LEADER;Использовать лидера;X
-SHORTCUT;§WГорячая клавиша: §Y;X
-SM_SHORTCUT;Показывать горячие клавиши;X
-TUR_proletarian_dictatorship_ADJ;Турецк.;X
-move_capital_to_moscow_title;Возвращение к Третьему Риму;X
-move_capital_to_moscow_desc;Славный Санкт-Петербург, город Петра Великого, неудобно прилегает к границе. Возможно, будет благоразумно перенести нашу столицу назад в Москву, в «Первопрестольную», которую вражеской армии будет сложнее достичь...;X
+disarming;Forced to Disarm;Devra se dпїЅsarmer;Zur Entwaffnung gezwungen;;Obligado a desarmarse;;;;;;;;x
+HAS_NOT_RECENTLY_LOST_WAR;Have NOT lost a war in the last five years.;NпїЅont perdu AUCUNE guerre au cours des cinq annпїЅes passпїЅes.;Verlor keinen Krieg in den letzten 5 Jahren.;;NO ha perdido una guerra en los пїЅltimos cinco aпїЅos.;;;;;;;;;x
+HAS_RECENTLY_LOST_WAR;Have lost a war in the last five years..;Ont perdu une guerre au cours des cinq annпїЅes passпїЅes.;Verlor einen Krieg in den letzten 5 Jahren.;;Ha perdido una guerra en los пїЅltimos cinco aпїЅos.;;;;;;;;;x
+IN_SAME_SPHERE;This country is in the same sphere of influence as us.;Ce pays fait partie de la mпїЅme sphпїЅre dпїЅinfluence que nous.;Dieses Land ist in derselben EinflusssphпїЅre wie wir.;;Este paпїЅs estпїЅ en la misma esfera de influencia que nosotros.;;;;;;;;;x
+NOR_reactionary;Konge Partiet;Konge Partiet;Konge Partiet;;Konge Partiet;;;;;;;;;x
+ATJ_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La FacciпїЅn Nacionalista;;;;;;;;;x
+ATJ_liberal;The Liberal Faction;Faction libпїЅrale;Die liberale Fraktion;;La FacciпїЅn Liberal;;;;;;;;;x
+ATJ_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La FacciпїЅn Radical;;;;;;;;;x
+ATJ_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La FacciпїЅn Socialista;;;;;;;;;x
+ATJ_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La FacciпїЅn Comunista;;;;;;;;;x
+ATJ_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La FacciпїЅn Fascista;;;;;;;;;x
+CAL_conservative;Democratic Party;Parti dпїЅmocrate;Demokratische Partei;;Partido DemпїЅcrata;;;;;;;;;x
+KHI_conservative;Royal Faction;Faction royale;KпїЅnigsfraktion;;FacciпїЅn Real;;;;;;;;;x
+KHI_liberal;The Liberal Faction;Faction libпїЅrale;Die liberale Fraktion;;La FacciпїЅn Liberal;;;;;;;;;x
+KHI_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La FacciпїЅn Nacionalista;;;;;;;;;x
+KHI_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La FacciпїЅn Radical;;;;;;;;;x
+KHI_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La FacciпїЅn Socialista;;;;;;;;;x
+KHI_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La FacciпїЅn Comunista;;;;;;;;;x
+KHI_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La FacciпїЅn Fascista;;;;;;;;;x
+MAD_conservative;Royal Faction;Faction royale;KпїЅnigsfraktion;;FacciпїЅn Real;;;;;;;;;x
+MAD_liberal;The Liberal Faction;Faction libпїЅrale;Die liberale Fraktion;;La FacciпїЅn Liberal;;;;;;;;;x
+MAD_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La FacciпїЅn Nacionalista;;;;;;;;;x
+MAD_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La FacciпїЅn Radical;;;;;;;;;x
+MAD_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La FacciпїЅn Socialista;;;;;;;;;x
+MAD_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La FacciпїЅn Comunista;;;;;;;;;x
+MAD_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La FacciпїЅn Fascista;;;;;;;;;x
+TRI_conservative;Royal Faction;Faction royale;KпїЅnigsfraktion;;FacciпїЅn Real;;;;;;;;;x
+TRI_liberal;The Liberal Faction;Faction libпїЅrale;Die liberale Fraktion;;La FacciпїЅn Liberal;;;;;;;;;x
+TRI_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La FacciпїЅn Nacionalista;;;;;;;;;x
+TRI_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La FacciпїЅn Radical;;;;;;;;;x
+TRI_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La FacciпїЅn Socialista;;;;;;;;;x
+TRI_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La FacciпїЅn Comunista;;;;;;;;;x
+TRI_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La FacciпїЅn Fascista;;;;;;;;;x
+TEX_communist;Communist Party;Parti communiste;Kommunistische Partei;;Partido Comunista;;;;;;;;;x
+BAD_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
+BAV_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
+WEI_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
+WLL_fascist;Rexist Party;Parti Rexiste;Rexistenpartei;;Partido Rexista;;;;;;;;;x
+NEW_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;Partido Fascista;;;;;;;;;x
+DIPLOMACY_CHANCE_JOIN_WAR;Likelyhood of joining the war: пїЅY$VAL$пїЅW;ProbabilitпїЅ de rejoindre : пїЅY$VAL$пїЅW;Wahrscheinlichkeit des Kriegseintritts: пїЅY$VAL$пїЅW;;Probabilidad de que se incorpore a la guerra: пїЅY$VAL$пїЅW;;;;;;;;;x
+PO_ISBETTER;If we refuse this offer we will suffer the following:\n пїЅR+$MIL$пїЅW Militancy, пїЅR+$WE$пїЅW War exhaustion;Si nous refusons cette offre, nous subirons ce qui suit :\n пїЅR+$MIL$пїЅW de militantisme, пїЅR+$WE$пїЅW dпїЅпїЅpuisement de guerre;Wenn wir dieses Angebot ablehnen, werden wird das folgende Konsequenzen haben:\n пїЅR+$MIL$пїЅW Militanz, пїЅR+$WE$пїЅW KriegsmпїЅdigkeit;;Si rechazamos la oferta sufriremos lo siguiente:\n пїЅR+$MIL$пїЅW de militancia, пїЅR+$WE$пїЅW de agotamiento bпїЅlico;;;;;;;;;x
+leave_soi_title;Leave Sphere of Influence;Quitter la sphпїЅre dпїЅinfluence;EinflusssphпїЅre verlassen;;Abandonar esfera de influencia;;;;;;;;;x
+leave_soi_desc;We can leave this Sphere of Influence, however our former master may well declare war to stop us.;Nous pouvons quitter cette sphпїЅre dпїЅinfluence, mais notre ancien maпїЅtre risque de nous dпїЅclarer la guerre pour nous arrпїЅter.;Wir kпїЅnnen diese EinflusssphпїЅre verlassen, aber unser frпїЅherer Herr kпїЅnnte uns den Krieg erklпїЅren, um uns daran zu hindern.;;Podemos abandonar esta esfera de influencia, pero nuestro antiguo seпїЅor podrпїЅa declararnos la guerra.;;;;;;;;;x
+NEW_PARTY_AVAIL_SETUP;New political party;Nouveau parti politique;Neue politische Partei;;Nuevo partido polпїЅtico;;;;;;;;;x
+NEW_PARTY_AVAIL_HEADER;New political party formed;Nouveau parti politique formпїЅ;Neue politische Partei gegrпїЅndet;;Se ha formado un nuevo partido polпїЅtico;;;;;;;;;x
+NEW_PARTY_AVAIL_1;$PARTY$ has been formed;$PARTY$ a пїЅtпїЅ formпїЅ;$PARTY$ wurde soeben gegrпїЅndet;;Se ha formado un partido: $PARTY$;;;;;;;;;x
+NEW_PARTY_AVAIL_2;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_3;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_4;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_5;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_6;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_BTN1;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+NEW_PARTY_AVAIL_BTN2;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+NEW_PARTY_AVAIL_BTN3;Go to;Voir;Goto;;Ir a;;;;;;;;;x
+NEW_PARTY_AVAIL_LOG;New political party;Nouveau parti politique;Neue Partei gegrпїЅndet: $PARTY$.;;Nuevo partido polпїЅtico;;;;;;;;;x
+PARTY_UNAVAIL_SETUP;Political party defunct;Parti politique dissous;Partei aufgelпїЅst;;Partido polпїЅtico desaparecido;;;;;;;;;x
+PARTY_UNAVAIL_HEADER;Political party defunct;Parti politique dissous;Partei aufgelпїЅst;;Partido polпїЅtico desaparecido;;;;;;;;;x
+PARTY_UNAVAIL_1;$PARTY$ is now defunct;$PARTY$ est пїЅ prпїЅsent dissous;$PARTY$ wurde aufgelпїЅst;;Ha desaparecido un partido polпїЅtico: $PARTY$;;;;;;;;;x
+PARTY_UNAVAIL_2;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_3;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_4;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_5;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_6;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_BTN1;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+PARTY_UNAVAIL_BTN2;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+PARTY_UNAVAIL_BTN3;Go to;Voir;Goto;;Ir a;;;;;;;;;x
+PARTY_UNAVAIL_LOG;Political party now unavailable;Parti politique dпїЅsormais indisponible;Die Partei пїЅY$PARTY$пїЅW wurde aufgelпїЅst und existiert nicht lпїЅnger.;;Ha desaparecido un partido polпїЅtico;;;;;;;;;x
+PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Days of insolvency: пїЅR$DAYS$пїЅW;Jour dпїЅinsolvabilitпїЅ : пїЅR$DAYS$пїЅW;Tage mit Verlusten: пїЅR$DAYS$пїЅW;;DпїЅas de insolvencia: пїЅR$DAYS$пїЅW;;;;;;;;;x
+EXPENSE_NO_AFFORD;We can only afford to pay пїЅR$VAL$пїЅWпїЅ of our expenses!;Nous ne pouvons nous acquitter que de пїЅR$VAL$пїЅWпїЅde nos dпїЅpenses !;Wir kпїЅnnen nur пїЅR$VAL$пїЅWпїЅ unserer Ausgaben zahlen!;;пїЅSolo podemos pagar el пїЅR$VAL$пїЅWпїЅ de nuestros gastos!;;;;;;;;;x
+PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Days of insolvency: пїЅR$DAYS$пїЅW;Jours dпїЅinsolvabilitпїЅ : пїЅR$DAYS$пїЅW;Insolvenztage: пїЅR$DAYS$пїЅW;;DпїЅas de insolvencia: пїЅR$DAYS$пїЅW;;;;;;;;;x
+ENG_presidential_dictatorship;Great Britain;Grande-Bretagne;GroпїЅbritannien;;Gran BretaпїЅa;;;;;;;;x
+EVTNAME16451;Raiding the garrisons;Attaque des garnisons;пїЅberfall auf Garnisonen;;Asalto contra las guarniciones;;;;;;;;;x
+EVTDESC16451;During the early days of the Texan Revolution, Texan troops were able to overrun several Mexican garrisons. This provided the Texan army with much needed money and supplies.;Aux premiers jours de la RпїЅvolution texane, les troupes du Texas ont rпїЅussi пїЅ renverser plusieurs garnisons mexicaines permettant ainsi пїЅ leur armпїЅe de disposer des fonds et ravitaillements nпїЅcessaires.;WпїЅhrend der ersten Tage der texanischen Revolution konnten texanische Truppen mehrere mexikanische Garnisonen пїЅberrennen. Dies brachte der texanischen Armee stark benпїЅtigte Gelder und Nachschubmaterial ein.;;Durante los primeros dпїЅas de la RevoluciпїЅn Texana, las tropas de Texas pudieron destruir varias guarniciones mexicanas. Gracias a esto, el ejпїЅrcito texano obtuvo unos fondos y pertrechos de los que estaba muy necesitado.;;;;;;;x
+CB_ALLOWED_GUNBOAT;Force Debt Repayment;Forcer le remboursement de la dette;Schuldentilgung erzwingen;;Forzar pago de deuda;;;;;;;;x
+po_gunboat;Repay Debts.;Rembourser les dettes;Schulden tilgen.;;Pagar deudas.;;;;;;;;x
+IS_IN_DEFAULT_TO;Is in Default to;Est dпїЅbiteur de;ist im ZahlungsrпїЅckstand gegenпїЅber;;EstпїЅ en situaciпїЅn de incumplimiento de pagos con;;;;;;;;x
+IS_NOT_IN_DEFAULT_TO;Is not in Default to;NпїЅest pas dпїЅbiteur de;ist nicht im ZahlungsrпїЅckstand gegenпїЅber;;No estпїЅ en situaciпїЅn de incumplimiento de pagos con;;;;;;;;x
+gunboat;Repay Debts;Rembourser les dettes;Schulden tilgen;;Pagar deudas;;;;;;;;x
+gunboat_desc;Force them to resume repayment of their debts to us.;Les forcer пїЅ reprendre le remboursement des dettes contractпїЅes envers nous.;Sie zwingen, ihre SchuldenrпїЅckzahlungen weiterzufпїЅhren.;;Obligarlos a reanudar el pago de sus deudas con nosotros.;;;;;;;;x
+gunboat_setup;Will force them to honor their debts to us.;Nous les forceront пїЅ honorer les dettes contractпїЅes envers nous.;Werden sie zwingen, uns ihre Schulden zurпїЅckzuzahlen.;;Los obligarпїЅ a hacer frente a sus deudas con nosotros.;;;;;;;;x
+gunboat_short;Repay Debts;Rembourser les dettes;Schulden tilgen;;Pagar deudas;;;;;;;;x
+EVTNAME70002;$FROMCOUNTRY$ goes bankrupt!;$FROMCOUNTRY$ a fait faillite !;$FROMCOUNTRY$ ist bankrott!;;пїЅ$FROMCOUNTRY$ estпїЅ en bancarrota!;;;;;;;;x
+EVTDESC70002;$FROMCOUNTRY$ has gone bankrupt and claims that they owe us nothing! We must use our military might to safeguard our investors.;\n$FROMCOUNTRY$ a fait faillite et ils crient haut et fort quпїЅils ne nous doivent rien !\nIl nous faut recourir пїЅ notre puissance militaire pour protпїЅger nos investisseurs.;$FROMCOUNTRY$ ist bankrott und behauptet, sie schulden uns nichts! Wir mпїЅssen unsere Investoren mit unserer MilitпїЅrmacht schпїЅtzen.;;пїЅ$FROMCOUNTRY$ ha declarado la bancarrota y afirma que no nos debe nada! Debemos usar nuestras fuerzas armadas para proteger los intereses de nuestros inversores.;;;;;;;;x
+EVTOPTA70002;OK;Ils vont voir qui nous sommes;OK;;Aceptar;;;;;;;;x
+USE_LEADER;Use leader;Utiliser cet officier;AnfпїЅhrer verwenden;;Usar lпїЅder;;;;;;;;x
+SHORTCUT;пїЅWShortcut: пїЅY;пїЅWRaccourci : пїЅY;пїЅWTastenkпїЅrzel: пїЅY;;пїЅWAtajo: пїЅY;;;;;;;;;x
+SM_SHORTCUT;Shortcut tooltip;Raccourci infobulle;TastenkпїЅrzel Tooltipp;;Recuadro de texto de atajo;;;;;;;;x
+TUR_proletarian_dictatorship_ADJ;Turkish;Turc;TпїЅrkisch;;Turca;;;;;;;;;x
+move_capital_to_moscow_title;Return to the Third Rome;Retourner пїЅ la TroisiпїЅme Rome;ZurпїЅck zum Dritten Rom;;Volver a la tercera Roma;;;;;;;;x
+move_capital_to_moscow_desc;Glorious St Petersburg, the city of Peter the Great, is uncomfortably close to the border. Perhaps it would be prudent to move our capital back to Moscow, the Pervoprestolnaya", which invading armies might find harder to reach...";La glorieuse Saint-PпїЅtersbourg, ville de Pierre le Grand, est inconfortablement proche de la frontiпїЅre. Il serait peut-пїЅtre plus prudent de retransfпїЅrer notre capitale пїЅ Moscou, la пїЅ Pervoprestolnaya пїЅ, que les armпїЅes dпїЅinvasion auront plus de mal пїЅ rejoindre...;Das famose St. Petersburg, Stadt Peter des GroпїЅen, liegt unangenehm nah an der Grenze. Vielleicht wпїЅre es sinnvoll, unsere Hauptstadt zurпїЅck nach Moskau, der "Perwoprestolnaja", zu verlegen, das fпїЅr einfallende Armeen schwerer zu erreichen ist ...;;La gloriosa San Petersburgo, ciudad de Pedro el Grande, estпїЅ incпїЅmodamente cerca de la frontera. Puede que sea prudente trasladar de nuevo la capital a MoscпїЅ, la "Pervoprestolnaya", mucho mпїЅs difпїЅcil de alcanzar para los ejпїЅrcitos enemigos...;;;;;;;;x

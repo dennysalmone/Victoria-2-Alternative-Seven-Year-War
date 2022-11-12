@@ -23480,8 +23480,8 @@
 	clergymen = { size = 49 culture = khoisan religion = animist }
 	clergymen = { size = 64 culture = dutch religion = reformed }
 	clergymen = { size = 160 culture = dutch religion = reformed }
-	farmers = { size = 8954 culture = khoisan religion = reformed }
-	farmers = { size = 3000 culture = khoisan religion = reformed }
+	farmers = { size = 10000 culture = black_dutch religion = reformed }
+	farmers = { size = 2000 culture = khoisan religion = reformed }
 	nomads = { size = 9000 culture = khoisan religion = animist }
 	farmers = { size = 3891 culture = dutch religion = reformed }
 	farmers = { size = 10205 culture = dutch religion = reformed }
@@ -23505,7 +23505,8 @@
 	clergymen = { size = 73 culture = dutch religion = reformed }
 	clergymen = { size = 49 culture = sotho religion = animist }
 	clergymen = { size = 13 culture = dutch religion = reformed }
-	farmers = { size = 7522 culture = khoisan religion = reformed }
+	farmers = { size = 522 culture = khoisan religion = reformed }
+	farmers = { size = 7000 culture = black_dutch religion = reformed }
 	nomads = { size = 6629 culture = khoisan religion = animist }
 	farmers = { size = 3136 culture = dutch religion = reformed }
 	farmers = { size = 9548 culture = sotho religion = animist }
@@ -23519,9 +23520,10 @@
 	clergymen = { size = 12 culture = khoisan religion = reformed }
 	clergymen = { size = 45 culture = dutch religion = reformed }
 	clergymen = { size = 15 culture = dutch religion = reformed }
-	farmers = { size = 6555 culture = khoisan religion = reformed }
+	farmers = { size = 1555 culture = khoisan religion = reformed }
 	farmers = { size = 3685 culture = dutch religion = reformed }
 	nomads = { size = 14520 culture = khoisan religion = animist }
+	farmers = { size = 5800 culture = black_dutch religion = reformed }
 	farmers = { size = 602 culture = dutch religion = reformed }
 }
 2091 = {
@@ -24941,8 +24943,8 @@
 	artisans = { size = 245 culture = black_spanish religion = reformed }
 	clergymen = { size = 81 culture = dutch religion = reformed }
 	farmers = { size = 40 culture = dutch religion = reformed }
-	farmers = { size = 3009 culture = black_spanish religion = reformed }
-	slaves = { size = 4000 culture = black_spanish religion = reformed }
+	farmers = { size = 3009 culture = black_dutch religion = reformed }
+	slaves = { size = 4000 culture = black_dutch religion = reformed }
 }
 2244 = {
 	farmers = { size = 13 culture = malay religion = sunni }

@@ -1,13 +1,13 @@
-badboy;Бесчестье;X
-EVTNAME60150;Отмена права женщин голосовать;X
-EVTDESC60150;С откатом избирательной реформы женщины более не в праве голосовать;X
-EVTOPTA60150;Возвращайтесь на кухню, никчемные профурсетки!;X
-EVTNAME31102;Исход из Стамбула;X
-EVTDESC31102;В связи с потерей приграничных Стамбулу земель, наша столица находится под угрозой. Мы обязаны перенести её в более безопасное место - Анкару;X
-EVTOPTA31102;Мы окончательно изгнаны из Европы...;X
-OL_REBEL_OCCUPATIONS;Повстанческие осады;X
-OL_REBEL_OCCUPATIONS_TOOLTIP;Провинция §Y$PROVINCE$§W оккупируется повстанцами!;X
-OL_VIEW_REBEL_OCCUPATIONS;Переключить обзор §Yповстанческих осад§W;X
-POP_MIL_CHANGE_REBEL;Население, живущее в провинции §Y$PROV$§W находится под §RRebels§W контролем.\nМы не можем оценить агрессивность в этой провинции.;X
-POP_CON_CHANGE_REBEL;Население, живущее в провинции §Y$PROV$§W находится под §RRebels§W контролем.\nМы не можем оценить сознательность в этой провинции.;X
-PROJECT_STATE_NAME_DESC;Планируется построить в §Y$PROV$§W.;X
+badboy;Infamy;Infamie;Infamie;;Infamia;;;;;;;;;x;
+EVTNAME60150;The end of female suffrage;Fin du suffrage fпїЅminin;Das Ende des Frauenwahlrechts;;;;;;;;;x ;
+EVTDESC60150;With the recent rollback of voting reforms, the fairer sex is once again denied the vote.;Avec l'annulation rпїЅcente des rпїЅformes sur le droit de vote, la gent fпїЅminine est de nouveau privпїЅe de vote.;Mit dem kпїЅrzlich zurпїЅckgerollten politischen Wahlrecht ist es dem schпїЅnerem Geschelcht nicht mehr erlaubt abzustimmen.;;;;;;;;;;x;
+EVTOPTA60150;Get back in the kitchen!;Retournez пїЅ la cuisine !;ZurпїЅck an den Herd!;;;;;;;;;x ;
+EVTNAME31102;Flight from Istanbul;Fuir Istamboul;Flucht aus Istanbul;;;;;;;;;x ;
+EVTDESC31102;Our position in Istanbul is no longer secure. We should move our government to a safer place.;Nous ne sommes plus en sпїЅcuritпїЅ пїЅ Istamboul, nous devrions dпїЅplacer notre gouvernement en un lieu plus sпїЅr.;Unsere Position in Istanbul ist nicht mehr sicher. We sollten unsere Regierung an einen sicheren Ort bringen.;;;;;;;;;;x;
+EVTOPTA31102;We have been ultimately driven from Europe...;Nous avons finalement пїЅtпїЅ chassпїЅs de l'Europe...; Wir wurden endgпїЅltig aus Europa vertrieben...;;;;;;;;;x ;
+OL_REBEL_OCCUPATIONS;Rebel occupations;Occupations par les rebelles;Rebellenbesetzung;;;;;;;;;;;x
+OL_REBEL_OCCUPATIONS_TOOLTIP;Our province of пїЅY$PROVINCE$пїЅW is being occupied by the rebels!;Notre province de пїЅY$PROVINCE$пїЅW est occupпїЅe par les rebelles !;Unsere Provinz пїЅY$PROVINCE$пїЅW wird von Rebellen besetzt!;;;;;;;;;;;x
+OL_VIEW_REBEL_OCCUPATIONS;Toggles пїЅYRebel OccupationsпїЅW view;Active la vue пїЅYOccupations par les rebellesпїЅW;Aktiviert die пїЅYRebellenbesetzungsпїЅW Ansicht;;;;;;;;;;;x
+POP_MIL_CHANGE_REBEL;This pop is living in пїЅY$PROV$пїЅW that is under пїЅRRebelsпїЅW control.\nIt's militancy change cannot be estimated.;Cette population vit en пїЅY$PROV$пїЅW, sous contrпїЅle des пїЅRRebelsпїЅW rebelles.\nPas d'estimation de la modification du militantisme;Diese BevпїЅlkerungseinheit lebt in пїЅY$PROV$пїЅW, welches unter der Kontrolle von пїЅRRebellenпїЅW ist.\nDie MilitanzпїЅnderung kann nicht ermittelt werden.;;;;;;;;;;;x
+POP_CON_CHANGE_REBEL;This pop is living in пїЅY$PROV$пїЅW that is under пїЅRRebelsпїЅW control.\nIt's consciousness change cannot be estimated.;Cette population vit en пїЅY$PROV$пїЅW, sous contrпїЅle des пїЅRRebelsпїЅW rebelles.\nPas d'estimation de la modification de la conscience nationale;Diese BevпїЅlkerungseinheit lebt in пїЅY$PROV$пїЅW, welches unter der Kontrolle von пїЅRRebellenпїЅW ist.\nDie BewusstseinsпїЅnderung kann nicht ermittelt werden.;;;;;;;;;;;x
+PROJECT_STATE_NAME_DESC;Planning to build in пїЅY$PROV$пїЅW.;Construction prпїЅvue en пїЅY$PROV$пїЅW.;Bauprojekt in пїЅY$PROV$пїЅW ist in Plannung.;;;;;;;;;;;x
