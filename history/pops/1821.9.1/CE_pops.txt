@@ -12059,13 +12059,14 @@
 	farmers = { size = 862 culture = bedouin religion = sunni }
 }
 1171 = {
-	artisans = { size = 139 culture = bedouin religion = ibadi }
-	artisans = { size = 93 culture = bedouin religion = sunni }
-	clergymen = { size = 69 culture = bedouin religion = ibadi }
-	farmers = { size = 1679 culture = bedouin religion = ibadi }
-	farmers = { size = 1725 culture = bedouin religion = sunni }
-	farmers = { size = 862 culture = baluchi religion = sunni }
-	slaves = { size = 1026 culture = african_minor religion = animist }
+	artisans = { size = 150 culture = bedouin religion = ibadi }
+	artisans = { size = 100 culture = bedouin religion = sunni }
+	clergymen = { size = 80 culture = bedouin religion = ibadi }
+	farmers = { size = 9000 culture = bedouin religion = ibadi }
+	soldiers = { size = 1100 culture = bedouin religion = ibadi }
+	farmers = { size = 1600 culture = bedouin religion = sunni }
+	farmers = { size = 700 culture = baluchi religion = sunni }
+	slaves = { size = 1200 culture = african_minor religion = animist }
 }
 1172 = {
 	artisans = { size = 235 culture = bedouin religion = ibadi }
@@ -23884,7 +23885,8 @@
 	clergymen = { size = 41 culture = dutch religion = reformed }
 	clergymen = { size = 123 culture = african_minor religion = protestant }
 	farmers = { size = 183 culture = french religion = catholic }
-	farmers = { size = 22140 culture = african_minor religion = catholic }
+	farmers = { size = 10000 culture = african_minor religion = catholic }
+	farmers = { size = 12140 culture = black_dutch religion = catholic }
 	soldiers = { size = 41 culture = dutch religion = reformed }
 	soldiers = { size = 247 culture = african_minor religion = protestant }
 }
@@ -23893,15 +23895,15 @@
 	aristocrats = { size = 14 culture = african_minor religion = sunni }
 	aristocrats = { size = 14 culture = african_minor religion = animist }
 	artisans = { size = 457 culture = french religion = catholic }
-	artisans = { size = 778 culture = black_spanish religion = catholic }
+	artisans = { size = 778 culture = black_french religion = catholic }
 	bureaucrats = { size = 45 culture = french religion = catholic }
 	clergymen = { size = 68 culture = french religion = catholic }
-	clergymen = { size = 114 culture = black_spanish religion = catholic }
+	clergymen = { size = 114 culture = black_french religion = catholic }
 	farmers = { size = 5334 culture = french religion = catholic }
-	farmers = { size = 1673 culture = black_spanish religion = catholic }
-	slaves = { size = 12819 culture = black_spanish religion = catholic }
+	farmers = { size = 1673 culture = black_french religion = catholic }
+	slaves = { size = 12819 culture = black_french religion = catholic }
 	soldiers = { size = 274 culture = french religion = catholic }
-	soldiers = { size = 181 culture = black_spanish religion = catholic }
+	soldiers = { size = 181 culture = black_french religion = catholic }
 	soldiers = { size = 9 culture = african_minor religion = sunni }
 	soldiers = { size = 9 culture = african_minor religion = animist }
 }
