@@ -439,7 +439,9 @@ country_event  = {
 		any_country = { any_pop = { limit = { religion = mormon } reduce_pop = 1.18 } }
 		any_country = { any_pop = { limit = { culture = afro_brazilian } reduce_pop = 1.06 } }
 		any_country = { any_pop = { limit = { culture = afro_american } reduce_pop = 1.06 } }
-		any_country = { any_pop = { limit = { culture = black_spanish } reduce_pop = 1.03 } }
+		any_country = { any_pop = { limit = { culture = black_spanish } reduce_pop = 1.06 } }
+		any_country = { any_pop = { limit = { culture = black_french } reduce_pop = 1.06 } }
+		any_country = { any_pop = { limit = { culture = black_dutch } reduce_pop = 1.06 } }
 		any_country = { any_pop = { limit = { culture = mestizo } reduce_pop = 1.015 } }
 		any_country = { any_pop = { limit = { culture = basque } reduce_pop = 1.01 } }
 		any_country = { any_pop = { limit = { culture = kipchak_cumans } reduce_pop = 1.02 } }
@@ -595,6 +597,8 @@ country_event  = {
 	any_country = { any_pop = { limit = { culture = brazilian } literacy = 0.198 } }
 	any_country = { any_pop = { limit = { culture = afro_american } literacy = 0.076 } }
 	any_country = { any_pop = { limit = { culture = black_spanish } literacy = 0.032 } }
+	any_country = { any_pop = { limit = { culture = black_french } literacy = 0.022 } }
+	any_country = { any_pop = { limit = { culture = black_dutch } literacy = 0.044 } }
 	any_country = { any_pop = { limit = { culture = afro_brazilian } literacy = 0.051 } }
 	any_country = { any_pop = { limit = { culture = amhara } literacy = 0.012 } }
 	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.3 } literacy = 0.002 } }
@@ -609,7 +613,7 @@ country_event  = {
 	any_country = { any_state = { limit = { is_slave = yes } any_pop = { limit = { culture = yankee } literacy = -0.065 } } }
 	any_country = { any_owned = { limit = { is_core = HND OR = { pop_majority_culture = telegu pop_majority_culture = tamil pop_majority_culture = malayalam pop_majority_culture = kannada } } add_core = DRA remove_core = HND } }
 	any_country = { any_pop = { limit = { culture = han_chinese religion = sunni } literacy = -0.05 } }
-	any_country = { any_pop = { limit = { religion = sikh OR = { type = soldiers type = officers } } literacy = 0.147 money = 200 } }
+	any_country = { any_pop = { limit = { religion = sikh OR = { type = soldiers type = officers } } literacy = 0.197 money = 200 } }
 	any_country = { any_pop = { limit = { culture = italian OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.067 money = 850 } }
 	any_country = { any_pop = { limit = { culture = malayalam OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.067 } }
 	any_country = { any_pop = { limit = { culture = french OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.111 money = 1500 } }

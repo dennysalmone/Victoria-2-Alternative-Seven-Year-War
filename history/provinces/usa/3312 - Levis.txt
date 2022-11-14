@@ -1,0 +1,6 @@
+owner = CAN
+controller = CAN
+add_core = CAN
+trade_goods = grain
+terrain = forested_farmland
+life_rating = 35

@@ -1,0 +1,6 @@
+owner = CAN
+controller = CAN
+trade_goods = fish
+life_rating = 25
+terrain = boreal_forest_hills
+colonial = 1

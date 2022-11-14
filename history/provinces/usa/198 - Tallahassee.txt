@@ -1,7 +1,7 @@
 owner = SPA
 controller = SPA
 add_core = FLO
-trade_goods = tobacco
+trade_goods = timber
 life_rating = 35
 terrain = forested_farmland
 colonial = 1

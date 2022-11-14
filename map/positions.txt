@@ -124034,3 +124034,43 @@
 3580 = {
     text_scale = 2.9
 }
+
+3581 = {
+    text_scale = 2.9
+}
+
+3582 = {
+    text_scale = 2.9
+}
+
+3583 = {
+    text_scale = 2.9
+}
+
+3584 = {
+    text_scale = 2.9
+}
+
+3585 = {
+    text_scale = 2.9
+}
+
+3586 = {
+    text_scale = 2.9
+}
+
+3587 = {
+    text_scale = 2.9
+}
+
+3588 = {
+    text_scale = 2.9
+}
+
+3589 = {
+    text_scale = 2.9
+}
+
+3590 = {
+    text_scale = 2.9
+}
