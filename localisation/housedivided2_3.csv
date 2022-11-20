@@ -1,151 +1,151 @@
-GREAT_WARS_ENABLED_DESC;Great wars are discovered.;Les Grandes Guerres sont dï¿½couvertes.;Groï¿½e Kriege sind bekannt;;;;;;;;;;;x
-GREAT_WARS_DISABLED_DESC;Great wars are undiscovered yet.;Les Grandes Guerres ne sont pas encore dï¿½couvertes.;Groï¿½e Kriege sind unbekannt;;;;;;;;;;;x
-GREAT_WARS_ENABLE_DESC;Wars can get the status of The Great Wars!;Des guerres peuvent obtenir le statut de Grandes Guerres;Kriege kï¿½nnen sich zu einem Groï¿½en Krieg entwickeln;;;;;;;;;;;x
-GREAT_WAR_NAME;The $ORDER$Great War;La $ORDER$ Grande Guerre;Der $ORDER$Groï¿½er Krieg;;;;;;;;;;;x
-GW_DISCOVERED_SETUP;When the Great Wars are discovered.;Quand les Grandes Guerres sont dï¿½couvertes.;Wenn Groï¿½e Kriege mï¿½glich sind;;;;;;;;;;;x
-GW_DISCOVERED_HEADER;Great Wars discovered!;Dï¿½couverte des Grandes Guerres !;Groï¿½e Kriege sind nun mï¿½glich;;;;;;;;;;;x
-GW_DISCOVERED_1;Great Wars discovered!;Dï¿½couverte des Grandes Guerres !;Groï¿½e Kriege sind nun mï¿½glich!;;;;;;;;;;;x
-GW_DISCOVERED_2;From now, each war that includes;Dï¿½sormais, toute guerre impliquant;Von nun an, wird jeder Krieg, bei dem;;;;;;;;;;;x
-GW_DISCOVERED_3;at least two great countries;au moins deux grandes Nations;mindestens 2 Groï¿½mï¿½chte;;;;;;;;;;;x
-GW_DISCOVERED_4;on each side, will get the status of;de chaque cï¿½tï¿½, obtient le statut de;sich auf jeder Seite befinden, den Status eines;;;;;;;;;;;x
-GW_DISCOVERED_5;ï¿½YThe Great Warï¿½!.;ï¿½YGrande Guerreï¿½!.;ï¿½YGroï¿½en Kriegesï¿½ haben!.;;;;;;;;;;;x
-GW_DISCOVERED_6;*;*;*;;;;;;;;;;;x
-GW_DISCOVERED_BTN1;OK;D'accord;OK;;;;;;;;;;;x
-GW_DISCOVERED_BTN2;OK;D'accord;OK;;;;;;;;;;;x
-GW_DISCOVERED_BTN3;Go to;Voir;Gehe zu;;;;;;;;;;;x
-GW_DISCOVERED_LOG;Great Wars discovered;Dï¿½couverte des Grandes Guerres;Groï¿½e Kriege sind nun bekannt;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_SETUP;When our war gains the Great war status.;Quand notre guerre obtient le statut de Grande Guerre.;Wenn unser Krieg den Status eines Groï¿½en Krieges erreicht.;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_HEADER;Great War!;Grande Guerre !;Groï¿½er Krieg!;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_1;$WAR$;$WAR$;$WAR$;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_2;becomes;devient;entwickelt sich zu;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_3;ï¿½YThe Great Warï¿½!.;ï¿½YGrande Guerreï¿½!.;ï¿½Yeinem Groï¿½en Kriegï¿½!.;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_4;*;*;*;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_5;*;*;*;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_6;*;*;*;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_BTN1;OK;D'accord;OK;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_BTN2;OK;D'accord;OK;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_BTN3;Go to;Voir;Gehe zu;;;;;;;;;;;x
-WAR_GAIN_GW_STATUS_LOG;$WAR$ becomes ï¿½YThe Great Warï¿½!;$WAR$ devient une ï¿½YGrande Guerreï¿½!.;$WAR$ entwickelt sich zu ï¿½Yeinem Groï¿½en Kriegï¿½!;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_SETUP;When our war lost the Great war status.;Quand notre guerre perd le statut de Grande Guerre.;Wenn unser Krieg den Status eines Groï¿½en Krieges verliert;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_HEADER;No longer a Great War!;Ce n'est plus une Grande Guerre !;Kein Groï¿½er Krieg mehr!;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_1;$WAR$;$WAR$;$WAR$;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_2;is no longer;n'est plus;is kein;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_3;The Great War.;une Grande Guerre.;Groï¿½er Krieg mehr;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_4;*;*;*;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_5;*;*;*;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_6;*;*;*;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_BTN1;OK;D'accord;OK;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_BTN2;OK;D'accord;OK;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_BTN3;Go to;Voir;Gehe zu;;;;;;;;;;;x
-WAR_LOST_GW_STATUS_LOG;$WAR$ is no longer ï¿½YThe Great Warï¿½!;$WAR$ n'est plus une ï¿½YGrande Guerreï¿½!.;$WAR$ ist kein ï¿½YGroï¿½er Krieg mehrï¿½!;;;;;;;;;;;x
-GW_INTERVENE_MIN_RELATIONS;Our relations with ï¿½Y$TARGET$ï¿½! must be at least ï¿½G$MIN$ï¿½!. Currently it is ï¿½Y$VAL$ï¿½!.;Nos relations avec ï¿½Y$TARGET$ï¿½! doivent ï¿½tre d'au moins ï¿½G$MIN$ï¿½!. Actuellement elles sont de ï¿½Y$VAL$ï¿½!.;Unsere Beziehungen mit ï¿½Y$TARGET$ï¿½! muss zumindest ï¿½G$MIN$ï¿½! betragen. Gegenwï¿½rtig liegt sie bei ï¿½Y$VAL$ï¿½!.;;;;;;;;;;;x
-GW_INTERVENE_MAX_EXHAUSTION;Our war exhaustion cannot be greater than ï¿½G$MAX$ï¿½!. Currently it is ï¿½Y$VAL$ï¿½!.;Notre lassitude de guerre ne doit pas ï¿½tre supï¿½rieure ï¿½ ï¿½G$MAX$ï¿½. Actuellement elle est de ï¿½Y$VAL$ï¿½!.;Unsere Kriegsermï¿½dung darf nicht hï¿½her als ï¿½G$MAX$ï¿½! sein. Gegenwï¿½rtig liegt diese bei ï¿½Y$VAL$ï¿½!.;;;;;;;;;;;x
-great_war_penalty_cb;Great War Capitulation;Capitulation dans une Grande Guerre;Groï¿½kriegskapitulation;;;;;;;;;;;x
-great_war_penalty_cb_desc;Force another ï¿½Ycountryï¿½! to disarm and pay reparations to us.;Contraindre un autre ï¿½Ypaysï¿½! ï¿½ dï¿½sarmer et ï¿½ nous payer des rï¿½parations.;Zwingt die andere ï¿½YNationï¿½! zur Entwaffnung und der Zahlung von Kriegsreperationen an uns.;;;;;;;;;;;x
-great_war_penalty_cb_setup;Disarm $RECIPIENT$ and let them pay for reparations.;Dï¿½sarmer $RECIPIENT$ et le faire payer des rï¿½parations.;Entwaffnet $RECIPIENT$ and zwingt sie zur Zahlung von Kriegsreperationen;;;;;;;;;;;x
-great_war_penalty_cb_short;Great War Capitulation;Capitulation dans une Grande Guerre;Groï¿½kriegskapitulation;;;;;;;;;;;x
-GREAT_WAR_OBLIGATORY_CB_DESC;Obligatory Great War Casus Belli against all enemies:;Casus Belli de Grand Guerre obligatoire contre tous les ennemis :;Obligatorishcer Groï¿½er Krieg Casus Belli gegenï¿½ber allen Feinden;;;;;;;;;;;x
-GREAT_WAR_CB_JUSTIFY_COST_DESC;Infamy cost deducted to ï¿½G$PERC$%ï¿½! of original cost due to ï¿½YGreat Warï¿½! status.;Coï¿½t en Infï¿½mie rï¿½duit ï¿½ ï¿½G$PERC$ %ï¿½! du coï¿½t d'origine grï¿½ce au statut de ï¿½YGrande Guerreï¿½!.;Infamie-Kosten sind aufgrund des ï¿½YGroï¿½en Kriegesï¿½! auf ï¿½G$PERC$%ï¿½! der Normalkosten runtergesetzt.;;;;;;;;;;;x
-GREAT_WAR_CB_CONSTRUCTION_SPEED_DESC;At Great War with ï¿½Y$TARGET$ï¿½!;En Grande Guerre contre ï¿½Y$TARGET$ï¿½!;In einem Groï¿½en Krieg mit ï¿½Y$TARGET$ï¿½!;;;;;;;;;;;x
-fascist_focus_short;ï¿½YFascistï¿½! loyalty;Loyautï¿½ ï¿½Yfascisteï¿½!;ï¿½YFaschistischeï¿½! Loyalitï¿½t;;;;;;;;;;;x
-reactionary_focus_short;ï¿½YReactionaryï¿½! loyalty;Loyautï¿½ ï¿½Yrï¿½actionnaireï¿½!;ï¿½YReaktionï¿½reï¿½! Loyalitï¿½t;;;;;;;;;;;x
-conservative_focus_short;ï¿½YConservativeï¿½! loyalty;Loyautï¿½ ï¿½Yconservatriceï¿½!;ï¿½YKonservativeï¿½! Loyalitï¿½t;;;;;;;;;;;x
-socialist_focus_short;ï¿½YSocialistï¿½! loyalty;Loyautï¿½ ï¿½Ysocialisteï¿½!;ï¿½YSozialistischeï¿½! Loyalitï¿½t;;;;;;;;;;;x
-communist_focus_short;ï¿½YCommunistsï¿½! loyalty;Loyautï¿½ ï¿½Ycommunisteï¿½!;ï¿½YKommunistischeï¿½! Loyalitï¿½t;;;;;;;;;;;x
-liberal_focus_short;ï¿½YLiberalï¿½! loyalty;Loyautï¿½ ï¿½Ylibï¿½raleï¿½!;ï¿½YLiberaleï¿½! Loyalitï¿½t;;;;;;;;;;;x
-anarcho_liberal_focus_short;ï¿½YAnarcho-liberalï¿½! loyalty;Loyautï¿½ ï¿½Yanarcho-libï¿½raleï¿½!;ï¿½YAnarcho-liberaleï¿½! Loyalitï¿½t;;;;;;;;;;;x
-automation_focus_short;Automotive Industry;Industrie automobile;Automobil Industrie;;;;;;;;;;;x
-electrical_focus_short;Electrical Industry;Industrie ï¿½lectrique;Elektro Industrie;;;;;;;;;;;x
-chemical_focus_short;Chemical Industry;Industrie chimique;Chemische Industrie;;;;;;;;;;;x
-shipping_focus_short;Shipping Industry;Industrie du transport maritime;Schiffsbau Industrie;;;;;;;;;;;x
-textile_focus_short;Textile Industry;Industrie textile;Textil Industrie;;;;;;;;;;;x
-wood_focus_short;Wood Industry;Industrie du bois;Holzverarbeitungs Industrie;;;;;;;;;;;x
-basic_industry_focus_short;Basic Industry;Industrie de base;Schwerindustrie;;;;;;;;;;;x
-armaments_focus_short;Armaments Industry;Industrie d'armement;Rï¿½stungs Industrie;;;;;;;;;;;x
-consumer_focus_short;Consumer Goods;Biens de consommation;Konsumgï¿½ter Industrie;;;;;;;;;;;x
-WAR_GOAL_SUCCESS_PRESTIGE_CHANGE;If we complete this wargoal, we will gain $PRES$ prestige.;Si nous atteignons ce but de guerre, nous gagnerons $PRES$ points de prestige.;Beim erreichen von diesem Kriegsziel, erhalten wir $PRES$ Prestige.;;;;;;;;;;;x
-WAR_GOAL_FAILURE_PRESTIGE_CHANGE;If we fail to achieve this wargoal, we will lose $PRES$ prestige.;Si nous n'atteignons pas ce but de guerre, nous perdrons $PRES$ points de prestige.;Bei einem Fehlschlag von diesem Kriegsziel, verlieren wir $PRES$ Prestige.;;;;;;;;;;;x
-POP_INTERNAL_MIGRATION;ï¿½Y$NUM$ï¿½! people intend to move to other national provinces.;ï¿½Y$NUM$ï¿½! personnes ont l'intention de migrer vers d'autres provinces du pays.;ï¿½Y$NUM$ï¿½! Personen haben die Tendenz in eine andere Nationale Provinz zu migireren.;;;;;;;;;;;x
-POP_EXTERNAL_MIGRATION;ï¿½Y$NUM$ï¿½! people intend to move to another country.;ï¿½Y$NUM$ï¿½! personnes ont l'intention de migrer vers un autre pays.;ï¿½Y$NUM$ï¿½! Personen haben die Tendenz in eine andere Nation zu emigrieren.;;;;;;;;;;;x
-POP_COLONIAL_MIGRATION;ï¿½Y$NUM$ï¿½! people intend to move to the colonies.;ï¿½Y$NUM$ï¿½! personnes ont l'intention de migrer vers les colonies.;ï¿½Y$NUM$ï¿½! Personen haben die Tendenz in eine unserer Kolonien zu migrieren.;;;;;;;;;;;x
-INVESTED_IN_US_SETUP;When a country invests in us;Quand un pays investit chez nous;Wenn eine andere Nation in unserer investiert;;;;;;;;;;;x
-INVESTED_IN_US_HEADER;Foreign Investment;Investissement ï¿½tranger;Auslï¿½ndische Investitionen;;;;;;;;;;;x
-INVESTED_IN_US_1;$ICOUNTRY$ has invested in us!;$ICOUNTRY$ a investi chez nous !;$ICOUNTRY$ hat bei uns investiert!;;;;;;;;;;;x
-INVESTED_IN_US_2;$INVESTED_IN_US_MESSAGE$;$INVESTED_IN_US_MESSAGE$;$INVESTED_IN_US_MESSAGE$;;;;;;;;;;;x
-INVESTED_IN_US_3;*;*;*;;;;;;;;;;;x
-INVESTED_IN_US_4;*;*;*;;;;;;;;;;;x
-INVESTED_IN_US_5;*;*;*;;;;;;;;;;;x
-INVESTED_IN_US_6;*;*;*;;;;;;;;;;;x
-INVESTED_IN_US_BTN1;OK;D'accord;OK;;;;;;;;;;;x
-INVESTED_IN_US_BTN2;OK;D'accord;OK;;;;;;;;;;;x
-INVESTED_IN_US_BTN3;Go to;Voir;Gehe zu;;;;;;;;;;;x
-INVESTED_IN_US_LOG;ï¿½Y$ICOUNTRY$ï¿½! invested in us: $INVESTED_IN_US_MESSAGE$;ï¿½Y$ICOUNTRY$ï¿½! investit chez nous : $INVESTED_IN_US_MESSAGE$;ï¿½Y$ICOUNTRY$ï¿½! hat bei uns investierd : $INVESTED_IN_US_MESSAGE$;;;;;;;;;;;x
-INVESTED_IN_US_BUILD;$INAME$ built in $ILOCATION$ for $IAMOUNT$ï¿½;$INAME$ a construit pour $IAMOUNT$ ï¿½ en $ILOCATION$;$INAME$ hat in $ILOCATION$ fï¿½r $IAMOUNT$ï¿½;;;;;;;;;;;x
-INVESTED_IN_US_OPEN;$INAME$ opened in $ILOCATION$ for $IAMOUNT$ï¿½;$INAME$ a ouvert pour $IAMOUNT$ ï¿½ en $ILOCATION$;$INAME$ erï¿½ffnete in $ILOCATION$ fï¿½r $IAMOUNT$ï¿½;;;;;;;;;;;x
-INVESTED_IN_US_UPGRADE;Upgraded $INAME$ in $ILOCATION$ for $IAMOUNT$ï¿½;$INAME$ a fait des amï¿½liorations pour $IAMOUNT$ ï¿½ en $ILOCATION$;Rï¿½stet auf $INAME$ in $ILOCATION$ fï¿½r $IAMOUNT$ï¿½;;;;;;;;;;;x
-INVESTED_IN_US_UNKNOWN;Invested $IAMOUNT$ï¿½ in us.;A investi  $IAMOUNT$ ï¿½ chez nous.;Investiert $IAMOUNT$ï¿½ bei uns.;;;;;;;;;;;x
-MODIFY_RELATION_EFFECT;ï¿½Y$SOURCE$ï¿½!'s relation with ï¿½Y$TARGET$ï¿½! changed with a value of $VALUE$.;La relation de ï¿½Y$SOURCE$ï¿½! avec ï¿½Y$TARGET$ï¿½! ï¿½volue de $VALUE$.;ï¿½Y$SOURCE$ï¿½!'s Beziehungen mit ï¿½Y$TARGET$ï¿½! hat sich um $VALUE$ geï¿½ndert.;;;;;;;;;;;x
-PRODUCTION_EXPAND_FACTORY_SHORTCUT_TOOLTIP;ï¿½GCtrl+Clickï¿½! upgrades all factories of this type which are near their employee limit (ï¿½Y$NUMSPECIALFACTORIES$ï¿½!).\nï¿½GShift+Clickï¿½! upgrades all factories which are near their employee limit (ï¿½Y$NUMFACTORIES$ï¿½!).;ï¿½GCtrl+Clicï¿½! amï¿½liore toutes les usines de ce type\nï¿½GMaj+Clicï¿½! amï¿½liore toutes les usines;ï¿½GStrg+Mausklickï¿½! wertet alle Fabrikanlagen dieses Typs auf\nï¿½GShift+Mausklickï¿½! wertet alle Fabrikanlagen auf;;;;;;;;;;;x
-EVTNAME19355;Great wars;Grandes guerres;Groï¿½e Kriege;;;;;;;;;;;x
-EVTDESC19355;Growing nationial pride in countries around the world has reached the point where people will not accept anything less than total victory when Great powers clash. From now on, any conflict with at least two Great powers on each side will be regarded as a Great War!;L'ï¿½mergence de la fiertï¿½ nationale dans les pays du monde entier a atteint un point tel que les gens ne peuvent admettre rien de moins qu'une victoire totale lorsque s'affrontent les grandes puissances. A partir de maintenant, tout conflit avec au moins deux grandes puissances de chaque cï¿½tï¿½ sera considï¿½rï¿½ comme une grande guerre !;Wachsender Nationialstolz der Bevï¿½lkerung in allen Lï¿½ndern auf der Welt hat einen Punkt, wo bei Groï¿½en Auseinandersetzungen unter den Groï¿½mï¿½chten nicht weniger als ein groï¿½er Sieg akzeptiert werden kann. Von nun an wird jeder Konflikt mit mindestens zwei Groï¿½mï¿½chten auf jeder Seite als Groï¿½er Krieg betrachtet werden!;;;;;;;;;;;x
-EVTOPTA19355;God help us all;Dieu vienne en aide ï¿½ nous tous;Gott, hilf uns allen;;;;;;;;;;;x
-AGRESSION_WAR_INDEPENDENCE_NAME;$ORDER$$FIRST$ War of Independence;$ORDER$$FIRST$ guerre d'indï¿½pendance;$ORDER$$FIRST$ Unabhï¿½ngigkeitskrieg;;;;;;;;;;;x
-BYE;Belarus;Biï¿½lorussie;Weiï¿½russland;;Belarus;;;;;;;;;x
-BYE_ADJ;Byelorussian;biï¿½lorusse;Weiï¿½russisch;;Byelorussian;;;;;;;;;x
-UBD;United Baltic Provinces;Provinces baltiques unies;Vereinite Baltische Staaten;;United Baltic Provinces;;;;;;;;;x
-UBD_ADJ;Baltic;baltique;Baltisch;;Baltic;;;;;;;;;x
-UBD_conservative;Conservatives;Conservateurs;Konservative;;;;;;;;;;;x
-UBD_liberal;Liberals;Libï¿½raux;Liberale;;;;;;;;;;;x
-UBD_reactionary;Reactionaries;Rï¿½actionnaires;Reaktionï¿½re;;;;;;;;;;;x
-UBD_anarcho_liberals;Radicals;Anarcho-libï¿½raux;Radicale;;;;;;;;;;;x
-UBD_socialist;Socialists;Socialistes;Sozialisten;;;;;;;;;;;x
-UBD_communist;Bolsheviks;Bolchï¿½viques;Bolschewiki;;;;;;;;;;;x
-UBD_fascist;National Socialist Party;Parti national-socialiste;Faschisten;;;;;;;;;;;x
-BYE_conservative;Conservatives;Conservateurs;Konservative;;;;;;;;;;;x
-BYE_liberal;Liberals;Libï¿½raux;Liberale;;;;;;;;;;;x
-BYE_reactionary;Reactionaries;Rï¿½actionnaires;Reaktionï¿½re;;;;;;;;;;;x
-BYE_anarcho_liberals;Radicals;Anarcho-libï¿½raux;Radicale;;;;;;;;;;;x
-BYE_socialist;Belarusian Socialist Assembly;Assemblï¿½e biï¿½lorusse socialiste;Weiï¿½russische Sozialistische Hramada;;;;;;;;;;;x
-BYE_communist;Bolsheviks;Bolchï¿½viques;Bolschewiki;;;;;;;;;;;x
-BYE_fascist;National Socialist Party;Parti national-socialiste;Fasischten;;;;;;;;;;;x
-PLC;Poland-Lithuania-Ruthenia;Pologne-Lituanie;Polen-Litauen;;Polonia-Lituania;;;;;;;;x;
-PLC_ADJ;Commonwealth;Polono-lituanienne;Polnich-Litauische;;Polaco-Lituana;;;;;;;;;x
-PLC_conservative;Str. Narodowo-Demokratyczne;Parti national-dï¿½mocratique;Str. Narodowo-Demokratyczne;;Str. Narodowo-Demokratyczne;;;;;;;;;x
-PLC_liberal;Stronnictwo Patriotyczne;Parti patriotique;Stronnictwo Patriotyczne;;Stronnictwo Patriotyczne;;;;;;;;;x
-PLC_reactionary;Konfederacja Targowicka;Confï¿½dï¿½ration de Targowica;Konfederacja Targowicka;;Konfederacja Targowicka;;;;;;;;;x
-PLC_anarcho_liberal;Stronnictwo Radykalny;Parti radical;Stronnictwo Radykalny;;Stronnictwo Radykalny;;;;;;;;;x
-PLC_socialist;Partia Socjalistyczna;Parti socialiste;Partia Socjalistyczna;;Partia Socjalistyczna;;;;;;;;;x
-PLC_communist;Partia Socjaldemokracja;Parti social-dï¿½mocrate;Partia Socjaldemokracja;;Partia Socjaldemokracja;;;;;;;;;x
-PLC_fascist;Stronnictwo Narodowe;Parti national;Stronnictwo Narodowe;;Stronnictwo Narodowe;;;;;;;;;x
-ARA;Arabia;Arabie;Arabien;;Arabia;;;;;;;;;x
-ARA_ADJ;Arab;arabe;Arabisch;;Arab;;;;;;;;;x
-ARA_conservative;Conservatives;Conservateurs;Konservative;;;;;;;;;;;x
-ARA_liberal;Liberals;Libï¿½raux;Liberale;;;;;;;;;;;x
-ARA_reactionary;Reactionaries;Rï¿½actionnaires;Reaktionï¿½re;;;;;;;;;;;x
-ARA_anarcho_liberals;Radicals;Anarcho-libï¿½raux;Radicale;;;;;;;;;;;x
-ARA_socialist;Socialists;Socialistes;Sozialisten;;;;;;;;;;;x
-ARA_communist;Communists;Communistes;Kommunisten;;;;;;;;;;;x
-ARA_fascist;National Socialist Party;Parti national-socialiste;Faschisten;;;;;;;;;;;x
-GCO;Gran Colombia;Grande Colombie;Groï¿½kolumbien;;;;;;;;;;;x
-GCO_ADJ;Gran Colombian;grand-colombien;Groï¿½kolumbisch;;;;;;;;;;;x
-form_gran_colombia_title;Form Gran Colombia;Formez la Grande Colombie;Grï¿½nde Groï¿½kolumbien;;Forme Gran Colombia;;;;;;;;;x
-form_gran_colombia_desc;Gran Colombia was a political federation established in South America in the wake of Simon Bolivar's successful liberation of the territories of Colombia, Venezuela, and Ecuador from Spanish rule. The federation broke apart in 1831. We are in a position to re-unite the North Andean peoples once more if we proclaim a new Gran Colombia.;La Grande Colombie ï¿½tait une fï¿½dï¿½ration politique ï¿½tablie en Amï¿½rique du Sud dans le sillage de la libï¿½ration des territoires de la Colombie, du Venezuela et de l'Equateur de la domination espagnole, rï¿½ussie par Simon Bolivar. La fï¿½dï¿½ration s'est disloquï¿½ en 1831. Nous sommes en mesure de rï¿½unir ï¿½ nouveau les peuples du nord des Andes, si nous proclamons une nouvelle Grande Colombie.;Groï¿½kolumbien war eine politische Fï¿½deration in Sï¿½damerika, die im Zuge der Spanischen Befreiung Sï¿½damerikars durch Simon Bolivar die Gebiete von Kolumbien, Venezuela, Ecuador und Gebiete von Peru und Guyana umfasste. Die Fï¿½deration zerbrach im Jahre 1831. Wir sind nun in der Lage, die Nord-Andischen Vï¿½lker unter dem Banner Groï¿½kolumbiens wiederzuvereinen.;;;;;;;;;;;x
-GCO_conservative;Partido Centralista;Parti centraliste;Partido Zentralist;;Partido Centralista;;;;;;;;;x
-GCO_conservative_2;Nuevo Partido Centralista;Nouveau parti centraliste;Nuevo Partido Zentralist;;Nuevo Partido Centralista;;;;;;;;;x
-GCO_liberal;Partido Federalista;Parti fï¿½dï¿½raliste;Partido Fï¿½deralistische;;Partido Federalista;;;;;;;;;x
-GCO_liberal_2;Nuevo Partido Federalista;Nouveau parti fï¿½dï¿½raliste;Nuevo Partido Fï¿½deralistische;;Nuevo Partido Federalista;;;;;;;;;x
-GCO_liberal_3;Partido Autonomista;Parti autonomiste;Partido Autonomist;;Partido Autonomista;;;;;;;;;x
-GCO_anarcho_liberal;Partido Radical;Parti radical;Partido Radical;;Partido Radical;;;;;;;;;x
-GCO_reactionary;Partido Traditionalista;Parti traditionaliste;Partido Traditionalist;;Partido Traditionalista;;;;;;;;;x
-GCO_socialist;Partido Socialista Revolucionario;Parti rï¿½volutionnaire socialiste;Partido Sozialistische Revolutionï¿½re;;Partido Revolucionario Socialista;;;;;;;;;x
-GCO_communist;Partido Communist;Parti communiste;Partido Communist;;Partido Comunista;;;;;;;;;x
-GCO_fascist;Partido Fascist;Parti fasciste;Partido Fascist;;Partido Fascista;;;;;;;;;x
-arab;Arab;arabe;Arabien;;;;;;;;;;;x
-form_arabia_title;Form Arabia;Formez l'Arabie;Grï¿½nde Arabien;;;;;;;;;;;x
-form_arabia_desc;Brothers, freedom is here, we have won the battle for our destiny. Now the Arab people are on the way to resurrection!;Frï¿½res, la libertï¿½ est lï¿½, nous avons gagnï¿½ la bataille pour notre destin. Dï¿½sormais, les peuples arabes sont sur la voie de la rï¿½surrection !;Brï¿½der, die Freiheit ist gekommen. Wir habem im Kampf um unser Schicksal den Sieg davon getragen. Nun sind die Menschen Arabiens auf dem Weg der Wiederauferstehung!;;;;;;;;;;;x
-IS_EMPTY; has no owner; n'a pas de propriï¿½taire;ist unbeansprucht;;;;;;;;;;;x
-IS_NOT_EMPTY; has an owner; a un propriï¿½taire;ist beansprucht;;;;;;;;;;;x
-EVTNAME111011928;Form Arabia;Formez l'Arabie;Grï¿½nde Arabien;;;;;;;;;;;x
-EVTDESC111011928;Through warfare and diplomacy an Arabian union has been created. Shall we join it?;Grï¿½ce aux armes et ï¿½ la diplomatie, une union arabe a ï¿½tï¿½ constituï¿½e. Devons-nous la rejoindre ?;Durch Krieg und Diplomatie wurde eine arabische Union gegrï¿½ndet. Sollen wir ihr beitreten?;;;;;;;;;;;x
-EVTOPTA111011928;Of course!;Bien sï¿½r !;Natï¿½rlich!;;;;;;;;;;;x
-EVTOPTB111011928;Never!;Jamais !;Niemals!;;;;;;;;;;;x
+GREAT_WARS_ENABLED_DESC;Great wars are discovered.;x
+GREAT_WARS_DISABLED_DESC;Great wars are undiscovered yet.;x
+GREAT_WARS_ENABLE_DESC;Wars can get the status of The Great Wars!;x
+GREAT_WAR_NAME;The $ORDER$Great War;x
+GW_DISCOVERED_SETUP;When the Great Wars are discovered.;x
+GW_DISCOVERED_HEADER;Great Wars discovered!;x
+GW_DISCOVERED_1;Great Wars discovered!;x
+GW_DISCOVERED_2;From now, each war that includes;x
+GW_DISCOVERED_3;at least two great countries;x
+GW_DISCOVERED_4;on each side, will get the status of;x
+GW_DISCOVERED_5;§YThe Great War§!.;x
+GW_DISCOVERED_6;*;x
+GW_DISCOVERED_BTN1;OK;x
+GW_DISCOVERED_BTN2;OK;x
+GW_DISCOVERED_BTN3;Go to;x
+GW_DISCOVERED_LOG;Great Wars discovered;x
+WAR_GAIN_GW_STATUS_SETUP;When our war gains the Great war status.;x
+WAR_GAIN_GW_STATUS_HEADER;Great War!;x
+WAR_GAIN_GW_STATUS_1;$WAR$;x
+WAR_GAIN_GW_STATUS_2;becomes;x
+WAR_GAIN_GW_STATUS_3;§YThe Great War§!.;x
+WAR_GAIN_GW_STATUS_4;*;x
+WAR_GAIN_GW_STATUS_5;*;x
+WAR_GAIN_GW_STATUS_6;*;x
+WAR_GAIN_GW_STATUS_BTN1;OK;x
+WAR_GAIN_GW_STATUS_BTN2;OK;x
+WAR_GAIN_GW_STATUS_BTN3;Go to;x
+WAR_GAIN_GW_STATUS_LOG;$WAR$ becomes §YThe Great War§!;x
+WAR_LOST_GW_STATUS_SETUP;When our war lost the Great war status.;x
+WAR_LOST_GW_STATUS_HEADER;No longer a Great War!;x
+WAR_LOST_GW_STATUS_1;$WAR$;x
+WAR_LOST_GW_STATUS_2;is no longer;x
+WAR_LOST_GW_STATUS_3;The Great War.;x
+WAR_LOST_GW_STATUS_4;*;x
+WAR_LOST_GW_STATUS_5;*;x
+WAR_LOST_GW_STATUS_6;*;x
+WAR_LOST_GW_STATUS_BTN1;OK;x
+WAR_LOST_GW_STATUS_BTN2;OK;x
+WAR_LOST_GW_STATUS_BTN3;Go to;x
+WAR_LOST_GW_STATUS_LOG;$WAR$ is no longer §YThe Great War§!;x
+GW_INTERVENE_MIN_RELATIONS;Our relations with §Y$TARGET$§! must be at least §G$MIN$§!. Currently it is §Y$VAL$§!.;x
+GW_INTERVENE_MAX_EXHAUSTION;Our war exhaustion cannot be greater than §G$MAX$§!. Currently it is §Y$VAL$§!.;x
+great_war_penalty_cb;Great War Capitulation;x
+great_war_penalty_cb_desc;Force another §Ycountry§! to disarm and pay reparations to us.;x
+great_war_penalty_cb_setup;Disarm $RECIPIENT$ and let them pay for reparations.;x
+great_war_penalty_cb_short;Great War Capitulation;x
+GREAT_WAR_OBLIGATORY_CB_DESC;Obligatory Great War Casus Belli against all enemies:;x
+GREAT_WAR_CB_JUSTIFY_COST_DESC;Infamy cost deducted to §G$PERC$%§! of original cost due to §YGreat War§! status.;x
+GREAT_WAR_CB_CONSTRUCTION_SPEED_DESC;At Great War with §Y$TARGET$§!;x
+fascist_focus_short;§YFascist§! loyalty;x
+reactionary_focus_short;§YReactionary§! loyalty;x
+conservative_focus_short;§YConservative§! loyalty;x
+socialist_focus_short;§YSocialist§! loyalty;x
+communist_focus_short;§YCommunists§! loyalty;x
+liberal_focus_short;§YLiberal§! loyalty;x
+anarcho_liberal_focus_short;§YAnarcho-liberal§! loyalty;x
+automation_focus_short;Automotive Industry;x
+electrical_focus_short;Electrical Industry;x
+chemical_focus_short;Chemical Industry;x
+shipping_focus_short;Shipping Industry;x
+textile_focus_short;Textile Industry;x
+wood_focus_short;Wood Industry;x
+basic_industry_focus_short;Basic Industry;x
+armaments_focus_short;Armaments Industry;x
+consumer_focus_short;Consumer Goods;x
+WAR_GOAL_SUCCESS_PRESTIGE_CHANGE;If we complete this wargoal, we will gain $PRES$ prestige.;x
+WAR_GOAL_FAILURE_PRESTIGE_CHANGE;If we fail to achieve this wargoal, we will lose $PRES$ prestige.;x
+POP_INTERNAL_MIGRATION;§Y$NUM$§! people intend to move to other national provinces.;x
+POP_EXTERNAL_MIGRATION;§Y$NUM$§! people intend to move to another country.;x
+POP_COLONIAL_MIGRATION;§Y$NUM$§! people intend to move to the colonies.;x
+INVESTED_IN_US_SETUP;When a country invests in us;x
+INVESTED_IN_US_HEADER;Foreign Investment;x
+INVESTED_IN_US_1;$ICOUNTRY$ has invested in us!;x
+INVESTED_IN_US_2;$INVESTED_IN_US_MESSAGE$;x
+INVESTED_IN_US_3;*;x
+INVESTED_IN_US_4;*;x
+INVESTED_IN_US_5;*;x
+INVESTED_IN_US_6;*;x
+INVESTED_IN_US_BTN1;OK;x
+INVESTED_IN_US_BTN2;OK;x
+INVESTED_IN_US_BTN3;Go to;x
+INVESTED_IN_US_LOG;§Y$ICOUNTRY$§! invested in us: $INVESTED_IN_US_MESSAGE$;x
+INVESTED_IN_US_BUILD;$INAME$ built in $ILOCATION$ for $IAMOUNT$¤;x
+INVESTED_IN_US_OPEN;$INAME$ opened in $ILOCATION$ for $IAMOUNT$¤;x
+INVESTED_IN_US_UPGRADE;Upgraded $INAME$ in $ILOCATION$ for $IAMOUNT$¤;x
+INVESTED_IN_US_UNKNOWN;Invested $IAMOUNT$¤ in us.;x
+MODIFY_RELATION_EFFECT;§Y$SOURCE$§!'s relation with §Y$TARGET$§! changed with a value of $VALUE$.;x
+PRODUCTION_EXPAND_FACTORY_SHORTCUT_TOOLTIP;§GCtrl+Click§! upgrades all factories of this type which are near their employee limit (§Y$NUMSPECIALFACTORIES$§!).\n§GShift+Click§! upgrades all factories which are near their employee limit (§Y$NUMFACTORIES$§!).;x
+EVTNAME19355;Great wars;x
+EVTDESC19355;Growing nationial pride in countries around the world has reached the point where people will not accept anything less than total victory when Great powers clash. From now on, any conflict with at least two Great powers on each side will be regarded as a Great War!;x
+EVTOPTA19355;God help us all;x
+AGRESSION_WAR_INDEPENDENCE_NAME;$ORDER$$FIRST$ War of Independence;x
+BYE;Belarus;x
+BYE_ADJ;Byelorussian;x
+UBD;United Baltic Provinces;x
+UBD_ADJ;Baltic;x
+UBD_conservative;Conservatives;x
+UBD_liberal;Liberals;x
+UBD_reactionary;Reactionaries;x
+UBD_anarcho_liberals;Radicals;x
+UBD_socialist;Socialists;x
+UBD_communist;Bolsheviks;x
+UBD_fascist;National Socialist Party;x
+BYE_conservative;Conservatives;x
+BYE_liberal;Liberals;x
+BYE_reactionary;Reactionaries;x
+BYE_anarcho_liberals;Radicals;x
+BYE_socialist;Belarusian Socialist Assembly;x
+BYE_communist;Bolsheviks;x
+BYE_fascist;National Socialist Party;x
+PLC;Poland-Lithuania-Ruthenia;x
+PLC_ADJ;Commonwealth;x
+PLC_conservative;Str. Narodowo-Demokratyczne;x
+PLC_liberal;Stronnictwo Patriotyczne;x
+PLC_reactionary;Konfederacja Targowicka;x
+PLC_anarcho_liberal;Stronnictwo Radykalny;x
+PLC_socialist;Partia Socjalistyczna;x
+PLC_communist;Partia Socjaldemokracja;x
+PLC_fascist;Stronnictwo Narodowe;x
+ARA;Arabia;x
+ARA_ADJ;Arab;x
+ARA_conservative;Conservatives;x
+ARA_liberal;Liberals;x
+ARA_reactionary;Reactionaries;x
+ARA_anarcho_liberals;Radicals;x
+ARA_socialist;Socialists;x
+ARA_communist;Communists;x
+ARA_fascist;National Socialist Party;x
+GCO;Gran Colombia;x
+GCO_ADJ;Gran Colombian;x
+form_gran_colombia_title;Form Gran Colombia;x
+form_gran_colombia_desc;Gran Colombia was a political federation established in South America in the wake of Simon Bolivar's successful liberation of the territories of Colombia, Venezuela, and Ecuador from Spanish rule. The federation broke apart in 1831. We are in a position to re-unite the North Andean peoples once more if we proclaim a new Gran Colombia.;x
+GCO_conservative;Partido Centralista;x
+GCO_conservative_2;Nuevo Partido Centralista;x
+GCO_liberal;Partido Federalista;x
+GCO_liberal_2;Nuevo Partido Federalista;x
+GCO_liberal_3;Partido Autonomista;x
+GCO_anarcho_liberal;Partido Radical;x
+GCO_reactionary;Partido Traditionalista;x
+GCO_socialist;Partido Socialista Revolucionario;x
+GCO_communist;Partido Communist;x
+GCO_fascist;Partido Fascist;x
+arab;Arab;x
+form_arabia_title;Form Arabia;x
+form_arabia_desc;Brothers, freedom is here, we have won the battle for our destiny. Now the Arab people are on the way to resurrection!;x
+IS_EMPTY; has no owner;x
+IS_NOT_EMPTY; has an owner;x
+EVTNAME111011928;Form Arabia;x
+EVTDESC111011928;Through warfare and diplomacy an Arabian union has been created. Shall we join it?;x
+EVTOPTA111011928;Of course!;x
+EVTOPTB111011928;Never!;x

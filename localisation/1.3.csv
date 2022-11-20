@@ -1,90 +1,90 @@
-disarming;Forced to Disarm;Devra se dï¿½sarmer;Zur Entwaffnung gezwungen;;Obligado a desarmarse;;;;;;;;x
-HAS_NOT_RECENTLY_LOST_WAR;Have NOT lost a war in the last five years.;Nï¿½ont perdu AUCUNE guerre au cours des cinq annï¿½es passï¿½es.;Verlor keinen Krieg in den letzten 5 Jahren.;;NO ha perdido una guerra en los ï¿½ltimos cinco aï¿½os.;;;;;;;;;x
-HAS_RECENTLY_LOST_WAR;Have lost a war in the last five years..;Ont perdu une guerre au cours des cinq annï¿½es passï¿½es.;Verlor einen Krieg in den letzten 5 Jahren.;;Ha perdido una guerra en los ï¿½ltimos cinco aï¿½os.;;;;;;;;;x
-IN_SAME_SPHERE;This country is in the same sphere of influence as us.;Ce pays fait partie de la mï¿½me sphï¿½re dï¿½influence que nous.;Dieses Land ist in derselben Einflusssphï¿½re wie wir.;;Este paï¿½s estï¿½ en la misma esfera de influencia que nosotros.;;;;;;;;;x
-NOR_reactionary;Konge Partiet;Konge Partiet;Konge Partiet;;Konge Partiet;;;;;;;;;x
-ATJ_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facciï¿½n Nacionalista;;;;;;;;;x
-ATJ_liberal;The Liberal Faction;Faction libï¿½rale;Die liberale Fraktion;;La Facciï¿½n Liberal;;;;;;;;;x
-ATJ_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facciï¿½n Radical;;;;;;;;;x
-ATJ_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facciï¿½n Socialista;;;;;;;;;x
-ATJ_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facciï¿½n Comunista;;;;;;;;;x
-ATJ_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facciï¿½n Fascista;;;;;;;;;x
-CAL_conservative;Democratic Party;Parti dï¿½mocrate;Demokratische Partei;;Partido Demï¿½crata;;;;;;;;;x
-KHI_conservative;Royal Faction;Faction royale;Kï¿½nigsfraktion;;Facciï¿½n Real;;;;;;;;;x
-KHI_liberal;The Liberal Faction;Faction libï¿½rale;Die liberale Fraktion;;La Facciï¿½n Liberal;;;;;;;;;x
-KHI_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facciï¿½n Nacionalista;;;;;;;;;x
-KHI_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facciï¿½n Radical;;;;;;;;;x
-KHI_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facciï¿½n Socialista;;;;;;;;;x
-KHI_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facciï¿½n Comunista;;;;;;;;;x
-KHI_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facciï¿½n Fascista;;;;;;;;;x
-MAD_conservative;Royal Faction;Faction royale;Kï¿½nigsfraktion;;Facciï¿½n Real;;;;;;;;;x
-MAD_liberal;The Liberal Faction;Faction libï¿½rale;Die liberale Fraktion;;La Facciï¿½n Liberal;;;;;;;;;x
-MAD_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facciï¿½n Nacionalista;;;;;;;;;x
-MAD_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facciï¿½n Radical;;;;;;;;;x
-MAD_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facciï¿½n Socialista;;;;;;;;;x
-MAD_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facciï¿½n Comunista;;;;;;;;;x
-MAD_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facciï¿½n Fascista;;;;;;;;;x
-TRI_conservative;Royal Faction;Faction royale;Kï¿½nigsfraktion;;Facciï¿½n Real;;;;;;;;;x
-TRI_liberal;The Liberal Faction;Faction libï¿½rale;Die liberale Fraktion;;La Facciï¿½n Liberal;;;;;;;;;x
-TRI_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facciï¿½n Nacionalista;;;;;;;;;x
-TRI_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facciï¿½n Radical;;;;;;;;;x
-TRI_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facciï¿½n Socialista;;;;;;;;;x
-TRI_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facciï¿½n Comunista;;;;;;;;;x
-TRI_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facciï¿½n Fascista;;;;;;;;;x
-TEX_communist;Communist Party;Parti communiste;Kommunistische Partei;;Partido Comunista;;;;;;;;;x
-BAD_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
-BAV_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
-WEI_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
-WLL_fascist;Rexist Party;Parti Rexiste;Rexistenpartei;;Partido Rexista;;;;;;;;;x
-NEW_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;Partido Fascista;;;;;;;;;x
-DIPLOMACY_CHANCE_JOIN_WAR;Likelyhood of joining the war: ï¿½Y$VAL$ï¿½W;Probabilitï¿½ de rejoindre : ï¿½Y$VAL$ï¿½W;Wahrscheinlichkeit des Kriegseintritts: ï¿½Y$VAL$ï¿½W;;Probabilidad de que se incorpore a la guerra: ï¿½Y$VAL$ï¿½W;;;;;;;;;x
-PO_ISBETTER;If we refuse this offer we will suffer the following:\n ï¿½R+$MIL$ï¿½W Militancy, ï¿½R+$WE$ï¿½W War exhaustion;Si nous refusons cette offre, nous subirons ce qui suit :\n ï¿½R+$MIL$ï¿½W de militantisme, ï¿½R+$WE$ï¿½W dï¿½ï¿½puisement de guerre;Wenn wir dieses Angebot ablehnen, werden wird das folgende Konsequenzen haben:\n ï¿½R+$MIL$ï¿½W Militanz, ï¿½R+$WE$ï¿½W Kriegsmï¿½digkeit;;Si rechazamos la oferta sufriremos lo siguiente:\n ï¿½R+$MIL$ï¿½W de militancia, ï¿½R+$WE$ï¿½W de agotamiento bï¿½lico;;;;;;;;;x
-leave_soi_title;Leave Sphere of Influence;Quitter la sphï¿½re dï¿½influence;Einflusssphï¿½re verlassen;;Abandonar esfera de influencia;;;;;;;;;x
-leave_soi_desc;We can leave this Sphere of Influence, however our former master may well declare war to stop us.;Nous pouvons quitter cette sphï¿½re dï¿½influence, mais notre ancien maï¿½tre risque de nous dï¿½clarer la guerre pour nous arrï¿½ter.;Wir kï¿½nnen diese Einflusssphï¿½re verlassen, aber unser frï¿½herer Herr kï¿½nnte uns den Krieg erklï¿½ren, um uns daran zu hindern.;;Podemos abandonar esta esfera de influencia, pero nuestro antiguo seï¿½or podrï¿½a declararnos la guerra.;;;;;;;;;x
-NEW_PARTY_AVAIL_SETUP;New political party;Nouveau parti politique;Neue politische Partei;;Nuevo partido polï¿½tico;;;;;;;;;x
-NEW_PARTY_AVAIL_HEADER;New political party formed;Nouveau parti politique formï¿½;Neue politische Partei gegrï¿½ndet;;Se ha formado un nuevo partido polï¿½tico;;;;;;;;;x
-NEW_PARTY_AVAIL_1;$PARTY$ has been formed;$PARTY$ a ï¿½tï¿½ formï¿½;$PARTY$ wurde soeben gegrï¿½ndet;;Se ha formado un partido: $PARTY$;;;;;;;;;x
-NEW_PARTY_AVAIL_2;*;*;*;*;*;*;*;;;;;;;x
-NEW_PARTY_AVAIL_3;*;*;*;*;*;*;*;;;;;;;x
-NEW_PARTY_AVAIL_4;*;*;*;*;*;*;*;;;;;;;x
-NEW_PARTY_AVAIL_5;*;*;*;*;*;*;*;;;;;;;x
-NEW_PARTY_AVAIL_6;*;*;*;*;*;*;*;;;;;;;x
-NEW_PARTY_AVAIL_BTN1;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
-NEW_PARTY_AVAIL_BTN2;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
-NEW_PARTY_AVAIL_BTN3;Go to;Voir;Goto;;Ir a;;;;;;;;;x
-NEW_PARTY_AVAIL_LOG;New political party;Nouveau parti politique;Neue Partei gegrï¿½ndet: $PARTY$.;;Nuevo partido polï¿½tico;;;;;;;;;x
-PARTY_UNAVAIL_SETUP;Political party defunct;Parti politique dissous;Partei aufgelï¿½st;;Partido polï¿½tico desaparecido;;;;;;;;;x
-PARTY_UNAVAIL_HEADER;Political party defunct;Parti politique dissous;Partei aufgelï¿½st;;Partido polï¿½tico desaparecido;;;;;;;;;x
-PARTY_UNAVAIL_1;$PARTY$ is now defunct;$PARTY$ est ï¿½ prï¿½sent dissous;$PARTY$ wurde aufgelï¿½st;;Ha desaparecido un partido polï¿½tico: $PARTY$;;;;;;;;;x
-PARTY_UNAVAIL_2;*;*;*;*;*;*;*;;;;;;;x
-PARTY_UNAVAIL_3;*;*;*;*;*;*;*;;;;;;;x
-PARTY_UNAVAIL_4;*;*;*;*;*;*;*;;;;;;;x
-PARTY_UNAVAIL_5;*;*;*;*;*;*;*;;;;;;;x
-PARTY_UNAVAIL_6;*;*;*;*;*;*;*;;;;;;;x
-PARTY_UNAVAIL_BTN1;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
-PARTY_UNAVAIL_BTN2;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
-PARTY_UNAVAIL_BTN3;Go to;Voir;Goto;;Ir a;;;;;;;;;x
-PARTY_UNAVAIL_LOG;Political party now unavailable;Parti politique dï¿½sormais indisponible;Die Partei ï¿½Y$PARTY$ï¿½W wurde aufgelï¿½st und existiert nicht lï¿½nger.;;Ha desaparecido un partido polï¿½tico;;;;;;;;;x
-PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Days of insolvency: ï¿½R$DAYS$ï¿½W;Jour dï¿½insolvabilitï¿½ : ï¿½R$DAYS$ï¿½W;Tage mit Verlusten: ï¿½R$DAYS$ï¿½W;;Dï¿½as de insolvencia: ï¿½R$DAYS$ï¿½W;;;;;;;;;x
-EXPENSE_NO_AFFORD;We can only afford to pay ï¿½R$VAL$ï¿½Wï¿½ of our expenses!;Nous ne pouvons nous acquitter que de ï¿½R$VAL$ï¿½Wï¿½de nos dï¿½penses !;Wir kï¿½nnen nur ï¿½R$VAL$ï¿½Wï¿½ unserer Ausgaben zahlen!;;ï¿½Solo podemos pagar el ï¿½R$VAL$ï¿½Wï¿½ de nuestros gastos!;;;;;;;;;x
-PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Days of insolvency: ï¿½R$DAYS$ï¿½W;Jours dï¿½insolvabilitï¿½ : ï¿½R$DAYS$ï¿½W;Insolvenztage: ï¿½R$DAYS$ï¿½W;;Dï¿½as de insolvencia: ï¿½R$DAYS$ï¿½W;;;;;;;;;x
-ENG_presidential_dictatorship;Great Britain;Grande-Bretagne;Groï¿½britannien;;Gran Bretaï¿½a;;;;;;;;x
-EVTNAME16451;Raiding the garrisons;Attaque des garnisons;ï¿½berfall auf Garnisonen;;Asalto contra las guarniciones;;;;;;;;;x
-EVTDESC16451;During the early days of the Texan Revolution, Texan troops were able to overrun several Mexican garrisons. This provided the Texan army with much needed money and supplies.;Aux premiers jours de la Rï¿½volution texane, les troupes du Texas ont rï¿½ussi ï¿½ renverser plusieurs garnisons mexicaines permettant ainsi ï¿½ leur armï¿½e de disposer des fonds et ravitaillements nï¿½cessaires.;Wï¿½hrend der ersten Tage der texanischen Revolution konnten texanische Truppen mehrere mexikanische Garnisonen ï¿½berrennen. Dies brachte der texanischen Armee stark benï¿½tigte Gelder und Nachschubmaterial ein.;;Durante los primeros dï¿½as de la Revoluciï¿½n Texana, las tropas de Texas pudieron destruir varias guarniciones mexicanas. Gracias a esto, el ejï¿½rcito texano obtuvo unos fondos y pertrechos de los que estaba muy necesitado.;;;;;;;x
-CB_ALLOWED_GUNBOAT;Force Debt Repayment;Forcer le remboursement de la dette;Schuldentilgung erzwingen;;Forzar pago de deuda;;;;;;;;x
-po_gunboat;Repay Debts.;Rembourser les dettes;Schulden tilgen.;;Pagar deudas.;;;;;;;;x
-IS_IN_DEFAULT_TO;Is in Default to;Est dï¿½biteur de;ist im Zahlungsrï¿½ckstand gegenï¿½ber;;Estï¿½ en situaciï¿½n de incumplimiento de pagos con;;;;;;;;x
-IS_NOT_IN_DEFAULT_TO;Is not in Default to;Nï¿½est pas dï¿½biteur de;ist nicht im Zahlungsrï¿½ckstand gegenï¿½ber;;No estï¿½ en situaciï¿½n de incumplimiento de pagos con;;;;;;;;x
-gunboat;Repay Debts;Rembourser les dettes;Schulden tilgen;;Pagar deudas;;;;;;;;x
-gunboat_desc;Force them to resume repayment of their debts to us.;Les forcer ï¿½ reprendre le remboursement des dettes contractï¿½es envers nous.;Sie zwingen, ihre Schuldenrï¿½ckzahlungen weiterzufï¿½hren.;;Obligarlos a reanudar el pago de sus deudas con nosotros.;;;;;;;;x
-gunboat_setup;Will force them to honor their debts to us.;Nous les forceront ï¿½ honorer les dettes contractï¿½es envers nous.;Werden sie zwingen, uns ihre Schulden zurï¿½ckzuzahlen.;;Los obligarï¿½ a hacer frente a sus deudas con nosotros.;;;;;;;;x
-gunboat_short;Repay Debts;Rembourser les dettes;Schulden tilgen;;Pagar deudas;;;;;;;;x
-EVTNAME70002;$FROMCOUNTRY$ goes bankrupt!;$FROMCOUNTRY$ a fait faillite !;$FROMCOUNTRY$ ist bankrott!;;ï¿½$FROMCOUNTRY$ estï¿½ en bancarrota!;;;;;;;;x
-EVTDESC70002;$FROMCOUNTRY$ has gone bankrupt and claims that they owe us nothing! We must use our military might to safeguard our investors.;\n$FROMCOUNTRY$ a fait faillite et ils crient haut et fort quï¿½ils ne nous doivent rien !\nIl nous faut recourir ï¿½ notre puissance militaire pour protï¿½ger nos investisseurs.;$FROMCOUNTRY$ ist bankrott und behauptet, sie schulden uns nichts! Wir mï¿½ssen unsere Investoren mit unserer Militï¿½rmacht schï¿½tzen.;;ï¿½$FROMCOUNTRY$ ha declarado la bancarrota y afirma que no nos debe nada! Debemos usar nuestras fuerzas armadas para proteger los intereses de nuestros inversores.;;;;;;;;x
-EVTOPTA70002;OK;Ils vont voir qui nous sommes;OK;;Aceptar;;;;;;;;x
-USE_LEADER;Use leader;Utiliser cet officier;Anfï¿½hrer verwenden;;Usar lï¿½der;;;;;;;;x
-SHORTCUT;ï¿½WShortcut: ï¿½Y;ï¿½WRaccourci : ï¿½Y;ï¿½WTastenkï¿½rzel: ï¿½Y;;ï¿½WAtajo: ï¿½Y;;;;;;;;;x
-SM_SHORTCUT;Shortcut tooltip;Raccourci infobulle;Tastenkï¿½rzel Tooltipp;;Recuadro de texto de atajo;;;;;;;;x
-TUR_proletarian_dictatorship_ADJ;Turkish;Turc;Tï¿½rkisch;;Turca;;;;;;;;;x
-move_capital_to_moscow_title;Return to the Third Rome;Retourner ï¿½ la Troisiï¿½me Rome;Zurï¿½ck zum Dritten Rom;;Volver a la tercera Roma;;;;;;;;x
-move_capital_to_moscow_desc;Glorious St Petersburg, the city of Peter the Great, is uncomfortably close to the border. Perhaps it would be prudent to move our capital back to Moscow, the Pervoprestolnaya", which invading armies might find harder to reach...";La glorieuse Saint-Pï¿½tersbourg, ville de Pierre le Grand, est inconfortablement proche de la frontiï¿½re. Il serait peut-ï¿½tre plus prudent de retransfï¿½rer notre capitale ï¿½ Moscou, la ï¿½ Pervoprestolnaya ï¿½, que les armï¿½es dï¿½invasion auront plus de mal ï¿½ rejoindre...;Das famose St. Petersburg, Stadt Peter des Groï¿½en, liegt unangenehm nah an der Grenze. Vielleicht wï¿½re es sinnvoll, unsere Hauptstadt zurï¿½ck nach Moskau, der "Perwoprestolnaja", zu verlegen, das fï¿½r einfallende Armeen schwerer zu erreichen ist ...;;La gloriosa San Petersburgo, ciudad de Pedro el Grande, estï¿½ incï¿½modamente cerca de la frontera. Puede que sea prudente trasladar de nuevo la capital a Moscï¿½, la "Pervoprestolnaya", mucho mï¿½s difï¿½cil de alcanzar para los ejï¿½rcitos enemigos...;;;;;;;;x
+disarming;Forced to Disarm;X
+HAS_NOT_RECENTLY_LOST_WAR;Have NOT lost a war in the last five years.;X
+HAS_RECENTLY_LOST_WAR;Have lost a war in the last five years..;X
+IN_SAME_SPHERE;This country is in the same sphere of influence as us.;X
+NOR_reactionary;Konge Partiet;X
+ATJ_reactionary;The Nationalist Faction;X
+ATJ_liberal;The Liberal Faction;X
+ATJ_anarcho_liberal;The Radical Faction;X
+ATJ_socialist;The Socialist Faction;X
+ATJ_communist;The Communist Faction;X
+ATJ_fascist;The Fascist Faction;X
+CAL_conservative;Democratic Party;X
+KHI_conservative;Royal Faction;X
+KHI_liberal;The Liberal Faction;X
+KHI_reactionary;The Nationalist Faction;X
+KHI_anarcho_liberal;The Radical Faction;X
+KHI_socialist;The Socialist Faction;X
+KHI_communist;The Communist Faction;X
+KHI_fascist;The Fascist Faction;X
+MAD_conservative;Royal Faction;X
+MAD_liberal;The Liberal Faction;X
+MAD_reactionary;The Nationalist Faction;X
+MAD_anarcho_liberal;The Radical Faction;X
+MAD_socialist;The Socialist Faction;X
+MAD_communist;The Communist Faction;X
+MAD_fascist;The Fascist Faction;X
+TRI_conservative;Royal Faction;X
+TRI_liberal;The Liberal Faction;X
+TRI_reactionary;The Nationalist Faction;X
+TRI_anarcho_liberal;The Radical Faction;X
+TRI_socialist;The Socialist Faction;X
+TRI_communist;The Communist Faction;X
+TRI_fascist;The Fascist Faction;X
+TEX_communist;Communist Party;X
+BAD_fascist;NSDP;X
+BAV_fascist;NSDP;X
+WEI_fascist;NSDP;X
+WLL_fascist;Rexist Party;X
+NEW_fascist;Fascist Party;X
+DIPLOMACY_CHANCE_JOIN_WAR;Likelyhood of joining the war: §Y$VAL$§W;X
+PO_ISBETTER;If we refuse this offer we will suffer the following:\n §R+$MIL$§W Militancy, §R+$WE$§W War exhaustion;X
+leave_soi_title;Leave Sphere of Influence;X
+leave_soi_desc;We can leave this Sphere of Influence, however our former master may well declare war to stop us.;X
+NEW_PARTY_AVAIL_SETUP;New political party;X
+NEW_PARTY_AVAIL_HEADER;New political party formed;X
+NEW_PARTY_AVAIL_1;$PARTY$ has been formed;X
+NEW_PARTY_AVAIL_2;*;X
+NEW_PARTY_AVAIL_3;*;X
+NEW_PARTY_AVAIL_4;*;X
+NEW_PARTY_AVAIL_5;*;X
+NEW_PARTY_AVAIL_6;*;X
+NEW_PARTY_AVAIL_BTN1;OK;X
+NEW_PARTY_AVAIL_BTN2;OK;X
+NEW_PARTY_AVAIL_BTN3;Go to;X
+NEW_PARTY_AVAIL_LOG;New political party;X
+PARTY_UNAVAIL_SETUP;Political party defunct;X
+PARTY_UNAVAIL_HEADER;Political party defunct;X
+PARTY_UNAVAIL_1;$PARTY$ is now defunct;X
+PARTY_UNAVAIL_2;*;X
+PARTY_UNAVAIL_3;*;X
+PARTY_UNAVAIL_4;*;X
+PARTY_UNAVAIL_5;*;X
+PARTY_UNAVAIL_6;*;X
+PARTY_UNAVAIL_BTN1;OK;X
+PARTY_UNAVAIL_BTN2;OK;X
+PARTY_UNAVAIL_BTN3;Go to;X
+PARTY_UNAVAIL_LOG;Political party now unavailable;X
+PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Days of insolvency: §R$DAYS$§W;X
+EXPENSE_NO_AFFORD;We can only afford to pay §R$VAL$§W¤ of our expenses!;X
+PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Days of insolvency: §R$DAYS$§W;X
+ENG_presidential_dictatorship;Great Britain;X
+EVTNAME16451;Raiding the garrisons;X
+EVTDESC16451;During the early days of the Texan Revolution, Texan troops were able to overrun several Mexican garrisons. This provided the Texan army with much needed money and supplies.;X
+CB_ALLOWED_GUNBOAT;Force Debt Repayment;X
+po_gunboat;Repay Debts.;X
+IS_IN_DEFAULT_TO;Is in Default to;X
+IS_NOT_IN_DEFAULT_TO;Is not in Default to;X
+gunboat;Repay Debts;X
+gunboat_desc;Force them to resume repayment of their debts to us.;X
+gunboat_setup;Will force them to honor their debts to us.;X
+gunboat_short;Repay Debts;X
+EVTNAME70002;$FROMCOUNTRY$ goes bankrupt!;X
+EVTDESC70002;$FROMCOUNTRY$ has gone bankrupt and claims that they owe us nothing! We must use our military might to safeguard our investors.;X
+EVTOPTA70002;OK;X
+USE_LEADER;Use leader;X
+SHORTCUT;§WShortcut: §Y;X
+SM_SHORTCUT;Shortcut tooltip;X
+TUR_proletarian_dictatorship_ADJ;Turkish;X
+move_capital_to_moscow_title;Return to the Third Rome;X
+move_capital_to_moscow_desc;"Glorious St Petersburg, the city of Peter the Great, is uncomfortably close to the border. Perhaps it would be prudent to move our capital back to Moscow, the Pervoprestolnaya"", which invading armies might find harder to reach...""";X

@@ -1,40 +1,40 @@
-good_farmland;Good Farmland;Bonnes Terres Arables;Gutes Ackerland;;Buenas Tierras de Cultivo;;;;;;;;;x
-floodplain_farmland;Floodplain Farmland;Terres Arables Plaine Inondable;Auen Ackerland;;Llanura Inundable Rierras de Cultivo;;;;;;;;;x
-marginal_farmland;Marginal Farmland;Terres Arables Marginales;Marginale Ackerland;;Tierras de Cultivo Carginales;;;;;;;;;x
-hilly_farmland;Hilly Farmland;Terres Arables Collines;H�gelige Ackerland;;Tierras de Cultivo de Colinas;;;;;;;;;x
-forested_farmland;Forested Farmland;Terres Agricoles Bois�es;Bewaldeten Ackerland;;Tierras de Cultivo Forestal;;;;;;;;;x
-jungle_farmland;Jungle Farmland;Terres Arables Jungle;Dschungel Ackerland;;Jungla Tierras de Cultivo;;;;;;;;;x
-temperate_grassland;Temperate Grassland;Prairie Temp�r�e;Temperaten Grasland;;Pradera Templadas;;;;;;;;;x
-dry_grassland;Dry Grassland;Prairie Arides;Trockene Grasland;;Seca Pradera;;;;;;;;;x
-hilly_grassland;Hilly Grassland;Collines Prairie;H�geligem Grasland;;Praderas Colinas;;;;;;;;;x
-mountain_grassland;Mountain Grassland;Prairie de Montagne;Berggrasland;;Praderas Monta�as;;;;;;;;;x
-semi_desert;Semi-Desert;Semi-D�sertique;Halbw�ste;;Semi-Desierto;;;;;;;;;x
-semi_desert_hills;Semi-Desert Hills;Semi-D�sertiques Collines;Halbw�ste H�gel;;Semides�rticas Colinas;;;;;;;;;x
-semi_desert_mountains;Semi-Desert Mountains;Semi-D�sertiques Montagnes;Halbw�ste Berge;;Semides�rticas Monta�as;;;;;;;;;x
-desert_hills;Desert Hills;Collines d�sertiques;W�stenh�geln;;Desierto Colinas;;;;;;;;;x
-desert_mountains;Desert Mountains;Montagnes du D�sert;W�stenberge;;Desierto Monta�as;;;;;;;;;x
-dry_forest;Dry Forest;For�t S�che;Trockenwald;;Bosque Seco;;;;;;;;;x
-dry_forest_hills;Dry Forest Hills;S�che Collines de For�t;Trocken Waldh�gel;;Seca Colinas del Bosque;;;;;;;;;x
-dry_forest_mountains;Dry Forest Mountains;Montagnes de For�ts S�ches;Trockenwald Berge;;Monta�as de Bosque Seco;;;;;;;;;x
-deciduous_forest;Deciduous Forest;For�t D�cidue;Laubwald;;Bosque Caducifolio;;;;;;;;;x
-deciduous_forest_hills;Deciduous Forest Hills;Collines For�ts D�cidue;Laubwald H�gel;;Colinas De Bosque Caducifolio;;;;;;;;;x
-deciduous_forest_mountains;Deciduous Forest Mountains;Montagnes For�t d�cidue;Laubwald Berge;;Monta�as de Bosque Caducifolio;;;;;;;;;x
-conifer_forest;Conifer Forest;For�t de Conif�res;Nadelwald;;Bosque de Con�feras;;;;;;;;;x
-conifer_forest_hills;Conifer Forest Hills;Conif�res Collines de For�t;Nadelwald H�gel;;Bosque de Con�feras Colinas;;;;;;;;;x
-conifer_forest_mountains;Conifer Forest Mountains;Conif�res Montagnes For�t;Nadelwald Gebirge;;Bosque de Con�feras Monta�as;;;;;;;;;x
-boreal_forest;Boreal Forest;For�t Bor�ale;Borealer Nadelwald;GER;;Bosque Boreal;;;;;;;;;x
-boreal_forest_hills;Boreal Forest Hills;Bor�ale collines de For�t;Borealer Nadelwald H�gel;;Colinas de Bosque Boreales;;;;;;;;;x
-boreal_forest_mountains;Boreal Forest Mountains;Montagnes For�t Bor�ale;Borealer Nadelwald Berge;;Monta�as de Bosques Boreales;;;;;;;;;x
-jungle_hills;Jungle Hills;Collines Jungle;Dschungel H�gel;;Jungla Colinas;;;;;;;;;x
-jungle_mountains;Jungle Mountains;Montagnes Jungle;Dschungel Berge;;Monta�as Jungla;;;;;;;;;x
-seasonal_jungle;Seasonal Jungle;Jungle Saisonni�re;Saisonale Dschungel;;Jungla Estacional;;;;;;;;;x
-seasonal_jungle_hills;Seasonal Jungle Hills;Collines Jungle Saisonniers;Saisonale Dschungel H�gel;;Colinas Jungla Estacional;;;;;;;;;x
-seasonal_jungle_mountains;Seasonal Jungle Mountains;Montagnes Jungle Saisonniers;Saisonale Dschungel Berge;;Monta�as Estacional Jungla;;;;;;;;;x
-cold_desert;Cold Desert;D�sert Froid;Kalten W�ste;;Desierto Fr�o;;;;;;;;;x
-cold_desert_hills;Cold Desert Hills;Froide collines D�sertiques;K�lte W�stenh�geln;;Desierto Fr�o Colinas;;;;;;;;;x
-cold_desert_mountains;Cold Desert Mountains;Montagnes D�sertiques Froides;K�lte W�stenberge;;Monta�as Fr�o Desierto;;;;;;;;;x
-tundra;Tundra;Toundra;Tundra;;Tundra;;;;;;;;;x
-tundra_hills;Tundra Hills;Collines de la Toundra;Tundra H�gel;;Tundra Colinas;;;;;;;;;x
-tundra_mountains;Tundra Mountains;Toundra Montagnes;Tundra Berge;;Tundra Monta�as;;;;;;;;;x
-boreal_marsh;Boreal Marsh;Bor�ale Marais;Borealen Sumpf;;Pantanos Boreales;;;;;;;;;x
-swamp_jungle;Swamp Jungle;Mar�cageuses Jungle;Sumpf Dschungel;;Pantano Jungla;;;;;;;;;x
+good_farmland;Good Farmland;x
+floodplain_farmland;Floodplain Farmland;x
+marginal_farmland;Marginal Farmland;x
+hilly_farmland;Hilly Farmland;x
+forested_farmland;Forested Farmland;x
+jungle_farmland;Jungle Farmland;x
+temperate_grassland;Temperate Grassland;x
+dry_grassland;Dry Grassland;x
+hilly_grassland;Hilly Grassland;x
+mountain_grassland;Mountain Grassland;x
+semi_desert;Semi-Desert;x
+semi_desert_hills;Semi-Desert Hills;x
+semi_desert_mountains;Semi-Desert Mountains;x
+desert_hills;Desert Hills;x
+desert_mountains;Desert Mountains;x
+dry_forest;Dry Forest;x
+dry_forest_hills;Dry Forest Hills;x
+dry_forest_mountains;Dry Forest Mountains;x
+deciduous_forest;Deciduous Forest;x
+deciduous_forest_hills;Deciduous Forest Hills;x
+deciduous_forest_mountains;Deciduous Forest Mountains;x
+conifer_forest;Conifer Forest;x
+conifer_forest_hills;Conifer Forest Hills;x
+conifer_forest_mountains;Conifer Forest Mountains;x
+boreal_forest;Boreal Forest;x
+boreal_forest_hills;Boreal Forest Hills;x
+boreal_forest_mountains;Boreal Forest Mountains;x
+jungle_hills;Jungle Hills;x
+jungle_mountains;Jungle Mountains;x
+seasonal_jungle;Seasonal Jungle;x
+seasonal_jungle_hills;Seasonal Jungle Hills;x
+seasonal_jungle_mountains;Seasonal Jungle Mountains;x
+cold_desert;Cold Desert;x
+cold_desert_hills;Cold Desert Hills;x
+cold_desert_mountains;Cold Desert Mountains;x
+tundra;Tundra;x
+tundra_hills;Tundra Hills;x
+tundra_mountains;Tundra Mountains;x
+boreal_marsh;Boreal Marsh;x
+swamp_jungle;Swamp Jungle;x

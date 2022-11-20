@@ -1,26 +1,26 @@
-PV_INTERNAL_IMMIGRATION;Internal Migration: ;Migration interne : ;Interne Migration: ;;;;;;;;;;;x
-PV_EXTERNAL_IMMIGRATION;External Migration: ;Immigration : ;Externe Migration: ;;;;;;;;;;;x
-COUNTRYALERT_CanRemoveFromSphere;We can remove nations from our ï¿½YSphere of Influenceï¿½!:;Nous pouvons sortir des pays de notre ï¿½YSphere of Influenceï¿½ !;Wir kï¿½nnen Nationen aus unserer ï¿½YEinflusssphï¿½reï¿½! entfernen:;;;;;;;;;;;x
-PV_CLERGY_LIT_DESC1;$NUM$ of your population in $LOC$ are Clergy.;$NUM$ de votre population en $LOC$ sont ;$NUM$ unserer Bevï¿½lkerung in $LOC$ gehï¿½ren dem Klerus an.;;;;;;;;;;;x
-PV_CLERGY_LIT_DESC2;Optimal is $OPT$.;L'idï¿½al serait $OPT$.;Optimal sind $OPT$.;;;;;;;;;;;x
-PV_CLERGY_LIT_DESC3;Monthly change base value: $VAL$;Modification de base mensuelle : $VAL$;monatliche Grundverï¿½nderung: $VAL$;;;;;;;;;;;x
-IN_SOCIAL_MOVEMENT;in social movement;en mouvement social;in einer sozialen Bewegung;;;;;;;;;;;x																														
-NOT_IN_SOCIAL_MOVEMENT;not in social movement;pas en mouvement social;in keiner sozialen Bewegung;;;;;;;;;;;x																														
-IN_POLITICAL_MOVEMENT;in political movement;en mouvement politique;in einer politischen Bewegung;;;;;;;;;;;x																														
-NOT_IN_POLITICAL_MOVEMENT;not in political movement;pas en mouvement politique;in keiner politischen Bewegung;;;;;;;;;;;x																														
-the_meiji_restoration2_title;Early Meiji Restoration;Premiï¿½re restauration Meiji;Frï¿½he Meiji-Restauration;;;;;;;;;;;x																														
-the_meiji_restoration2_desc;Japan is traditionally considered to have been founded by Emperor Jimmu in 660 B.C. and while the Imperial Lineage was still considered unbroken since then the Imperial Office had throughout the Edo period	 been reduced to a revered and respected but ultimately	 politically powerless institution. By embracing a restoration of Imperial Rule	 along with a programme of swift industrial modernization constitutionalism and economic freedom Japan might be able to break the fetters placed upon her by the impositions of the Western World.;Selon la tradition, le Japon aurait ï¿½tï¿½ fondï¿½ par l'empereur Jimmu en 660 avant notre ï¿½re et alors que la lignï¿½e impï¿½riale aurait depuis ï¿½tï¿½ ininterrompue, le Bureau impï¿½rial n'ï¿½tait, pendant la pï¿½riode Edo, qu'une institution, certes respectï¿½e, mais privï¿½e de pouvoir politique. Moyennant le rï¿½tablissement du rï¿½gne impï¿½rial, ainsi que la mise ne place d'un vaste programme de modernisation industriel, de constitutionalisme et de libertï¿½ ï¿½conomique, le Japon devrait pouvoir rompre les fers que lui a imposï¿½ le monde occidental.;Die Grï¿½ndung Japans wird ï¿½blicherweise dem Kaiser Jimmu im Jahr 660 v.Chr. zugeschrieben und obwohl die kaiserliche Abstammungslinie seitdem ununterbrochen ist	 wurde das Kaiseramt wï¿½hrend der Edo-Zeit kontinuierlich zu einer verehrten und respektierten aber letztendlich machtlosen politischen Institution reduziert. Durch die Restauration der kaiserlichen Herrschaft im Einklang einem Programm fï¿½r rasche industrielle Modernisierung	 Konstitutionalismus und Gewerbefreiheit kï¿½nnte Japan die Fesseln sprengen	 die ihm von der westlichen Welt angelegt wurden.;;Tradicionalmente	 se considera que Japï¿½n fue fundado por el emperador Jimmu en el aï¿½o 660 a. de.C. y	 aunque el linaje imperial se considera ininterrumpido desde entonces a lo largo del perï¿½odo Edo la funciï¿½n del Emperador fue reducida a una instituciï¿½n venerada y respetada pero carente de poder polï¿½tico. Al adoptar la restauraciï¿½n del gobierno imperial	 junto a un programa de rï¿½pida modernizaciï¿½n industrial	 constitucionalismo y libertad econï¿½mica	 Japï¿½n puede ser capaz de romper las cadenas de las imposiciones del mundo occidental.;;;;;;;;;x
-TPG;Heavenly Kingdom;Royaume cï¿½leste;Himmlisches Kï¿½nigreich;;;;;;;;;;x
-TPG_democracy;Taiping Republic;Rï¿½publique de Taï¿½wan;Taiping Republik;;;;;;;;;;;x
-TPG_bourgeois_dictatorship;Taiping Republic;Rï¿½publique de Taï¿½wan;Taiping Republik;;;;;;;;;;;x
-TPG_proletarian_dictatorship;Communist Taiping;Taï¿½wan communiste;Kommunistisches Taiping;;;;;;;;;;;x
-TPG_fascist_dictatorship;Taiping;Taï¿½wan;Taiping;;;;;;;;;;;x
-TPG_presidential_dictatorship;Taiping Clique;Clique taï¿½wanaise;Taiping Clique;;;;;;;;;;;x
-TPG_ADJ;Taiping;taï¿½wanais;Taiping;;;;;;;;;;x
-TPG_conservative;West King;Monarque occidental;Westlicher Monarch;;;;;;;;;;x
-TPG_liberal;Yi King;Yi King;Yi Monarch;;;;;;;;;;x
-TPG_reactionary;East King;Monarque oriental;ï¿½stlicher Monarch;;;;;;;;;;x
-TPG_socialist;North King;Monarque du nord;Nï¿½rdlicher Monarch;;;;;;;;;;x
-TPG_anarcho_liberal;The Radical Faction;La faction radicale;Radikale Fraktion;;;;;;;;;;x
-TPG_communist;The Communist Faction;La faction communiste;Kommunistische Fraktion;;;;;;;;;;x
-TPG_fascist;The Fascist Faction;La faction fasciste;Faschistische Fraktion;;;;;;;;;;x
+PV_INTERNAL_IMMIGRATION;Internal Migration: ;X
+PV_EXTERNAL_IMMIGRATION;External Migration: ;X
+COUNTRYALERT_CanRemoveFromSphere;We can remove nations from our §YSphere of Influence§!:;X
+PV_CLERGY_LIT_DESC1;$NUM$ of your population in $LOC$ are Clergy.;X
+PV_CLERGY_LIT_DESC2;Optimal is $OPT$.;X
+PV_CLERGY_LIT_DESC3;Monthly change base value: $VAL$;X
+IN_SOCIAL_MOVEMENT;in social movement;X
+NOT_IN_SOCIAL_MOVEMENT;not in social movement;X
+IN_POLITICAL_MOVEMENT;in political movement;X
+NOT_IN_POLITICAL_MOVEMENT;not in political movement;X
+the_meiji_restoration2_title;Early Meiji Restoration;X
+the_meiji_restoration2_desc;"Japan is traditionally considered to have been founded by Emperor Jimmu in 660 B.C. and while the Imperial Lineage was still considered unbroken since then the Imperial Office had throughout the Edo period	 been reduced to a revered and respected but ultimately	 politically powerless institution. By embracing a restoration of Imperial Rule	 along with a programme of swift industrial modernization constitutionalism and economic freedom Japan might be able to break the fetters placed upon her by the impositions of the Western World.";X
+TPG;Heavenly Kingdom;X
+TPG_democracy;Taiping Republic;X
+TPG_bourgeois_dictatorship;Taiping Republic;X
+TPG_proletarian_dictatorship;Communist Taiping;X
+TPG_fascist_dictatorship;Taiping;X
+TPG_presidential_dictatorship;Taiping Clique;X
+TPG_ADJ;Taiping;X
+TPG_conservative;West King;X
+TPG_liberal;Yi King;X
+TPG_reactionary;East King;X
+TPG_socialist;North King;X
+TPG_anarcho_liberal;The Radical Faction;X
+TPG_communist;The Communist Faction;X
+TPG_fascist;The Fascist Faction;X

@@ -1,54 +1,54 @@
-HAVE_MILITARY_SCORE_LESS_THAN;Have a lower Military Score than: ;Disposent d'un score militaire infï¿½rieur ï¿½ :  ;Geringere militï¿½rische Punktzahl als ;;Tiene una puntuaciï¿½n militar menor que: ;;;;;;;;x;
-STRATA_NEED_LESS_THAN;Needs fulfilled at less than;Besoins satisfaits ï¿½ moins de;Erfï¿½llte Bedï¿½rfnisse weniger als;;Necesidades satisfechas a menos de;;;;;;;;x;
-STRATA_NEED_MORE_THAN;Needs fulfilled at least;Besoins satisfaits d'au moins;Erfï¿½llte Bedï¿½rfnisse mindestens;;Necesidades satisfechas a;;;;;;;;x;
-HAVE_LESS_POPS_WANTING_POLITICAL_REFORM_THAN;Less than $VAL$ want political reform.;Moins de $VAL$ souhaitent une rï¿½forme politique.;Weniger als $VAL$ wollen politische Reformen.;;Menos de $VAL$ quieren reformas polï¿½ticas.;;;;;;;;x;
-HAVE_MORE_POPS_WANTING_POLITICAL_REFORM_THAN;At least $VAL$ want political reform.;Au moins $VAL$ souhaitent une rï¿½forme politique.;Mindestens $VAL$ wollen politische Reformen.;;Al menos $VAL$ quieren reformas polï¿½ticas.;;;;;;;;x;
-HAVE_LESS_POPS_WANTING_SOCIAL_REFORM_THAN;Less than $VAL$ want social reform.;Moins de $VAL$ souhaitent une rï¿½forme sociale.;Weniger als $VAL$ wollen soziale Reformen.;;Menos de $VAL$ quieren reformas sociales.;;;;;;;;x;
-HAVE_MORE_POPS_WANTING_SOCIAL_REFORM_THAN;At least $VAL$ want social reform.;Au moins $VAL$ souhaitent une rï¿½forme sociale.;Mindestens $VAL$ wollen soziale Reformen.;;Al menos $VAL$ quieren reformas sociales.;;;;;;;;x;
-CSA_proletarian_dictatorship;The CSA;ï¿½tats confï¿½dï¿½rï¿½s d'Amï¿½rique;CSA;;EE CC;;;;;;;;;x
-USA_presidential_dictatorship;The USA;ï¿½tats-Unis;USA;;EE UU;;;;;;;;;x
-CSA_presidential_dictatorship;The CSA;ï¿½tats confï¿½dï¿½rï¿½s d'Amï¿½rique;CSA;;EE CC;;;;;;;;;x
-USA_bourgeois_dictatorship;The USA;ï¿½tats-Unis;USA;;EE UU;;;;;;;;;x
-CSA_bourgeois_dictatorship;The CSA;ï¿½tats confï¿½dï¿½rï¿½s d'Amï¿½rique;CSA;;EE CC;;;;;;;;;x
-USA_fascist_dictatorship;The USA;ï¿½tats-Unis;USA;;EE UU;;;;;;;;;x
-CSA_fascist_dictatorship;The CSA;ï¿½tats confï¿½dï¿½rï¿½s d'Amï¿½rique;CSA;;EE CC;;;;;;;;;x
-REMOVE_USA_prussian_constitutionalism;The USA;ï¿½tats-Unis;USA;;EE UU;;;;;;;;;x
-CSA_prussian_constitutionalism;The CSA;ï¿½tats confï¿½dï¿½rï¿½s d'Amï¿½rique;CSA;;EE CC;;;;;;;;;x
-USA_democracy;The USA;ï¿½tats-Unis;USA;;EE UU;;;;;;;;;x
-CSA_democracy;The CSA;ï¿½tats confï¿½dï¿½rï¿½s d'Amï¿½rique;CSA;;EE CC;;;;;;;;;x
-CAL_absolute_monarchy;Kingdom of California;Royaume de Californie;Kingdom of California;;Reino de California;;;;;;;;x
-CAL_hms_government;Kingdom of California;Royaume de Californie;Kingdom of California;;Reino de California;;;;;;;;x
-DOM_absolute_monarchy;Santo Domingo;Santo Domingo;Santo Domingo;;Santo Domingo;;;;;;;;x
-DOM_hms_government;Santo Domingo;Santo Domingo;Santo Domingo;;Santo Domingo;;;;;;;;x
-ENG_democracy;Great Britain;Grande-Bretagne;Groï¿½britannien;;Gran Bretaï¿½a;;;;;;;;x;
-TECH_DAILY_LEADERSHIP_BASE_TOOLTIP;Monthly base leadership: ï¿½Y$VALUE$ï¿½W;Valeur de base mensuelle de Commandement  : ï¿½Y$VALUE$ï¿½W;Monatliche Basis-Anfï¿½hrerpunkte: ï¿½Y$VALUE$ï¿½W;;Liderazgo bï¿½sico mensual: ï¿½Y$VALUE$ï¿½W;;;;;;;;x
-TECH_DAILY_LEADERSHIP_TOTAL_TOOLTIP;Monthly leadership: ï¿½G+$VALUE$ï¿½W;Valeur mensuelle de Commandement : ï¿½G+$VALUE$ï¿½W;Monatliche Anfï¿½hrerpunkte: ï¿½G+$VALUE$ï¿½W;;Liderazgo mensual: ï¿½G+$VALUE$ï¿½W;;;;;;;;x
-TECH_DAILY_LEADERSHIP_TOOLTIP;$POPTYPE$ provide ï¿½G$VALUE$ï¿½W leadership.\n (ï¿½Y$FRACTION$%ï¿½W of the population, $OPTIMAL$% is optimal.);ï¿½Y$POPTYPE$ï¿½W donnent ï¿½G$VALUE$ï¿½W de valeur de Commandement.\n(ï¿½Y$FRACTION$ %ï¿½W de la population, $OPTIMAL$ % est optimal);$POPTYPE$ erbringen ï¿½G$VALUE$ï¿½W Anfï¿½hrerpunkte.\n(ï¿½Y$FRACTION$%ï¿½W der Bevï¿½lkerung, $OPTIMAL$% ist optimal);;Los $POPTYPE$ proporcionan ï¿½G$VALUE$ï¿½W de liderazgo.\n (ï¿½Y$FRACTION$%ï¿½W de la poblaciï¿½n, el valor ï¿½ptimo es $OPTIMAL$%.);;;;;;;;x
-MODIFIER_CORE_POP_MILITANCY_MODIFIER;Militancy in Non-Colonial;Militantisme des ï¿½tats non coloniaux;Militanz in Nicht-Koloniestaat;;Militancia en provincias no coloniales;;;;;;;;x
-MODIFIER_CORE_POP_CONSCIOUSNESS_MODIFIER;Consciousness in Non-Colonial;Conscience nationale des ï¿½tats non coloniaux;Bewusstsein in Nicht-Koloniestaat;;Conciencia en provincias no coloniales;;;;;;;;x
-MODIFIER_NON_ACCEPTED_POP_MILITANCY_MODIFIER;Militancy for Non-Accepted;Militantisme des cultures non acceptï¿½es;Militanz fï¿½r nicht akzeptierte Kulturen;;Militancia de culturas no aceptadas;;;;;;;;x
-MODIFIER_NON_ACCEPTED_POP_CONSCIOUSNESS_MODIFIER;Consciousness for Non-Accepted;Conscience nationale des cultures non acceptï¿½es;Bewusstsein fï¿½r nicht akzeptierte Kulturen;;Conciencia de culturas no aceptadas;;;;;;;;x
-AUS_734;South Tirol;Tyrol du Sud;Sï¿½dtirol;;Tirol Meridional;;;;;;;;x
-EVTNAME23212;Comet Sighted;Comï¿½te aperï¿½ue;Komet gesichtet;;Cometa avistado;;;;;;;;x
-EVTDESC23212;A Comet was sighted in the sky, some believe that this portends fell times ahead. Others believe that they are in fact pixie fairies floating in the sky. There are also those who believe that this comet is most probably a giant ball of ice floating through the sky and the long tail is created due to the energy of the sun. The arguments amongst the three equally viable theories is stimulating the pursuit of knowledge in our country.;Une comï¿½te a ï¿½tï¿½ aperï¿½ue dans le ciel, ce qui selon certains augure de temps difficiles. D'autres croient qu'il s'agit en fait de fï¿½es qui flottent dans le ciel. Puis, il y a ceux qui pensent que cette comï¿½te est, vraisemblablement, une boule de glace gï¿½ante qui traverse le ciel et dont la longue queue rï¿½sulte de l'ï¿½nergie solaire. Les discussions liï¿½es ï¿½ ces trois thï¿½ories viables stimulent la soif de connaissance de notre pays.;Am Nachthimmel wurde ein Komet gesichtet, und manche sehen darin ein Omen fï¿½r die Zukunft. Andere dagegen glauben, dass Kometen Feen sind, die am Himmel schweben, aber es gibt auch solche, die einen Komet fï¿½r nichts als einen riesigen Eisball halten, der durch den Himmel zieht, und dessen langer Schweif von der Sonnenenergie erzeugt wird. Die Argumente dieser drei Denkansï¿½tze stimulieren in unserem Land das Streben nach Wissen.;;Han avistado un cometa en el cielo y algunos aseguran que esto presagia malos tiempos. Otros creen que se trata de la acciï¿½n de las hadas y los duendes que viven en el cielo. E incluso hay algunos que piensan que el cometa podrï¿½a ser una bola de hielo gigantesca que flota por el cielo, seguido por una larga cola creada por la energï¿½a del sol. Las discusiones entre estas tres teorï¿½as igualmente plausibles estï¿½n estimulando la bï¿½squeda del conocimiento en nuestro paï¿½s.;;;;;;;;x
-EVTOPTA23212;Thank God we live in such enlightened times;Dieu merci, nous vivons une pï¿½riode des plus ï¿½clairï¿½es.;Gott sei Dank leben wir in solch aufgeklï¿½rten Zeiten!;;Demos gracias a Dios por vivir en estos tiempos de iluminaciï¿½n;;;;;;;;x  ;
-EVTNAME60140;Constitutional Convention;Convention constitutionnelle;Konstitutionelle Verfassung;;Convenciï¿½n constitucional;;;;;;;;x  ;
-EVTDESC60140;With the liberals firmly in control of our country, they feel that now is the time for a constitutional convention. Everyone's views, well at least everyone who truly matters, will be represented in this new gathering to shape the path of our nation.;Alors que les libï¿½raux tiennent les rï¿½nes de notre pays, ils estiment le moment venu pour une convention constitutionnelle. Les vues de chacun, du moins de tous ceux qui importent vraiment, seront reprï¿½sentï¿½es dans cette nouvelle assemblï¿½e afin de forger la voie de nos nations.;Die Liberalen haben unser Land fest im Griff, und sie glauben, dass es jetzt an der Zeit fï¿½r eine konstitutionelle Verfassung ist. In dieser neuen Verfassung, die den zukï¿½nftigen Weg unserer Nation eben wird, werden die Meinungen aller reprï¿½sentiert sein, zumindest jener, auf deren Meinung es wirklich ankommt.;;Los liberales, con un firme control sobre el paï¿½s, creen que ha llegado el momento de organizar una convenciï¿½n constitucional. Todo el mundo (al menos todo el mundo que cuenta) estarï¿½ representado en esta gran asamblea que darï¿½ forma al futuro de nuestro paï¿½s.;;;;;;;;x  ;
-EVTOPTA60140;Otherwise people would exploit the situation;Sinon, les gens exploiteraient la situation.;Ansonsten wï¿½rde das Volk die Situation ausnutzen.;;De lo contrario, alguien podrï¿½a tratar de aprovecharse de la situaciï¿½n.;;;;;;;;x  ;
-become_guatemala_title;Become Guatemala;Devient le Guatemala;Werden Sie Guatemala;;Convertirse en Guatemala;;;;;;;;x  ;
-BUDGET_STOCKPILE_YESTERDAYS;Yesterdays purchases for stockpile:;Achats d'hier pour les rï¿½serves :;Gestrige Vorratskï¿½ufe: ;;Adquisiciones de ayer para la reserva nacional:;;;;;;;;x;
-become_guatemala_desc;The dream of a united Central America has died. The other provinces were too concerned about being dominated by Guatemala to realise the sacrifices we had made to keep the union alive. Well no more. We are done with them. Guatemala will find its own destiny.;Le rï¿½ve d'une Amï¿½rique centrale unie a volï¿½ en ï¿½clats. Les autres provinces ï¿½taient trop inquiï¿½tes par une ï¿½ventuelle domination du Guatemala pour comprendre les sacrifices concï¿½dï¿½s pour prï¿½server l'union. Eh bien, voilï¿½. On a en fini avec elles. Le Guatemala trouvera son propre destin.;Der Traum eines vereinigten Zentralamerikas ist tot. Die anderen Provinzen waren zu sehr mit der Dominanz Guatemalas beschï¿½ftigt, um sich der Opfer gewahr zu werden, die wir zur Beibehaltung der Union gebracht hatten. Jetzt ist es genug. Wir sind fertig mit ihnen. Guatemala wird seine eigenes Schicksal schmieden.;;El sueï¿½o de una Amï¿½rica Central unida ha muerto. A las demï¿½s naciones les preocupaba demasiado la posiciï¿½n dominante de Guatemala como para comprender los sacrificios que hemos tenido que hacer para mantener la uniï¿½n con vida. Pues se acabï¿½. Que se vayan al Infierno. Guatemala buscarï¿½ su propio camino.;;;;;;;;x  ;
-MOR_1683;Taza;Taza;Taza;;Taza;;;;;;;;x;
-LAG_PAUSE;$PLAYER$ is lagging behind, pausing game.;$PLAYER$ est ï¿½ la traï¿½ne, partie en pause.;$PLAYER$ hat Verbindungsprob., Spiel wird pausiert.;;$PLAYER$ estï¿½ sufriendo lag, juego en pausa;;;;;;;;x;
-LAG_DECREASE_SPEED;$PLAYER$ is lagging behind, decreasing speed.;$PLAYER$ est ï¿½ la traï¿½ne, ralentissement.;$PLAYER$ hat Verbindungsprobl., Spielgeschw. wird reduziert.;;$PLAYER$ estï¿½ sufriendo lag, velocidad reducida;;;;;;;;x;
-PAUSED_BY;ï¿½Y$PLAYER$ï¿½W paused the game.;ï¿½Y$PLAYER$ï¿½W a mis la partie en pause.;ï¿½Y$PLAYER$ï¿½W pausiert das Spiel.;;ï¿½Y$PLAYER$ï¿½W ha puesto el juego en pausa.;;;;;;;;x;
-WARGOAL_OTHER_ACCEPT_SETUP;When a nation adds a wargoal in a war.;Si une nation ajoute un objectif de guerre.;Wenn eine Nation in einem Krieg ein Kriegsziel hinzufï¿½gt.;;Cuando un paï¿½s aï¿½ade un objetivo bï¿½lico en una guerra;;;;;;;;x;
-WARGOAL_THEY_ACCEPT_SETUP;When we add a wargoal against another nation.;Si nous ajoutons un objectif de guerre contre une autre nation.;Wenn wir ein Kriegsziel gegen eine andere Nation hinzufï¿½gen.;;Cuando aï¿½adimos un objetivo bï¿½lico contra otro paï¿½s;;;;;;;;x;
-WARGOAL_WE_ACCEPT_SETUP;When a nation adds a wargoal against us..;Si une nation ajoute un objectif de guerre contre nous.;Wenn eine Nation ein Kriegsziel gegen uns hinzufï¿½gt.;;Cuando otro paï¿½s aï¿½ade un objetivo bï¿½lico contra nosotros;;;;;;;;x;
-status_quo_setup;All we ask is to be left alone;Nous demandons juste ï¿½ ce qu'on nous laisse tranquilles.;Wir wollen nur in Ruhe gelassen werden.;;Lo ï¿½nico que pedimos es que nos dejen en paz;;;;;;;;x;
-PROV3041;Argentine Rise;Soulï¿½vement de l'Argentine;Argentinisches Seegebirge;;Falla de Argentina;;;;;;;;;x
-TUR_819;West Macedonia;Macï¿½doine de l'Ouest;Westmazedonien;;Macedonia Occidental;;;;;;;;;x
-TUR_806;North Macedonia;Macï¿½doine du Nord;Nordmazedonien;;Macedonia Septentrional;;;;;;;;;x
-GUNBOAT_OTHER_ACCEPT_LOG;$ACTOR$ is using gunboats to force $RECIPIENT$ to pay their debt!;$ACTOR$ utilise des canonniï¿½res pour obliger $RECIPIENT$ ï¿½ rembourser sa dette !;$ACTOR$ setzt Kanonenbootpolitik ein, um $RECIPIENT$ zur Rï¿½ckzahlung der Schulden zu zwingen!;;ï¿½$ACTOR$ estï¿½ usando sus caï¿½oneras para obligar a $RECIPIENT$ a pagar sus deudas!;;;;;;;;;x
-GUNBOAT_THEY_ACCEPT_LOG;We are using gunboats to force $RECIPIENT$ to pay their debt!;Nous utilisons des canonniï¿½res pour obliger $RECIPIENT$ ï¿½ rembourser sa dette !;Wir setzen Kanonenbootpolitik ein, um $RECIPIENT$ zur Rï¿½ckzahlung der Schulden zu zwingen!;;ï¿½Estamos usando nuestras caï¿½oneras para obligar a $RECIPIENT$ a pagar sus deudas!;;;;;;;;;x
-GUNBOAT_WE_ACCEPT_LOG;$ACTOR$ is using gunboats to force us to pay back our debt!;$ACTOR$ utilise des canonniï¿½res pour nous obliger ï¿½ rembourser notre dette !;$ACTOR$ setzt Kanonenbootpolitik ein, um uns zur Rï¿½ckzahlung unserer Schulden zu zwingen!;;ï¿½$ACTOR$ estï¿½ usando sus caï¿½oneras para obligarnos a pagar nuestras deudas!;;;;;;;;;x
+HAVE_MILITARY_SCORE_LESS_THAN;Have a lower Military Score than: ;X
+STRATA_NEED_LESS_THAN;Needs fulfilled at less than;X
+STRATA_NEED_MORE_THAN;Needs fulfilled at least;X
+HAVE_LESS_POPS_WANTING_POLITICAL_REFORM_THAN;Less than $VAL$ want political reform.;X
+HAVE_MORE_POPS_WANTING_POLITICAL_REFORM_THAN;At least $VAL$ want political reform.;X
+HAVE_LESS_POPS_WANTING_SOCIAL_REFORM_THAN;Less than $VAL$ want social reform.;X
+HAVE_MORE_POPS_WANTING_SOCIAL_REFORM_THAN;At least $VAL$ want social reform.;X
+CSA_proletarian_dictatorship;The CSA;X
+USA_presidential_dictatorship;The USA;X
+CSA_presidential_dictatorship;The CSA;X
+USA_bourgeois_dictatorship;The USA;X
+CSA_bourgeois_dictatorship;The CSA;X
+USA_fascist_dictatorship;The USA;X
+CSA_fascist_dictatorship;The CSA;X
+REMOVE_USA_prussian_constitutionalism;The USA;X
+CSA_prussian_constitutionalism;The CSA;X
+USA_democracy;The USA;X
+CSA_democracy;The CSA;X
+CAL_absolute_monarchy;Kingdom of California;X
+CAL_hms_government;Kingdom of California;X
+DOM_absolute_monarchy;Santo Domingo;X
+DOM_hms_government;Santo Domingo;X
+ENG_democracy;Great Britain;X
+TECH_DAILY_LEADERSHIP_BASE_TOOLTIP;Monthly base leadership: §Y$VALUE$§W;X
+TECH_DAILY_LEADERSHIP_TOTAL_TOOLTIP;Monthly leadership: §G+$VALUE$§W;X
+TECH_DAILY_LEADERSHIP_TOOLTIP;$POPTYPE$ provide §G$VALUE$§W leadership.\n (§Y$FRACTION$%§W of the population, $OPTIMAL$% is optimal.);X
+MODIFIER_CORE_POP_MILITANCY_MODIFIER;Militancy in Non-Colonial;X
+MODIFIER_CORE_POP_CONSCIOUSNESS_MODIFIER;Consciousness in Non-Colonial;X
+MODIFIER_NON_ACCEPTED_POP_MILITANCY_MODIFIER;Militancy for Non-Accepted;X
+MODIFIER_NON_ACCEPTED_POP_CONSCIOUSNESS_MODIFIER;Consciousness for Non-Accepted;X
+AUS_734;South Tirol;X
+EVTNAME23212;Comet Sighted;X
+EVTDESC23212;A Comet was sighted in the sky, some believe that this portends fell times ahead. Others believe that they are in fact pixie fairies floating in the sky. There are also those who believe that this comet is most probably a giant ball of ice floating through the sky and the long tail is created due to the energy of the sun. The arguments amongst the three equally viable theories is stimulating the pursuit of knowledge in our country.;X
+EVTOPTA23212;Thank God we live in such enlightened times;X
+EVTNAME60140;Constitutional Convention;X
+EVTDESC60140;With the liberals firmly in control of our country, they feel that now is the time for a constitutional convention. Everyone's views, well at least everyone who truly matters, will be represented in this new gathering to shape the path of our nation.;X
+EVTOPTA60140;Otherwise people would exploit the situation;X
+become_guatemala_title;Become Guatemala;X
+BUDGET_STOCKPILE_YESTERDAYS;Yesterdays purchases for stockpile:;X
+become_guatemala_desc;The dream of a united Central America has died. The other provinces were too concerned about being dominated by Guatemala to realise the sacrifices we had made to keep the union alive. Well no more. We are done with them. Guatemala will find its own destiny.;X
+MOR_1683;Taza;X
+LAG_PAUSE;$PLAYER$ is lagging behind, pausing game.;X
+LAG_DECREASE_SPEED;$PLAYER$ is lagging behind, decreasing speed.;X
+PAUSED_BY;§Y$PLAYER$§W paused the game.;X
+WARGOAL_OTHER_ACCEPT_SETUP;When a nation adds a wargoal in a war.;X
+WARGOAL_THEY_ACCEPT_SETUP;When we add a wargoal against another nation.;X
+WARGOAL_WE_ACCEPT_SETUP;When a nation adds a wargoal against us..;X
+status_quo_setup;All we ask is to be left alone;X
+PROV3041;Argentine Rise;X
+TUR_819;West Macedonia;X
+TUR_806;North Macedonia;X
+GUNBOAT_OTHER_ACCEPT_LOG;$ACTOR$ is using gunboats to force $RECIPIENT$ to pay their debt!;X
+GUNBOAT_THEY_ACCEPT_LOG;We are using gunboats to force $RECIPIENT$ to pay their debt!;X
+GUNBOAT_WE_ACCEPT_LOG;$ACTOR$ is using gunboats to force us to pay back our debt!;X

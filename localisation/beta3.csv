@@ -1,25 +1,25 @@
-#;;;;;;;;;;;;;x
-COLONIAL_RANGE;Colonial Range: ï¿½G+$VAL$ï¿½W;Portï¿½e colonialeï¿½: ï¿½G+$VAL$ï¿½W;Kolonialreichweite: ï¿½G+$VAL$ï¿½W;;Alcance colonial: ï¿½G+$VAL$ï¿½W;;;;;;;;x
-MODIFIER_LOCAL_SHIP_BUILD;Local Ship Build Time;Dï¿½lai de construction de navire;Lokale Schiffsbauzeit;;Tiempo de construcciï¿½n de barco en la zona;;;;;;;;x
-CB_ALLOWED_ANNEX;Allow Annexation;Autoriser l'annexion;Annektierung erlauben;;Permitir anexiï¿½n;;;;;;;;x
-CB_ALLOWED_ADD_TO_SPHERE;Add to Sphere;Ajouter ï¿½ la sphï¿½re;Zu Sphï¿½re hinzufï¿½gen;;Aï¿½adir a la esfera;;;;;;;;x
-CB_ALLOWED_RELEASE_PUPPET;Release of Puppet;Libï¿½ration d'un ï¿½tat fantoche;Entlassung von Marionettenstaat;;Liberaciï¿½n de tï¿½tere;;;;;;;;x
-CB_ALLOWED_STATUS_QUO;Return to Status Quo;Retour au statu quo;Rï¿½ckkehr zum Status Quo;;Volver al 'Statu Quo'.;;;;;;;;x
-CB_ALLOWED_TRANSFER_PROVINCES;Transfer of provinces;Transfert des provinces;ï¿½bertragung von Provinzen;;Transferencia de provincias;;;;;;;;x
-CB_ALLOWED_PRESTIGE;Reduction of Prestige;Diminution du prestige;Prestige-Reduzierung;;Reducciï¿½n de prestigio;;;;;;;;x
-CB_ALLOWED_CONCESSION;Concede Defeat;Concï¿½der la dï¿½faite;Niederlage eingestehen;;Admitir derrota;;;;;;;;x
-MAINTENANCE_DESC;Maintenance goods need:;Besoin en matï¿½riaux pour la maintenance :;Benï¿½tigte Instandhaltungsgï¿½ter:;;Bienes de mantenimiento necesarios:;;;;;;;;x
-MISSING_MAINTENANCE;Output is reduced to ï¿½R$PERC$ï¿½W since factory is missing maintenance goods;La production est rï¿½duite ï¿½ ï¿½R$PERC$ï¿½W, car l'usine manque de matï¿½riaux pour la maintenance.;Leistung wird auf ï¿½R$PERC$ï¿½W reduziert, da es der Fabrik an Instandhaltungsgï¿½tern fehlt.;;La producciï¿½n se ha reducido hasta un ï¿½R$PERC$ï¿½W, ya que a la fï¿½brica le faltan bienes de mantenimiento;;;;;;;;x
-PROCEED;Proceed;Accepter;Fortfahren;;Proceder;;;;;;;;x
-ENDGAME_HEADLINE;Game Over;Game Over;Das Spiel ist jetzt zu Ende;;Fin de la partida;;;;;;;;x
-ENDGAME_DESC;One hundred Momentous years have passed and we have entered the modern age. The world is a radically different place, how did your country do?;Cent ans ont passï¿½ et nous sommes entrï¿½s dans une ï¿½re moderne. Le monde est un endroit radicalement diffï¿½rent, comment cela s'est-il  passï¿½ pour votre pays ?;Einhundert bedeutsame Jahre sind vergangen und die Neuzeit ist jetzt angebrochen. Die Welt hat sich radikal verï¿½ndert, wie ist es Ihrem Land ergangen?;;Ha transcurrido un centenar de aï¿½os transcendentales y hemos entrado en la era moderna. El mundo es lugar radicalmente distinto, ï¿½cï¿½mo le ha ido a tu paï¿½s?;;;;;;;;x 
-NEEDS_BOUGHT;Estimated needs for today:;Estimation des besoins pour aujourd'hui :;Geschï¿½tzte heutige Bedï¿½rfnisse:;;Necesidades estimadas para hoy:;;;;;;;;x
-TOTAL_NEEDS_BOUGHT;Estimated needs cost:;Estimation du coï¿½t des besoins:;Kosten der geschï¿½tzten Bedï¿½rfnisse:;;Coste de necesidades estimadas:;;;;;;;;x
-TOTAL_SOLD_FOR;Yesterday we produced $NUM$ ï¿½Y$GOOD$ï¿½W which sold for $CASH$ï¿½;Hier, nous avons produit $NUM$ ï¿½Y$GOOD$ï¿½W qui se sont vendus pour $CASH$ï¿½;Gestern haben wir $NUM$ ï¿½Y$GOOD$ï¿½W produziert, die fï¿½r $CASH$ï¿½ verkauft wurden;;Ayer produjimos $NUM$ ï¿½Y$GOOD$ï¿½W, que vendimos por $CASH$ï¿½;;;;;;;;x
-COULDNT_AFFORD;Factory couldn't afford to buy all its inputs yesterday;Hier, l'usine ne pouvait pas se permettre d'acheter toutes ses matiï¿½res premiï¿½res.;Die Fabrik hatte gestern nicht genug Geld um alle nï¿½tigen Inputgï¿½ter zu kaufen;;Ayer, la fï¿½brica no pudo comprar todos sus recursos;;;;;;;;x
-INPUT_LACKING;There's not enough ï¿½Y$GOOD$ï¿½W on the market to satisfy factory input needs;Il n'y a pas assez de ï¿½Y$GOOD$ï¿½W sur le marchï¿½ pour satisfaire les besoins en matiï¿½res premiï¿½res de l'usine.;Es gibt nicht genug ï¿½Y$GOOD$ï¿½W auf dem Markt um alle Inputgï¿½ter fï¿½r die Fabrik zu befriedigen;;No hay suficiente ï¿½Y$GOOD$ï¿½W en el mercado para satisfacer los recursos que necesita la fï¿½brica;;;;;;;;x
-OUTPUT_WASTED;$NUM$ of $PRODUCED$ ï¿½Y$GOOD$ï¿½W didn't get sold yesterday;$NUM$ de $PRODUCED$ ï¿½Y$GOOD$ï¿½W n'ont pas ï¿½tï¿½ vendus hier.;Gestern wurden $NUM$ von $PRODUCED$ ï¿½Y$GOOD$ï¿½W nicht verkauft;;$NUM$ de lo(a)s $PRODUCED$ ï¿½Y$GOOD$ï¿½W no se vendieron ayer;;;;;;;;x
-TRADE_CONFIRM_DESC;Setting a manual trade means we might end up taking loans to afford purchases.;Mettre le commerce en manuel, signifie que nous pourrions avoir ï¿½ prendre des prï¿½ts pour payer les achats.;Mit einer manuellen Handelsorder kann es passieren, dass wir Kredite aufnehmen um die Einkï¿½ufe zu tï¿½tigen;;Fijar un comercio manual significa que podemos acabar pidiendo prï¿½stamos para hacer compras.;;;;;;;;x
-BUDGET_TAX_EFFICIENCY;Tax Efficiency: ï¿½Y$VALUE$%ï¿½W;Efficacitï¿½ fiscale : ï¿½Y$VALUE$%ï¿½W;Steuereffizienz: ï¿½Y$VALUE$%ï¿½W;;Eficacia impositiva: ï¿½Y$VALUE$%ï¿½W;;;;;;;;x
-BUDGET_TAX_EFFECT;Effective tax: ï¿½Y$VALUE$%ï¿½W;Imposition effective : ï¿½Y$VALUE$%ï¿½W;Effektiver Steuersatz: ï¿½Y$VALUE$%ï¿½W;;Impuesto efectivo: ï¿½Y$VALUE$%ï¿½W;;;;;;;;x
-LEADERSHIP_EFFECT;Leadership: ï¿½G$VALUE$ï¿½W.\n;Commandement : ï¿½G$VALUE$ï¿½W.\n;Anfï¿½hrer: ï¿½G$VALUE$ï¿½W.\n;;Liderazgo: ï¿½G$VALUE$ï¿½W.\n;;;;;;;;x
+#;X;
+COLONIAL_RANGE;Colonial Range: §G+$VAL$§W;X
+MODIFIER_LOCAL_SHIP_BUILD;Local Ship Build Time;X
+CB_ALLOWED_ANNEX;Allow Annexation;X
+CB_ALLOWED_ADD_TO_SPHERE;Add to Sphere;X
+CB_ALLOWED_RELEASE_PUPPET;Release of Puppet;X
+CB_ALLOWED_STATUS_QUO;Return to Status Quo;X
+CB_ALLOWED_TRANSFER_PROVINCES;Transfer of provinces;X
+CB_ALLOWED_PRESTIGE;Reduction of Prestige;X
+CB_ALLOWED_CONCESSION;Concede Defeat;X
+MAINTENANCE_DESC;Maintenance goods need:;X
+MISSING_MAINTENANCE;Output is reduced to §R$PERC$§W since factory is missing maintenance goods;X
+PROCEED;Proceed;X
+ENDGAME_HEADLINE;Game Over;X
+ENDGAME_DESC;One hundred Momentous years have passed and we have entered the modern age. The world is a radically different place, how did your country do?;X
+NEEDS_BOUGHT;Estimated needs for today:;X
+TOTAL_NEEDS_BOUGHT;Estimated needs cost:;X
+TOTAL_SOLD_FOR;Yesterday we produced $NUM$ §Y$GOOD$§W which sold for $CASH$¤;X
+COULDNT_AFFORD;Factory couldn't afford to buy all its inputs yesterday;X
+INPUT_LACKING;There's not enough §Y$GOOD$§W on the market to satisfy factory input needs;X
+OUTPUT_WASTED;$NUM$ of $PRODUCED$ §Y$GOOD$§W didn't get sold yesterday;X
+TRADE_CONFIRM_DESC;Setting a manual trade means we might end up taking loans to afford purchases.;X
+BUDGET_TAX_EFFICIENCY;Tax Efficiency: §Y$VALUE$%§W;X
+BUDGET_TAX_EFFECT;Effective tax: §Y$VALUE$%§W;X
+LEADERSHIP_EFFECT;Leadership: §G$VALUE$§W.\n;X

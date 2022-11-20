@@ -1,13 +1,13 @@
-badboy;Infamy;Infamie;Infamie;;Infamia;;;;;;;;;x;
-EVTNAME60150;The end of female suffrage;Fin du suffrage fï¿½minin;Das Ende des Frauenwahlrechts;;;;;;;;;x ;
-EVTDESC60150;With the recent rollback of voting reforms, the fairer sex is once again denied the vote.;Avec l'annulation rï¿½cente des rï¿½formes sur le droit de vote, la gent fï¿½minine est de nouveau privï¿½e de vote.;Mit dem kï¿½rzlich zurï¿½ckgerollten politischen Wahlrecht ist es dem schï¿½nerem Geschelcht nicht mehr erlaubt abzustimmen.;;;;;;;;;;x;
-EVTOPTA60150;Get back in the kitchen!;Retournez ï¿½ la cuisine !;Zurï¿½ck an den Herd!;;;;;;;;;x ;
-EVTNAME31102;Flight from Istanbul;Fuir Istamboul;Flucht aus Istanbul;;;;;;;;;x ;
-EVTDESC31102;Our position in Istanbul is no longer secure. We should move our government to a safer place.;Nous ne sommes plus en sï¿½curitï¿½ ï¿½ Istamboul, nous devrions dï¿½placer notre gouvernement en un lieu plus sï¿½r.;Unsere Position in Istanbul ist nicht mehr sicher. We sollten unsere Regierung an einen sicheren Ort bringen.;;;;;;;;;;x;
-EVTOPTA31102;We have been ultimately driven from Europe...;Nous avons finalement ï¿½tï¿½ chassï¿½s de l'Europe...; Wir wurden endgï¿½ltig aus Europa vertrieben...;;;;;;;;;x ;
-OL_REBEL_OCCUPATIONS;Rebel occupations;Occupations par les rebelles;Rebellenbesetzung;;;;;;;;;;;x
-OL_REBEL_OCCUPATIONS_TOOLTIP;Our province of ï¿½Y$PROVINCE$ï¿½W is being occupied by the rebels!;Notre province de ï¿½Y$PROVINCE$ï¿½W est occupï¿½e par les rebelles !;Unsere Provinz ï¿½Y$PROVINCE$ï¿½W wird von Rebellen besetzt!;;;;;;;;;;;x
-OL_VIEW_REBEL_OCCUPATIONS;Toggles ï¿½YRebel Occupationsï¿½W view;Active la vue ï¿½YOccupations par les rebellesï¿½W;Aktiviert die ï¿½YRebellenbesetzungsï¿½W Ansicht;;;;;;;;;;;x
-POP_MIL_CHANGE_REBEL;This pop is living in ï¿½Y$PROV$ï¿½W that is under ï¿½RRebelsï¿½W control.\nIt's militancy change cannot be estimated.;Cette population vit en ï¿½Y$PROV$ï¿½W, sous contrï¿½le des ï¿½RRebelsï¿½W rebelles.\nPas d'estimation de la modification du militantisme;Diese Bevï¿½lkerungseinheit lebt in ï¿½Y$PROV$ï¿½W, welches unter der Kontrolle von ï¿½RRebellenï¿½W ist.\nDie Militanzï¿½nderung kann nicht ermittelt werden.;;;;;;;;;;;x
-POP_CON_CHANGE_REBEL;This pop is living in ï¿½Y$PROV$ï¿½W that is under ï¿½RRebelsï¿½W control.\nIt's consciousness change cannot be estimated.;Cette population vit en ï¿½Y$PROV$ï¿½W, sous contrï¿½le des ï¿½RRebelsï¿½W rebelles.\nPas d'estimation de la modification de la conscience nationale;Diese Bevï¿½lkerungseinheit lebt in ï¿½Y$PROV$ï¿½W, welches unter der Kontrolle von ï¿½RRebellenï¿½W ist.\nDie Bewusstseinsï¿½nderung kann nicht ermittelt werden.;;;;;;;;;;;x
-PROJECT_STATE_NAME_DESC;Planning to build in ï¿½Y$PROV$ï¿½W.;Construction prï¿½vue en ï¿½Y$PROV$ï¿½W.;Bauprojekt in ï¿½Y$PROV$ï¿½W ist in Plannung.;;;;;;;;;;;x
+badboy;Infamy;X
+EVTNAME60150;The end of female suffrage;X
+EVTDESC60150;With the recent rollback of voting reforms, the fairer sex is once again denied the vote.;X
+EVTOPTA60150;Get back in the kitchen!;X
+EVTNAME31102;Flight from Istanbul;X
+EVTDESC31102;Our position in Istanbul is no longer secure. We should move our government to a safer place.;X
+EVTOPTA31102;We have been ultimately driven from Europe...;X
+OL_REBEL_OCCUPATIONS;Rebel occupations;X
+OL_REBEL_OCCUPATIONS_TOOLTIP;Our province of §Y$PROVINCE$§W is being occupied by the rebels!;X
+OL_VIEW_REBEL_OCCUPATIONS;Toggles §YRebel Occupations§W view;X
+POP_MIL_CHANGE_REBEL;This pop is living in §Y$PROV$§W that is under §RRebels§W control.\nIt's militancy change cannot be estimated.;X
+POP_CON_CHANGE_REBEL;This pop is living in §Y$PROV$§W that is under §RRebels§W control.\nIt's consciousness change cannot be estimated.;X
+PROJECT_STATE_NAME_DESC;Planning to build in §Y$PROV$§W.;X
