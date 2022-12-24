@@ -2,5 +2,5 @@ owner = RUS
 controller = RUS
 add_core = VGE
 trade_goods = grain
-life_rating = 33
+life_rating = 35
 terrain = dry_grassland

@@ -2,5 +2,5 @@ owner = DON
 controller = DON
 add_core = DON
 trade_goods = other_minerals
-life_rating = 34
+life_rating = 35
 terrain = dry_grassland

@@ -2,12 +2,28 @@
 	nomads = { size = 1600 culture = native_american_minor religion = animist }
 	clergymen = { size = 15 culture = russian religion = orthodox }
 	farmers = { size = 200 culture = russian religion = orthodox }
-}
+} 
 2 = {
 	nomads = { size = 1200 culture = native_american_minor religion = animist }
 }
 3 = {
 	nomads = { size = 700 culture = native_american_minor religion = animist }
+}
+3588 = {
+	nomads = { size = 1222 culture = native_american_minor religion = animist }
+}
+3584 = {
+	nomads = { size = 754 culture = native_american_minor religion = animist }
+}
+3589 = {
+	nomads = { size = 3122 culture = native_american_minor religion = animist }
+	clergymen = { size = 19 culture = native_american_minor religion = animist }
+	farmers = { size = 1211 culture = native_american_minor religion = animist }
+}
+3590 = {
+	clergymen = { size = 25 culture = native_american_minor religion = catholic }
+	artisans = { size = 25 culture = native_american_minor religion = catholic }
+	farmers = { size = 1654 culture = native_american_minor religion = catholic }
 }
 4 = {
 	nomads = { size = 600 culture = inuit religion = animist }
@@ -269,8 +285,9 @@
 	artisans = { size = 201 culture = french_canadian religion = reformed }
 	clergymen = { size = 198 culture = french_canadian religion = catholic }
 	clergymen = { size = 44 culture = french_canadian religion = reformed }
-	farmers = { size = 11090 culture = french_canadian religion = catholic }
-	farmers = { size = 3700 culture = french_canadian religion = reformed }
+	farmers = { size = 10090 culture = french_canadian religion = catholic }
+	farmers = { size = 2700 culture = french_canadian religion = reformed }
+	farmers = { size = 3000 culture = metis religion = catholic }
 }
 58 = {
 	artisans = { size = 4444 culture = french_canadian religion = reformed }
@@ -734,34 +751,49 @@
 	farmers = { size = 200 culture = white_spanish religion = catholic }
 }
 139 = {
-	aristocrats = { size = 500 culture = french_canadian religion = catholic }
-	aristocrats = { size = 450 culture = french religion = catholic }
 	aristocrats = { size = 120 culture = french_canadian religion = reformed }
-	capitalists = { size = 80 culture = french_canadian religion = catholic }
-	artisans = { size = 2800 culture = french_canadian religion = reformed }
-	artisans = { size = 2800 culture = french_canadian religion = reformed }
-	artisans = { size = 2800 culture = french_canadian religion = reformed }
+	aristocrats = { size = 450 culture = french religion = catholic }
+	aristocrats = { size = 500 culture = french_canadian religion = catholic }
 	artisans = { size = 1800 culture = french religion = catholic }
-	clergymen = { size = 77 culture = french_canadian religion = reformed }
-	farmers = { size = 8000 culture = french_canadian religion = reformed }
-	soldiers = { size = 200 culture = french_canadian religion = reformed }
+	artisans = { size = 4000 culture = french_canadian religion = reformed }
+	artisans = { size = 4000 culture = french_canadian religion = catholic }
+	artisans = { size = 4000 culture = french_canadian religion = catholic }
+	artisans = { size = 500 culture = black_french religion = catholic }
 	bureaucrats = { size = 150 culture = french_canadian religion = reformed }
-	farmers = { size = 4600 culture = french_canadian religion = catholic }
-	artisans = { size = 4600 culture = french_canadian religion = catholic }
-	artisans = { size = 4600 culture = french_canadian religion = catholic }
-	artisans = { size = 4600 culture = french_canadian religion = catholic }
-	artisans = { size = 685 culture = black_french religion = catholic }
-	clergymen = { size = 96 culture = french_canadian religion = catholic }
-	clergymen = { size = 15 culture = black_french religion = catholic }
-	farmers = { size = 751 culture = french_canadian religion = catholic }
-	farmers = { size = 27798 culture = french_canadian religion = catholic }
-	farmers = { size = 8000 culture = french religion = catholic }
-	farmers = { size = 3919 culture = black_french religion = catholic }
-	soldiers = { size = 27 culture = french_canadian religion = catholic }
-	soldiers = { size = 18 culture = french_canadian religion = catholic }
-	slaves = { size = 22295 culture = black_french religion = catholic }
-	soldiers = { size = 1135 culture = french_canadian religion = catholic }
 	bureaucrats = { size = 400 culture = french_canadian religion = catholic }
+	capitalists = { size = 80 culture = french_canadian religion = catholic }
+	clergymen = { size = 125 culture = french_canadian religion = reformed }
+	clergymen = { size = 15 culture = black_french religion = catholic }
+	clergymen = { size = 700 culture = french_canadian religion = catholic }
+	farmers = { size = 16000 culture = french_canadian religion = catholic }
+	farmers = { size = 2000 culture = black_french religion = catholic }
+	farmers = { size = 4600 culture = french_canadian religion = catholic }
+	farmers = { size = 5000 culture = french_canadian religion = reformed }
+	farmers = { size = 5000 culture = french religion = catholic }
+	slaves = { size = 22000 culture = black_french religion = catholic }
+	soldiers = { size = 1100 culture = french_canadian religion = catholic }
+	soldiers = { size = 750 culture = french_canadian religion = reformed }
+}
+3586 = {
+	artisans = { size = 2000 culture = french_canadian religion = reformed }
+	artisans = { size = 2800 culture = french_canadian religion = catholic }
+	clergymen = { size = 80 culture = french_canadian religion = catholic }
+	clergymen = { size = 80 culture = french_canadian religion = reformed }
+	farmers = { size = 1000 culture = french religion = catholic }
+	farmers = { size = 1100 culture = french_canadian religion = reformed }
+	farmers = { size = 11000 culture = french_canadian religion = catholic }
+	farmers = { size = 2000 culture = black_french religion = catholic }
+	slaves = { size = 14000 culture = black_french religion = catholic }
+	soldiers = { size = 1100 culture = french_canadian religion = catholic }
+	soldiers = { size = 125 culture = french_canadian religion = reformed }
+}
+3585 = {
+	artisans = { size = 1200 culture = french_canadian religion = reformed }
+	artisans = { size = 1200 culture = french_canadian religion = catholic }
+	farmers = { size = 3000 culture = french_canadian religion = reformed }
+	farmers = { size = 8000 culture = french_canadian religion = catholic }
+	clergymen = { size = 25 culture = french_canadian religion = reformed }
+	clergymen = { size = 50 culture = french_canadian religion = catholic }
 }
 140 = {
 	artisans = { size = 87 culture = black_french religion = catholic }
@@ -983,7 +1015,11 @@
 	nomads = { size = 1880 culture = native_american_minor religion = animist }
 }
 173 = {
-	nomads = { size = 1322 culture = native_american_minor religion = animist }
+	nomads = { size = 1200 culture = native_american_minor religion = animist }
+	farmers = { size = 900 culture = metis religion = catholic }
+	artisans = { size = 180 culture = metis religion = catholic }
+	clergymen = { size = 35 culture = metis religion = catholic }
+	soldiers = { size = 55 culture = metis religion = catholic }
 }
 174 = {
 	nomads = { size = 442 culture = native_american_minor religion = animist }
@@ -1009,25 +1045,40 @@
 }
 3505 = {
 	nomads = { size = 511 culture = native_american_minor religion = animist }
+	farmers = { size = 3000 culture = metis religion = catholic }
+	artisans = { size = 180 culture = metis religion = catholic }
+	clergymen = { size = 35 culture = metis religion = catholic }
+	soldiers = { size = 55 culture = metis religion = catholic }
 }
 3508 = {
 	nomads = { size = 511 culture = native_american_minor religion = animist }
+	farmers = { size = 3000 culture = metis religion = catholic }
+	artisans = { size = 180 culture = metis religion = catholic }
+	clergymen = { size = 35 culture = metis religion = catholic }
+	soldiers = { size = 55 culture = metis religion = catholic }
 }
 3509 = {
 	nomads = { size = 511 culture = native_american_minor religion = animist }
+	farmers = { size = 555 culture = metis religion = catholic }
 }
 178 = {
 	nomads = { size = 2000 culture = native_american_minor religion = animist }
+	nomads = { size = 650 culture = iroquois religion = animist }
 	artisans = { size = 55 culture = native_american_minor religion = animist }
 	clergymen = { size = 5 culture = native_american_minor religion = animist }
 	farmers = { size = 200 culture = native_american_minor religion = reformed }
-	farmers = { size = 200 culture = yankee religion = reformed }
+	artisans = { size = 200 culture = yankee religion = reformed }
+	farmers = { size = 7600 culture = metis religion = catholic }
+	artisans = { size = 180 culture = metis religion = catholic }
+	clergymen = { size = 35 culture = metis religion = catholic }
+	soldiers = { size = 1125 culture = metis religion = catholic }
 }
 179 = {
 	nomads = { size = 1800 culture = native_american_minor religion = animist }
-	farmers = { size = 2000 culture = metis religion = catholic }
-	artisans = { size = 55 culture = metis religion = catholic }
-	clergymen = { size = 5 culture = metis religion = catholic }
+	farmers = { size = 8000 culture = metis religion = catholic }
+	artisans = { size = 650 culture = metis religion = catholic }
+	clergymen = { size = 80 culture = metis religion = catholic }
+	soldiers = { size = 1800 culture = metis religion = catholic }
 }
 180 = {
 	nomads = { size = 200 culture = native_american_minor religion = animist }
@@ -1036,7 +1087,11 @@
 	clergymen = { size = 5 culture = metis religion = catholic }
 }
 181 = {
-	nomads = { size = 4444 culture = native_american_minor religion = animist }
+	nomads = { size = 1200 culture = native_american_minor religion = animist }
+	farmers = { size = 4300 culture = metis religion = catholic }
+	artisans = { size = 180 culture = metis religion = catholic }
+	clergymen = { size = 35 culture = metis religion = catholic }
+	soldiers = { size = 55 culture = metis religion = catholic }
 }
 182 = {
 	nomads = { size = 3333 culture = native_american_minor religion = animist }
@@ -1194,6 +1249,34 @@
 }
 200 = {
 	nomads = { size = 890 culture = native_american_minor religion = animist }
+}
+3581 = {
+	nomads = { size = 1000 culture = native_american_minor religion = animist }
+	farmers = { size = 80 culture = white_spanish religion = catholic }
+	clergymen = { size = 10 culture = white_spanish religion = catholic }
+	artisans = { size = 25 culture = white_spanish religion = catholic }
+	soldiers = { size = 5 culture = white_spanish religion = catholic }
+}
+3582 = {
+	nomads = { size = 1000 culture = native_american_minor religion = animist }
+	farmers = { size = 80 culture = white_spanish religion = catholic }
+	clergymen = { size = 10 culture = white_spanish religion = catholic }
+	artisans = { size = 25 culture = white_spanish religion = catholic }
+	soldiers = { size = 5 culture = white_spanish religion = catholic }
+}
+3583 = {
+	nomads = { size = 1000 culture = native_american_minor religion = animist }
+	farmers = { size = 80 culture = white_spanish religion = catholic }
+	clergymen = { size = 10 culture = white_spanish religion = catholic }
+	artisans = { size = 25 culture = white_spanish religion = catholic }
+	soldiers = { size = 5 culture = white_spanish religion = catholic }
+}
+3587 = {
+	nomads = { size = 1000 culture = native_american_minor religion = animist }
+	farmers = { size = 80 culture = white_spanish religion = catholic }
+	clergymen = { size = 10 culture = white_spanish religion = catholic }
+	artisans = { size = 25 culture = white_spanish religion = catholic }
+	soldiers = { size = 5 culture = white_spanish religion = catholic }
 }
 201 = {
 	farmers = { size = 7111 culture = cherokee religion = animist }
@@ -1438,79 +1521,80 @@
 	aristocrats = { size = 153 culture = yankee religion = protestant }
 	artisans = { size = 292 culture = yankee religion = protestant }
 	artisans = { size = 397 culture = afro_american religion = protestant }
-	clergymen = { size = 92 culture = yankee religion = protestant }
 	clergymen = { size = 122 culture = afro_american religion = protestant }
-	farmers = { size = 5144 culture = yankee religion = protestant }
+	clergymen = { size = 92 culture = yankee religion = protestant }
 	farmers = { size = 1168 culture = afro_american religion = protestant }
-	soldiers = { size = 55 culture = yankee religion = protestant }
+	farmers = { size = 5144 culture = yankee religion = protestant }
 	slaves = { size = 18969 culture = afro_american religion = protestant }
 	soldiers = { size = 1527 culture = yankee religion = protestant }
+	soldiers = { size = 55 culture = yankee religion = protestant }
 }
 221 = {
-	artisans = { size = 200 culture = yankee religion = protestant }
 	artisans = { size = 183 culture = afro_american religion = protestant }
-	clergymen = { size = 30 culture = yankee religion = protestant }
+	artisans = { size = 200 culture = yankee religion = protestant }
 	clergymen = { size = 30 culture = afro_american religion = protestant }
-	farmers = { size = 4503 culture = yankee religion = protestant }
+	clergymen = { size = 30 culture = yankee religion = protestant }
 	farmers = { size = 1629 culture = afro_american religion = protestant }
-	slaves = { size = 4377 culture = afro_american religion = protestant }
+	farmers = { size = 4503 culture = yankee religion = protestant }
 	farmers = { size = 555 culture = native_american_minor religion = animist }
+	slaves = { size = 4377 culture = afro_american religion = protestant }
 }
 222 = {
-	artisans = { size = 899 culture = yankee religion = protestant }
 	artisans = { size = 111 culture = afro_american religion = protestant }
-	bureaucrats = { size = 15 culture = yankee religion = protestant }
-	clergymen = { size = 61 culture = yankee religion = protestant }
-	clergymen = { size = 30 culture = afro_american religion = protestant }
-	farmers = { size = 5387 culture = yankee religion = protestant }
-	farmers = { size = 2000 culture = yankee religion = reformed }
-	artisans = { size = 700 culture = yankee religion = reformed }
-	farmers = { size = 1166 culture = afro_american religion = protestant }
-	slaves = { size = 2364 culture = afro_american religion = protestant }
 	artisans = { size = 150 culture = swedish religion = protestant }
+	artisans = { size = 700 culture = yankee religion = reformed }
+	artisans = { size = 899 culture = yankee religion = protestant }
+	bureaucrats = { size = 15 culture = yankee religion = protestant }
 	clergymen = { size = 25 culture = swedish religion = protestant }
+	clergymen = { size = 30 culture = afro_american religion = protestant }
+	clergymen = { size = 61 culture = yankee religion = protestant }
+	farmers = { size = 1166 culture = afro_american religion = protestant }
 	farmers = { size = 1200 culture = swedish religion = protestant }
+	farmers = { size = 2000 culture = yankee religion = reformed }
+	farmers = { size = 5387 culture = yankee religion = protestant }
+	slaves = { size = 2364 culture = afro_american religion = protestant }
 }
 223 = {
-	artisans = { size = 6148 culture = yankee religion = protestant }
-	artisans = { size = 260 culture = yankee religion = protestant }
-	artisans = { size = 757 culture = irish religion = reformed }
-	artisans = { size = 4210 culture = irish religion = catholic }
-	artisans = { size = 1229 culture = afro_american religion = protestant }
-	artisans = { size = 299 culture = ashkenazi religion = jewish }
-	bureaucrats = { size = 461 culture = yankee religion = protestant }
-	artisans = { size = 15 culture = yankee religion = protestant }
-	clergymen = { size = 406 culture = yankee religion = protestant }
-	clergymen = { size = 77 culture = irish religion = catholic }
-	artisans = { size = 116 culture = yankee religion = protestant }
-	artisans = { size = 1682 culture = yankee religion = protestant }
-	artisans = { size = 61 culture = irish religion = catholic }
-	farmers = { size = 34835 culture = yankee religion = protestant }
 	aristocrats = { size = 313 culture = german religion = reformed }
+	artisans = { size = 116 culture = yankee religion = protestant }
+	artisans = { size = 121 culture = german religion = reformed }
+	artisans = { size = 1229 culture = afro_american religion = protestant }
+	artisans = { size = 15 culture = yankee religion = protestant }
+	artisans = { size = 1682 culture = yankee religion = protestant }
+	artisans = { size = 260 culture = yankee religion = protestant }
+	artisans = { size = 299 culture = ashkenazi religion = jewish }
+	artisans = { size = 4210 culture = irish religion = catholic }
+	artisans = { size = 61 culture = irish religion = catholic }
+	artisans = { size = 6148 culture = yankee religion = protestant }
+	artisans = { size = 757 culture = irish religion = reformed }
+	artisans = { size = 761 culture = german religion = reformed }
+	artisans = { size = 773 culture = german religion = reformed }
 	artisans = { size = 915 culture = german religion = reformed }
 	artisans = { size = 917 culture = german religion = reformed }
-	artisans = { size = 773 culture = german religion = catholic }
-	farmers = { size = 1029 culture = german religion = catholic }
 	bureaucrats = { size = 23 culture = german religion = reformed }
+	bureaucrats = { size = 461 culture = yankee religion = protestant }
 	clergymen = { size = 169 culture = german religion = reformed }
-	artisans = { size = 121 culture = german religion = reformed }
-	artisans = { size = 761 culture = german religion = reformed }
-	farmers = { size = 8029 culture = german religion = reformed }
-	soldiers = { size = 1088 culture = german religion = reformed }
-	farmers = { size = 9468 culture = irish religion = catholic }
+	clergymen = { size = 406 culture = yankee religion = protestant }
+	clergymen = { size = 77 culture = irish religion = catholic }
+	farmers = { size = 1029 culture = german religion = reformed }
 	farmers = { size = 2189 culture = irish religion = reformed }
+	farmers = { size = 34835 culture = yankee religion = protestant }
 	farmers = { size = 3658 culture = afro_american religion = protestant }
+	farmers = { size = 8029 culture = german religion = reformed }
+	farmers = { size = 9468 culture = irish religion = catholic }
+	soldiers = { size = 1088 culture = german religion = reformed }
+	soldiers = { size = 143 culture = irish religion = catholic }
 	soldiers = { size = 231 culture = yankee religion = protestant }
 	soldiers = { size = 2326 culture = yankee religion = protestant }
-	soldiers = { size = 143 culture = irish religion = catholic }
 }
 224 = {
 	artisans = { size = 1021 culture = yankee religion = protestant }
 	clergymen = { size = 111 culture = yankee religion = protestant }
-	farmers = { size = 11502 culture = yankee religion = protestant }
+	farmers = { size = 10502 culture = yankee religion = protestant }
 	artisans = { size = 555 culture = yankee religion = reformed }
 	clergymen = { size = 111 culture = yankee religion = reformed }
 	farmers = { size = 18000 culture = yankee religion = reformed }
+	farmers = { size = 1200 culture = german religion = reformed }
 }
 225 = {
 	artisans = { size = 1024 culture = yankee religion = protestant }
@@ -1537,15 +1621,26 @@
 226 = {
 	artisans = { size = 1744 culture = yankee religion = protestant }
 	clergymen = { size = 338 culture = yankee religion = protestant }
-	farmers = { size = 31072 culture = yankee religion = protestant }
+	farmers = { size = 27072 culture = yankee religion = protestant }
 	artisans = { size = 500 culture = yankee religion = reformed }
+	farmers = { size = 6000 culture = german religion = reformed }
 	farmers = { size = 10000 culture = yankee religion = reformed }
 }
 227 = {
-	nomads = { size = 1500 culture = native_american_minor religion = animist }
+	nomads = { size = 400 culture = native_american_minor religion = animist }
+	farmers = { size = 650 culture = native_american_minor religion = catholic }
+	farmers = { size = 3300 culture = metis religion = catholic }
+	artisans = { size = 180 culture = metis religion = catholic }
+	clergymen = { size = 35 culture = metis religion = catholic }
+	soldiers = { size = 55 culture = metis religion = catholic }
 }
 228 = {
-	farmers = { size = 811 culture = native_american_minor religion = animist }
+	nomads = { size = 400 culture = native_american_minor religion = animist }
+	farmers = { size = 900 culture = native_american_minor religion = catholic }
+	farmers = { size = 4800 culture = metis religion = catholic }
+	artisans = { size = 180 culture = metis religion = catholic }
+	clergymen = { size = 35 culture = metis religion = catholic }
+	soldiers = { size = 55 culture = metis religion = catholic }
 }
 229 = {
 	artisans = { size = 752 culture = yankee religion = protestant }
@@ -1584,29 +1679,30 @@
 	soldiers = { size = 133 culture = yankee religion = reformed }
 }
 232 = {
-	artisans = { size = 3450 culture = yankee religion = protestant }
-	artisans = { size = 3450 culture = yankee religion = protestant }
-	artisans = { size = 3150 culture = yankee religion = reformed }
-	artisans = { size = 1511 culture = yankee religion = protestant }
-	artisans = { size = 2152 culture = irish religion = catholic }
 	artisans = { size = 128 culture = afro_american religion = protestant }
+	artisans = { size = 1511 culture = yankee religion = protestant }
 	artisans = { size = 1931 culture = irish religion = catholic }
-	artisans = { size = 999 culture = irish religion = reformed }
-	artisans = { size = 301 culture = ashkenazi religion = jewish }
+	artisans = { size = 2000 culture = ashkenazi religion = jewish }
+	artisans = { size = 2152 culture = irish religion = catholic }
+	artisans = { size = 3150 culture = yankee religion = reformed }
+	artisans = { size = 3450 culture = yankee religion = protestant }
+	artisans = { size = 3450 culture = yankee religion = protestant }
 	artisans = { size = 368 culture = yankee religion = protestant }
-	clergymen = { size = 345 culture = yankee religion = protestant }
-	clergymen = { size = 211 culture = yankee religion = reformed }
-	farmers = { size = 26404 culture = yankee religion = protestant }
-	farmers = { size = 21000 culture = yankee religion = reformed }
-	farmers = { size = 6000 culture = french religion = reformed }
-	clergymen = { size = 80 culture = german religion = reformed }
 	artisans = { size = 400 culture = german religion = reformed }
+	artisans = { size = 999 culture = irish religion = reformed }
+	clergymen = { size = 211 culture = yankee religion = reformed }
+	clergymen = { size = 345 culture = yankee religion = protestant }
+	clergymen = { size = 80 culture = german religion = reformed }
+	clergymen = { size = 100 culture = ashkenazi religion = jewish }
 	farmers = { size = 2000 culture = german religion = reformed }
-	soldiers = { size = 100 culture = german religion = reformed }
+	farmers = { size = 21000 culture = yankee religion = reformed }
+	farmers = { size = 26404 culture = yankee religion = protestant }
+	farmers = { size = 2000 culture = ashkenazi religion = jewish }
 	farmers = { size = 538 culture = irish religion = catholic }
-	soldiers = { size = 225 culture = yankee religion = protestant }
-	soldiers = { size = 4027 culture = yankee religion = protestant }
-	soldiers = { size = 41 culture = irish religion = catholic }
+	farmers = { size = 6000 culture = french religion = reformed }
+	soldiers = { size = 100 culture = german religion = reformed }
+	soldiers = { size = 1200 culture = yankee religion = protestant }
+	soldiers = { size = 4100 culture = yankee religion = protestant }
 }
 233 = {
 	artisans = { size = 968 culture = yankee religion = protestant }
@@ -1671,13 +1767,13 @@
 238 = {
 	artisans = { size = 211 culture = iroquois religion = catholic }
 	clergymen = { size = 33 culture = iroquois religion = catholic }
-	farmers = { size = 1333 culture = iroquois religion = catholic }
-	farmers = { size = 1011 culture = iroquois religion = protestant }
+	farmers = { size = 2300 culture = iroquois religion = catholic }
+	farmers = { size = 1200 culture = iroquois religion = protestant }
 }
 239 = {
 	artisans = { size = 211 culture = iroquois religion = catholic }
 	clergymen = { size = 33 culture = iroquois religion = catholic }
-	nomads = { size = 211 culture = iroquois religion = animist }
+	nomads = { size = 455 culture = iroquois religion = animist }
 	farmers = { size = 2611 culture = iroquois religion = catholic }
 }
 240 = {
@@ -1697,7 +1793,8 @@
 	clergymen = { size = 353 culture = yankee religion = reformed }
 	artisans = { size = 32 culture = yankee religion = reformed }
 	artisans = { size = 338 culture = yankee religion = reformed }
-	farmers = { size = 44924 culture = yankee religion = reformed }
+	farmers = { size = 34924 culture = yankee religion = reformed }
+	farmers = { size = 10000 culture = irish religion = catholic }
 	farmers = { size = 907 culture = afro_american religion = reformed }
 }
 242 = {
@@ -1707,9 +1804,10 @@
 	clergymen = { size = 92 culture = yankee religion = reformed }
 	artisans = { size = 46 culture = yankee religion = protestant }
 	artisans = { size = 361 culture = yankee religion = reformed }
-	farmers = { size = 4275 culture = yankee religion = protestant }
+	farmers = { size = 2275 culture = yankee religion = protestant }
 	farmers = { size = 192 culture = afro_american religion = reformed }
-	farmers = { size = 14500 culture = yankee religion = reformed }
+	farmers = { size = 13500 culture = yankee religion = reformed }
+	farmers = { size = 4000 culture = irish religion = catholic }
 }
 243 = {
 	artisans = { size = 3148 culture = yankee religion = reformed }
@@ -1765,20 +1863,16 @@
 	farmers = { size = 700 culture = yankee religion = mormon }
 }
 247 = {
-	artisans = { size = 611 culture = yankee religion = protestant }
-	clergymen = { size = 355 culture = yankee religion = protestant }
-	artisans = { size = 255 culture = yankee religion = protestant }
-	farmers = { size = 14222 culture = yankee religion = protestant }
-	soldiers = { size = 55 culture = yankee religion = protestant }
-	soldiers = { size = 211 culture = yankee religion = protestant }
-	soldiers = { size = 61 culture = irish religion = catholic }
-	artisans = { size = 1211 culture = yankee religion = reformed }
+	artisans = { size = 2300 culture = yankee religion = reformed }
+	artisans = { size = 600 culture = yankee religion = protestant }
 	bureaucrats = { size = 60 culture = yankee religion = reformed }
-	clergymen = { size = 265 culture = yankee religion = reformed }
-	artisans = { size = 855 culture = yankee religion = reformed }
-	farmers = { size = 20222 culture = yankee religion = reformed }
-	soldiers = { size = 55 culture = yankee religion = reformed }
-	soldiers = { size = 1621 culture = yankee religion = reformed }
+	clergymen = { size = 465 culture = yankee religion = reformed }
+	clergymen = { size = 100 culture = yankee religion = protestant }
+	farmers = { size = 5200 culture = yankee religion = protestant }
+	farmers = { size = 23000 culture = yankee religion = reformed }
+	farmers = { size = 6000 culture = irish religion = catholic }
+	soldiers = { size = 1600 culture = yankee religion = reformed }
+	soldiers = { size = 255 culture = yankee religion = protestant }
 }
 3523 = {
 	farmers = { size = 7000 culture = yankee religion = reformed }
@@ -1787,17 +1881,17 @@
 	bureaucrats = { size = 5 culture = yankee religion = reformed }
 }
 248 = {
-	farmers = { size = 4500 culture = french_canadian religion = reformed }
-	clergymen = { size = 45 culture = french_canadian religion = reformed }
-	artisans = { size = 420 culture = french_canadian religion = reformed }
-	farmers = { size = 321 culture = french_canadian religion = catholic }
 	artisans = { size = 23 culture = french_canadian religion = catholic }
-	farmers = { size = 5500 culture = yankee religion = reformed }
-	clergymen = { size = 55 culture = yankee religion = reformed }
 	artisans = { size = 360 culture = yankee religion = reformed }
+	artisans = { size = 420 culture = french_canadian religion = reformed }
 	artisans = { size = 78 culture = yankee religion = protestant }
 	clergymen = { size = 12 culture = yankee religion = protestant }
+	clergymen = { size = 45 culture = french_canadian religion = reformed }
+	clergymen = { size = 55 culture = yankee religion = reformed }
 	farmers = { size = 1088 culture = yankee religion = protestant }
+	farmers = { size = 321 culture = french_canadian religion = catholic }
+	farmers = { size = 4500 culture = french_canadian religion = reformed }
+	farmers = { size = 5500 culture = yankee religion = reformed }
 }
 249 = {
 	artisans = { size = 568 culture = yankee religion = protestant }
@@ -1809,14 +1903,15 @@
 	farmers = { size = 370 culture = french_canadian religion = catholic }
 }
 3371 = {
+	artisans = { size = 1344 culture = yankee religion = reformed }
 	artisans = { size = 184 culture = yankee religion = protestant }
 	bureaucrats = { size = 10 culture = yankee religion = protestant }
-	clergymen = { size = 27 culture = yankee religion = protestant }
-	farmers = { size = 5423 culture = yankee religion = protestant }
-	artisans = { size = 1344 culture = yankee religion = reformed }
 	bureaucrats = { size = 107 culture = yankee religion = reformed }
+	clergymen = { size = 27 culture = yankee religion = protestant }
 	clergymen = { size = 276 culture = yankee religion = reformed }
-	farmers = { size = 27233 culture = yankee religion = reformed }
+	farmers = { size = 13233 culture = yankee religion = reformed }
+	farmers = { size = 3423 culture = yankee religion = protestant }
+	farmers = { size = 16000 culture = irish religion = catholic }
 }
 250 = {
 	artisans = { size = 555 culture = french_canadian religion = catholic }
@@ -27778,10 +27873,10 @@
 	farmers = { size = 731 culture = salish religion = animist }
 }
 3274 = {
-	clergymen = { size = 35 culture = white_spanish religion = catholic }
-	artisans = { size = 55 culture = white_spanish religion = catholic }
-	farmers = { size = 1000 culture = white_spanish religion = catholic }
-	slaves = { size = 1255 culture = black_spanish religion = catholic }
+	clergymen = { size = 44 culture = white_spanish religion = catholic }
+	artisans = { size = 222 culture = white_spanish religion = catholic }
+	farmers = { size = 5000 culture = white_spanish religion = catholic }
+	slaves = { size = 7255 culture = black_spanish religion = catholic }
 }
 3275 = {
 	nomads = { size = 466 culture = native_american_minor religion = animist }

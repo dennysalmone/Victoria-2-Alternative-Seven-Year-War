@@ -1,30 +1,28 @@
 capital = 1304
-primary_culture = tamil
-culture = kannada
-culture = telegu
-culture = malayalam
-religion = hindu
-government = absolute_monarchy
-plurality = 0.0
-nationalvalue = nv_tradition
-literacy = 0.02
-non_state_culture_literacy = 0
+primary_culture = white_spanish
+religion = catholic
+government = democracy
+plurality = 0.5
+nationalvalue = nv_liberty
+literacy = 0.50
+civilized = yes
+
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = no_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
-voting_system = jefferson_method
-political_parties = underground_parties
-minorities_reform = oppression
-immigration_policy = nobody_gets_out
-conscription = mandatory_service
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = gerrymandering
+minorities_reform = limited
+immigration_policy = open_immigration
+conscription = no_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
-work_hours = no_work_hour_limit
+work_hours = ten_hours
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
@@ -34,13 +32,22 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
 
-ruling_party = KRN_conservative
+ruling_party = CAL_liberal
 upper_house = {
 	fascist = 0
-	liberal = 11
-	conservative = 73
-	reactionary = 16
+	liberal = 59
+	conservative = 33
+	reactionary = 8
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+1861.1.1 = {
+	oob = "/1861/CAL_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+
+#Inventions
 }

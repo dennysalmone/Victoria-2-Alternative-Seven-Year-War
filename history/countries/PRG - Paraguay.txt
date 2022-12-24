@@ -1,5 +1,6 @@
 capital = 2339
-primary_culture = white_spanish
+primary_culture = mestizo
+culture = white_spanish
 culture = guarani
 religion = catholic
 government = presidential_dictatorship

@@ -3,5 +3,5 @@ controller = KHH
 add_core = HND
 add_core = KHH
 trade_goods = wool
-life_rating = 27
+life_rating = 30
 terrain = seasonal_jungle_hills

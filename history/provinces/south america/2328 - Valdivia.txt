@@ -1,7 +1,7 @@
 add_core = PTG
 add_core = CHL
 trade_goods = wool
-life_rating = 33
+life_rating = 35
 terrain = deciduous_forest_hills
 colonial = 2
 1836.1.1 = {

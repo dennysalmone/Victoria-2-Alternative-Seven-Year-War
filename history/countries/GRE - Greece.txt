@@ -95,7 +95,7 @@ oob = "/1821/GRE_oob.txt"
 1861.1.1 = {
 	oob = "/1861/GRE_oob.txt"
 
-	government = prussian_constitutionalism
+	government = hms_government
 	set_country_flag = tory_election_win
 	plurality = 50
 	literacy = 0.27

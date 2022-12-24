@@ -1,16 +1,14 @@
-capital = 1304
-primary_culture = tamil
-culture = kannada
-culture = telegu
-culture = malayalam
-religion = hindu
-government = absolute_monarchy
+capital = 1465
+primary_culture = mongol
+religion = gelugpa
+government = theocracy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.03
 non_state_culture_literacy = 0
+
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -26,7 +24,7 @@ conscription = mandatory_service
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = no_health_care
+health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
@@ -34,13 +32,70 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
 
-ruling_party = KRN_conservative
+ruling_party = MGL_conservative
 upper_house = {
 	fascist = 0
-	liberal = 11
-	conservative = 73
-	reactionary = 16
+	liberal = 35
+	conservative = 55
+	reactionary = 10
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+set_country_flag = existing_country
+
+foreign_weapons = yes_foreign_weapons
+academic_institutions = madrasahs
+
+# Technologies
+flintlock_rifles = 1
+late_enlightenment_philosophy = 1
+
+# Inventions
+
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 1
+
+oob = "MGL_oob.txt"
+
+1836.1.1 = {
+	literacy = 0.04
+	
+	foreign_weapons = yes_foreign_weapons
+	army_schools = yes_army_schools
+	admin_reform = yes_admin_reform
+	academic_institutions = madrasahs
+	
+	# Technologies
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	enlightenment_thought = 1
+	late_enlightenment_philosophy = 1
+}
+
+1861.1.1 = {
+	oob = "/1861/MGL_oob.txt"
+}
+
+1861.1.1 = {
+
+foreign_weapons = yes_foreign_weapons
+foreign_officers = yes_foreign_officers
+army_schools = yes_army_schools
+admin_reform = yes_admin_reform
+academic_institutions = madrasahs
+taxation_reform = tax_farmers
+
+# Technologies
+flintlock_rifles = 1
+army_command_principle = 1
+bronze_muzzle_loaded_artillery = 1
+enlightenment_thought = 1
+late_enlightenment_philosophy = 1
+private_banks = 1
+
+# Inventions
+
 }

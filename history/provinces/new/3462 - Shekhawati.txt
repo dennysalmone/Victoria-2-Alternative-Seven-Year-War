@@ -3,5 +3,5 @@ controller = JAI
 add_core = JAI
 add_core = HND
 trade_goods = grain
-life_rating = 33
+life_rating = 35
 terrain = farmland_dry

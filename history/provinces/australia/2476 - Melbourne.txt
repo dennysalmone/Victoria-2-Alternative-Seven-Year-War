@@ -2,6 +2,6 @@ owner = NET
 controller = NET
 add_core = NHO
 trade_goods = grain
-life_rating = 42
+life_rating = 40
 terrain = forested_farmland
 colonial = 1

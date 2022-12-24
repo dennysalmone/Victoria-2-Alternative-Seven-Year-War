@@ -1,13 +1,13 @@
 capital = 1167
-primary_culture = bedouin
-religion = shiite
+primary_culture = iroquois
+religion = catholic
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.29
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting

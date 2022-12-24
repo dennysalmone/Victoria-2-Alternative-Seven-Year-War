@@ -3,5 +3,5 @@ controller = ORI
 add_core = ORI
 add_core = HND
 trade_goods = spices
-life_rating = 33
+life_rating = 35
 terrain = dryhills

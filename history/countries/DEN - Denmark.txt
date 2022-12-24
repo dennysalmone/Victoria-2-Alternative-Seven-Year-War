@@ -119,7 +119,7 @@ oob = "/1821/DEN_oob.txt"
 	set_country_flag = annex_schleswig_holstein
 	set_country_flag = schleswig_holstein_restored
 	set_country_flag = nicobar_sale
-	government = prussian_constitutionalism
+	government = hms_government
 	decision = danmarks_riges_grundlov
 	
 	ruling_party = DAN_liberal_2
