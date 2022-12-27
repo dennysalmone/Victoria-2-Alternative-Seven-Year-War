@@ -1,6 +1,6 @@
 capital = 97
-primary_culture = white_spanish
-religion = catholic
+primary_culture = yankee
+religion = mormon
 government = presidential_dictatorship
 plurality = 0.2
 nationalvalue = nv_order

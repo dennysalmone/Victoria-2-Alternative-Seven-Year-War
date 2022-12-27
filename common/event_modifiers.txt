@@ -1466,7 +1466,7 @@ gateway_to_america = {
 
 home_of_the_mormons = {
 	population_growth = 0.005
-	immigrant_attract = -10
+	immigrant_push = 10
 	icon = 15
 }
 

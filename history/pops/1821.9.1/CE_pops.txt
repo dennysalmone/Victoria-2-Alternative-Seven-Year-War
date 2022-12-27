@@ -1471,6 +1471,7 @@
 	artisans = { size = 150 culture = french_canadian religion = reformed }
 	farmers = { size = 1100 culture = irish religion = catholic }
 	artisans = { size = 60 culture = irish religion = catholic }
+	soldiers = { size = 50 culture = yankee religion = reformed }
 	soldiers = { size = 50 culture = yankee religion = mormon }
 	clergymen = { size = 25 culture = yankee religion = mormon }
 	artisans = { size = 400 culture = yankee religion = mormon }
@@ -1686,7 +1687,7 @@
 	artisans = { size = 2152 culture = irish religion = catholic }
 	artisans = { size = 3150 culture = yankee religion = reformed }
 	artisans = { size = 3450 culture = yankee religion = protestant }
-	artisans = { size = 3450 culture = yankee religion = protestant }
+	artisans = { size = 3000 culture = dutch religion = reformed }
 	artisans = { size = 368 culture = yankee religion = protestant }
 	artisans = { size = 400 culture = german religion = reformed }
 	artisans = { size = 999 culture = irish religion = reformed }
@@ -1695,8 +1696,9 @@
 	clergymen = { size = 80 culture = german religion = reformed }
 	clergymen = { size = 100 culture = ashkenazi religion = jewish }
 	farmers = { size = 2000 culture = german religion = reformed }
-	farmers = { size = 21000 culture = yankee religion = reformed }
-	farmers = { size = 26404 culture = yankee religion = protestant }
+	farmers = { size = 19000 culture = yankee religion = reformed }
+	farmers = { size = 7000 culture = dutch religion = reformed }
+	farmers = { size = 21404 culture = yankee religion = protestant }
 	farmers = { size = 2000 culture = ashkenazi religion = jewish }
 	farmers = { size = 538 culture = irish religion = catholic }
 	farmers = { size = 6000 culture = french religion = reformed }
@@ -1705,9 +1707,11 @@
 	soldiers = { size = 4100 culture = yankee religion = protestant }
 }
 233 = {
-	artisans = { size = 968 culture = yankee religion = protestant }
+	artisans = { size = 600 culture = yankee religion = protestant }
+	farmers = { size = 400 culture = dutch religion = reformed }
 	clergymen = { size = 157 culture = yankee religion = protestant }
-	farmers = { size = 22341 culture = yankee religion = protestant }
+	farmers = { size = 13341 culture = yankee religion = protestant }
+	farmers = { size = 9000 culture = dutch religion = reformed }
 }
 234 = {
 	artisans = { size = 1520 culture = yankee religion = protestant }
@@ -1858,6 +1862,8 @@
 	artisans = { size = 555 culture = yankee religion = reformed }
 	clergymen = { size = 55 culture = yankee religion = reformed }
 	farmers = { size = 12038 culture = yankee religion = reformed }
+	soldiers = { size = 50 culture = yankee religion = reformed }
+	clergymen = { size = 15 culture = yankee religion = mormon }
 	soldiers = { size = 40 culture = yankee religion = mormon }
 	artisans = { size = 190 culture = yankee religion = mormon }
 	farmers = { size = 700 culture = yankee religion = mormon }
@@ -7234,15 +7240,13 @@
 	soldiers = { size = 6501 culture = italian religion = catholic }
 }
 754 = {
-	aristocrats = { size = 12022 culture = italian religion = catholic }
-	aristocrats = { size = 1000 culture = sicilian religion = catholic }
+	aristocrats = { size = 1022 culture = italian religion = catholic }
+	aristocrats = { size = 12000 culture = sicilian religion = catholic }
+	artisans = { size = 8000 culture = sicilian religion = catholic }
 	artisans = { size = 8000 culture = italian religion = catholic }
-	artisans = { size = 2000 culture = sicilian religion = catholic }
+	artisans = { size = 6000 culture = sicilian religion = catholic }
 	artisans = { size = 8000 culture = italian religion = catholic }
-	artisans = { size = 2000 culture = sicilian religion = catholic }
-	artisans = { size = 8000 culture = italian religion = catholic }
-	artisans = { size = 2000 culture = sicilian religion = catholic }
-	artisans = { size = 8000 culture = italian religion = catholic }
+	artisans = { size = 8000 culture = sicilian religion = catholic }
 	artisans = { size = 2000 culture = sicilian religion = catholic }
 	artisans = { size = 8000 culture = italian religion = catholic }
 	artisans = { size = 2000 culture = sicilian religion = catholic }
@@ -7256,8 +7260,8 @@
 	bureaucrats = { size = 445 culture = italian religion = catholic }
 	bureaucrats = { size = 44 culture = sicilian religion = catholic }
 	clergymen = { size = 3090 culture = italian religion = catholic }
-	farmers = { size = 10000 culture = sicilian religion = catholic }
-	farmers = { size = 175820 culture = italian religion = catholic }
+	farmers = { size = 40000 culture = sicilian religion = catholic }
+	farmers = { size = 145820 culture = italian religion = catholic }
 	soldiers = { size = 525 culture = italian religion = catholic }
 	soldiers = { size = 7253 culture = italian religion = catholic }
 }
