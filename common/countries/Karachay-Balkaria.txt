@@ -2,7 +2,7 @@ color = { 246 236 62 }
 graphical_culture = RussianGC
 
 party = {
-	name = "UKR_conservative"
+	name = "AAA_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "UKR_liberal"
+	name = "AAA_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "UKR_reactionary"
+	name = "AAA_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -42,9 +42,9 @@ party = {
 	citizenship_policy = residency
 	war_policy = jingoism
 }
-
+ 
 party = {
-	name = "UKR_anarcho_liberal"
+	name = "AAA_anarcho_liberal"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "UKR_socialist"
+	name = "AAA_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "UKR_communist"
+	name = "AAA_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "UKR_fascist"
+	name = "AAA_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 
@@ -133,7 +133,7 @@ unit_names = {
 		Dniester Dnipro Desna Prypiat Prut 
 	}
 	monitor = {
-		Sofyivsky "Pechers’ka lavra" "Kam’ianets’-Podil’s’kyi" Khotyn Khortyts'a
+		Sofyivsky "Pechersï¿½ka lavra" "Kamï¿½ianetsï¿½-Podilï¿½sï¿½kyi" Khotyn Khortyts'a
 	}
 	clipper_transport = { 
 		

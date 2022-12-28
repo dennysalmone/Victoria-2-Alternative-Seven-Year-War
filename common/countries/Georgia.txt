@@ -2,7 +2,7 @@ color = { 73  73  73 }
 graphical_culture = MiddleEasternGC
 
 party = {
-	name = "GEO_conservative"
+	name = "CSA_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "GEO_liberal"
+	name = "CSA_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "GEO_reactionary"
+	name = "CSA_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "GEO_anarcho_liberal"
+	name = "CSA_anarcho_liberal"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "GEO_socialist"
+	name = "CSA_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "GEO_communist"
+	name = "CSA_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "GEO_fascist"
+	name = "CSA_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 
