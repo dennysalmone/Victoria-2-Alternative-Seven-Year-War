@@ -66,3 +66,27 @@ farmland_dry;Dry Farmland;x
 floodplain_savanna;Floodplain Savanna;x
 mountain_valley;Mountain Valley;x
 savana;Savanna;x
+ALL_conservative;Democratic Party;x
+ALL_reactionary;Nationalist Party;x
+ALL_anarcho_liberal;Radical Party;x
+ALL_communist;Communist Party;x
+ALL_fascist;Fascist Party;x
+ALL_socialist;Socialist Party;x
+ICH_conservative;Conservatives;x
+ICH_reactionary;Traditionalist;x
+ICH_anarcho_liberal;Radical;x
+ICH_communist;Communist;x
+ICH_fascist;Wolfes;x
+ICH_socialist;Socialist;x
+UNC_conservative;Democratic Party;x
+UNC_reactionary;Nationalist Party;x
+UNC_anarcho_liberal;Radical Party;x
+UNC_communist;Communist Party;x
+UNC_fascist;Fascist Party;x
+UNC_socialist;Socialist Party;x
+AAA_conservative;Conservatives;x
+AAA_reactionary;Traditionalist;x
+AAA_anarcho_liberal;Radical;x
+AAA_communist;Communist;x
+AAA_fascist;Fascist;x
+AAA_socialist;Socialist;x
