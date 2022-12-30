@@ -347,7 +347,7 @@ country_event = {
 			limit = {
 				OR = {
 					culture = dutch
-					culture = frisian
+					culture = frisians
 				}
 				has_pop_religion = catholic
 			}
@@ -381,7 +381,7 @@ country_event = {
 			limit = {
 				OR = {
 					culture = dutch
-					culture = frisian
+					culture = frisians
 				}
 				has_pop_religion = catholic
 			}
@@ -2711,7 +2711,7 @@ country_event = {
 			limit = {
 				OR = {
 					culture = dutch
-					culture = frisian
+					culture = frisians
 				}
 			}
 			consciousness = 1

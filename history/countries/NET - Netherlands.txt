@@ -1,6 +1,6 @@
 capital = 375
 primary_culture = dutch
-culture = frisian
+culture = frisians
 religion = reformed
 government = hms_government
 plurality = 5
