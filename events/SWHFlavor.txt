@@ -115,7 +115,7 @@ country_event = {
 			consciousness = 2
 		}
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_culture = german }
 			militancy = -2
 			dominant_issue = {
 				factor = 0.05
@@ -188,7 +188,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = german
 				is_greater_power = yes
 			}
 			diplomatic_influence = { who = HOL value = 100 }
@@ -213,7 +213,7 @@ country_event = {
 			add_core = THIS
 		}
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_culture = german }
 			militancy = 3
 		}
 		any_country = {
@@ -228,7 +228,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = german
 				is_greater_power = yes
 			}
 			country_event = 90059
@@ -299,7 +299,7 @@ country_event = {
 		}
 		release = HOL
 		any_country = {
-			limit = { primary_culture = north_german }
+			limit = { primary_culture = german }
 			leave_alliance = THIS
 			relation = {
 				who = THIS
@@ -308,7 +308,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = german
 				is_greater_power = yes
 			}
 			diplomatic_influence = { who = HOL value = 100 }
@@ -344,7 +344,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = german
 				is_greater_power = yes
 			}
 			diplomatic_influence = { who = SWH value = 100 }
@@ -393,7 +393,7 @@ country_event = {
 			value = -100
 		}
 		any_country = {
-			limit = { primary_culture = north_german }
+			limit = { primary_culture = german }
 			leave_alliance = THIS
 			relation = {
 				who = THIS
@@ -452,7 +452,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		NOT = { tag = GER }
-		primary_culture = north_german
+		primary_culture = german
 		is_greater_power = yes
 		state_n_government = 1
 		war = no
@@ -495,7 +495,7 @@ country_event = {
 		badboy = -5
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = german
 				is_greater_power = no
 				exists = yes
 			}

@@ -11,7 +11,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = wallonian
+			add_accepted_culture = french
 			set_country_flag = accepting_wallonian
 		}
 		ai_will_do = {

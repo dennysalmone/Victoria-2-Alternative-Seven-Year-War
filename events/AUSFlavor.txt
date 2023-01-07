@@ -391,7 +391,7 @@ country_event = {
 		prestige = 15
 		any_pop = { 
 			limit = { 
-				has_pop_culture = north_italian 
+				has_pop_culture = italian 
 			} 
 			consciousness = 3
 			militancy = 6
@@ -1077,7 +1077,7 @@ country_event = {
 		any_state = {
 			any_owned_province = {
 				is_core = LOM
-				culture = north_italian
+				culture = italian
 				is_primary_culture = no
 			}
 			average_militancy = 4
@@ -1093,7 +1093,7 @@ country_event = {
 		modifier = {
 			factor = 1.5
 			any_pop = {
-				has_pop_culture = north_italian
+				has_pop_culture = italian
 				is_accepted_culture = yes
 			}
 		}	
@@ -1132,12 +1132,12 @@ country_event = {
 		any_pop = {
 			limit = {
 				location = { is_core = LOM }
-				has_pop_culture = north_italian
+				has_pop_culture = italian
 			}
 			militancy = 5
 		}
 		any_owned = {
-			limit = { culture = north_italian }
+			limit = { culture = italian }
 			add_province_modifier = {
 				name = nationalist_agitation
 				duration = 365
@@ -1195,12 +1195,12 @@ country_event = {
 			country_event = 90023
 		}
 		any_pop = {
-			limit = { has_pop_culture = north_italian }
+			limit = { has_pop_culture = italian }
 			militancy = -3
 		}
 		any_pop = {
 			limit = {
-				NOT = { has_pop_culture = north_italian }
+				NOT = { has_pop_culture = italian }
 				is_primary_culture = no
 			}
 			militancy = 1
@@ -1272,12 +1272,12 @@ country_event = {
 		any_pop = {
 			limit = {
 				location = { is_core = LOM }
-				has_pop_culture = north_italian
+				has_pop_culture = italian
 			}
 			militancy = 8
 		}
 		any_owned = {
-			limit = { culture = north_italian }
+			limit = { culture = italian }
 			add_province_modifier = {
 				name = nationalist_agitation
 				duration = 730

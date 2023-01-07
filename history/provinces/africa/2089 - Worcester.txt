@@ -1,7 +1,6 @@
 owner = NET
 controller = NET
 add_core = SAF
-add_core = KST
 trade_goods = wool
 life_rating = 35
 terrain = mountain_grassland

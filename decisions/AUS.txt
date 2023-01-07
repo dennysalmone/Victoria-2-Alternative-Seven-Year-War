@@ -51,7 +51,7 @@ political_decisions = {
 						culture = slovak
 						culture = croat
 						culture = slovene
-						culture = north_italian
+						culture = italian
 						culture = polish
 						culture = romanian
 						culture = ukrainian
@@ -144,7 +144,7 @@ political_decisions = {
 			set_country_flag = breslau_treaty
 			prestige = 10
 			badboy = 10
-			add_accepted_culture = north_german
+			add_accepted_culture = german
 			PRU_684 = { #Upper Silesia
 				add_core = THIS
 				remove_core = GER
@@ -250,8 +250,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
-						primary_culture = north_german
-						primary_culture = south_german
+						primary_culture = german
 					}
 					is_greater_power = no
 				}
@@ -715,7 +714,7 @@ political_decisions = {
 			AUS_734 = { add_core = AUS }
 			capital = 641
 			any_pop = {
-				limit = { has_pop_culture = south_german }
+				limit = { has_pop_culture = german }
 				militancy = 4
 			}
 			any_pop = {
@@ -723,7 +722,7 @@ political_decisions = {
 				militancy = -4
 			}
 			primary_culture = hungarian
-			add_accepted_culture = south_german
+			add_accepted_culture = german
 			clr_country_flag = dual_monarchy
 			change_tag = HUN
 		}
@@ -751,7 +750,7 @@ political_decisions = {
 			regular_clothes = 100
 			leadership = 40
 			define_general = {
-				name = "Józef Bem"
+				name = "Jï¿½zef Bem"
 				personality = intelligent
 				background = brilliant_strategist
 			}
@@ -1416,7 +1415,7 @@ political_decisions = {
 
 		effect = {
 			prestige = -20
-			primary_culture = south_german
+			primary_culture = german
 			remove_accepted_culture = hungarian
 			remove_accepted_culture = slovak
 			remove_accepted_culture = slovene
@@ -1467,7 +1466,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = czech_bohemia
 			625 = { change_province_name = "Praha" }
-			626 = { change_province_name = "Hradec Králové" }
+			626 = { change_province_name = "Hradec Krï¿½lovï¿½" }
 			627 = { change_province_name = "Karlovy Vary" }
 			628 = { change_province_name = "Liberec" }
 			629 = { change_province_name = "Plzen" }
@@ -1552,7 +1551,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = czech_tesin
 			clr_global_flag = polish_cieszyn
-			689 = { change_province_name = "Tešín" }
+			689 = { change_province_name = "Teï¿½ï¿½n" }
 			prestige = 1
 			AUS = { prestige = -1 }
 			KUK = { prestige = -1 }
@@ -1638,7 +1637,7 @@ political_decisions = {
 		effect = {
 			any_pop = {
 				limit = {
-					has_pop_culture = north_italian
+					has_pop_culture = italian
 				}
 				literacy = 0.3
 			}

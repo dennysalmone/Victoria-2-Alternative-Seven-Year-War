@@ -231,7 +231,11 @@ political_decisions = {
 		effect = {
 			set_country_flag = claimed_north_caucasus
 			badboy = 5
-			add_accepted_culture = north_caucasian
+			add_accepted_culture = circassians
+			add_accepted_culture = nakhchi
+			add_accepted_culture = dagestani
+
+			  
 			CIR = {
 				all_core = { add_core = TCA }
 			}
@@ -287,7 +291,9 @@ political_decisions = {
 			primary_culture = georgian
 			remove_accepted_culture = armenian
 			remove_accepted_culture = azerbaijani
-			remove_accepted_culture = north_caucasian
+			remove_accepted_culture = circassians
+			remove_accepted_culture = dagestani
+			remove_accepted_culture = nakhchi			  
 			all_core = { remove_core = TCA }
 			change_tag = GEO
 			any_pop = {

@@ -1851,8 +1851,8 @@ pan_nationalist_rebels = {
 		modifier = {
 			factor = 0
 			OR = {
-				culture = north_italian
-				culture = south_italian
+				culture = italian
+				culture = sicilian
 			}
 			ITA = { exists = no }
 			NOT = {
@@ -2834,8 +2834,8 @@ red_shirts = {
 			factor = 0
 			NOT = {
 				OR = {
-					culture = south_italian
-					culture = north_italian
+					culture = sicilian
+					culture = italian
 				}
 			}
 		}

@@ -145,8 +145,8 @@ political_decisions = {
 				limit = {
 					location = { continent = africa }
 					NOT = {
-						culture = wallonian
-						culture = flemish
+						culture = french
+						culture = dutch
 					}
 				}
 				consciousness = 4
@@ -242,15 +242,15 @@ political_decisions = {
 				}
 			}
 			change_tag = FLA
-			remove_accepted_culture = flemish
-			primary_culture = flemish
+			remove_accepted_culture = dutch
+			primary_culture = dutch
 			add_accepted_culture = dutch
 			any_pop = {
-				limit = { has_pop_culture = flemish }
+				limit = { has_pop_culture = dutch }
 				militancy = -3
 			}
 			any_pop = {
-				limit = { has_pop_culture = wallonian }
+				limit = { has_pop_culture = french }
 				militancy = 6
 			}
 		}
@@ -283,15 +283,15 @@ political_decisions = {
 				}
 			}
 			change_tag = WLL
-			remove_accepted_culture = flemish
+			remove_accepted_culture = dutch
 			add_accepted_culture = french
 			capital = 392
 			any_pop = {
-				limit = { has_pop_culture = wallonian }
+				limit = { has_pop_culture = french }
 				militancy = -3
 			}
 			any_pop = {
-				limit = { has_pop_culture = flemish }
+				limit = { has_pop_culture = dutch }
 				militancy = 6
 			}
 		}
@@ -342,7 +342,7 @@ political_decisions = {
 				remove_core = BEL
 			}
 			change_tag = BEL
-			add_accepted_culture = wallonian
+			add_accepted_culture = french
 			capital = 387
 			random_country = {
 				limit = {
@@ -409,7 +409,7 @@ political_decisions = {
 				remove_core = BEL
 			}
 			change_tag = BEL
-			add_accepted_culture = flemish
+			add_accepted_culture = dutch
 			capital = 392
 			random_country = {
 				limit = {

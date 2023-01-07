@@ -42,7 +42,7 @@ country_event = {
 		prestige = 5
 		any_pop = {
 			limit = {
-				has_pop_culture = flemish
+				has_pop_culture = dutch
 			}
 			consciousness = 2
 		}
@@ -91,7 +91,7 @@ country_event = {
 		name = "EVTOPTA36701" 
 		any_pop = {
 			limit = {
-				has_pop_culture = flemish
+				has_pop_culture = dutch
 			}
 			consciousness = 3
 			militancy = 1
@@ -1490,7 +1490,7 @@ country_event = {
 		FLA = {
 			capital = 390
 		}
-		FRA = { add_accepted_culture = wallonian }
+		FRA = { add_accepted_culture = french }
 		random_country = {
 			limit = {
 				has_country_flag = hosting_london_conference_1830
@@ -1577,7 +1577,7 @@ country_event = {
 		FLA = {
 			capital = 390
 		}
-		FRA = { add_accepted_culture = wallonian }
+		FRA = { add_accepted_culture = french }
 		random_country = {
 			limit = {
 				has_country_flag = hosting_london_conference_1830

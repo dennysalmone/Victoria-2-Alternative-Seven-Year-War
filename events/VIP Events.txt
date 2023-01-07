@@ -208,7 +208,7 @@ country_event = { #original VIP event by Pimparel
 				OR = {
 					region = BRZ_2439 #Bahia
 					region = BRZ_2428 #Pernambuco
-					region = BRZ_2410 #Maranhão
+					region = BRZ_2410 #Maranhï¿½o
 				}
 			}
 			add_province_modifier = {
@@ -291,7 +291,7 @@ country_event = { #original VIP event by Palisadoes
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = south_german
+				has_pop_culture = german
 				location = { is_core = BOH }
 			}
 			consciousness = 4
@@ -310,7 +310,7 @@ country_event = { #original VIP event by Palisadoes
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = south_german
+				has_pop_culture = german
 				location = { is_core = BOH }
 			}
 			consciousness = -2
@@ -643,7 +643,7 @@ country_event = { #original VIP event by Pimparel
 	}
 }
 
-#The Fortress of Humaitá
+#The Fortress of Humaitï¿½
 country_event = { #original VIP event by Pimparel
 
 	id = 146500
@@ -730,7 +730,7 @@ country_event = { #original VIP event by Pimparel
 }
 
 #President Campos Sales visits Argentina
-country_event = { #original VIP event idea by General Perón, scripted by Scythe
+country_event = { #original VIP event idea by General Perï¿½n, scripted by Scythe
 	id = 146605
 	title = "EVTNAME146605"
 	desc = "EVTDESC146605"

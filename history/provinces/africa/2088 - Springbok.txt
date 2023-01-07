@@ -1,7 +1,6 @@
 owner = NET
 controller = NET
 add_core = SAF
-add_core = KST
 trade_goods = sulphur
 life_rating = 30
 terrain = semi_desert_hills

@@ -111,8 +111,8 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							culture = flemish
-							culture = wallonian
+							culture = dutch
+							culture = french
 						}
 					}
 					militancy = 0.5

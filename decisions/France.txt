@@ -234,8 +234,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
-						primary_culture = north_german
-						primary_culture = south_german
+						primary_culture = german
 					}
 				}
 				relation = {
@@ -436,7 +435,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = embraced_wallonians
-			add_accepted_culture = wallonian
+			add_accepted_culture = french
 		}
 	}
 	
@@ -461,7 +460,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = enacted_french_schooling
 			remove_accepted_culture = occitan
-			remove_accepted_culture = picard
 			remove_accepted_culture = wallonian
 			random_owned = {
 				limit = {
@@ -475,7 +473,6 @@ political_decisions = {
 						is_core = OCC
 						is_core = BRT
 						is_core = WLL
-						culture = picard
 					}
 				}
 				add_province_modifier = {
@@ -546,7 +543,7 @@ political_decisions = {
 		effect = {
 			any_pop = {
 				limit = {
-					has_pop_culture = flemish
+					has_pop_culture = dutch
 				}
 				literacy = 0.45
 			}

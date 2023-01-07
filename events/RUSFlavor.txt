@@ -1340,7 +1340,6 @@ country_event = {
 				OR = {
 					has_pop_culture = polish
 					has_pop_culture = lithuanian
-					has_pop_culture = byelorussian
 					has_pop_culture = ukrainian
 				}
 				location = {
@@ -1377,7 +1376,7 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				culture = byelorussian
+				culture = ukrainian
 				is_core = BYE
 			}
 			random = {

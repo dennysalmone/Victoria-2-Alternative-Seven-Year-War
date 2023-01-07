@@ -21,7 +21,7 @@ country_event = {
 		tag = BEL
 		exists = NET
 		war = no
-		accepted_culture = flemish
+		accepted_culture = dutch
 		year = 1840
 		NOT = {
 			has_global_flag = volhardingspolitiek
@@ -41,7 +41,7 @@ country_event = {
 		plurality = 1
 		any_pop = {
 			limit = {
-				culture = flemish
+				culture = dutch
 			}
 			consciousness = 1
 		}
@@ -122,8 +122,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					culture = flemish
-					culture = wallonian
+					culture = dutch
+					culture = french
 				}
 			}
 			militancy = 2
@@ -137,8 +137,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					culture = flemish
-					culture = wallonian
+					culture = dutch
+					culture = french
 				}
 			}
 			consciousness = 1

@@ -26,7 +26,7 @@ sardinian;Sardinian;x
 sart;Sart;x
 scottish;Scottish;x
 services;Services;x
-sunni_hindus;Sunni Hindus;x
+sunni_hindus;Muslim Hindus;x
 white_spanish;Spanish American;x
 BHT;Bohtan;x
 BHT_ADJ;Bohtanian;x
@@ -91,6 +91,8 @@ AAA_communist;Communist;x
 AAA_fascist;Fascist;x
 AAA_socialist;Socialist;x
 PROV3249;Eupen;x
+PROV3250;Guangzhou Wan;x
+PROV3251;Latgale;x
 BRY;Buryatia;x
 BRY_ADJ;Buryatian;x
 AMI;Amish State;x
@@ -101,3 +103,4 @@ FLO;Florida;x
 FLO_ADJ;Floridian;x
 HAI;Haiti;x
 HAI_ADJ;Haitian;x
+chhattisgarh;Chhattisgarhi;x

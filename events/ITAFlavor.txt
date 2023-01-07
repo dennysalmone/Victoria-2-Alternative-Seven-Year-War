@@ -406,8 +406,8 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
-					primary_culture = north_italian
-					primary_culture = south_italian
+					primary_culture = italian
+					primary_culture = sicilian
 				}
 				NOT = {
 					tag = SAR
@@ -518,8 +518,8 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
-					primary_culture = north_italian
-					primary_culture = south_italian
+					primary_culture = italian
+					primary_culture = sicilian
 				}
 				NOT = {
 					tag = SAR
@@ -586,8 +586,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_culture = italian
+					has_pop_culture = sicilian
 				}
 			}
 			militancy = -3
@@ -623,8 +623,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_culture = italian
+					has_pop_culture = sicilian
 				}
 			}
 			militancy = 2
@@ -664,8 +664,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_culture = italian
+					has_pop_culture = sicilian
 				}
 			}
 			militancy = -1
@@ -711,8 +711,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					has_pop_culture = north_italian
-					has_pop_culture = south_italian
+					has_pop_culture = italian
+					has_pop_culture = sicilian
 				}
 			}
 			militancy = 2
@@ -757,7 +757,7 @@ country_event = {
 country_event = {
 
 	id = 90038
-	title = "EVTNAME90038" #The Pact of Plombières
+	title = "EVTNAME90038" #The Pact of Plombiï¿½res
 	desc = "EVTDESC90038"
 	news = yes
 	news_desc_long = "EVTDESC90038_NEWS_LONG"
@@ -967,7 +967,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		primary_culture = north_italian
+		primary_culture = italian
 		war = no
 		is_vassal = no
 		ai = yes
@@ -1060,8 +1060,8 @@ country_event = {
 country_event = {
 	
 	id = 96161
-	title = "Failure of Plombières"
-	desc = "The Pact of Plombières has failed, and our deal with France is broken."
+	title = "Failure of Plombiï¿½res"
+	desc = "The Pact of Plombiï¿½res has failed, and our deal with France is broken."
 	picture = "treaty"
 	
 	trigger = {
@@ -1321,8 +1321,8 @@ country_event = {
 			limit = { is_sphere_leader_of = THIS }
 			set_country_flag = objects_to_italy
 		}
-		add_accepted_culture = south_italian
-		add_accepted_culture = north_italian
+		add_accepted_culture = sicilian
+		add_accepted_culture = italian
 		change_tag = culture
 		any_country = {
 			limit = {

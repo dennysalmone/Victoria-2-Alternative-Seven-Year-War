@@ -356,8 +356,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					culture = flemish
-					culture = wallonian
+					culture = dutch
+					culture = french
 				}
 				has_pop_religion = catholic
 			}
@@ -390,8 +390,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					culture = flemish
-					culture = wallonian
+					culture = dutch
+					culture = french
 				}
 				has_pop_religion = catholic
 			}
@@ -2120,7 +2120,7 @@ country_event = {
 		name = "A mental bridge of rapprochement and reconciliation"
 		any_pop = {
 			limit = {
-				culture = flemish
+				culture = dutch
 			}
 			consciousness = -1
 		}
@@ -2679,8 +2679,8 @@ country_event = {
 		any_pop = {
 			limit = {
 				OR = {
-					culture = flemish
-					culture = wallonian
+					culture = dutch
+					culture = french
 				}
 			}
 			consciousness = 0.5

@@ -1,4 +1,4 @@
-capital = 1047
+capital = 3578
 primary_culture = cossack
 culture = romanian
 culture = bulgarian

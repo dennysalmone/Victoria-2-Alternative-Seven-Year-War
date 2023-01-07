@@ -10,7 +10,7 @@ country_event = {
 		mass_politics = 1
 		any_owned_province = {
 			is_core = WLL
-			culture = wallonian
+			culture = french
 			NOT = { has_province_modifier = wallingants }
 		}
 		OR = {
@@ -51,7 +51,7 @@ country_event = {
 		387 = {
 			add_core = WLL
 			any_pop = {
-				limit = { has_pop_culture = wallonian }
+				limit = { has_pop_culture = french }
 				consciousness = 3
 				ideology = {
 					value = separatist
@@ -73,7 +73,7 @@ province_event = {
 	
 	trigger = {
 		is_core = WLL
-		culture = wallonian
+		culture = french
 		NOT = { has_province_modifier = wallingants }
 		owner = { has_country_flag = walloon_movement }
 	}
@@ -163,7 +163,7 @@ province_event = {
 			}
 		}
 		any_pop = {
-			limit = { has_pop_culture = wallonian }
+			limit = { has_pop_culture = french }
 			consciousness = 3
 			ideology = {
 				value = separatist
@@ -259,7 +259,7 @@ province_event = {
 			duration = 1825
 		}
 		any_pop = {
-			limit = { has_pop_culture = wallonian }
+			limit = { has_pop_culture = french }
 			militancy = 6
 			ideology = {
 				value = separatist
@@ -270,7 +270,6 @@ province_event = {
 			limit = {
 				OR = {
 					has_pop_culture = dutch
-					has_pop_culture = flemish
 				}
 			}
 			consciousness = 2
@@ -284,7 +283,7 @@ province_event = {
 
 country_event = {
 	id = 46453
-	title = "EVTNAME46453" #Wallonian Autonomy
+	title = "EVTNAME46453" #french Autonomy
 	desc = "EVTDESC46453"
 	picture = "danishgovernment"
 	
@@ -356,7 +355,7 @@ country_event = {
 		badboy = -3
 		any_pop = {
 			limit = {
-				has_pop_culture = wallonian
+				has_pop_culture = french
 				location = { is_core = WLL }
 			}
 			militancy = -10
@@ -432,7 +431,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = wallonian
+				has_pop_culture = french
 				location = { is_core = WLL }
 			}
 			militancy = 6

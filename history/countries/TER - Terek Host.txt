@@ -1,4 +1,4 @@
-capital = 1047
+capital = 979
 primary_culture = cossack
 religion = orthodox
 government = absolute_monarchy

@@ -499,7 +499,6 @@
 		
 		effect = {
 			set_country_flag = hadiach
-			add_accepted_culture = byelorussian
 			add_accepted_culture = ukrainian
 			badboy = 5
 			plurality = 5
@@ -946,7 +945,7 @@
 				tag = SCA
 				exists = UBD
 				is_culture_group = baltic
-				primary_culture = north_german
+				primary_culture = german
 				has_global_flag = baltic_states_formed
 			}
 			OR = {
@@ -1056,7 +1055,7 @@
 	create_german_baltic_states = {
 		picture = form_baltic_states
 		potential = {
-			primary_culture = north_german
+			primary_culture = german
 			NOT = {
 				has_global_flag = baltic_states_formed
 			}
@@ -1152,7 +1151,7 @@
 				remove_core = UBD
 			}
 			UBD = {
-				primary_culture = north_german
+				primary_culture = german
 				add_accepted_culture = latvian
 			}
 			release_vassal = UBD

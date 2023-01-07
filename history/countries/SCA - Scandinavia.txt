@@ -2,7 +2,6 @@ capital = 322
 primary_culture = swedish
 culture = finnish
 culture = norwegian
-culture = faroese
 culture = danish
 religion = protestant
 government = hms_government

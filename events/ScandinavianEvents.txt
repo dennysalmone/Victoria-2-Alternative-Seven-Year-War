@@ -808,7 +808,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = german
 				is_greater_power = yes
 			}
 			diplomatic_influence = { who = HOL value = 100 }
@@ -833,7 +833,7 @@ country_event = {
 			add_core = THIS
 		}
 		any_pop = {
-			limit = { has_pop_culture = north_german }
+			limit = { has_pop_culture = german }
 			militancy = 3
 		}
 		any_country = {
@@ -848,7 +848,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = german
 				is_greater_power = yes
 			}
 			country_event = 90059

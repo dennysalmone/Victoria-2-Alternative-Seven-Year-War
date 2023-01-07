@@ -1,6 +1,5 @@
 capital = 994
 primary_culture = russian
-culture = ukrainian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
