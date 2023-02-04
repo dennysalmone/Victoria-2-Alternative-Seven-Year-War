@@ -6291,6 +6291,10 @@
 	slaves = { size = 1831 culture = romanian religion = orthodox }
 	soldiers = { size = 3021 culture = turkish religion = sunni }
 	soldiers = { size = 228 culture = bulgarian religion = orthodox }
+	artisans = { size = 120 culture = crimean_tatar religion = sunni }
+	farmers = { size = 2000 culture = crimean_tatar religion = sunni }
+	soldiers = { size = 55 culture = crimean_tatar religion = sunni }
+	clergymen = { size = 15 culture = crimean_tatar religion = sunni }
 }
 675 = {
 	artisans = { size = 250 culture = romanian religion = orthodox }

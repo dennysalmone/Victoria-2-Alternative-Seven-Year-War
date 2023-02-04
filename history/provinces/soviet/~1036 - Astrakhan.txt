@@ -1,0 +1,6 @@
+owner = RUS
+controller = RUS
+add_core = AKH
+trade_goods = horses
+life_rating = 30
+terrain = marsh

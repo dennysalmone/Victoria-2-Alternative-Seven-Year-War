@@ -1,0 +1,6 @@
+add_core = CHL
+add_core = PTG
+trade_goods = other_minerals
+life_rating = 30
+terrain = conifer_forest_mountains
+naval_base = 1

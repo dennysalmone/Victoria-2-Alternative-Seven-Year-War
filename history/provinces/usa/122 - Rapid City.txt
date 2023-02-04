@@ -2,5 +2,5 @@ owner = LOU
 controller = LOU
 trade_goods = timber
 life_rating = 30
-terrain = deciduous_forest
+terrain = dry_grassland
 colonial = 1

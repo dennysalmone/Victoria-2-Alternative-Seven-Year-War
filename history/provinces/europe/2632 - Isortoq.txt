@@ -3,5 +3,5 @@ controller = DEN
 add_core = DEN
 trade_goods = fish
 life_rating = 10
-terrain = tundra_hills
+terrain = cold_desert_hills
 colonial = 1

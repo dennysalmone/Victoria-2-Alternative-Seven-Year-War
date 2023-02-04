@@ -3,5 +3,5 @@ controller = DEN
 add_core = DEN
 trade_goods = fur
 life_rating = 1
-terrain = tundra_mountains
+terrain = cold_desert_mountains
 colonial = 1
