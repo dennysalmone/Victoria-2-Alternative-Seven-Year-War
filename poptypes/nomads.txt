@@ -230,7 +230,7 @@ fascist = {
 		modifier = { factor = 1.1 nationalvalue = nv_order ruling_party_ideology = fascist }
 		modifier = { factor = 1.3 everyday_needs = 0.5 country = { ruling_party_ideology = fascist } }
 
-		modifier = { factor = 1.10 not = { ruling_party_ideology = fascist } contry = { part_of_sphere = yes } }
+		modifier = { factor = 1.10 not = { ruling_party_ideology = fascist } country = { part_of_sphere = yes } }
 		modifier = { factor = 0.80 NOT = { literacy = 0.1 } }
 		modifier = { factor = 0.80 NOT = { literacy = 0.2 } }
 		modifier = { factor = 0.80 NOT = { literacy = 0.3 } }

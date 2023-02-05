@@ -45,9 +45,9 @@ luxury_needs = {
 ideologies = {
 	subordinate = {
 		factor = 1.25
-			modifier = { factor = 2 not = { militancy = 1 } }
-			modifier = { factor = 2 not = { militancy = 2 } }
-			modifier = { factor = 2 not = { militancy = 3 } } 
+			modifier = { factor = 3 not = { militancy = 1 } }
+			modifier = { factor = 3 not = { militancy = 2 } }
+			modifier = { factor = 3 not = { militancy = 3 } } 
 			modifier = { factor = 0.8 militancy = 4 }
 			modifier = { factor = 0.5 militancy = 5 }
 			modifier = { factor = 0.5 militancy = 6 }
@@ -92,8 +92,12 @@ ideologies = {
 			political_reform_want = 0.15
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2.5
 			political_reform_want = 0.20
+		}
+		modifier = {
+			factor = 2.5
+			political_reform_want = 0.30
 		}
 	}
 }
