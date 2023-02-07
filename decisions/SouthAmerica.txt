@@ -221,7 +221,7 @@ political_decisions = {
 				duration = 365
 			}
 			define_general = {
-				name = "Justo José de Urquiza"
+				name = "Justo Josï¿½ de Urquiza"
 				personality = intelligent
 				background = brilliant_strategist
 			}
@@ -262,7 +262,7 @@ political_decisions = {
 		
 		effect = {
 			2325 = {
-				life_rating = 10
+				life_rating = 7
 				add_province_modifier = {
 					name = gateway_to_harbor
 					duration = -1

@@ -1028,7 +1028,7 @@ integration_refusal = {
 core_integration = {
 	assimilation_rate = 0.1
 	pop_consciousness_modifier = 0.05
-	non_accepted_pop_consciousness_modifier = 0.01
+	non_accepted_pop_consciousness_modifier = 0.005
 	icon = 7
 }
 

@@ -1211,12 +1211,12 @@ fascist = {
 
 		modifier = { factor = 1.05 revanchism = 0.01 }
 		modifier = { factor = 1.05 revanchism = 0.03 }
-		modifier = { factor = 1.05 revanchism = 0.05 }
-		modifier = { factor = 1.05 revanchism = 0.10 }
+		modifier = { factor = 1.10 revanchism = 0.05 }
+		modifier = { factor = 1.10 revanchism = 0.10 }
 		modifier = { factor = 1.10 revanchism = 0.15 OR = { militancy = 2 ruling_party_ideology = fascist } }
 		modifier = { factor = 1.10 revanchism = 0.20 OR = { militancy = 3 ruling_party_ideology = fascist } }
-		modifier = { factor = 1.10 revanchism = 0.25 OR = { militancy = 4 ruling_party_ideology = fascist } }
-		modifier = { factor = 1.10 revanchism = 0.30 OR = { militancy = 5 ruling_party_ideology = fascist } }
+		modifier = { factor = 1.15 revanchism = 0.25 OR = { militancy = 4 ruling_party_ideology = fascist } }
+		modifier = { factor = 1.25 revanchism = 0.30 OR = { militancy = 5 ruling_party_ideology = fascist } }
 }
 	
 reactionary = {

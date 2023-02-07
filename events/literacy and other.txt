@@ -426,7 +426,7 @@ country_event  = {
 			year = 1900
 		}
 		ai = yes
-		tag = BHU
+		tag = MGL
 	}
 	mean_time_to_happen = {
 		days = 730
@@ -448,7 +448,7 @@ country_event  = {
 		any_country = { any_pop = { limit = { culture = circassians } reduce_pop = 1.014 } }
 		any_country = { any_pop = { limit = { culture = nakhchi } reduce_pop = 1.014 } }
 		any_country = { any_pop = { limit = { culture = dagestani } reduce_pop = 1.014 } }
-		any_country = { any_pop = { limit = { culture = gypsy } reduce_pop = 1.028 literacy = -0.001 } }
+		any_country = { any_pop = { limit = { culture = gypsy } reduce_pop = 1.025 literacy = -0.0005 } }
 		any_country = { any_pop = { limit = { culture = icelandic } reduce_pop = 1.02 } }
 		any_country = { any_pop = { limit = { culture = cree } reduce_pop = 1.02 } }
 		any_country = { any_pop = { limit = { culture = cherokee } reduce_pop = 1.025 } }

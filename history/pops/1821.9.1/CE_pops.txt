@@ -756,8 +756,7 @@
 	aristocrats = { size = 500 culture = french_canadian religion = catholic }
 	artisans = { size = 1800 culture = french religion = catholic }
 	artisans = { size = 4000 culture = french_canadian religion = reformed }
-	artisans = { size = 4000 culture = french_canadian religion = catholic }
-	artisans = { size = 4000 culture = french_canadian religion = catholic }
+	artisans = { size = 7000 culture = french_canadian religion = catholic }
 	artisans = { size = 500 culture = black_french religion = catholic }
 	bureaucrats = { size = 150 culture = french_canadian religion = reformed }
 	bureaucrats = { size = 400 culture = french_canadian religion = catholic }
@@ -765,14 +764,14 @@
 	clergymen = { size = 125 culture = french_canadian religion = reformed }
 	clergymen = { size = 15 culture = black_french religion = catholic }
 	clergymen = { size = 700 culture = french_canadian religion = catholic }
-	farmers = { size = 16000 culture = french_canadian religion = catholic }
+	farmers = { size = 15000 culture = french_canadian religion = catholic }
 	farmers = { size = 2000 culture = black_french religion = catholic }
-	farmers = { size = 4600 culture = french_canadian religion = catholic }
-	farmers = { size = 5000 culture = french_canadian religion = reformed }
-	farmers = { size = 5000 culture = french religion = catholic }
-	slaves = { size = 22000 culture = black_french religion = catholic }
+	farmers = { size = 3600 culture = french_canadian religion = catholic }
+	farmers = { size = 4000 culture = french_canadian religion = reformed }
+	farmers = { size = 1000 culture = french religion = catholic }
+	slaves = { size = 14000 culture = black_french religion = catholic }
 	soldiers = { size = 1100 culture = french_canadian religion = catholic }
-	soldiers = { size = 750 culture = french_canadian religion = reformed }
+	soldiers = { size = 1055 culture = french_canadian religion = reformed }
 }
 3586 = {
 	artisans = { size = 2000 culture = french_canadian religion = reformed }
@@ -28644,53 +28643,62 @@
 	farmers = { culture = mestizo religion = catholic size = 8450 }
 }
 2324 = {
-	aristocrats = { culture = white_spanish religion = catholic size = 1500 }
-	aristocrats = { culture = spanish religion = catholic size = 550 }	
-	artisans = { culture = basque religion = catholic size = 1000 }
-	artisans = { culture = white_spanish religion = catholic size = 4000 }
+	aristocrats = { culture = basque religion = catholic size = 500 }
+	aristocrats = { culture = spanish religion = catholic size = 450 }	
+	aristocrats = { culture = white_spanish religion = catholic size = 1200 }
+	artisans = { culture = basque religion = catholic size = 2000 }
+	artisans = { culture = white_spanish religion = catholic size = 3000 }
 	bureaucrats = { culture = white_spanish religion = catholic size = 400 }
-	clergymen = { culture = white_spanish religion = catholic size = 950 }
+	clergymen = { culture = basque religion = catholic size = 250 }
+	clergymen = { culture = white_spanish religion = catholic size = 700 }
+	farmers = { culture = basque religion = catholic size = 9000 }
+	farmers = { culture = black_spanish religion = protestant size = 800 }	
 	farmers = { culture = mestizo religion = catholic size = 6000 }	
 	farmers = { culture = patagonian religion = catholic size = 2000 }	
-	farmers = { culture = white_spanish religion = catholic size = 50275 }
-	farmers = { culture = basque religion = catholic size = 6000 }
-	farmers = { culture = black_spanish religion = protestant size = 800 }	
-	soldiers = { culture = mestizo religion = catholic size = 600 }
+	farmers = { culture = white_spanish religion = catholic size = 45275 }
+	soldiers = { culture = basque religion = catholic size = 1211 }
+	soldiers = { culture = mestizo religion = catholic size = 1055 }
+	soldiers = { culture = patagonian religion = catholic size = 1055 }
 	soldiers = { culture = white_spanish religion = catholic size = 4200 }
 }
 2325 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 375 }
-	clergymen = { culture = white_spanish religion = catholic size = 25 }
-	artisans = { culture = white_spanish religion = catholic size = 700 }
 	artisans = { culture = mestizo religion = catholic size = 200 }
-	soldiers = { culture = white_spanish religion = catholic size = 1100 }
-	farmers = { culture = white_spanish religion = catholic size = 10100 }
+	artisans = { culture = white_spanish religion = catholic size = 700 }
+	clergymen = { culture = white_spanish religion = catholic size = 25 }
+	farmers = { culture = basque religion = catholic size = 1200 }
 	farmers = { culture = mestizo religion = catholic size = 2000 }
 	farmers = { culture = patagonian religion = catholic size = 1000 }	
+	farmers = { culture = white_spanish religion = catholic size = 10100 }
+	soldiers = { culture = white_spanish religion = catholic size = 1100 }
+	soldiers = { culture = white_spanish religion = catholic size = 1100 }
 }
 3296 = {
-	farmers = { culture = mestizo religion = catholic size = 7000 }	
-	farmers = { culture = white_spanish religion = catholic size = 20000 }
 	artisans = { culture = mestizo religion = catholic size = 350 }
 	artisans = { culture = white_spanish religion = catholic size = 150 }
 	clergymen = { culture = white_spanish religion = catholic size = 150 }
+	farmers = { culture = basque religion = catholic size = 4000 }
+	farmers = { culture = mestizo religion = catholic size = 7000 }	
+	farmers = { culture = white_spanish religion = catholic size = 20000 }
+	soldiers = { culture = white_spanish religion = catholic size = 1100 }
 }
 2326 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 375 }
-	clergymen = { culture = white_spanish religion = catholic size = 175 }
 	artisans = { culture = white_spanish religion = catholic size = 900 }
-	soldiers = { culture = white_spanish religion = catholic size = 1100 }
+	clergymen = { culture = white_spanish religion = catholic size = 175 }
 	farmers = { culture = white_spanish religion = catholic size = 12550 }
+	soldiers = { culture = white_spanish religion = catholic size = 1100 }
 }
 3285 = {
-	farmers = { culture = patagonian religion = catholic size = 5000 }	
-	farmers = { culture = mestizo religion = catholic size = 5000 }
-	farmers = { culture = white_spanish religion = catholic size = 10000 }
-	artisans = { culture = patagonian religion = catholic size = 26 }	
 	artisans = { culture = mestizo religion = catholic size = 231 }
+	artisans = { culture = patagonian religion = catholic size = 26 }	
 	artisans = { culture = white_spanish religion = catholic size = 880 }
 	clergymen = { culture = mestizo religion = catholic size = 30 }
 	clergymen = { culture = white_spanish religion = catholic size = 130 }
+	farmers = { culture = mestizo religion = catholic size = 5000 }
+	farmers = { culture = patagonian religion = catholic size = 5000 }	
+	farmers = { culture = white_spanish religion = catholic size = 10000 }
+	soldiers = { culture = white_spanish religion = catholic size = 1100 }
 }
 2327 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 125 }
