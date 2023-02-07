@@ -5,9 +5,9 @@ culture = finnish
 culture = norwegian
 religion = protestant
 government = democracy
-plurality = 0.5
+plurality = 0.0 # 0.5
 nationalvalue = nv_equality
-literacy = 0.6
+literacy = 0.20 # 0.6
 civilized = yes
 
 # Political reforms
@@ -15,13 +15,13 @@ slavery = no_slavery
 upper_house_composition = state_equal_weight
 vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -30,9 +30,9 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_restricted
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = elite
 
 ruling_party = SMI_conservative

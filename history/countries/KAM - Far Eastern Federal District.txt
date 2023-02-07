@@ -3,10 +3,10 @@ primary_culture = siberian
 culture = russian
 religion = animist
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_might
-literacy = 0.01
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.01
+non_state_culture_literacy = 0.20 # 0
 civilized = yes
 
 # Political reforms

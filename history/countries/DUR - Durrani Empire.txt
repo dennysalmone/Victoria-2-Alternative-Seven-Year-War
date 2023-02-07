@@ -6,9 +6,9 @@ culture = sindi
 culture = baluchi
 religion = sunni
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.2
+literacy = 0.20 # 0.2
 
 # Political reforms
 slavery = yes_slavery

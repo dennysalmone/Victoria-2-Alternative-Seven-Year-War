@@ -3,9 +3,9 @@ primary_culture = kanuri
 culture = african_minor
 religion = sunni
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.003
+literacy = 0.20 # 0.003
 
 # Political reforms
 slavery = yes_slavery

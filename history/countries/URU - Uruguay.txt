@@ -2,10 +2,10 @@ capital = 2344
 primary_culture = white_spanish
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_liberty
-literacy = 0.09
-non_state_culture_literacy = 0.04
+literacy = 0.20 # 0.09
+non_state_culture_literacy = 0.20 # 0.04
 civilized = yes
 
 # Political reforms
@@ -65,8 +65,8 @@ upper_house = {
 oob = "/1821/URU_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.1
-	non_state_culture_literacy = 0.05
+	literacy = 0.20 # 0.1
+	non_state_culture_literacy = 0.20 # 0.05
 	prestige = 1
 	
 	# Technologies
@@ -99,15 +99,15 @@ oob = "/1821/URU_oob.txt"
 	# Political reforms
 	slavery = no_slavery
 	upper_house_composition = state_equal_weight
-	vote_franschise = wealth_voting
+	vote_franschise = landed_voting
 	public_meetings = yes_meeting
 	press_rights = state_press
 	trade_unions = no_trade_unions
 	voting_system = first_past_the_post
-	political_parties = gerrymandering
+	political_parties = harassment
 	
-	plurality = 60
-	literacy = 0.17
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.17
 
 	ruling_party = URU_conservative
 	government = democracy

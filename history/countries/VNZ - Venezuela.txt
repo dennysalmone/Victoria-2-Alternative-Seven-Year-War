@@ -3,10 +3,10 @@ primary_culture = white_spanish
 culture = mestizo
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_might
-literacy = 0.11
-non_state_culture_literacy = 0.05
+literacy = 0.20 # 0.11
+non_state_culture_literacy = 0.20 # 0.05
 civilized = yes
 prestige = 1
 
@@ -30,7 +30,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -76,9 +76,9 @@ nonstate_consciousness = 0
 
 1861.1.1 = {
 	oob = "/1861/VNZ_oob.txt"
-	plurality = 50
-	literacy = 0.12
-	non_state_culture_literacy = 0.05
+	plurality = 0.0 # 50
+	literacy = 0.20 # 0.12
+	non_state_culture_literacy = 0.20 # 0.05
 }
 1861.1.1 = {
 # Technologies

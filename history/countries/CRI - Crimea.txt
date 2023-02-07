@@ -4,9 +4,9 @@ culture = kipchak_cumans
 culture = greek
 religion = sunni
 government = absolute_monarchy
-plurality = 0.02
+plurality = 0.0 # 0.02
 nationalvalue = nv_might
-literacy = 0.1
+literacy = 0.20 # 0.1
 civilized = yes
 
 # Political reforms

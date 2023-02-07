@@ -4,10 +4,10 @@ culture = danish
 culture = frisians
 religion = protestant
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.69
-non_state_culture_literacy = 0.49
+literacy = 0.20 # 0.69
+non_state_culture_literacy = 0.20 # 0.49
 civilized = yes
 prestige = 1
 
@@ -31,7 +31,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
@@ -75,8 +75,8 @@ nonstate_consciousness = 1
 oob = "SWH_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.7
-	non_state_culture_literacy = 0.5
+	literacy = 0.20 # 0.7
+	non_state_culture_literacy = 0.20 # 0.5
 	prestige = 5
 	
 	# Technologies
@@ -108,9 +108,9 @@ oob = "SWH_oob.txt"
 	
 1861.1.1 = {
 	oob = "/1861/SWH_oob.txt"
-	plurality = 60
-	literacy = 0.90
-	non_state_culture_literacy = 0.45
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.90
+	non_state_culture_literacy = 0.20 # 0.45
 
 # Political reforms
 slavery = no_slavery
@@ -123,14 +123,14 @@ voting_system = first_past_the_post
 political_parties = underground_parties
 minorities_reform = limited
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = low_health_care
-unemployment_subsidies = low_subsidies
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 pollution = no_controls
 child_labor = child_labor_restricted

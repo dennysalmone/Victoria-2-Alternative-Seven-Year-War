@@ -3,10 +3,10 @@ primary_culture = amhara
 culture = oromo
 religion = coptic
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.02
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = yes_slavery
@@ -65,8 +65,8 @@ consciousness = 0
 nonstate_consciousness = 0
 
 1836.1.1 = {
-literacy = 0.03
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.03
+non_state_culture_literacy = 0.20 # 0
 
 foreign_weapons = yes_foreign_weapons
 academic_institutions = madrasahs

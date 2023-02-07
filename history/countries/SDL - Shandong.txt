@@ -3,10 +3,10 @@ primary_culture = kurdish
 culture = turkish
 religion = sunni
 government = absolute_monarchy
-plurality = 0.4
+plurality = 0.0 # 0.4
 nationalvalue = nv_tradition
-literacy = 0.14
-non_state_culture_literacy = 0.14
+literacy = 0.20 # 0.14
+non_state_culture_literacy = 0.20 # 0.14
 
 # Political reforms
 slavery = yes_slavery

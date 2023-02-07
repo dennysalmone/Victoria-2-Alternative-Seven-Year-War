@@ -3,9 +3,9 @@ primary_culture = mestizo
 culture = white_spanish
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.09
+literacy = 0.20 # 0.09
 civilized = yes
 
 # Political reforms
@@ -66,7 +66,7 @@ nonstate_consciousness = 0
 oob = "/1821/PEU_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.1
+	literacy = 0.20 # 0.1
 	prestige = 1
 	
 	set_country_flag = conservative_constitution
@@ -94,7 +94,7 @@ oob = "/1821/PEU_oob.txt"
 	oob = "/1861/PEU_oob.txt"
 }
 1861.1.1 = {
-plurality = 50
+plurality = 0.0 # 50
 
 # Technologies
 	post_napoleonic_thought = 1

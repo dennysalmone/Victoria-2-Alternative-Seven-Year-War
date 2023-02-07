@@ -3,22 +3,22 @@ primary_culture = white_spanish
 culture = mestizo
 religion = catholic
 government = hms_government
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.14
-non_state_culture_literacy = 0.08
+literacy = 0.20 # 0.14
+non_state_culture_literacy = 0.20 # 0.08
 civilized = yes
 prestige = 2
 
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_weighted_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = gerrymandering
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
 conscription = two_year_draft
@@ -68,8 +68,8 @@ nonstate_consciousness = 0
 oob = "/1821/MEX_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.15
-	non_state_culture_literacy = 0.09
+	literacy = 0.20 # 0.15
+	non_state_culture_literacy = 0.20 # 0.09
 	prestige = 4
 	
 	government = presidential_dictatorship
@@ -122,19 +122,19 @@ oob = "/1821/MEX_oob.txt"
 government = democracy
 ruling_party = MEX_liberal
 set_country_flag = liberal_election_win
-plurality = 60
-literacy = 0.225
-non_state_culture_literacy = 0.10
+plurality = 0.0 # 60
+literacy = 0.20 # 0.225
+non_state_culture_literacy = 0.20 # 0.10
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = open_immigration
 conscription = two_year_draft

@@ -3,10 +3,10 @@ primary_culture = white_spanish
 culture = mestizo
 religion = catholic
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_liberty
-literacy = 0.09
-non_state_culture_literacy = 0.04
+literacy = 0.20 # 0.09
+non_state_culture_literacy = 0.20 # 0.04
 civilized = yes
 prestige = 1
 
@@ -18,10 +18,10 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -69,8 +69,8 @@ consciousness = 2
 nonstate_consciousness = 0
 
 1836.1.1 = {
-	literacy = 0.1
-	non_state_culture_literacy = 0.05
+	literacy = 0.20 # 0.1
+	non_state_culture_literacy = 0.20 # 0.05
 	
 	set_country_flag = join_mexico
 	set_country_flag = 1836_start

@@ -2,10 +2,10 @@ capital = 1465
 primary_culture = mongol
 religion = gelugpa
 government = theocracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.03
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.03
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = yes_slavery
@@ -61,7 +61,7 @@ nonstate_consciousness = 1
 oob = "MGL_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.04
+	literacy = 0.20 # 0.04
 	
 	foreign_weapons = yes_foreign_weapons
 	army_schools = yes_army_schools

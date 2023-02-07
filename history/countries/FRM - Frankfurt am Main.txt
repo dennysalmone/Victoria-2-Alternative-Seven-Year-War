@@ -2,10 +2,10 @@ capital = 564
 primary_culture = german
 religion = protestant
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.69
-non_state_culture_literacy = 0.39
+literacy = 0.20 # 0.69
+non_state_culture_literacy = 0.20 # 0.39
 civilized = yes
 
 # Political reforms
@@ -16,7 +16,7 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
 conscription = two_year_draft
@@ -76,8 +76,8 @@ nonstate_consciousness = 1
 oob = "FRM_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.7
-	non_state_culture_literacy = 0.4
+	literacy = 0.20 # 0.7
+	non_state_culture_literacy = 0.20 # 0.4
 	prestige = 1
 	
 	# Technologies
@@ -109,20 +109,20 @@ oob = "FRM_oob.txt"
 
 1861.1.1 = {
 	oob = "/1861/FRM_oob.txt"
-	plurality = 60
-	literacy = 0.90
-	non_state_culture_literacy = 0.45
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.90
+	non_state_culture_literacy = 0.20 # 0.45
 }
 1861.1.1 = {
 # Political reforms
 	slavery = no_slavery
 	upper_house_composition = appointed
-	vote_franschise = wealth_voting
+	vote_franschise = landed_voting
 	public_meetings = yes_meeting
 	press_rights = censored_press
 	trade_unions = no_trade_unions
 	voting_system = first_past_the_post
-	political_parties = non_secret_ballots
+	political_parties = harassment
 	
 	
 # Technologies

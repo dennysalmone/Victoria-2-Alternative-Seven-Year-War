@@ -3,15 +3,15 @@ primary_culture = romanian
 culture = ukrainian
 religion = orthodox
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.1
+literacy = 0.20 # 0.1
 civilized = yes
 
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions

@@ -2,9 +2,9 @@ capital = 826
 primary_culture = greek
 religion = orthodox
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.21
+literacy = 0.20 # 0.21
 civilized = yes
 
 # Political reforms
@@ -66,7 +66,7 @@ nonstate_consciousness = 0
 oob = "ION_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.22
+	literacy = 0.20 # 0.22
 	prestige = 1
 	
 	# Technologies
@@ -88,8 +88,8 @@ oob = "ION_oob.txt"
 
 1861.1.1 = {
 	oob = "/1861/ION_oob.txt"
-	plurality = 60
-	literacy = 0.27
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.27
 }
 1861.1.1 = {
 # Technologies

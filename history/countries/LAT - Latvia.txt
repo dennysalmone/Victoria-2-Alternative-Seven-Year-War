@@ -2,11 +2,10 @@ capital = 354
 primary_culture = latvian
 religion = catholic
 government = absolute_monarchy
-plurality = 0.2
+plurality = 0.0 # 0.2
 nationalvalue = nv_equality
-literacy = 0.6
+literacy = 0.20 # 0.6
 civilized = yes
-
 
 # Political reforms
 slavery = no_slavery

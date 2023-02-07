@@ -2,10 +2,10 @@ capital = 1362
 primary_culture = lao
 religion = theravada
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.016
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.016
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = yes_slavery

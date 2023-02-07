@@ -3,9 +3,9 @@ primary_culture = mashriqi
 culture = bedouin
 religion = sunni
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.26
+literacy = 0.20 # 0.26
 civilized = no
 
 # Political reforms
@@ -23,8 +23,8 @@ conscription = mandatory_service
 
 # Social Reforms
 wage_reform = no_minimum_wage
-work_hours = fourteen_hours
-safety_regulations = trinket_safety
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions

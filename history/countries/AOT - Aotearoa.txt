@@ -2,9 +2,9 @@ capital = 2571 # Tauranga
 primary_culture = maori
 religion = animist
 government = absolute_monarchy
-plurality = 0.1
+plurality = 0.0 # 0.1
 nationalvalue = nv_enlightenment
-literacy = 0.1
+literacy = 0.20 # 0.1
 civilized = no
 is_releasable_vassal = no
 

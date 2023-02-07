@@ -3,21 +3,20 @@ primary_culture = afro_caribbean
 culture = british
 religion = protestant
 government = hms_government
-plurality = 0.1
+plurality = 0.0 # 0.1
 nationalvalue = nv_order
-literacy = 0.15
+literacy = 0.20 # 0.15
 civilized = yes
-
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = censored_press
-trade_unions = non_socialist
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = open_immigration
 conscription = no_draft
@@ -27,7 +26,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care
-unemployment_subsidies = trinket_subsidies
+unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_restricted

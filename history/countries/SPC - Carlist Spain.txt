@@ -4,11 +4,10 @@ culture = catalan
 culture = basque
 religion = catholic
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_might
-literacy = 0.20
+literacy = 0.20 # 0.20
 civilized = yes
-
 
 #GreaterPowers = prestige
 prestige = 50
@@ -24,7 +23,7 @@ voting_system = jefferson_method
 political_parties = underground_parties
 minorities_reform = limited
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -33,9 +32,9 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_restricted
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = elite
 
 ruling_party = SPA_conservative
@@ -103,7 +102,7 @@ voting_system = jefferson_method
 political_parties = underground_parties
 minorities_reform = limited
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -112,11 +111,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_legal
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = church
-
 
 # Technologies
 	post_napoleonic_thought = 1

@@ -2,10 +2,10 @@ capital = 539
 primary_culture = german
 religion = reformed
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.69
-non_state_culture_literacy = 0.39
+literacy = 0.20 # 0.69
+non_state_culture_literacy = 0.20 # 0.39
 civilized = yes
 
 # Political reforms
@@ -16,7 +16,7 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
 conscription = two_year_draft

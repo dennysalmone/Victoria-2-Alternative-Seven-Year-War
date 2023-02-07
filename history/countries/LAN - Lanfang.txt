@@ -4,10 +4,10 @@ culture = yue
 culture = malay
 religion = mahayana
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_enlightenment
-literacy = 0.02
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.02
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = no_slavery
@@ -17,7 +17,7 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = oppression
 immigration_policy = nobody_gets_out
 conscription = two_year_draft
@@ -65,8 +65,8 @@ nonstate_consciousness = 0
 oob = "LAN_oob.txt"
 
 1836.1.1 = {
-literacy = 0.03
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.03
+non_state_culture_literacy = 0.20 # 0
 
 foreign_weapons = yes_foreign_weapons
 admin_reform = yes_admin_reform

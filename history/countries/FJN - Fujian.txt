@@ -3,10 +3,10 @@ primary_culture = min
 culture = han_chinese
 religion = mahayana
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.03
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.03
+non_state_culture_literacy = 0.20 # 0
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed

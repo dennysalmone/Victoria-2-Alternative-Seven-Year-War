@@ -3,9 +3,9 @@ primary_culture = french
 culture = fulbe
 religion = catholic
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.004
+literacy = 0.20 # 0.004
 
 # Political reforms
 slavery = no_slavery
@@ -19,7 +19,6 @@ political_parties = harassment
 minorities_reform = oppression
 immigration_policy = nobody_gets_out
 conscription = mandatory_service
-
 
 # Social Reforms
 wage_reform = no_minimum_wage

@@ -2,10 +2,10 @@ capital = 1587
 primary_culture = tibetan
 religion = gelugpa
 government = theocracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.007
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.007
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = yes_slavery
@@ -18,7 +18,7 @@ voting_system = first_past_the_post
 political_parties = underground_parties
 minorities_reform = limited
 immigration_policy = nobody_gets_out
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -27,9 +27,9 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_restricted
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = elite
 
 ruling_party = TIB_conservative
@@ -61,8 +61,8 @@ nonstate_consciousness = 0
 oob = "TIB_oob.txt"
 
 1836.1.1 = {
-literacy = 0.01
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.01
+non_state_culture_literacy = 0.20 # 0
 
 academic_institutions = madrasahs
 taxation_reform = tax_farmers

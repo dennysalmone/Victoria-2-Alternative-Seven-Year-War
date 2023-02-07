@@ -3,9 +3,9 @@ primary_culture = sicilian
 culture = italian
 religion = catholic
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.55
+literacy = 0.20 # 0.55
 civilized = yes
 prestige = 5
 
@@ -74,7 +74,7 @@ nonstate_consciousness = 1
 oob = "/1821/SIC_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.10
+	literacy = 0.20 # 0.10
 	prestige = 10
 	
 	# Technologies

@@ -3,31 +3,31 @@ primary_culture = british
 culture = maori
 religion = protestant
 government = hms_government
-plurality = 0.88
+plurality = 0.0 # 0.88
 nationalvalue = nv_liberty
-literacy = 0.5
+literacy = 0.20 # 0.5
 civilized = yes
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+press_rights = censored_press
+trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = open_immigration
 conscription = two_year_draft
 
 # Social Reforms
-wage_reform = low_minimum_wage
-work_hours = ten_hours
-safety_regulations = low_safety
-health_care = low_health_care
-unemployment_subsidies = low_subsidies
-pensions = low_pensions
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_restricted
 arts_endowment = no_endowment

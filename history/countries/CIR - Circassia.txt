@@ -2,10 +2,10 @@ capital = 1056
 primary_culture = circassians
 religion = sunni
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.02
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = yes_slavery

@@ -2,9 +2,9 @@ capital = 1247
 primary_culture = hindus
 religion = hindu
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.09
+literacy = 0.20 # 0.09
 
 # Political reforms
 slavery = no_slavery
@@ -54,8 +54,8 @@ early_classical_theory_and_critique = 1
 # Inventions
 
 1836.1.1 = {
-literacy = 0.1
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.1
+non_state_culture_literacy = 0.20 # 0
 
 foreign_weapons = yes_foreign_weapons
 academic_institutions = madrasahs

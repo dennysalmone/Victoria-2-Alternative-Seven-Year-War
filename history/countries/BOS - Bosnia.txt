@@ -2,9 +2,9 @@ capital = 783
 primary_culture = bosniak
 religion = sunni
 government = absolute_monarchy
-plurality = 0.08
+plurality = 0.0 # 0.08
 nationalvalue = nv_order
-literacy = 0.2
+literacy = 0.20 # 0.2
 civilized = yes
 
 # Political reforms

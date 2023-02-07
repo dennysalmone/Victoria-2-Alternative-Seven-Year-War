@@ -2,9 +2,9 @@ capital = 1036
 primary_culture = tatar
 religion = sunni
 government = absolute_monarchy
-plurality = 0.02
+plurality = 0.0 # 0.02
 nationalvalue = nv_might
-literacy = 0.04
+literacy = 0.20 # 0.04
 civilized = no
 
 # Political reforms

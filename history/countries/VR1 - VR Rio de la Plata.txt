@@ -3,9 +3,9 @@ primary_culture = white_spanish
 culture = spanish
 religion = catholic
 government = hms_government
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_might
-literacy = 0.12
+literacy = 0.20 # 0.12
 civilized = yes
 
 #GreaterPowers = prestige
@@ -14,12 +14,12 @@ prestige = 2
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = oppression
 immigration_policy = quota_immigration
 conscription = two_year_draft
@@ -99,9 +99,8 @@ nonstate_consciousness = 1
 
 set_country_flag = tory_election_win
 
-
 1836.1.1 = {
-	literacy = 0.13
+	literacy = 0.20 # 0.13
 	prestige = 50
 	
 	post_napoleonic_thought = 1
@@ -170,9 +169,9 @@ ruling_party = SPA_conservative
 }
 1861.1.1 = {
 	oob = "/1861/SPA_oob.txt"
-	plurality = 60
-	literacy = 0.30
-	non_state_culture_literacy = 0.15
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.30
+	non_state_culture_literacy = 0.20 # 0.15
 	post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
@@ -199,15 +198,15 @@ ruling_party = SPA_conservative_2
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = non_socialist
+press_rights = censored_press
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = oppression
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -216,11 +215,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_legal
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = church
-
 
 # Technologies
 	post_napoleonic_thought = 1

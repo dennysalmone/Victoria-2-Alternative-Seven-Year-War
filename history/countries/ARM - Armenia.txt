@@ -2,10 +2,10 @@ capital = 1098
 primary_culture = armenian
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.09
-non_state_culture_literacy = 0.07
+literacy = 0.20 # 0.09
+non_state_culture_literacy = 0.20 # 0.07
 civilized = yes
 
 # Political reforms

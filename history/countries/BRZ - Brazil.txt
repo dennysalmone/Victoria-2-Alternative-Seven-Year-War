@@ -2,22 +2,22 @@ capital = 2447
 primary_culture = brazilian
 religion = catholic
 government = hms_government
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_liberty
-literacy = 0.07
-non_state_culture_literacy = 0.01
+literacy = 0.20 # 0.07
+non_state_culture_literacy = 0.20 # 0.01
 civilized = yes
 prestige = 1
 
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
 conscription = two_year_draft
@@ -69,8 +69,8 @@ nonstate_consciousness = 1
 oob = "BRZ_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.08
-	non_state_culture_literacy = 0.02
+	literacy = 0.20 # 0.08
+	non_state_culture_literacy = 0.20 # 0.02
 	prestige = 5
 	
 	set_country_flag = farrapos_war
@@ -93,11 +93,11 @@ oob = "BRZ_oob.txt"
 
 1861.1.1 = {
 	oob = "/1861/BRZ_oob.txt"
-	literacy = 0.16
-	non_state_culture_literacy = 0.05
+	literacy = 0.20 # 0.16
+	non_state_culture_literacy = 0.20 # 0.05
 }
 1861.1.1 = {
-	plurality = 60
+	plurality = 0.0 # 60
 	
 # Technologies
 	post_napoleonic_thought = 1

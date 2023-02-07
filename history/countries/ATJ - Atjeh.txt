@@ -4,10 +4,10 @@ culture = malay
 culture = yue
 religion = sunni
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.02
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = no_slavery
@@ -63,7 +63,7 @@ nonstate_consciousness = 0
 oob = "ATJ_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.03
+	literacy = 0.20 # 0.03
 	
 	foreign_weapons = yes_foreign_weapons
 	academic_institutions = madrasahs

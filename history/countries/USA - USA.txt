@@ -2,9 +2,9 @@ capital = 220
 primary_culture = yankee
 religion = reformed
 government = democracy
-plurality = 20.0
+plurality = 0.0 # 20.0
 nationalvalue = nv_liberty
-literacy = 0.49
+literacy = 0.20 # 0.49
 civilized = yes
 
 #GreaterPowers = prestige
@@ -13,18 +13,18 @@ prestige = 15
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = universal_weighted_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+press_rights = censored_press
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = gerrymandering
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = naturalization
 conscription = no_draft
 
 # Social Reforms
-wage_reform = trinket_wage
+wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
@@ -85,8 +85,8 @@ schools = commerce_tech_school
 oob = "/1821/USA_oob.txt"
 
 1836.1.1 = {
-	plurality = 25.0
-	literacy = 0.50
+	plurality = 0.0 # 25.0
+	literacy = 0.20 # 0.50
 	prestige = 30
 	
 	# Technologies
@@ -154,31 +154,31 @@ oob = "/1821/USA_oob.txt"
 	ruling_party = USA_liberal
 	clr_country_flag = tory_election_win
 	set_country_flag = liberal_election_win
-	plurality = 60
+	plurality = 0.0 # 60
 	prestige = 40
-	literacy = 0.75
-	non_state_culture_literacy = 0.15
+	literacy = 0.20 # 0.75
+	non_state_culture_literacy = 0.20 # 0.15
 
 	# Political reforms
 	slavery = yes_slavery
 	upper_house_composition = state_equal_weight
-	vote_franschise = universal_weighted_voting
+	vote_franschise = landed_voting
 	public_meetings = yes_meeting
-	press_rights = free_press
-	trade_unions = all_trade_unions
+	press_rights = censored_press
+	trade_unions = no_trade_unions
 	voting_system = first_past_the_post
-	political_parties = gerrymandering
+	political_parties = harassment
 
 	# Social Reforms
-	wage_reform = trinket_wage
-	work_hours = ten_hours
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
 	safety_regulations = no_safety
 	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
-	pollution=no_controls
+	pollution = no_controls
 	child_labor = child_labor_legal
-	arts_endowment=no_endowment
+	arts_endowment = no_endowment
 	education = church
 
 # Technologies

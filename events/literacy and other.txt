@@ -1,4 +1,4 @@
-country_event  = {
+country_event= {
 	id = 1005117
 	title = "Californian Revolution"
 	desc = "The Californian people demand independence. What will we do with them?"
@@ -9,9 +9,9 @@ country_event  = {
 		year = 1850
 		enlightenment_thought = 1
 		any_owned_province = {
-				is_core = CAL
-				average_militancy = 6
-				average_consciousness = 8
+			is_core = CAL
+			average_militancy = 6
+			average_consciousness = 8
 		}
 		OR = { 84 = { total_pops = 30000 } 88 = { total_pops = 30000 } 86 = { total_pops = 30000 } }
 	} 
@@ -41,15 +41,15 @@ country_event  = {
 		}
 		prestige = -10
 		war_exhaustion = 2
-		CUB = {
+		CAL = {
 			any_pop = { militancy = -10 consciousness = 1 }
 			leadership = 100
 		}		
-		country_event  = 1005116
+		country_event= 1005116
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1005116
 	title = "Californian Revolution"
 	desc = "Its time to restore order!"
@@ -72,7 +72,7 @@ country_event  = {
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1000118
 	title = "Migration of the Circassians"
 	desc = "Circassians, having lost their homeland, under the yoke of the inverts, are forced to move to the Ottoman Empire"
@@ -150,7 +150,7 @@ country_event  = {
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1000117
 	title = "Cuban Revolution"
 	desc = "The Cuban people demand independence. What will we do with them?"
@@ -197,11 +197,11 @@ country_event  = {
 			any_pop = { militancy = -10 consciousness = 1 }
 			leadership = 100
 		}		
-	country_event  = 1000116
+	country_event= 1000116
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1000116
 	title = "Cuban Revolution"
 	desc = "Its time to restore order!"
@@ -224,7 +224,7 @@ country_event  = {
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1003117
 	title = "Floridian Revolution"
 	desc = "The Floridian people demand independence. What will we do with them?"
@@ -267,15 +267,15 @@ country_event  = {
 		}
 		prestige = -10
 		war_exhaustion = 2
-		CUB = {
+		FLO = {
 			any_pop = { militancy = -10 consciousness = 1 }
 			leadership = 100
 		}		
-	country_event  = 1003116
+	country_event= 1003116
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1003116
 	title = "Floridian Revolution"
 	desc = "Its time to restore order!"
@@ -298,7 +298,7 @@ country_event  = {
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1000113 
 	title = "Open borders"
 	desc = "Aww"
@@ -310,7 +310,7 @@ country_event  = {
 			tag = LPL
 		}
 		exists = yes
-		year = 1838
+		year = 1840
 		war = no
 		OR = {
 			government = democracy
@@ -318,7 +318,7 @@ country_event  = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 4
+		months = 40
 		modifier = {
 			factor = 0.5 #increase likelihood to happen
 			year = 1860
@@ -335,14 +335,14 @@ country_event  = {
 	option = {
 		name = "Aww" 
 		political_reform = naturalization
-			add_country_modifier = {
-				name = land_of_opportunity
-				duration = 13000
-			}
+		add_country_modifier = {
+			name = land_of_opportunity
+			duration = 13000
+		}
 	}
 }
 
-country_event  = {
+country_event= {
 id = 1000104
 	title = "Aliah"
 	desc = "Israel exists! All Jews from all over the world are returning home"
@@ -363,7 +363,7 @@ id = 1000104
 		921 = { any_pop = { limit = { religion = sunni } money = 5 move_pop = 918 } } # West Bank
 		916 = { any_pop = { limit = { religion = sunni OR = { strata = rich strata = middle } } money = 5 move_pop = 908 } } # Amman
 		919 = { any_pop = { limit = { religion = sunni } money = 5 move_pop = 920 } } # Gaza
-		EGY_921 = { remove_core = TUR remove_core = PLS  remove_core = EGY }
+		EGY_921 = { remove_core = TUR remove_core = PLS remove_core = EGY }
 		EGY_921 = { any_pop = { limit = { OR = { type = aristocrats type = bureaucrats type = soldiers type = clergymen type = officers } NOT = { religion = jewish } } move_pop = 908 } } # Gaza
 		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } money = 80 move_pop = 916 } }
 		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } money = 80 move_pop = 3412 } }
@@ -393,8 +393,8 @@ id = 1000104
 		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } money = 80 move_pop = 919 } }
 		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } money = 80 move_pop = 919 } }
 		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } money = 80 move_pop = 3412 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = rich } money = 8000 move_pop = 917 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = rich } money = 8000 move_pop = 917 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = rich } money = 8000 move_pop = 919 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = rich } money = 8000 move_pop = 919 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = RUS } NOT = { life_needs = 0.5 } strata = poor } money = 80 move_pop = 919 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ROM } } money = 80 move_pop = 921 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = GER } NOT = { life_needs = 0.50 } NOT = { strata = rich } } money = 80 move_pop = 917 } }
@@ -406,7 +406,7 @@ id = 1000104
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = MOR } } move_pop = 921 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = EGY } } move_pop = 917 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = IRQ } } move_pop = 3412 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = YEM } } move_pop = 917 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = YEM } } move_pop = 921 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = LBY } } move_pop = 916 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = LBN } } move_pop = 917 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = TUR } } move_pop = 916 } }
@@ -416,7 +416,7 @@ id = 1000104
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1000102
 	title = "Population" 
 	desc = "Birth rates are much higher in some cultures than in others."
@@ -433,43 +433,44 @@ country_event  = {
 	}
 	option = {
 		name = "EVTOPTA23401"
-		any_country = { any_pop = { limit = { religion = jewish } reduce_pop = 1.02 } }
-		any_country = { any_pop = { limit = { religion = sikh } reduce_pop = 1.02 } }
-		any_country = { any_pop = { limit = { religion = druze } reduce_pop = 1.02 } }
-		any_country = { any_pop = { limit = { religion = mormon } reduce_pop = 1.18 } }
-		any_country = { any_pop = { limit = { culture = afro_brazilian } reduce_pop = 1.06 } }
+		any_country = { any_owned = { limit = { aristocrats = 0.08 } any_pop = { limit = { type = aristocrats } } reduce_pop = 0.5 } }
+		any_country = { any_owned = { limit = { bureaucrats = 0.08 } any_pop = { limit = { type = bureaucrats } } reduce_pop = 0.5 } }
+		any_country = { any_owned = { limit = { capitalists = 0.08 } any_pop = { limit = { type = capitalists } } reduce_pop = 0.5 } }
+		any_country = { any_owned = { limit = { clergymen = 0.08 } any_pop = { limit = { type = clergymen } } reduce_pop = 0.5 } }
+		any_country = { any_owned = { limit = { officers = 0.015 } any_pop = { limit = { type = officers } } reduce_pop = 0.5 } } 
 		any_country = { any_pop = { limit = { culture = afro_american } reduce_pop = 1.06 } }
-		any_country = { any_pop = { limit = { culture = black_spanish } reduce_pop = 1.06 } }
-		any_country = { any_pop = { limit = { culture = black_french } reduce_pop = 1.06 } }
-		any_country = { any_pop = { limit = { culture = black_dutch } reduce_pop = 1.06 } }
-		any_country = { any_pop = { limit = { culture = mestizo } reduce_pop = 1.015 } }
+		any_country = { any_pop = { limit = { culture = afro_brazilian } reduce_pop = 1.06 } }
 		any_country = { any_pop = { limit = { culture = basque } reduce_pop = 1.01 } }
-		any_country = { any_pop = { limit = { culture = kipchak_cumans } reduce_pop = 1.02 } }
-		any_country = { any_pop = { limit = { culture = circassians } reduce_pop = 1.014 } }
-		any_country = { any_pop = { limit = { culture = nakhchi } reduce_pop = 1.014 } }
-		any_country = { any_pop = { limit = { culture = dagestani } reduce_pop = 1.014 } }
-		any_country = { any_pop = { limit = { culture = gypsy } reduce_pop = 1.025 literacy = -0.0005 } }
-		any_country = { any_pop = { limit = { culture = icelandic } reduce_pop = 1.02 } }
-		any_country = { any_pop = { limit = { culture = cree } reduce_pop = 1.02 } }
+		any_country = { any_pop = { limit = { culture = black_dutch } reduce_pop = 1.06 } }
+		any_country = { any_pop = { limit = { culture = black_french } reduce_pop = 1.06 } }
+		any_country = { any_pop = { limit = { culture = black_spanish } reduce_pop = 1.06 } }
 		any_country = { any_pop = { limit = { culture = cherokee } reduce_pop = 1.025 } }
-		any_country = { any_pop = { limit = { culture = filipino } reduce_pop = 1.02 } }
-		any_country = { any_pop = { limit = { is_culture_group = sino_tibetan } reduce_pop = 1.04 } }
+		any_country = { any_pop = { limit = { culture = circassians } reduce_pop = 1.014 } }
 		any_country = { any_pop = { limit = { culture = cossack } reduce_pop = 1.03 } }
+		any_country = { any_pop = { limit = { culture = cree } reduce_pop = 1.02 } }
+		any_country = { any_pop = { limit = { culture = dagestani } reduce_pop = 1.015 } }
+		any_country = { any_pop = { limit = { culture = filipino } reduce_pop = 1.025 } }
+		any_country = { any_pop = { limit = { culture = gypsy } reduce_pop = 1.024 literacy = -0.0004 } }
+		any_country = { any_pop = { limit = { culture = icelandic } reduce_pop = 1.025 } }
+		any_country = { any_pop = { limit = { culture = kipchak_cumans } reduce_pop = 1.02 } }
 		any_country = { any_pop = { limit = { culture = lithuanian } reduce_pop = 1.01 } }
-		any_country = { any_pop = { limit = { is_culture_group = iranian_turanian } reduce_pop = 1.01 } }
 		any_country = { any_pop = { limit = { culture = malay } reduce_pop = 1.015 } }
+		any_country = { any_pop = { limit = { culture = mestizo } reduce_pop = 1.015 } }
 		any_country = { any_pop = { limit = { culture = metis } reduce_pop = 1.024 } }
+		any_country = { any_pop = { limit = { culture = nakhchi } reduce_pop = 1.015 } }
+		any_country = { any_pop = { limit = { is_culture_group = iranian_turanian } reduce_pop = 1.01 } }
+		any_country = { any_pop = { limit = { is_culture_group = sino_tibetan } reduce_pop = 1.025 } }
 		any_country = { any_pop = { limit = { location = { NOT = { total_pops = 200 } } } reduce_pop = 2 } }
 		any_country = { any_pop = { limit = { location = { NOT = { total_pops = 800 } } } reduce_pop = 1.5 } }
-		any_country = { any_owned = { limit = { officers = 0.015 } any_pop = { limit = { type = officers } } reduce_pop = 0.5 } } 
-		any_country = { any_owned = { limit = { bureaucrats = 0.08 } any_pop = { limit = { type = bureaucrats } } reduce_pop = 0.5 } }
-		any_country = { any_owned = { limit = { clergymen = 0.08 } any_pop = { limit = { type = clergymen } } reduce_pop = 0.5 } }
-		any_country = { any_owned = { limit = { aristocrats = 0.08 } any_pop = { limit = { type = aristocrats } } reduce_pop = 0.5 } }
-		any_country = { any_owned = { limit = { capitalists = 0.08 } any_pop = { limit = { type = capitalists } } reduce_pop = 0.5 } }
+		any_country = { any_pop = { limit = { location = { NOT = { total_pops = 1500 } } } reduce_pop = 1.1 } }
+		any_country = { any_pop = { limit = { religion = druze } reduce_pop = 1.02 } }
+		any_country = { any_pop = { limit = { religion = jewish } reduce_pop = 1.02 } }
+		any_country = { any_pop = { limit = { religion = mormon } reduce_pop = 1.20 } }
+		any_country = { any_pop = { limit = { religion = sikh } reduce_pop = 1.02 } }
 	}
 }
 
-country_event  = {
+country_event= {
 	id = 1000101
 	title = "Fix World Literacy"
 	desc = "Fix World Literacy"
@@ -487,193 +488,193 @@ country_event  = {
 	
 	option = {
 		name = "Fix World Literacy"
-	any_country = { treasury = 50000 any_pop = { literacy = -0.999 money = 80 } }
-	any_country = { any_pop = { limit = { religion = catholic } literacy = 0.0371 } }
-	any_country = { any_pop = { limit = { religion = protestant } literacy = 0.0422 } }
-	any_country = { any_pop = { limit = { religion = reformed } literacy = 0.0782 } }
-	any_country = { any_pop = { limit = { religion = orthodox } literacy = 0.0224 } }
-	any_country = { any_pop = { limit = { religion = coptic } literacy = 0.0552 } }
-	any_country = { any_pop = { limit = { religion = sunni } literacy = 0.037 } }
-	any_country = { any_pop = { limit = { religion = shiite } literacy = 0.061 } }
-	any_country = { any_pop = { limit = { religion = ibadi } literacy = 0.025 } }
-	any_country = { any_pop = { limit = { religion = druze } literacy = 0.058 } }
-	any_country = { any_pop = { limit = { religion = jewish } literacy = 0.151 money = 250 } }
-	any_country = { any_pop = { limit = { religion = mahayana } literacy = 0.021 } }
-	any_country = { any_pop = { limit = { religion = gelugpa } literacy = 0.011 } }
-	any_country = { any_pop = { limit = { religion = theravada } literacy = 0.014 } }
-	any_country = { any_pop = { limit = { religion = hindu } literacy = 0.007 } }
-	any_country = { any_pop = { limit = { religion = confucian } literacy = 0.022 } }
-	any_country = { any_pop = { limit = { religion = sikh } literacy = 0.078 } }
-	any_country = { any_pop = { limit = { culture = german } literacy = 0.51 } }
-	any_country = { any_pop = { limit = { culture = ashkenazi } literacy = 0.52 } }
-	any_country = { any_pop = { limit = { culture = sephardic } literacy = 0.31 } }
-	any_country = { any_pop = { limit = { culture = dutch } money = 50 literacy = 0.631 } }
-	any_country = { any_pop = { limit = { culture = romansh } literacy = 0.477 } }
-	any_country = { any_pop = { limit = { culture = norwegian } literacy = 0.555 } }
-	any_country = { any_pop = { limit = { culture = icelandic } literacy = 0.576 } }
-	any_country = { any_pop = { limit = { culture = swedish } literacy = 0.568 } }
-	any_country = { any_pop = { limit = { culture = danish } literacy = 0.541 } }
-	any_country = { any_pop = { limit = { culture = italian } literacy = 0.602 } }
-	SIC = { any_pop = { limit = { culture = italian } literacy = -0.104 } }
-	any_country = { any_pop = { limit = { culture = maltese } literacy = 0.531 } }
-	any_country = { any_pop = { limit = { culture = sicilian } literacy = 0.312 } }
-	any_country = { any_pop = { limit = { culture = sardinian } literacy = 0.488 } }
-	any_country = { any_pop = { limit = { culture = irish } literacy = 0.251 } }
-	any_country = { any_pop = { limit = { culture = british } literacy = 0.565 } }
-	any_country = { any_pop = { limit = { culture = scottish } literacy = 0.589 } }
-	any_country = { any_pop = { limit = { culture = basque } literacy = 0.621 } }
-	any_country = { any_pop = { limit = { culture = spanish } literacy = 0.322 } }
-	any_country = { any_pop = { limit = { culture = catalan } literacy = 0.487 } }
-	any_country = { any_pop = { limit = { culture = portuguese } literacy = 0.287 } }
-	any_country = { any_pop = { limit = { culture = french } money = 50 literacy = 0.603 } }
-	any_country = { any_pop = { limit = { culture = breton } literacy = 0.378 } }
-	any_country = { any_pop = { limit = { culture = french_canadian } literacy = 0.546 } }
-	any_country = { any_pop = { limit = { culture = czech } literacy = 0.398 } }
-	any_country = { any_pop = { limit = { culture = slovak } literacy = 0.366 } }
-	any_country = { any_pop = { limit = { culture = western_slavic } literacy = 0.233 } }
-	any_country = { any_pop = { limit = { culture = polish } literacy = 0.274 } }
-	any_country = { any_pop = { limit = { culture = romanian } literacy = 0.141 } }
-	any_country = { any_pop = { limit = { culture = slovene } literacy = 0.511 } }
-	any_country = { any_pop = { limit = { culture = bulgarian } literacy = 0.121 } }
-	any_country = { any_pop = { limit = { culture = croat } literacy = 0.253 } }
-	any_country = { any_pop = { limit = { culture = serb } literacy = 0.216 } }
-	any_country = { any_pop = { limit = { culture = bosniak } literacy = 0.142 } }
-	any_country = { any_pop = { limit = { culture = albanian } literacy = 0.106 } }
-	any_country = { any_pop = { limit = { culture = hungarian } literacy = 0.356 } }
-	any_country = { any_pop = { limit = { culture = russian } literacy = 0.187 } }
-	any_country = { any_pop = { limit = { culture = cossack } literacy = 0.188 } }
-	any_country = { any_pop = { limit = { culture = ukrainian } literacy = 0.168 } }
-	any_country = { any_pop = { limit = { culture = finnish } literacy = 0.451 } }
-	any_country = { any_pop = { limit = { culture = estonian } literacy = 0.487 } }
-	any_country = { any_pop = { limit = { culture = ugrian } literacy = 0.066 } }
-	any_country = { any_pop = { limit = { culture = sami } literacy = 0.023 } }
-	any_country = { any_pop = { limit = { culture = lithuanian } literacy = 0.341 } }
-	any_country = { any_pop = { limit = { culture = latvian } literacy = 0.301 } }
-	any_country = { any_pop = { limit = { culture = greek } literacy = 0.451 } }
-	any_country = { any_pop = { limit = { culture = georgian } literacy = 0.111 } }
-	any_country = { any_pop = { limit = { culture = armenian } literacy = 0.132 } }
-	any_country = { any_pop = { limit = { culture = assyrian } literacy = 0.098 } }
-	any_country = { any_pop = { limit = { culture = circassians } literacy = 0.05 } }
-	any_country = { any_pop = { limit = { culture = nakhchi } literacy = 0.041 } }
-	any_country = { any_pop = { limit = { culture = dagestani } literacy = 0.023 } }
-	any_country = { any_pop = { limit = { culture = tatar } literacy = 0.088 } }
-	any_country = { any_pop = { limit = { culture = kipchak_cumans } literacy = 0.015 } }
-	any_country = { any_pop = { limit = { culture = yakut } literacy = 0.01 } }
-	any_country = { any_pop = { limit = { culture = kirgiz } literacy = 0.012 } }
-	any_country = { any_pop = { limit = { culture = kazak } literacy = 0.015 } }
-	any_country = { any_pop = { limit = { culture = uzbek } literacy = 0.008 } }
-	any_country = { any_pop = { limit = { culture = sart } literacy = 0.041 } }
-	any_country = { any_pop = { limit = { culture = uighur } literacy = 0.003 } }
-	any_country = { any_pop = { limit = { culture = turkmen } literacy = 0.004 } }
-	any_country = { any_pop = { limit = { culture = azerbaijani } literacy = 0.031 } }
-	any_country = { any_pop = { limit = { culture = turkish } literacy = 0.054 } }
-	any_country = { any_pop = { limit = { culture = berber } literacy = 0.007 } }
-	any_country = { any_pop = { limit = { culture = bedouin } literacy = 0.005 } }
-	any_country = { any_pop = { limit = { culture = mashriqi } literacy = 0.031 } }
-	any_country = { any_pop = { limit = { culture = druzes } literacy = 0.034 } }
-	any_country = { any_pop = { limit = { culture = misri } literacy = 0.033 } }
-	any_country = { any_pop = { limit = { culture = maghrebi } literacy = 0.016 } }
-	any_country = { any_pop = { limit = { culture = persian } literacy = 0.011 } }
-	any_country = { any_pop = { limit = { culture = kurdish } literacy = 0.009 } }
-	any_country = { any_pop = { limit = { culture = ossetian } literacy = 0.012 } }
-	any_country = { any_pop = { limit = { culture = persian } literacy = 0.003 } }
-	any_country = { any_pop = { limit = { culture = manchu } literacy = 0.022 } }
-	any_country = { any_pop = { limit = { culture = panjabi } literacy = 0.005 } }
-	any_country = { any_pop = { limit = { culture = tamil } literacy = 0.011 } }
-	any_country = { any_pop = { limit = { culture = malay } literacy = 0.008 } }
-	any_country = { any_pop = { limit = { culture = han_chinese } literacy = 0.011 } }
-	any_country = { any_pop = { limit = { culture = yue } literacy = 0.017 } }
-	any_country = { any_pop = { limit = { culture = japanese } literacy = 0.21 } }
-	any_country = { any_pop = { limit = { culture = patagonian } literacy = 0.03 } }
-	any_country = { any_pop = { limit = { culture = metis } literacy = 0.067 } }
-	any_country = { any_pop = { limit = { culture = shawnee } literacy = 0.02 } }
-	any_country = { any_pop = { limit = { culture = cherokee } literacy = 0.03 } }
-	any_country = { any_pop = { limit = { culture = cree } literacy = -0.01 } }
-	any_country = { any_pop = { limit = { culture = yankee } literacy = 0.382 } }
-	any_country = { any_pop = { limit = { culture = white_spanish } money = 60 literacy = 0.301 } }
-	any_country = { any_pop = { limit = { culture = mestizo } literacy = 0.089 } }
-	any_country = { any_pop = { limit = { culture = brazilian } literacy = 0.198 } }
-	any_country = { any_pop = { limit = { culture = afro_american } literacy = 0.076 } }
-	any_country = { any_pop = { limit = { culture = black_spanish } literacy = 0.032 } }
-	any_country = { any_pop = { limit = { culture = black_french } literacy = 0.022 } }
-	any_country = { any_pop = { limit = { culture = black_dutch } literacy = 0.044 } }
-	any_country = { any_pop = { limit = { culture = afro_brazilian } literacy = 0.051 } }
-	any_country = { any_pop = { limit = { culture = amhara } literacy = 0.012 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.3 } literacy = 0.002 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.35 } literacy = 0.002 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.4 } literacy = 0.002 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.45 } literacy = 0.002 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.5 } literacy = 0.002 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.55 } literacy = 0.002 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.6 } literacy = 0.002 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.65 } literacy = 0.003 } }
-	any_country = { any_pop = { limit = { agree_with_ruling_party = 0.7 } literacy = 0.003 } }
-	any_country = { any_state = { limit = { is_slave = yes } any_pop = { limit = { culture = yankee } literacy = -0.065 } } }
-	any_country = { any_owned = { limit = { is_core = HND OR = { pop_majority_culture = telegu pop_majority_culture = tamil pop_majority_culture = malayalam pop_majority_culture = kannada } } add_core = DRA remove_core = HND } }
-	any_country = { any_pop = { limit = { culture = han_chinese religion = sunni } literacy = -0.05 } }
-	any_country = { any_pop = { limit = { religion = sikh OR = { type = soldiers type = officers } } literacy = 0.197 money = 200 } }
-	any_country = { any_pop = { limit = { culture = italian OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.067 money = 850 } }
-	any_country = { any_pop = { limit = { culture = malayalam OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.067 } }
-	any_country = { any_pop = { limit = { culture = french OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.111 money = 1500 } }
-	any_country = { any_pop = { limit = { culture = british OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.08 } }
-	any_country = { any_pop = { limit = { culture = dutch OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.066 money = 850 } }
-	any_country = { any_pop = { limit = { culture = turkish OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.145 } }
-	any_country = { any_pop = { limit = { culture = manchu OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.131 } }
-	any_country = { any_pop = { limit = { culture = han_chinese OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.06 } }
-	any_country = { any_pop = { limit = { culture = japanese OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.175 } }
-	any_country = { any_pop = { limit = { culture = korean OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.077 } }
-	any_country = { any_pop = { limit = { culture = russian OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.194 } }
-	any_country = { any_pop = { limit = { religion = hindu OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen } } literacy = 0.035 } }
-	any_country = { any_pop = { limit = { religion = sikh OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen } } literacy = 0.108 } }
-	any_country = { any_pop = { limit = { OR = { religion = shiite religion = theravada religion = gelugpa religion = mahayana religion = hindu } OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.021 } }
-	any_country = { any_pop = { limit = { OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } culture = yankee } literacy = 0.101 money = 120 } }
-	any_country = { any_pop = { limit = { type = aristocrats } literacy = 0.041 money = 2000 } }
-	any_country = { any_pop = { limit = { type = artisans } literacy = 0.045 money = 30 } }
-	any_country = { any_pop = { limit = { type = bureaucrats } literacy = 0.056 money = 200 } }
-	any_country = { any_pop = { limit = { type = capitalists } literacy = 0.106 money = 2500 } }
-	any_country = { any_pop = { limit = { type = clergymen } literacy = 0.051 } }
-	any_country = { any_pop = { limit = { type = farmers } literacy = -0.011 } }
-	any_country = { any_pop = { limit = { type = labourers } literacy = -0.005 } }
-	any_country = { any_pop = { limit = { type = officers } literacy = 0.028 money = 300 } }
-	any_country = { any_pop = { limit = { type = craftsmen } literacy = 0.044 } }
-	any_country = { any_pop = { limit = { type = clerks } literacy = 0.121 money = 100 } }
-	any_country = { any_pop = { limit = { type = soldiers } literacy = -0.009 } }
-	any_country = { any_pop = { limit = { type = slaves } literacy = -0.10 } }
-	any_country = { any_pop = { limit = { type = nomads } literacy = -0.15 } }
-	any_country = { any_pop = { limit = { state_scope = { is_colonial = yes } } literacy = -0.008 } }
-	any_country = { any_pop = { limit = { location = { is_state_capital = yes } } literacy = 0.007 } }
-	any_country = { any_pop = { limit = { location = { is_capital = yes } } literacy = 0.009 } }
-	any_country = { any_pop = { limit = { location = { NOT = { total_pops = 5100 } } } literacy = -0.05 } }
-	any_country = { any_pop = { limit = { location = { NOT = { total_pops = 10000 } } } literacy = -0.02 } }
-	any_country = { any_pop = { limit = { location = { NOT = { total_pops = 50000 } } } literacy = -0.01 } }
-	any_country = { any_pop = { limit = { location = { NOT = { total_pops = 81222 } } } literacy = -0.005 } }
-	any_country = { any_pop = { limit = { location = { total_pops = 121000 } } literacy = 0.005 } }
-	any_country = { any_pop = { limit = { location = { total_pops = 177000 } } literacy = 0.005 money = 850 } }
-	any_country = { any_pop = { limit = { location = { total_pops = 777000 } } literacy = 0.01 money = 1750 } }
-	any_country = { any_pop = { limit = { is_primary_culture = no } literacy = -0.006 } }
-	any_country = { any_pop = { limit = { is_culture_group = west_african } literacy = -0.06 } }
-	any_country = { any_pop = { limit = { is_culture_group = central_african } literacy = -0.11 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.002 } } } literacy = -0.003 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.004 } } } literacy = -0.003 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.006 } } } literacy = -0.003 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.008 } } } literacy = -0.003 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.010 } } } literacy = -0.003 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.012 } } } literacy = -0.002 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.014 } } } literacy = -0.002 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.016 } } } literacy = -0.002 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.018 } } } literacy = -0.002 } }
-	any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.020 } } } literacy = -0.002 } }
-	any_country = { any_pop = { limit = { location = { clergymen = 0.020 } } literacy = 0.006 } }
-	any_country = { any_pop = { limit = { literacy = 0.1 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.02 } }
-	any_country = { any_pop = { limit = { literacy = 0.2 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.02 } }
-	any_country = { any_pop = { limit = { literacy = 0.3 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.02 } }
-	any_country = { any_pop = { limit = { literacy = 0.4 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.02 } }
-	any_country = { any_pop = { limit = { literacy = 0.5 OR = { type = farmers type = labourers } } literacy = -0.04 } }
-	any_country = { any_pop = { limit = { literacy = 0.6 OR = { type = farmers type = labourers } } literacy = -0.04 } }
-	any_country = { any_pop = { limit = { literacy = 0.75 } literacy = -0.032 } }
-	any_country = { any_pop = { limit = { culture = gypsy } literacy = -0.25 } }
-	FRA = { any_pop = { ideology = { value = liberal factor = -0.25 } consciousness = -6 literacy = -0.013 } }
-	FRA = { any_pop = { limit = { religion = reformed } militancy = 4 consciousness = 10 } }
-	SWI = { any_pop = { ideology = { value = liberal factor = 0.25 } consciousness = 6 literacy = 0.063 money = 15000 } }
-}
+		any_country = { treasury = 50000 any_pop = { literacy = -0.999 money = 80 } }
+		any_country = { any_pop = { limit = { culture = afro_american } literacy = 0.076 } }
+		any_country = { any_pop = { limit = { culture = afro_brazilian } literacy = 0.051 } }
+		any_country = { any_pop = { limit = { culture = albanian } literacy = 0.106 } }
+		any_country = { any_pop = { limit = { culture = amhara } literacy = 0.012 } }
+		any_country = { any_pop = { limit = { culture = armenian } literacy = 0.132 } }
+		any_country = { any_pop = { limit = { culture = ashkenazi } literacy = 0.52 } }
+		any_country = { any_pop = { limit = { culture = assyrian } literacy = 0.098 } }
+		any_country = { any_pop = { limit = { culture = azerbaijani } literacy = 0.031 } }
+		any_country = { any_pop = { limit = { culture = basque } literacy = 0.621 } }
+		any_country = { any_pop = { limit = { culture = bedouin } literacy = 0.005 } }
+		any_country = { any_pop = { limit = { culture = berber } literacy = 0.007 } }
+		any_country = { any_pop = { limit = { culture = black_dutch } literacy = 0.044 } }
+		any_country = { any_pop = { limit = { culture = black_french } literacy = 0.022 } }
+		any_country = { any_pop = { limit = { culture = black_spanish } literacy = 0.032 } }
+		any_country = { any_pop = { limit = { culture = bosniak } literacy = 0.142 } }
+		any_country = { any_pop = { limit = { culture = brazilian } literacy = 0.198 } }
+		any_country = { any_pop = { limit = { culture = breton } literacy = 0.378 } }
+		any_country = { any_pop = { limit = { culture = british } literacy = 0.565 } }
+		any_country = { any_pop = { limit = { culture = bulgarian } literacy = 0.121 } }
+		any_country = { any_pop = { limit = { culture = catalan } literacy = 0.487 } }
+		any_country = { any_pop = { limit = { culture = cherokee } literacy = 0.03 } }
+		any_country = { any_pop = { limit = { culture = circassians } literacy = 0.05 } }
+		any_country = { any_pop = { limit = { culture = cossack } literacy = 0.188 } }
+		any_country = { any_pop = { limit = { culture = cree } literacy = -0.01 } }
+		any_country = { any_pop = { limit = { culture = croat } literacy = 0.253 } }
+		any_country = { any_pop = { limit = { culture = czech } literacy = 0.398 } }
+		any_country = { any_pop = { limit = { culture = dagestani } literacy = 0.023 } }
+		any_country = { any_pop = { limit = { culture = danish } literacy = 0.541 } }
+		any_country = { any_pop = { limit = { culture = druzes } literacy = 0.034 } }
+		any_country = { any_pop = { limit = { culture = dutch } money = 50 literacy = 0.631 } }
+		any_country = { any_pop = { limit = { culture = estonian } literacy = 0.487 } }
+		any_country = { any_pop = { limit = { culture = finnish } literacy = 0.451 } }
+		any_country = { any_pop = { limit = { culture = french } money = 50 literacy = 0.603 } }
+		any_country = { any_pop = { limit = { culture = french_canadian } literacy = 0.546 } }
+		any_country = { any_pop = { limit = { culture = georgian } literacy = 0.111 } }
+		any_country = { any_pop = { limit = { culture = german } literacy = 0.51 } }
+		any_country = { any_pop = { limit = { culture = greek } literacy = 0.451 } }
+		any_country = { any_pop = { limit = { culture = han_chinese } literacy = 0.011 } }
+		any_country = { any_pop = { limit = { culture = hungarian } literacy = 0.356 } }
+		any_country = { any_pop = { limit = { culture = icelandic } literacy = 0.576 } }
+		any_country = { any_pop = { limit = { culture = irish } literacy = 0.251 } }
+		any_country = { any_pop = { limit = { culture = italian } literacy = 0.602 } }
+		any_country = { any_pop = { limit = { culture = japanese } literacy = 0.21 } }
+		any_country = { any_pop = { limit = { culture = kazak } literacy = 0.015 } }
+		any_country = { any_pop = { limit = { culture = kipchak_cumans } literacy = 0.015 } }
+		any_country = { any_pop = { limit = { culture = kirgiz } literacy = 0.012 } }
+		any_country = { any_pop = { limit = { culture = kurdish } literacy = 0.009 } }
+		any_country = { any_pop = { limit = { culture = latvian } literacy = 0.301 } }
+		any_country = { any_pop = { limit = { culture = lithuanian } literacy = 0.341 } }
+		any_country = { any_pop = { limit = { culture = maghrebi } literacy = 0.016 } }
+		any_country = { any_pop = { limit = { culture = malay } literacy = 0.008 } }
+		any_country = { any_pop = { limit = { culture = maltese } literacy = 0.531 } }
+		any_country = { any_pop = { limit = { culture = manchu } literacy = 0.022 } }
+		any_country = { any_pop = { limit = { culture = mashriqi } literacy = 0.031 } }
+		any_country = { any_pop = { limit = { culture = mestizo } literacy = 0.089 } }
+		any_country = { any_pop = { limit = { culture = metis } literacy = 0.067 } }
+		any_country = { any_pop = { limit = { culture = misri } literacy = 0.033 } }
+		any_country = { any_pop = { limit = { culture = nakhchi } literacy = 0.041 } }
+		any_country = { any_pop = { limit = { culture = norwegian } literacy = 0.555 } }
+		any_country = { any_pop = { limit = { culture = ossetian } literacy = 0.012 } }
+		any_country = { any_pop = { limit = { culture = panjabi } literacy = 0.005 } }
+		any_country = { any_pop = { limit = { culture = patagonian } literacy = 0.03 } }
+		any_country = { any_pop = { limit = { culture = persian } literacy = 0.003 } }
+		any_country = { any_pop = { limit = { culture = persian } literacy = 0.011 } }
+		any_country = { any_pop = { limit = { culture = polish } literacy = 0.274 } }
+		any_country = { any_pop = { limit = { culture = portuguese } literacy = 0.287 } }
+		any_country = { any_pop = { limit = { culture = romanian } literacy = 0.141 } }
+		any_country = { any_pop = { limit = { culture = romansh } literacy = 0.477 } }
+		any_country = { any_pop = { limit = { culture = russian } literacy = 0.187 } }
+		any_country = { any_pop = { limit = { culture = sami } literacy = 0.023 } }
+		any_country = { any_pop = { limit = { culture = sardinian } literacy = 0.488 } }
+		any_country = { any_pop = { limit = { culture = sart } literacy = 0.041 } }
+		any_country = { any_pop = { limit = { culture = scottish } literacy = 0.589 } }
+		any_country = { any_pop = { limit = { culture = sephardic } literacy = 0.31 } }
+		any_country = { any_pop = { limit = { culture = serb } literacy = 0.216 } }
+		any_country = { any_pop = { limit = { culture = shawnee } literacy = 0.02 } }
+		any_country = { any_pop = { limit = { culture = sicilian } literacy = 0.362 } }
+		any_country = { any_pop = { limit = { culture = slovak } literacy = 0.366 } }
+		any_country = { any_pop = { limit = { culture = slovene } literacy = 0.511 } }
+		any_country = { any_pop = { limit = { culture = spanish } literacy = 0.322 } }
+		any_country = { any_pop = { limit = { culture = swedish } literacy = 0.568 } }
+		any_country = { any_pop = { limit = { culture = tamil } literacy = 0.011 } }
+		any_country = { any_pop = { limit = { culture = tatar } literacy = 0.088 } }
+		any_country = { any_pop = { limit = { culture = turkish } literacy = 0.054 } }
+		any_country = { any_pop = { limit = { culture = turkmen } literacy = 0.004 } }
+		any_country = { any_pop = { limit = { culture = ugrian } literacy = 0.066 } }
+		any_country = { any_pop = { limit = { culture = uighur } literacy = 0.003 } }
+		any_country = { any_pop = { limit = { culture = ukrainian } literacy = 0.168 } }
+		any_country = { any_pop = { limit = { culture = uzbek } literacy = 0.008 } }
+		any_country = { any_pop = { limit = { culture = western_slavic } literacy = 0.233 } }
+		any_country = { any_pop = { limit = { culture = white_spanish } money = 60 literacy = 0.301 } }
+		any_country = { any_pop = { limit = { culture = yakut } literacy = 0.01 } }
+		any_country = { any_pop = { limit = { culture = yankee } literacy = 0.382 } }
+		any_country = { any_pop = { limit = { culture = yue } literacy = 0.017 } }
+		any_country = { any_pop = { limit = { religion = catholic } literacy = 0.0371 } }
+		any_country = { any_pop = { limit = { religion = confucian } literacy = 0.022 } }
+		any_country = { any_pop = { limit = { religion = coptic } literacy = 0.0552 } }
+		any_country = { any_pop = { limit = { religion = druze } literacy = 0.058 } }
+		any_country = { any_pop = { limit = { religion = gelugpa } literacy = 0.011 } }
+		any_country = { any_pop = { limit = { religion = hindu } literacy = 0.007 } }
+		any_country = { any_pop = { limit = { religion = ibadi } literacy = 0.025 } }
+		any_country = { any_pop = { limit = { religion = jewish } literacy = 0.151 money = 250 } }
+		any_country = { any_pop = { limit = { religion = mahayana } literacy = 0.021 } }
+		any_country = { any_pop = { limit = { religion = orthodox } literacy = 0.0224 } }
+		any_country = { any_pop = { limit = { religion = protestant } literacy = 0.0422 } }
+		any_country = { any_pop = { limit = { religion = reformed } literacy = 0.0782 } }
+		any_country = { any_pop = { limit = { religion = shiite } literacy = 0.061 } }
+		any_country = { any_pop = { limit = { religion = sikh } literacy = 0.078 } }
+		any_country = { any_pop = { limit = { religion = sunni } literacy = 0.037 } }
+		any_country = { any_pop = { limit = { religion = theravada } literacy = 0.014 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.3 } literacy = 0.002 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.35 } literacy = 0.002 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.4 } literacy = 0.002 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.45 } literacy = 0.002 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.5 } literacy = 0.002 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.55 } literacy = 0.002 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.6 } literacy = 0.002 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.65 } literacy = 0.003 } }
+		any_country = { any_pop = { limit = { agree_with_ruling_party = 0.7 } literacy = 0.003 } }
+		SIC = { any_pop = { limit = { culture = italian } literacy = -0.104 } }
+		any_country = { any_state = { limit = { is_slave = yes } any_pop = { limit = { culture = yankee } literacy = -0.065 } } }
+		any_country = { any_owned = { limit = { is_core = HND OR = { pop_majority_culture = telegu pop_majority_culture = tamil pop_majority_culture = malayalam pop_majority_culture = kannada } } add_core = DRA remove_core = HND } }
+		any_country = { any_pop = { limit = { culture = han_chinese religion = sunni } literacy = -0.05 } }
+		any_country = { any_pop = { limit = { religion = sikh OR = { type = soldiers type = officers } } literacy = 0.197 money = 200 } }
+		any_country = { any_pop = { limit = { culture = italian OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.067 money = 850 } }
+		any_country = { any_pop = { limit = { culture = malayalam OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.067 } }
+		any_country = { any_pop = { limit = { culture = french OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.111 money = 1500 } }
+		any_country = { any_pop = { limit = { culture = british OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.08 } }
+		any_country = { any_pop = { limit = { culture = dutch OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.066 money = 850 } }
+		any_country = { any_pop = { limit = { culture = turkish OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.145 } }
+		any_country = { any_pop = { limit = { culture = manchu OR = { type = aristocrats type = bureaucrats type = clergymen type = officers } } literacy = 0.131 } }
+		any_country = { any_pop = { limit = { culture = han_chinese OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.06 } }
+		any_country = { any_pop = { limit = { culture = japanese OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.175 } }
+		any_country = { any_pop = { limit = { culture = korean OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.077 } }
+		any_country = { any_pop = { limit = { culture = russian OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.194 } }
+		any_country = { any_pop = { limit = { religion = hindu OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen } } literacy = 0.035 } }
+		any_country = { any_pop = { limit = { religion = sikh OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen } } literacy = 0.108 } }
+		any_country = { any_pop = { limit = { OR = { religion = shiite religion = theravada religion = gelugpa religion = mahayana religion = hindu } OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.021 } }
+		any_country = { any_pop = { limit = { OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } culture = yankee } literacy = 0.101 money = 120 } }
+		any_country = { any_pop = { limit = { type = aristocrats } literacy = 0.041 money = 2000 } }
+		any_country = { any_pop = { limit = { type = artisans } literacy = 0.045 money = 30 } }
+		any_country = { any_pop = { limit = { type = bureaucrats } literacy = 0.056 money = 200 } }
+		any_country = { any_pop = { limit = { type = capitalists } literacy = 0.106 money = 2500 } }
+		any_country = { any_pop = { limit = { type = clergymen } literacy = 0.051 } }
+		any_country = { any_pop = { limit = { type = farmers } literacy = -0.011 } }
+		any_country = { any_pop = { limit = { type = labourers } literacy = -0.005 } }
+		any_country = { any_pop = { limit = { type = officers } literacy = 0.028 money = 300 } }
+		any_country = { any_pop = { limit = { type = craftsmen } literacy = 0.044 } }
+		any_country = { any_pop = { limit = { type = clerks } literacy = 0.121 money = 100 } }
+		any_country = { any_pop = { limit = { type = soldiers } literacy = -0.009 } }
+		any_country = { any_pop = { limit = { type = slaves } literacy = -0.10 } }
+		any_country = { any_pop = { limit = { type = nomads } literacy = -0.15 } }
+		any_country = { any_pop = { limit = { state_scope = { is_colonial = yes } } literacy = -0.008 } }
+		any_country = { any_pop = { limit = { location = { is_state_capital = yes } } literacy = 0.007 } }
+		any_country = { any_pop = { limit = { location = { is_capital = yes } } literacy = 0.009 } }
+		any_country = { any_pop = { limit = { location = { NOT = { total_pops = 5100 } } } literacy = -0.05 } }
+		any_country = { any_pop = { limit = { location = { NOT = { total_pops = 10000 } } } literacy = -0.02 } }
+		any_country = { any_pop = { limit = { location = { NOT = { total_pops = 50000 } } } literacy = -0.01 } }
+		any_country = { any_pop = { limit = { location = { NOT = { total_pops = 81222 } } } literacy = -0.005 } }
+		any_country = { any_pop = { limit = { location = { total_pops = 121000 } } literacy = 0.005 } }
+		any_country = { any_pop = { limit = { location = { total_pops = 177000 } } literacy = 0.005 money = 850 } }
+		any_country = { any_pop = { limit = { location = { total_pops = 777000 } } literacy = 0.01 money = 1750 } }
+		any_country = { any_pop = { limit = { is_primary_culture = no } literacy = -0.006 } }
+		any_country = { any_pop = { limit = { is_culture_group = west_african } literacy = -0.06 } }
+		any_country = { any_pop = { limit = { is_culture_group = central_african } literacy = -0.11 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.002 } } } literacy = -0.003 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.004 } } } literacy = -0.003 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.006 } } } literacy = -0.003 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.008 } } } literacy = -0.003 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.010 } } } literacy = -0.003 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.012 } } } literacy = -0.002 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.014 } } } literacy = -0.002 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.016 } } } literacy = -0.002 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.018 } } } literacy = -0.002 } }
+		any_country = { any_pop = { limit = { NOT = { location = { clergymen = 0.020 } } } literacy = -0.002 } }
+		any_country = { any_pop = { limit = { location = { clergymen = 0.020 } } literacy = 0.006 } }
+		any_country = { any_pop = { limit = { literacy = 0.1 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.011 } }
+		any_country = { any_pop = { limit = { literacy = 0.2 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.011 } }
+		any_country = { any_pop = { limit = { literacy = 0.3 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.011 } }
+		any_country = { any_pop = { limit = { literacy = 0.4 OR = { type = farmers type = labourers } OR = { continent = north_america continent = south_america continent = oceania } } literacy = -0.011 } }
+		any_country = { any_pop = { limit = { literacy = 0.5 OR = { type = farmers type = labourers } } literacy = -0.04 } }
+		any_country = { any_pop = { limit = { literacy = 0.6 OR = { type = farmers type = labourers } } literacy = -0.04 } }
+		any_country = { any_pop = { limit = { literacy = 0.75 } literacy = -0.032 } }
+		any_country = { any_pop = { limit = { culture = gypsy } literacy = -0.25 } }
+		FRA = { any_pop = { ideology = { value = liberal factor = -0.15 } consciousness = -6 literacy = -0.013 } }
+		FRA = { any_pop = { limit = { religion = reformed } militancy = 4 consciousness = 10 } }
+		SWI = { any_pop = { ideology = { value = liberal factor = 0.15 } consciousness = 6 literacy = 0.063 money = 15000 } }
+	}
 }

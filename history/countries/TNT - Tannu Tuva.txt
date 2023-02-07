@@ -3,16 +3,16 @@ primary_culture = tatar
 culture = mongol
 religion = gelugpa
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.28
+literacy = 0.20 # 0.28
 civilized = yes
 prestige = 10
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
@@ -20,18 +20,18 @@ voting_system = jefferson_method
 political_parties = underground_parties
 minorities_reform = oppression
 immigration_policy = nobody_gets_out
-conscription=mandatory_service
+conscription = mandatory_service
 
 # Social Reforms
 wage_reform = no_minimum_wage
-work_hours = fourteen_hours
-safety_regulations = trinket_safety
+work_hours = no_work_hour_limit
+safety_regulations = no_safety 
 health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_legal
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = elite
 
 ruling_party = TNT_conservative

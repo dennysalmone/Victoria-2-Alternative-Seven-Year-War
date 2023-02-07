@@ -3,10 +3,10 @@ primary_culture = danish
 culture = icelandic
 religion = protestant
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.69
-non_state_culture_literacy = 0.59 #Germans
+literacy = 0.20 # 0.69
+non_state_culture_literacy = 0.20 # 0.59 #Germans
 civilized = yes
 
 # Political reforms
@@ -26,8 +26,8 @@ conscription = two_year_draft
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = low_health_care
-unemployment_subsidies = low_subsidies
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_restricted
@@ -72,8 +72,8 @@ nonstate_consciousness = 0
 oob = "/1821/DEN_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.7
-	non_state_culture_literacy = 0.6 #Germans
+	literacy = 0.20 # 0.7
+	non_state_culture_literacy = 0.20 # 0.6 #Germans
 	prestige = 5
 	
 	# Technologies
@@ -114,7 +114,7 @@ oob = "/1821/DEN_oob.txt"
 }
 1861.1.1 = {
 	oob = "/1861/DEN_oob.txt"
-	plurality = 60
+	plurality = 0.0 # 60
 	set_country_flag = annex_schleswig_holstein
 	set_country_flag = schleswig_holstein_restored
 	set_country_flag = nicobar_sale
@@ -123,18 +123,18 @@ oob = "/1821/DEN_oob.txt"
 	
 	ruling_party = DAN_liberal_2
 	set_country_flag = liberal_election_win
-	literacy = 0.90
-	non_state_culture_literacy = 0.7 #Germans
+	literacy = 0.20 # 0.90
+	non_state_culture_literacy = 0.20 # 0.7 #Germans
 
 	# Political reforms
 	slavery = no_slavery
 	upper_house_composition = appointed
 	vote_franschise = landed_voting
 	public_meetings = yes_meeting
-	press_rights = free_press
+	press_rights = censored_press
 	trade_unions = no_trade_unions
 	voting_system = first_past_the_post
-	political_parties = gerrymandering
+	political_parties = harassment
 	minorities_reform = limited
 	immigration_policy = quota_immigration
 	conscription = two_year_draft
@@ -143,8 +143,8 @@ oob = "/1821/DEN_oob.txt"
 	wage_reform = no_minimum_wage
 	work_hours = no_work_hour_limit
 	safety_regulations = no_safety
-	health_care = low_health_care
-	unemployment_subsidies = low_subsidies
+	health_care = no_health_care
+	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
 	pollution = no_controls
 	child_labor = child_labor_restricted

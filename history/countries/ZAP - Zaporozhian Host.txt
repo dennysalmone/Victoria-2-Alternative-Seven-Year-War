@@ -2,11 +2,10 @@ capital = 3580
 primary_culture = cossack
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.02
+plurality = 0.0 # 0.02
 nationalvalue = nv_might
-literacy = 0.15
+literacy = 0.20 # 0.15
 civilized = yes
-
 
 # Political reforms
 slavery = no_slavery

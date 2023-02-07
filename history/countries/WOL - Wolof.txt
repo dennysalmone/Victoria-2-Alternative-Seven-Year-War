@@ -3,10 +3,10 @@ primary_culture = wolof
 culture = african_minor
 religion = sunni
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
-literacy = 0.002
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.002
+non_state_culture_literacy = 0.20 # 0
 
 # Political reforms
 slavery = yes_slavery
@@ -62,8 +62,8 @@ nonstate_consciousness = 0
 oob = "WOL_oob.txt"
 
 1836.1.1 = {
-literacy = 0.003
-non_state_culture_literacy = 0
+literacy = 0.20 # 0.003
+non_state_culture_literacy = 0.20 # 0
 
 foreign_weapons = yes_foreign_weapons
 academic_institutions = madrasahs

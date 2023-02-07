@@ -3,10 +3,10 @@ primary_culture = dutch
 culture = frisians
 religion = reformed
 government = hms_government
-plurality = 5
+plurality = 0.0 # 5
 nationalvalue = nv_order
-literacy = 0.82
-non_state_culture_literacy = 0.02
+literacy = 0.20 # 0.82
+non_state_culture_literacy = 0.20 # 0.02
 civilized = yes
 prestige = 20
 
@@ -26,7 +26,7 @@ conscription = two_year_draft
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
-safety_regulations = trinket_safety
+safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
@@ -87,7 +87,7 @@ oob = "/1821/NET_oob.txt"
 }
 
 1836.1.1 = {
-	literacy = 0.55
+	literacy = 0.20 # 0.55
 	prestige = 10
 	
 	set_country_flag = belgium_seceded
@@ -137,21 +137,21 @@ oob = "NET_oob.txt"
 	set_country_flag = thorbecke's_reforms
 	ruling_party = HOL_liberal
 	government = hms_government
-	vote_franschise = wealth_weighted_voting
-	political_parties = gerrymandering
-	plurality = 60
-	literacy = 0.82
+	vote_franschise = landed_voting
+	political_parties = harassment
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.82
 }
 1861.1.1 = {
 # Political reforms
 	slavery = yes_slavery
 	upper_house_composition = state_equal_weight
-	vote_franschise = wealth_voting
+	vote_franschise = landed_voting
 	public_meetings = yes_meeting
-	press_rights = free_press
+	press_rights = censored_press
 	trade_unions = no_trade_unions
 	voting_system = first_past_the_post
-	political_parties = secret_ballots
+	political_parties = harassment
 
 # Technologies
 	post_napoleonic_thought = 1

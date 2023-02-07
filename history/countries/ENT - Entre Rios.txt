@@ -2,9 +2,9 @@ capital = 2356
 primary_culture = white_spanish
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_liberty
-literacy = 0.1
+literacy = 0.20 # 0.1
 civilized = yes
 prestige = 1
 

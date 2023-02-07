@@ -2,9 +2,9 @@ capital = 2304
 primary_culture = mestizo
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.1
+literacy = 0.20 # 0.1
 civilized = yes
 prestige = 1
 

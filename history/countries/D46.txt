@@ -2,9 +2,9 @@
 primary_culture = british
 religion = protestant
 government = absolute_monarchy
-plurality = 25.1
+plurality = 0.0 # 25.1
 nationalvalue = nv_order
-literacy = 0.17
+literacy = 0.20 # 0.17
 civilized = yes
 civilized = yes
 #dominion=yes
@@ -38,5 +38,4 @@ upper_house = { # inherit
 	socialist = 0
 	communist = 0
 }
-
 

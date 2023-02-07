@@ -2,9 +2,9 @@ capital = 834
 primary_culture = greek
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_might
-literacy = 0.21
+literacy = 0.20 # 0.21
 civilized = yes
 prestige = 1
 
@@ -67,7 +67,7 @@ nonstate_consciousness = 0
 oob = "/1821/GRE_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.22
+	literacy = 0.20 # 0.22
 	prestige = 5
 	
 	set_country_flag = legitimacy
@@ -97,15 +97,15 @@ oob = "/1821/GRE_oob.txt"
 
 	government = hms_government
 	set_country_flag = tory_election_win
-	plurality = 50
-	literacy = 0.27
+	plurality = 0.0 # 50
+	literacy = 0.20 # 0.27
 	
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = universal_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = harassment

@@ -2,9 +2,9 @@ capital = 738
 primary_culture = italian
 religion = catholic
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.44
+literacy = 0.20 # 0.44
 civilized = yes
 
 # Political reforms
@@ -27,7 +27,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -72,7 +72,7 @@ nonstate_consciousness = 1
 oob = "PAR_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.45
+	literacy = 0.20 # 0.45
 	prestige = 1
 	
 	# Technologies

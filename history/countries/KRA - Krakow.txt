@@ -2,21 +2,21 @@ capital = 703
 primary_culture = polish
 religion = catholic
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_liberty
-literacy = 0.59
-non_state_culture_literacy = 0.39
+literacy = 0.20 # 0.59
+non_state_culture_literacy = 0.20 # 0.39
 civilized = yes
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = censored_press
-trade_unions = non_socialist
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
 conscription = two_year_draft
@@ -68,8 +68,8 @@ nonstate_consciousness = 0
 oob = "KRA_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.6
-	non_state_culture_literacy = 0.4
+	literacy = 0.20 # 0.6
+	non_state_culture_literacy = 0.20 # 0.4
 	prestige = 1
 	
 	# Technologies

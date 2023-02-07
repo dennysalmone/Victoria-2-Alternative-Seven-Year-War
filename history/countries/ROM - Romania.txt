@@ -2,9 +2,9 @@ capital = 664
 primary_culture = romanian
 religion = orthodox
 government = hms_government
-plurality = 0.08
+plurality = 0.0 # 0.08
 nationalvalue = nv_might
-literacy = 0.21
+literacy = 0.20 # 0.21
 civilized = yes
 
 # Political reforms
@@ -13,23 +13,23 @@ upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
 press_rights = censored_press
-trade_unions = non_socialist
+trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage
-work_hours = twelve_hours
+work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
-pensions = trinket_pensions
-pollution=no_controls
+pensions = no_pensions
+pollution = no_controls
 child_labor = child_labor_legal
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = elite
 
 ruling_party = ROM_liberal
@@ -46,7 +46,7 @@ upper_house = {
 1861.1.1 = {
 	set_country_flag = existing_country
 	oob = "/1861/ROM_oob.txt"
-	plurality = 60
+	plurality = 0.0 # 60
 	prestige = 10
 }
 1861.1.1 = {

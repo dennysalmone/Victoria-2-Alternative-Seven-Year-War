@@ -3,10 +3,10 @@ primary_culture = afro_american
 culture = kru
 religion = protestant
 government = democracy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.12
-non_state_culture_literacy = 0.01
+literacy = 0.20 # 0.12
+non_state_culture_literacy = 0.20 # 0.01
 civilized = yes
 
 # Political reforms
@@ -15,9 +15,9 @@ upper_house_composition = appointed
 vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = censored_press
-trade_unions = non_socialist
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = oppression
 immigration_policy = open_immigration
 conscription = no_draft

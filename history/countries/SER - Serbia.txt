@@ -2,9 +2,9 @@ capital = 794
 primary_culture = serb
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_might
-literacy = 0.09
+literacy = 0.20 # 0.09
 civilized = yes
 prestige = 1
 
@@ -28,7 +28,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -67,7 +67,7 @@ nonstate_consciousness = 0
 oob = "SER_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.1
+	literacy = 0.20 # 0.1
 	prestige = 5
 	
 	# Technologies
@@ -90,8 +90,8 @@ oob = "SER_oob.txt"
 1861.1.1 = {
 	oob = "/1861/SER_oob.txt"
 	ruling_party = SER_conservative_2
-	plurality = 50
-	literacy = 0.17
+	plurality = 0.0 # 50
+	literacy = 0.20 # 0.17
 }
 1861.1.1 = {
 # Technologies

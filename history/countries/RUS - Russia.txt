@@ -2,10 +2,10 @@ capital = 994
 primary_culture = russian
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_might
-literacy = 0.085
-non_state_culture_literacy = 0.04
+literacy = 0.20 # 0.085
+non_state_culture_literacy = 0.20 # 0.04
 civilized = yes
 
 #GreaterPowers = prestige
@@ -33,7 +33,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
-arts_endowment = small_endowment
+arts_endowment = no_endowment
 education = elite
 
 ruling_party = RUS_conservative
@@ -80,8 +80,8 @@ schools = culture_tech_school
 oob = "/1821/RUS_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.10
-	non_state_culture_literacy = 0.05
+	literacy = 0.20 # 0.10
+	non_state_culture_literacy = 0.20 # 0.05
 	prestige = 80
 	
 	set_global_flag = adrianople_treaty
@@ -124,11 +124,11 @@ oob = "/1821/RUS_oob.txt"
 }
 
 1861.1.1 = {
-	plurality = 60
+	plurality = 0.0 # 60
 	oob = "/1861/RUS_oob.txt"
 	ruling_party = RUS_liberal
-	literacy = 0.15
-	non_state_culture_literacy = 0.1
+	literacy = 0.20 # 0.15
+	non_state_culture_literacy = 0.20 # 0.1
 	set_country_flag = eastern_christians_up_in_here_yall
 	set_global_flag = crimea_has_happened
 	set_global_flag = treaty_of_paris_1856
@@ -205,8 +205,7 @@ oob = "/1821/RUS_oob.txt"
 	political_parties = underground_parties
 	minorities_reform = oppression
 	immigration_policy = quota_immigration
-	conscription=mandatory_service
-
+	conscription = mandatory_service
 
 	wage_reform = no_minimum_wage
 	work_hours = no_work_hour_limit
@@ -215,7 +214,7 @@ oob = "/1821/RUS_oob.txt"
 	health_care =trinket_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions
-	pollution=no_controls
+	pollution = no_controls
 	child_labor = child_labor_legal
 	arts_endowment=small_endowment
 	education = elite

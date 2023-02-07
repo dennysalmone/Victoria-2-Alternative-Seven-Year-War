@@ -2,26 +2,26 @@ capital = 1455
 primary_culture = filipino
 religion = catholic
 government = democracy
-plurality = 25.0
+plurality = 0.0 # 25.0
 nationalvalue = nv_liberty
-literacy = 0.28
+literacy = 0.20 # 0.28
 civilized = yes
 prestige = 10
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage
-work_hours = fourteen_hours
-safety_regulations = trinket_safety
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 

@@ -4,9 +4,9 @@ culture = white_spanish
 culture = guarani
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.44
+literacy = 0.20 # 0.44
 civilized = yes
 
 # Political reforms
@@ -29,7 +29,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+pollution = no_controls
 child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
@@ -67,7 +67,7 @@ nonstate_consciousness = 0
 oob = "/1821/PRG_oob.txt"
 
 1836.1.1 = {
-	literacy = 0.1
+	literacy = 0.20 # 0.1
 	
 	# Technologies
 	post_napoleonic_thought = 1

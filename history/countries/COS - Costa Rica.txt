@@ -3,20 +3,20 @@ primary_culture = white_spanish
 culture = mestizo
 religion = catholic
 government = democracy
-plurality = 0.1
+plurality = 0.0 # 0.1
 nationalvalue = nv_order
-literacy = 0.17
+literacy = 0.20 # 0.17
 civilized = yes
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = non_socialist
+press_rights = censored_press
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = limited
 immigration_policy = open_immigration
 conscription = no_draft
@@ -49,8 +49,8 @@ set_country_flag = existing_country
 
 1861.1.1 = {
 	oob = "/1861/COS_oob.txt"
-	plurality = 60
-	literacy = 0.25
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.25
 }
 1861.1.1 = {
 # Technologies

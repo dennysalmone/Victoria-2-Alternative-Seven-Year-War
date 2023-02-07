@@ -2,10 +2,10 @@ capital = 369
 primary_culture = german
 religion = protestant
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.0 # 0.0
 nationalvalue = nv_order
-literacy = 0.8
-non_state_culture_literacy = 0.4
+literacy = 0.20 # 0.8
+non_state_culture_literacy = 0.20 # 0.4
 civilized = yes
 prestige = 5
 
@@ -80,9 +80,9 @@ nonstate_consciousness = 1
 oob = "HOL_oob.txt"
 1861.1.1 = {
 	oob = "/1861/HOL_oob.txt"
-	plurality = 60
-	literacy = 0.90
-	non_state_culture_literacy = 0.45
+	plurality = 0.0 # 60
+	literacy = 0.20 # 0.90
+	non_state_culture_literacy = 0.20 # 0.45
 }
 1861.1.1 = {
 # Technologies

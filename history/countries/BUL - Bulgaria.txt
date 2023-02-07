@@ -2,9 +2,9 @@ capital = 809
 primary_culture = bulgarian
 religion = orthodox
 government = hms_government
-plurality = 0.08
+plurality = 0.0 # 0.08
 nationalvalue = nv_might
-literacy = 0.4
+literacy = 0.20 # 0.4
 civilized = yes
 
 # Political reforms
@@ -15,7 +15,7 @@ public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 minorities_reform = oppression
 immigration_policy = quota_immigration
 conscription = four_year_draft
