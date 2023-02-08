@@ -28457,25 +28457,27 @@
 	farmers = { culture = quechua religion = catholic size = 21525 }
 }
 2295 = {
-	aristocrats = { culture = white_spanish religion = catholic size = 1300 }
-	bureaucrats = { culture = white_spanish religion = catholic size = 200 }
-	soldiers = { culture = mestizo religion = catholic size = 150 }
-	clergymen = { culture = mestizo religion = catholic size = 700 }
-	artisans = { culture = mestizo religion = catholic size = 3000 }
-	artisans = { culture = white_spanish religion = catholic size = 7000 }
-	artisans = { culture = white_spanish religion = catholic size = 2200 }
-	soldiers = { culture = white_spanish religion = catholic size = 2000 }
-	farmers = { culture = white_spanish religion = catholic size = 10000 }
-	farmers = { culture = mestizo religion = catholic size = 31075 }
-	clergymen = { culture = quechua religion = catholic size = 75 }
-	artisans = { culture = quechua religion = catholic size = 800 }
-	soldiers = { culture = quechua religion = catholic size = 175 }
-	farmers = { culture = quechua religion = catholic size = 14950 }
-	clergymen = { culture = black_spanish religion = catholic size = 50 }
+	aristocrats = { culture = mestizo religion = catholic size = 680 }
+	aristocrats = { culture = quechua religion = catholic size = 340 }
+	aristocrats = { culture = white_spanish religion = catholic size = 340 }
 	artisans = { culture = black_spanish religion = catholic size = 2000 }
-	soldiers = { culture = black_spanish religion = catholic size = 50 }
+	artisans = { culture = mestizo religion = catholic size = 3000 }
+	artisans = { culture = quechua religion = catholic size = 800 }
+	artisans = { culture = white_spanish religion = catholic size = 2200 }
+	artisans = { culture = white_spanish religion = catholic size = 7000 }
+	bureaucrats = { culture = white_spanish religion = catholic size = 200 }
+	clergymen = { culture = black_spanish religion = catholic size = 50 }
+	clergymen = { culture = mestizo religion = catholic size = 700 }
+	clergymen = { culture = quechua religion = catholic size = 75 }
 	farmers = { culture = black_spanish religion = catholic size = 1400 }
+	farmers = { culture = mestizo religion = catholic size = 31075 }
+	farmers = { culture = quechua religion = catholic size = 14950 }
+	farmers = { culture = white_spanish religion = catholic size = 10000 }
 	slaves = { culture = black_spanish religion = catholic size = 1500 }
+	soldiers = { culture = black_spanish religion = catholic size = 50 }
+	soldiers = { culture = mestizo religion = catholic size = 150 }
+	soldiers = { culture = quechua religion = catholic size = 175 }
+	soldiers = { culture = white_spanish religion = catholic size = 2000 }
 }
 2297 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 325 }
@@ -28811,17 +28813,20 @@
 	farmers = { culture = aimara religion = catholic size = 6575 }
 }
 2313 = {
-	aristocrats = { culture = white_spanish religion = catholic size = 600 }
-	bureaucrats = { culture = mestizo religion = catholic size = 75 }
-	soldiers = { culture = mestizo religion = catholic size = 75 }
-	clergymen = { culture = mestizo religion = catholic size = 175 }
+	aristocrats = { culture = mestizo religion = catholic size = 150 }
+	aristocrats = { culture = aimara religion = catholic size = 150 }
+	aristocrats = { culture = quechua religion = catholic size = 150 }
+	aristocrats = { culture = white_spanish religion = catholic size = 150 }
 	artisans = { culture = mestizo religion = catholic size = 250 }
-	soldiers = { culture = mestizo religion = catholic size = 1050 }
-	farmers = { culture = mestizo religion = catholic size = 3825 }
-	clergymen = { culture = quechua religion = catholic size = 125 }
 	artisans = { culture = quechua religion = catholic size = 1200 }
-	soldiers = { culture = quechua religion = catholic size = 1050 }
+	bureaucrats = { culture = mestizo religion = catholic size = 75 }
+	clergymen = { culture = mestizo religion = catholic size = 175 }
+	clergymen = { culture = quechua religion = catholic size = 125 }
+	farmers = { culture = mestizo religion = catholic size = 3825 }
 	farmers = { culture = quechua religion = catholic size = 23325 }
+	soldiers = { culture = mestizo religion = catholic size = 1050 }
+	soldiers = { culture = mestizo religion = catholic size = 75 }
+	soldiers = { culture = quechua religion = catholic size = 1050 }
 }
 2314 = {
 	aristocrats = { culture = white_spanish religion = catholic size = 625 }

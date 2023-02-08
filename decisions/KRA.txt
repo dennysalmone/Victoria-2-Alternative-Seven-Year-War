@@ -58,7 +58,6 @@
 			PZN = {
 				all_core = {
 					remove_core = PRU
-					remove_core = NGF
 					remove_core = GER
 					remove_core = PZN
 				}
@@ -67,7 +66,6 @@
 				limit = {
 					OR = {
 						tag = PRU
-						tag = NGF
 						tag = GER
 					}
 				}
@@ -1198,7 +1196,6 @@
 			701 = { change_province_name = "Gniezno" }
 			prestige = 3
 			PRU = { prestige = -2 }
-			NGF = { prestige = -2 }
 			GER = { prestige = -2 }
 		}
 	}
@@ -1208,7 +1205,6 @@
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			owns = 699 #Poznan
@@ -1262,7 +1258,6 @@
 			685 = { change_province_name = "Katowice" }
 			prestige = 2
 			PRU = { prestige = -1 }
-			NGF = { prestige = -1 }
 			GER = { prestige = -1 }
 		}
 	}
@@ -1272,7 +1267,6 @@
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			owns = 684 #Oppeln
@@ -1325,7 +1319,6 @@
 			694 = { change_province_name = "Torun" }
 			prestige = 2
 			PRU = { prestige = -1 }
-			NGF = { prestige = -1 }
 			GER = { prestige = -1 }
 		}
 	}
@@ -1335,7 +1328,6 @@
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			owns = 691 #Tuchel
@@ -1393,7 +1385,6 @@
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			owns = 690 #Danzig
@@ -1444,7 +1435,6 @@
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			owns = 696 #Allenstein

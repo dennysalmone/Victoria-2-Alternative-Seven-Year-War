@@ -3,13 +3,11 @@ political_decisions = {
 		potential = {
 			owns = 608
 			not = { tag = PRU
-				tag = NGF
 				tag = GER
 			 }
 			608 = {
 				OR = {
 					is_core = PRU
-					is_core = NGF
 					is_core = GER
 				}
 			}
@@ -25,15 +23,10 @@ political_decisions = {
 			prestige = 5
 			608 = {
 				remove_core = PRU
-				remove_core = NGF
 				remove_core = GER
 			}
 			relation = {
 				who = PRU
-				value = 20
-			}
-			relation = {
-				who = NGF
 				value = 20
 			}
 			relation = {

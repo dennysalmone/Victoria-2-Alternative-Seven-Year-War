@@ -45,11 +45,3 @@ upper_house = {
 }
 
 oob = "ARM_oob.txt"
-1861.1.1 = {
-	oob = "/1861/ARM_oob.txt"
-}
-1861.1.1 = {
-# Technologies
-
-#Inventions
-}

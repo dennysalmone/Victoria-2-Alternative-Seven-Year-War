@@ -439,7 +439,7 @@ country_event = {
 	picture = "threehurrahs"
 	
 	trigger = {
-		tag = NGF
+		tag = GER
 		exists = yes
 		war = no
 		is_greater_power = yes
@@ -533,7 +533,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = NGF
+		tag = GER
 		war = no
 		has_country_flag = glory_of_germany_al
 		NOT = { has_country_flag = lost_alsace_lorraine }
@@ -583,16 +583,12 @@ country_event = {
 			tag = AUS
 			tag = KUK
 			tag = PRU
-			tag = NGF
-			tag = SGF
 		}
 		exists = yes
 		ai = yes
 		OR = {
 			war_with = FRA
 			war_with = PRU
-			war_with = NGF
-			war_with = SGF
 			war_with = AUS
 			war_with = KUK
 		}
@@ -851,7 +847,6 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			tag = NGF
 			tag = GER
 		}
 		is_greater_power = yes

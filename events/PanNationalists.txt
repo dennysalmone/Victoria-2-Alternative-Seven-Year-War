@@ -392,11 +392,9 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = { primary_culture = german }
-				NOT = { exists = GER }
-				NOT = { exists = NGF }
-				exists = SGF
+				exists = GER
 			}
-			SGF = {
+			GER = {
 				diplomatic_influence = {
 					who = THIS
 					value = 200
@@ -419,8 +417,7 @@ country_event = {
 						tag = DNB
 					}
 				}
-				NOT = { exists = GER }
-				exists = SGF
+				exists = GER
 			}
 			any_country = {
 				limit = {
@@ -437,7 +434,7 @@ country_event = {
 					value = -100
 				}
 			}
-			SGF = {
+			GER = {
 				diplomatic_influence = {
 					who = THIS
 					value = 200
@@ -460,11 +457,9 @@ country_event = {
 						tag = DNB
 					}
 				}
-				NOT = { exists = GER }
-				NOT = { exists = SGF }
-				exists = NGF
+				exists = GER
 			}
-			NGF = {
+			GER = {
 				diplomatic_influence = {
 					who = THIS
 					value = 200
@@ -481,8 +476,6 @@ country_event = {
 			limit = {
 				owner = { primary_culture = german }
 				NOT = { exists = GER }
-				NOT = { exists = NGF }
-				NOT = { exists = SGF }
 			}
 			any_country = {
 				limit = {
@@ -543,8 +536,6 @@ country_event = {
 					}
 				}
 				NOT = { exists = GER }
-				NOT = { exists = SGF }
-				NOT = { exists = NGF }
 			}
 			any_country = {
 				limit = {
@@ -642,7 +633,7 @@ country_event = {
 			}
 			random_country = {
 				limit = {
-					tag = SGF
+					tag = GER
 					is_greater_power = yes
 					exists = yes
 					GER = {
@@ -673,12 +664,6 @@ country_event = {
 							is_greater_power = no
 						}
 					}
-					SGF = {
-						OR = {
-							exists = no
-							is_greater_power = no
-						}
-					}
 				}
 				diplomatic_influence = {
 					who = THIS
@@ -696,12 +681,6 @@ country_event = {
 					is_greater_power = yes
 					exists = yes
 					GER = {
-						OR = {
-							exists = no
-							is_greater_power = no
-						}
-					}
-					SGF = {
 						OR = {
 							exists = no
 							is_greater_power = no

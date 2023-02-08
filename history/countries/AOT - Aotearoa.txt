@@ -56,13 +56,3 @@ private_banks = 1
 early_classical_theory_and_critique = 1
 
 # Inventions
-
-1836.1.1 = {
-	set_country_flag = existing_country
-	set_country_flag = declaration_NZ
-}
-
-1861.1.1 = {
-	clr_country_flag = existing_country
-}
-

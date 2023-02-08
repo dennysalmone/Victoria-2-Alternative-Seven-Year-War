@@ -53,18 +53,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "AIN_oob.txt"
-1861.1.1 = {
-	oob = "/1861/AIN_oob.txt"
-}
-
-1861.1.1 = {
-
-foreign_weapons = yes_foreign_weapons
-taxation_reform = tax_farmers
-
-# Technologies
-flintlock_rifles = 1
-private_banks = 1
-
-}
-

@@ -477,19 +477,21 @@ country_event = {
 			
 			OR={
 				tag = FROM
-				tag = NGF
+				tag = GER
 			}}
 			THIS = {
-				all_core = { add_core = NGF }
+				all_core = { add_core = GER }
 			}
 		}
 		random_country = {
-			limit = {OR={
-				tag = FROM
-				tag = SGF
-			}}
+			limit = { 
+				OR = {
+					tag = FROM
+					tag = GER
+				}
+			}
 			THIS = {
-				all_core = { add_core = SGF }
+				all_core = { add_core = GER }
 			}
 		}
 		any_country = {

@@ -6,7 +6,6 @@ political_decisions = {
 			primary_culture = german
 			NOT = {
 				has_country_flag = post_colonial_country
-				exists = SGF
 				exists = GER
 				tag = DNB
 				AND = {
@@ -54,7 +53,7 @@ political_decisions = {
 				CRO = { all_core = { remove_core = KUK } }
 				owner = { remove_accepted_culture = hungarian }
 			}
-			all_core = { add_core = SGF }
+			all_core = { add_core = GER }
 			any_owned = {
 				limit = {
 					NOT = { is_core = THIS }
@@ -65,7 +64,7 @@ political_decisions = {
 						NOT = { has_country_flag = post_colonial_country }
 					}
 				}
-				add_core = SGF
+				add_core = GER
 			}
 			random_owned = {
 				limit = { owner = { tag = KUK } }
@@ -76,7 +75,7 @@ political_decisions = {
 					}
 				}
 			}
-			change_tag = SGF
+			change_tag = GER
 			any_country = {
 				limit = {
 					primary_culture = german
@@ -163,9 +162,8 @@ political_decisions = {
 			FRA_412 = { add_core = GER }
 			all_core = {
 				add_core = GER
-				add_core = SGF
 			}
-			change_tag = SGF
+			change_tag = GER
 			any_country = {
 				limit = {
 					primary_culture = german
@@ -197,7 +195,6 @@ political_decisions = {
 			NOT = {
 				has_country_flag = post_colonial_country
 				exists = GER
-				exists = NGF
 			}
 		}	
 		allow = {
@@ -230,7 +227,7 @@ political_decisions = {
 			prestige = 15
 			clr_country_flag = crown_from_the_gutter
 			clr_country_flag = secondary_union_formation
-			all_core = { add_core = NGF }
+			all_core = { add_core = GER }
 			any_owned = {
 				limit = {
 					NOT = { is_core = THIS }
@@ -241,9 +238,9 @@ political_decisions = {
 						NOT = { has_country_flag = post_colonial_country }
 					}
 				}
-				add_core = NGF
+				add_core = GER
 			}
-			change_tag = NGF
+			change_tag = GER
 			FRA_412 = { add_core = GER }
 			any_country = {
 				limit = {
@@ -334,172 +331,6 @@ political_decisions = {
 		}
 	}	
 	
-	form_germany = {
-		news = yes
-		news_desc_long = "form_germany_NEWS_LONG"
-		news_desc_medium = "form_germany_NEWS_MEDIUM"
-		news_desc_short = "form_germany_NEWS_SHORT"
-		potential = {
-			OR = {
-				tag = NGF
-				tag = SGF
-			}
-			NOT = { exists = GER }
-		}
-		
-		allow = {
-			prestige = 45
-			state_n_government = 1
-			is_greater_power = yes
-			war = no
-			GER = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-							is_greater_power = no
-						}
-						is_core = SCH
-						is_core = NET
-					}
-				}
-			}
-		}
-		
-		effect = {
-			prestige = 20
-			all_core = {
-				remove_core = THIS
-				add_core = GER
-			}
-			change_tag = GER
-			add_accepted_culture = german
-			add_accepted_culture = german
-			set_global_flag = 3hurrahs
-			random_country = {
-				limit = {
-					tag = AUS
-					exists = yes
-					is_greater_power = no
-					in_sphere = THIS
-					war = no
-					OR = {
-						vassal_of = THIS
-						is_vassal = no
-					}
-					NOT = {
-						any_owned_province = {
-							NOT = { 
-								OR = {
-									is_core = AUS
-									is_core = GER
-									is_colonial = yes
-								}
-							}
-						}
-					}
-				}
-				country_event = 31530
-			}
-			random_country = {
-				limit = {
-					OR = {
-						tag = AUS
-						tag = KUK
-					}
-					exists = yes
-					is_greater_power = no
-					in_sphere = THIS
-					war = no
-					OR = {
-						vassal_of = THIS
-						is_vassal = no
-					}
-					any_owned_province = {
-						NOT = { 
-							OR = {
-								is_core = AUS
-								is_core = GER
-								is_colonial = yes
-							}
-						}
-					}
-				}
-				country_event = 31515
-			}
-			any_country = {
-				limit = {
-					is_culture_group = germanic
-					exists = no
-					NOT = { tag = AUS }
-					NOT = { tag = KUK }
-					NOT = { tag = DNB }
-					NOT = { tag = PRU }
-					NOT = { tag = BAN }
-					NOT = { has_country_flag = post_colonial_country }
-					OR = {
-						all_core = { owned_by = THIS }
-						tag = NGF
-						tag = SGF
-					}
-				}
-				country_event = 11105
-			}
-			any_country = {
-				limit = {
-					OR = {
-						tag = AUS
-						tag = KUK
-						tag = DNB
-					}
-					exists = no
-					THIS = { capital = 619 }
-				}
-				country_event = 11105
-			}
-			any_country = {
-				limit = {
-					tag = PRU
-					exists = no
-					THIS = { capital = 549 }
-				}
-				country_event = 11105
-			}
-			any_country = {
-				limit = {
-					in_sphere = THIS
-					OR = {
-						is_culture_group = germanic
-						tag = SCH
-						tag = EFR
-					}
-					NOT = { 
-						tag = KUK
-						tag = AUS
-						tag = DNB
-						tag = BAN
-						tag = UBD
-						has_country_flag = post_colonial_country
-					}
-					OR = {
-						is_vassal = no
-						vassal_of = THIS
-					}
-				}
-				country_event = 11101
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	form_germany_AUS = {
 		news = yes
 		news_desc_long = "form_germany_NEWS_LONG"
@@ -563,8 +394,7 @@ political_decisions = {
 					NOT = { has_country_flag = post_colonial_country }
 					OR = {
 						all_core = { owned_by = THIS }
-						tag = NGF
-						tag = SGF
+						tag = GER
 					}
 				}
 				country_event = 11105
@@ -593,65 +423,6 @@ political_decisions = {
 		}
 	}
 	
-	austria_annex_SGF = {
-		picture = austrian_form_south_german_confederation
-		potential = {
-			OR = {
-				tag = AUS
-				AND = {
-					tag = KUK
-					has_country_flag = austrian_greater_germany
-				}
-			}
-			SGF = { exists = yes }
-			OR = {
-				has_country_flag = austrian_greater_germany
-				NOT = {
-					any_owned_province = {
-						NOT = { 
-							OR = {
-								is_core = AUS
-								is_core = GER
-								is_colonial = yes
-							}
-						}
-					}
-				}
-			}
-		}
-		
-		allow = {
-			is_greater_power = yes
-			war = no
-			SGF = {
-				OR = {
-					in_sphere = THIS
-					vassal_of = THIS
-				}
-			}
-		}
-		
-		effect = {
-			prestige = 30
-			badboy = 10
-			SGF = {
-				all_core = {
-					add_core = THIS
-					remove_core = SGF
-				}
-			}
-			inherit = SGF
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				badboy = 0.6
-			}
-		}
-	}
-
 	form_italy = {
 		news = yes
 		news_desc_long = "form_italy_NEWS_LONG"
@@ -848,7 +619,6 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
-				tag = NGF
 			}
 			owns = 410
 			owns = 409
@@ -913,7 +683,6 @@ political_decisions = {
 			NOT = {
 				has_country_flag = post_colonial_country
 				exists = GER
-				exists = NGF
 			}
 			revolution_n_counterrevolution = 1
 		}	
@@ -948,7 +717,7 @@ political_decisions = {
 			prestige = 10
 			badboy = 5
 			clr_country_flag = crown_from_the_gutter
-			all_core = { add_core = NGF }
+			all_core = { add_core = GER }
 			any_owned = {
 				limit = {
 					NOT = { is_core = THIS }
@@ -959,9 +728,9 @@ political_decisions = {
 						NOT = { has_country_flag = post_colonial_country }
 					}
 				}
-				add_core = NGF
+				add_core = GER
 			}
-			change_tag = NGF
+			change_tag = GER
 			set_country_flag = secondary_union_formation
 			any_country = {
 				limit = {
@@ -996,7 +765,6 @@ political_decisions = {
 			primary_culture = german
 			NOT = {
 				has_country_flag = post_colonial_country
-				exists = SGF
 				exists = GER
 				tag = AUS
 				tag = KUK
@@ -1035,7 +803,7 @@ political_decisions = {
 			clr_country_flag = crown_from_the_gutter
 			prestige = 5
 			badboy = 5
-			all_core = { add_core = SGF }
+			all_core = { add_core = GER }
 			any_owned = {
 				limit = {
 					NOT = { is_core = THIS }
@@ -1046,9 +814,9 @@ political_decisions = {
 						NOT = { has_country_flag = post_colonial_country }
 					}
 				}
-				add_core = SGF
+				add_core = GER
 			}
-			change_tag = SGF
+			change_tag = GER
 			set_country_flag = secondary_union_formation
 			any_country = {
 				limit = {

@@ -4,7 +4,6 @@ political_decisions = {
 			NOT = { has_country_flag = ems_dispatch_sent }
 			OR = {
 				tag = PRU
-				tag = NGF
 			}
 			FRA = {
 				any_owned_province = { is_core = GER }
@@ -59,7 +58,6 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
-				tag = NGF
 			}
 			owns = 369
 		}
@@ -86,7 +84,6 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
-				tag = NGF
 			}
 			NOT = {
 				tech_school = prussian_tech_school
@@ -120,7 +117,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = GER
-				tag = NGF
 				tag = PRU
 			}
 			exists = FRA
@@ -180,7 +176,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = BAV
-				tag = SGF
 				tag = GER
 			}
 			owns = 599
@@ -318,7 +313,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = BAV
-				tag = SGF
 				tag = GER
 			}
 			owns = 602
@@ -374,7 +368,6 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
-				tag = NGF
 			}
 			NOT = {
 				has_country_flag = von_moltke
@@ -405,7 +398,6 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
-				tag = NGF
 			}
 			owns = 578 #Dusseldorf
 			owns = 2561 #Siegburg
@@ -534,7 +526,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				AND = {
 					tag = GER
 					primary_culture = german
@@ -631,7 +622,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			OR = {
@@ -834,7 +824,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			owns = 699 #Posen
@@ -870,7 +859,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PRU
-				tag = NGF
 				tag = GER
 			}
 			owns = 684 #Oppeln

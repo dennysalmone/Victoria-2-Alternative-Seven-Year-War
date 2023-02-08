@@ -459,8 +459,6 @@ country_event = {
 		}
 		NOT = {
 			tag = GER
-			tag = NGF
-			tag = SGF
 			tag = PRU
 			tag = NET
 			tag = RUS
@@ -1681,8 +1679,6 @@ country_event = {
 		}
 		NOT = {
 			tag = GER
-			tag = NGF
-			tag = SGF
 			tag = PRU
 			tag = NET
 			tag = RUS
@@ -2244,8 +2240,6 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = GER
-			tag = NGF
-			tag = SGF
 			tag = PRU
 		}
 		exists = yes
@@ -2385,7 +2379,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { tag = SGF }
+				owner = { tag = GER }
 			}
 			BAD_586 = { remove_core = AUS }
 			WUR_589 = { remove_core = AUS }
@@ -2394,7 +2388,7 @@ country_event = {
 			owner = {
 				all_core = {
 					limit = { is_core = AUS }
-					remove_core = SGF
+					remove_core = GER
 				}
 			}
 		}
@@ -7076,11 +7070,11 @@ country_event = {
 		#Dismantle SGF, if it's a vassal
 		any_country = {
 			limit = {
-				tag = SGF
+				tag = GER
 				owns = 599
 				vassal_of = THIS
 			}
-			all_core = { remove_core = SGF }
+			all_core = { remove_core = GER }
 			BAV_595 = { add_core = BAV }
 			BAV_599 = { add_core = BAV }
 			BAD_586 = { add_core = BAD }

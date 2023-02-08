@@ -57,7 +57,7 @@ country_event = {
 		 }
 
 		ai_chance = {
-			factor = 5
+			factor = 1
 			modifier = {
 				factor = 2
 				ruling_party_ideology = liberal
@@ -93,7 +93,7 @@ country_event = {
 			country_event = 20220002
 	 	}	
 		ai_chance = {
-			factor = 95
+			factor = 99
 			modifier = {
 				factor = 0.80
 				average_consciousness = 6

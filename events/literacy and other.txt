@@ -678,3 +678,150 @@ country_event= {
 		SWI = { any_pop = { ideology = { value = liberal factor = 0.15 } consciousness = 6 literacy = 0.063 money = 15000 } }
 	}
 }
+
+country_event = {
+	id = 2023080201
+	title = "Independence"
+	desc = "Now we are a free state, it's time to build our society"
+	major = yes
+	
+	trigger = {
+		tag = VR1
+		exists = yes
+		is_vassal = no
+		is_substate = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "En Union y Libertad!"
+		any_pop = {
+			consciousness = -7
+			militancy = -7
+		}
+		any_owned = {
+			secede_province = ARG
+		}
+		any_country = {
+			any_owned = {
+				remove_core = VR1
+			}
+		}
+		change_tag = ARG
+		government = democracy
+		capital = 2348
+	}
+}
+
+country_event = {
+	id = 2023080202
+	title = "Independence"
+	desc = "Now we are a free state, it's time to build our society"
+	major = yes
+	
+	trigger = {
+		tag = VR2
+		exists = yes
+		is_vassal = no
+		is_substate = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Firme y feliz por la union!"
+		any_pop = {
+			consciousness = -7
+			militancy = -7
+		}
+		any_owned = {
+			secede_province = PBC
+		}
+		any_country = {
+			any_owned = {
+				remove_core = VR2
+		}
+		change_tag = PBC
+		government = democracy
+		capital = 2310
+	}
+}
+
+country_event = {
+	id = 2023080203
+	title = "Independence"
+	desc = "Now we are a free state, it's time to build our society"
+	major = yes
+	
+	trigger = {
+		tag = VR3
+		exists = yes
+		is_vassal = no
+		is_substate = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Libertad y orden!"
+		any_pop = {
+			consciousness = -7
+			militancy = -7
+		}
+		any_owned = {
+			secede_province = GCO
+		}
+		any_country = {
+			any_owned = {
+				remove_core = VR3
+			}
+		}
+		change_tag = GCO
+		government = democracy
+		capital = 2247
+	}
+}
+
+country_event = {
+	id = 2023080204
+	title = "Independence"
+	desc = "Now we are a free state, it's time to build our society"
+	major = yes
+	
+	trigger = {
+		tag = VR4
+		exists = yes
+		is_vassal = no
+		is_substate = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Viva Mexico!"
+		any_pop = {
+			consciousness = -7
+			militancy = -7
+		}
+		any_owned = {
+			secede_province = MEX
+		}
+		any_country = {
+			any_owned = {
+				remove_core = VR4
+			}
+		}
+		change_tag = MEX
+		government = democracy
+		capital = 2172
+	}
+}

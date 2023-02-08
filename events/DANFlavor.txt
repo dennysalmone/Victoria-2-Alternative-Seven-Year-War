@@ -310,7 +310,6 @@ country_event = {
 		OR = {
 			neighbour = GER
 			neighbour = PRU
-			neighbour = NGF
 		}
 		NOT = {
 			year = 1890

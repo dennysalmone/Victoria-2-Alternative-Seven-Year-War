@@ -451,7 +451,6 @@ country_event = {
 				limit = {
 					OR = {
 						tag = PRU
-						tag = NGF
 						tag = GER
 						tag = FRA
 						tag = AUS

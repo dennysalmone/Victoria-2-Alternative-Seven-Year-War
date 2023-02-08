@@ -73,21 +73,3 @@ flintlock_rifles = 1
 late_enlightenment_philosophy = 1
 private_banks = 1
 }
-
-1861.1.1 = {
-	oob = "/1861/CAM_oob.txt"
-}
-1861.1.1 = {
-
-foreign_weapons = yes_foreign_weapons
-academic_institutions = madrasahs
-taxation_reform = tax_farmers
-
-# Technologies
-flintlock_rifles = 1
-late_enlightenment_philosophy = 1
-private_banks = 1
-
-# Inventions
-
-}

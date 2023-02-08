@@ -1,6 +1,9 @@
 capital = 2310
 primary_culture = mestizo
-religion = catholic
+culture = quechua
+culture = aimara
+culture = white_spanish
+religion = catholic 
 government = presidential_dictatorship
 plurality = 0.0 # 0.0
 nationalvalue = nv_order

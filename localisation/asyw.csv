@@ -28,18 +28,30 @@ scottish;Scottish;x
 services;Services;x
 sunni_hindus;Muslim Hindus;x
 white_spanish;Spanish American;x
+AMI;Amish State;x
+AMI_ADJ;Amish;x
 BHT;Bohtan;x
 BHT_ADJ;Bohtanian;x
+BRY;Buryatia;x
+BRY_ADJ;Buryatian;x
 BTL;Bitlis;x
 BTL_ADJ;Bitlisian;x
 CHT;Chitral;x
 CHT_ADJ;Chitralian;x
+FLO;Florida;x
+FLO_ADJ;Floridian;x
+HAI;Haiti;x
+HAI_ADJ;Haitian;x
 IRO;Iroquois;x
 IRO_ADJ;Iroquoisian;x
+KAN;Kanawha;x
+KAN_ADJ;Kanawhian;x
 KHH;Khasi;x
 KHH_ADJ;Khasian;x
 NHO;New Holland;x
 NHO_ADJ;New Hollander;x
+OHI;Ohio;x
+OHI_ADJ;Ohioan;x
 OSS;Ossetia;x
 OSS_ADJ;Ossetian;x
 PTT;Pattani;x
@@ -48,6 +60,8 @@ RDL;Ardalan;x
 RDL_ADJ;Ardalanian;x
 SDL;Khorasan;x
 SDL_ADJ;Khorasanian;x
+VOJ;Vojvodina;x
+VOJ_ADJ;Voevodinsky;x
 VR1;Viceroyalty of the Rio de la Plata;x
 VR1_ADJ;Platenian;x
 VR2;Viceroyalty of Peru;x
@@ -93,15 +107,20 @@ AAA_socialist;Socialist;x
 PROV3249;Eupen;x
 PROV3250;Guangzhou Wan;x
 PROV3251;Latgale;x
-BRY;Buryatia;x
-BRY_ADJ;Buryatian;x
-AMI;Amish State;x
-AMI_ADJ;Amish;x
-VOJ;Vojvodina;x
-VOJ_ADJ;Voevodinsky;x
-FLO;Florida;x
-FLO_ADJ;Floridian;x
-HAI;Haiti;x
-HAI_ADJ;Haitian;x
 chhattisgarh;Chhattisgarhi;x
 forest_steppe;Forest Steppe;x
+nomads;Nomads;x
+specialists;Specialists;x
+cotton_gunpowder_factory;Cotton Gunpowder Factory;x 
+cigarette_factory;Cigarette Factory;x
+motor_factory;Engine Factory;x
+chemicals_factory;Chemicals Factory;x
+motors;Engines;x
+chemicals;Chemicals;x
+annex_core_country;Restore Order;x
+annex_core_country_desc;Return All Cores;x
+check_scam;Check Scam;x
+smuggling;Smuggling;x
+gun_trade;Gun Trade;x
+drug_trade;Drug Trade;x
+offshore;Offshore;x

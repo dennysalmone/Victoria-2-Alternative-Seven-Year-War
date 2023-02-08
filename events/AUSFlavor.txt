@@ -480,7 +480,6 @@ country_event = {
 		war = no
 		NOT = {
 			has_country_flag = reassert_confederation
-			exists = NGF
 			exists = GER
 			truce_with = PRU
 		}
@@ -694,7 +693,6 @@ country_event = {
 		OR = {
 			is_greater_power = yes
 			in_sphere = GER
-			in_sphere = NGF
 			in_sphere = PRU
 		}
 		exists = SER

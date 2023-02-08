@@ -2881,7 +2881,6 @@ country_event = {
 			capital_scope = { continent = south_america }
 			tag = ENG
 			tag = FRA
-			tag = NGF
 			tag = GER
 		}
 		is_greater_power = yes
