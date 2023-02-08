@@ -5,3 +5,12 @@ trade_goods = sulphur
 life_rating = 40
 terrain = marsh
 naval_base = 1
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 2
+}
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}

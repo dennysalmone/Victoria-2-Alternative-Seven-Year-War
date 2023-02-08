@@ -702,9 +702,7 @@ country_event = {
 			consciousness = -7
 			militancy = -7
 		}
-		any_owned = {
-			secede_province = ARG
-		}
+
 		any_country = {
 			any_owned = {
 				remove_core = VR1
@@ -712,6 +710,11 @@ country_event = {
 		}
 		change_tag = ARG
 		government = democracy
+		VR1 = {
+			any_owned = {
+				secede_province = ARG
+			}
+		}
 		capital = 2348
 	}
 }
@@ -739,15 +742,22 @@ country_event = {
 			consciousness = -7
 			militancy = -7
 		}
-		any_owned = {
-			secede_province = PBC
-		}
 		any_country = {
 			any_owned = {
+				limit = {
+					is_core = VR2
+				}
+				add_core = PBC
 				remove_core = VR2
+			}
 		}
 		change_tag = PBC
 		government = democracy
+		VR2 = {
+			any_owned = {
+				secede_province = PBC
+			}
+		}
 		capital = 2310
 	}
 }
@@ -775,9 +785,6 @@ country_event = {
 			consciousness = -7
 			militancy = -7
 		}
-		any_owned = {
-			secede_province = GCO
-		}
 		any_country = {
 			any_owned = {
 				remove_core = VR3
@@ -785,6 +792,11 @@ country_event = {
 		}
 		change_tag = GCO
 		government = democracy
+		VR3 = {
+			any_owned = {
+				secede_province = GCO
+			}
+		}
 		capital = 2247
 	}
 }
@@ -812,9 +824,7 @@ country_event = {
 			consciousness = -7
 			militancy = -7
 		}
-		any_owned = {
-			secede_province = MEX
-		}
+
 		any_country = {
 			any_owned = {
 				remove_core = VR4
@@ -822,6 +832,11 @@ country_event = {
 		}
 		change_tag = MEX
 		government = democracy
+		VR4 = {
+			any_owned = {
+				secede_province = MEX
+			}
+		}
 		capital = 2172
 	}
 }
