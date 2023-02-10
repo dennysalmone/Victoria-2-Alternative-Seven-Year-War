@@ -1,0 +1,7 @@
+owner = PNJ
+controller = PNJ
+add_core = PNJ
+add_core = HND
+trade_goods = iron
+life_rating = 30
+terrain = farmland_dry

@@ -683,6 +683,7 @@ country_event = {
 	id = 2023080201
 	title = "Independence"
 	desc = "Now we are a free state, it's time to build our society"
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -723,6 +724,7 @@ country_event = {
 	id = 2023080202
 	title = "Independence"
 	desc = "Now we are a free state, it's time to build our society"
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -766,6 +768,7 @@ country_event = {
 	id = 2023080203
 	title = "Independence"
 	desc = "Now we are a free state, it's time to build our society"
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -805,6 +808,7 @@ country_event = {
 	id = 2023080204
 	title = "Independence"
 	desc = "Now we are a free state, it's time to build our society"
+	fire_only_once = yes
 	major = yes
 	
 	trigger = {
