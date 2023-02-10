@@ -5,7 +5,7 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
 literacy = 0.20 # 0.025
-non_state_culture_literacy = 0.20 # 0.005
+non_state_culture_literacy = 0.05 # 0.005
 
 # Political reforms
 slavery = yes_slavery
@@ -59,25 +59,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "HDJ_oob.txt"
-
-1836.1.1 = {
-	literacy = 0.20 # 0.03
-	non_state_culture_literacy = 0.20 # 0.01
-	
-	set_country_flag = existing_country
-	
-	foreign_weapons = yes_foreign_weapons
-	academic_institutions = madrasahs
-	taxation_reform = tax_farmers
-	diplomatic_reform = interactive
-	
-	# Technologies
-	flintlock_rifles = 1
-	late_enlightenment_philosophy = 1
-	private_banks = 1
-	early_classical_theory_and_critique = 1
-}
-
-1861.1.1 = {
-	clr_country_flag = existing_country
-}

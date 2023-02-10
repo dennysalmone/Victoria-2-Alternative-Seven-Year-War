@@ -5,7 +5,7 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
 literacy = 0.20 # 0.016
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 
 # Political reforms
 slavery = yes_slavery
@@ -56,7 +56,3 @@ early_classical_theory_and_critique = 1
 # Inventions
 
 oob = "/1821/CHK_oob.txt"
-
-1836.1.1 = {
-	clr_country_flag = existing_country
-}

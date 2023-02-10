@@ -5,7 +5,7 @@ government = democracy
 plurality = 0.0 # 1.0
 nationalvalue = nv_liberty
 literacy = 0.20 # 0.11
-non_state_culture_literacy = 0.20 # 0.01
+non_state_culture_literacy = 0.05 # 0.01
 civilized = yes
 
 # Political reforms

@@ -6,9 +6,9 @@ government = democracy
 plurality = 0.0 # 0.0
 nationalvalue = nv_order
 literacy = 0.20 # 0.11
-non_state_culture_literacy = 0.20 # 0.035
+non_state_culture_literacy = 0.05 # 0.035
 civilized = yes
-prestige = 3
+prestige = 1 #3
 
 # Political reforms
 slavery = yes_slavery
@@ -66,44 +66,3 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "/1821/CLM_oob.txt"
-
-1836.1.1 = {
-	literacy = 0.20 # 0.12
-	non_state_culture_literacy = 0.20 # 0.05
-	prestige = 5
-	
-	# Political reforms
-	slavery = yes_slavery
-	upper_house_composition = state_equal_weight
-	vote_franschise = landed_voting
-	public_meetings = yes_meeting
-	press_rights = state_press
-	trade_unions = no_trade_unions
-	voting_system = jefferson_method
-	political_parties = harassment
-	minorities_reform = limited
-	immigration_policy = quota_immigration
-	conscription = two_year_draft
-	
-	set_country_flag = existing_country
-	set_country_flag = liberal_constitution
-	set_country_flag = colombia_in_crisis
-	
-	# Technologies
-	post_napoleonic_thought = 1
-	flintlock_rifles = 1
-	bronze_muzzle_loaded_artillery = 1
-	army_command_principle = 1
-	post_nelsonian_thought = 1
-	the_command_principle = 1
-	private_banks = 1
-	no_standard = 1
-	guild_based_production = 1
-	classicism_n_early_romanticism = 1
-	late_enlightenment_philosophy = 1
-	enlightenment_thought = 1
-	water_wheel_power = 1
-	publishing_industry = 1
-	
-	oob = "CLM_oob.txt"
-}

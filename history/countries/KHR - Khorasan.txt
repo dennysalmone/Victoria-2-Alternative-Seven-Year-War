@@ -9,7 +9,7 @@ government = absolute_monarchy
 plurality = 0.0 # 1
 nationalvalue = nv_might
 literacy = 0.20 # 0.1
-prestige = 1
+prestige = 1 #1
 schools = traditional_academic
 
 # Political reforms

@@ -8,7 +8,7 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
 literacy = 0.20 # 0.015
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 
 # Political reforms
 slavery = no_slavery
@@ -69,7 +69,7 @@ oob = "HYD_oob.txt"
 
 1836.1.1 = {
 literacy = 0.20 # 0.02
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons

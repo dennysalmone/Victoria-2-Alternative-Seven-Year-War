@@ -6,9 +6,9 @@ government = democracy
 plurality = 0.0 # 0.0
 nationalvalue = nv_liberty
 literacy = 0.20 # 0.09
-non_state_culture_literacy = 0.20 # 0.04
+non_state_culture_literacy = 0.05 # 0.04
 civilized = yes
-prestige = 1
+prestige = 1 #1
 
 # Political reforms
 slavery = no_slavery
@@ -70,7 +70,7 @@ nonstate_consciousness = 0
 
 1836.1.1 = {
 	literacy = 0.20 # 0.1
-	non_state_culture_literacy = 0.20 # 0.05
+	non_state_culture_literacy = 0.05 # 0.05
 	
 	set_country_flag = join_mexico
 	set_country_flag = 1836_start

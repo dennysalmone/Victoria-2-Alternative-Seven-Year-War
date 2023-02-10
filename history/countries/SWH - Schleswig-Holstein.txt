@@ -7,9 +7,9 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_order
 literacy = 0.20 # 0.69
-non_state_culture_literacy = 0.20 # 0.49
+non_state_culture_literacy = 0.05 # 0.49
 civilized = yes
-prestige = 1
+prestige = 1 #1
 
 # Political reforms
 slavery = no_slavery
@@ -76,8 +76,8 @@ oob = "SWH_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.7
-	non_state_culture_literacy = 0.20 # 0.5
-	prestige = 5
+	non_state_culture_literacy = 0.05 # 0.5
+	prestige = 1 #5
 	
 	# Technologies
 	post_napoleonic_thought = 1
@@ -110,7 +110,7 @@ oob = "SWH_oob.txt"
 	oob = "/1861/SWH_oob.txt"
 	plurality = 0.0 # 60
 	literacy = 0.20 # 0.90
-	non_state_culture_literacy = 0.20 # 0.45
+	non_state_culture_literacy = 0.05 # 0.45
 
 # Political reforms
 slavery = no_slavery

@@ -53,10 +53,10 @@ upper_house = {
 }
 1861.1.1 = {
 
-	prestige = 75
+	prestige = 1 #75
 	plurality = 0.0 # 60
 	literacy = 0.20 # 0.32
-	non_state_culture_literacy = 0.20 # 0.2
+	non_state_culture_literacy = 0.05 # 0.2
 	
 	decision = italia_irredenta
 	

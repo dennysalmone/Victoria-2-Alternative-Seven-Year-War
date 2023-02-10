@@ -8,7 +8,7 @@ literacy = 0.20 # 0.49
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 15
+prestige = 1 #15
 
 # Political reforms
 slavery = yes_slavery
@@ -87,7 +87,7 @@ oob = "/1821/USA_oob.txt"
 1836.1.1 = {
 	plurality = 0.0 # 25.0
 	literacy = 0.20 # 0.50
-	prestige = 30
+	prestige = 1 #30
 	
 	# Technologies
 	post_napoleonic_thought = 1
@@ -155,9 +155,9 @@ oob = "/1821/USA_oob.txt"
 	clr_country_flag = tory_election_win
 	set_country_flag = liberal_election_win
 	plurality = 0.0 # 60
-	prestige = 40
+	prestige = 1 #40
 	literacy = 0.20 # 0.75
-	non_state_culture_literacy = 0.20 # 0.15
+	non_state_culture_literacy = 0.05 # 0.15
 
 	# Political reforms
 	slavery = yes_slavery

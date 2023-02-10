@@ -5,7 +5,7 @@ government = democracy
 plurality = 0.0 # 0.0
 nationalvalue = nv_order
 literacy = 0.20 # 0.69
-non_state_culture_literacy = 0.20 # 0.39
+non_state_culture_literacy = 0.05 # 0.39
 civilized = yes
 
 # Political reforms
@@ -77,8 +77,8 @@ oob = "LUB_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.7
-	non_state_culture_literacy = 0.20 # 0.4
-	prestige = 1
+	non_state_culture_literacy = 0.05 # 0.4
+	prestige = 1 #1
 	
 	# Technologies
 	post_napoleonic_thought = 1
@@ -111,7 +111,7 @@ oob = "LUB_oob.txt"
 	oob = "/1861/LUB_oob.txt"
 	plurality = 0.0 # 60
 	literacy = 0.20 # 0.90
-	non_state_culture_literacy = 0.20 # 0.45
+	non_state_culture_literacy = 0.05 # 0.45
 }
 1861.1.1 = {
 # Political reforms

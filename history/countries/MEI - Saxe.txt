@@ -76,7 +76,7 @@ oob = "MEI_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.7
-	prestige = 1
+	prestige = 1 #1
 	
 	# Technologies
 	post_napoleonic_thought = 1
@@ -109,7 +109,7 @@ oob = "MEI_oob.txt"
 	oob = "/1861/MEI_oob.txt"
 	plurality = 0.0 # 60
 	literacy = 0.20 # 0.90
-	non_state_culture_literacy = 0.20 # 0.45
+	non_state_culture_literacy = 0.05 # 0.45
 }
 1861.1.1 = {
 # Technologies

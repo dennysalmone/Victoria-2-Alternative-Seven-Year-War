@@ -6,9 +6,9 @@ government = hms_government
 plurality = 0.0 # 5
 nationalvalue = nv_order
 literacy = 0.20 # 0.82
-non_state_culture_literacy = 0.20 # 0.02
+non_state_culture_literacy = 0.05 # 0.02
 civilized = yes
-prestige = 20
+prestige = 1 #20
 
 # Political reforms
 slavery = yes_slavery
@@ -88,7 +88,7 @@ oob = "/1821/NET_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.55
-	prestige = 10
+	prestige = 1 #10
 	
 	set_country_flag = belgium_seceded
 	set_global_flag = london_conference_1830_held

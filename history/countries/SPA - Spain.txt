@@ -10,7 +10,7 @@ literacy = 0.20 # 0.12
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 40
+prestige = 1 #40
 
 # Political reforms
 slavery = yes_slavery
@@ -83,7 +83,7 @@ oob = "/1821/SPA_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.13
-	prestige = 50
+	prestige = 1 #50
 	
 	ruling_party = SPA_conservative
 	
@@ -132,7 +132,7 @@ oob = "/1821/SPA_oob.txt"
 	oob = "/1861/SPA_oob.txt"
 	plurality = 0.0 # 60
 	literacy = 0.20 # 0.30
-	non_state_culture_literacy = 0.20 # 0.15
+	non_state_culture_literacy = 0.05 # 0.15
 	ruling_party = SPA_conservative_2
 
 # Political reforms

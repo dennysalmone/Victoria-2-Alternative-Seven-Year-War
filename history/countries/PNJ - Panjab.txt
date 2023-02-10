@@ -6,7 +6,7 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_enlightenment
 literacy = 0.20 # 0.04
-non_state_culture_literacy = 0.20 # 0.016
+non_state_culture_literacy = 0.05 # 0.016
 
 # Political reforms
 slavery = no_slavery
@@ -69,7 +69,7 @@ oob = "PAN_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.05
-	non_state_culture_literacy = 0.20 # 0.02
+	non_state_culture_literacy = 0.05 # 0.02
 	
 	foreign_training = yes_foreign_training
 	foreign_weapons = yes_foreign_weapons

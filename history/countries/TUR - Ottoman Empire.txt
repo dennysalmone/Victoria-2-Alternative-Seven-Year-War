@@ -8,7 +8,7 @@ literacy = 0.20 # 0.19
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 40
+prestige = 1 #40
 
 # Political reforms
 slavery = yes_slavery
@@ -72,7 +72,7 @@ oob = "/1821/TUR_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.20
-	prestige = 30
+	prestige = 1 #30
 	
 	set_country_flag = ended_mamluk_iraq
 	set_country_flag = abolished_epirus
@@ -98,10 +98,10 @@ oob = "/1821/TUR_oob.txt"
 
 1861.1.1 = {
 	oob = "/1861/TUR_oob.txt"
-	prestige = 45
+	prestige = 1 #45
 	plurality = 0.0 # 50
 	literacy = 0.20 # 0.25
-	non_state_culture_literacy = 0.20 # 0.15
+	non_state_culture_literacy = 0.05 # 0.15
 	ruling_party = TUR_conservative
 	set_country_flag = tanzimat_reforms_enacted
 	set_country_flag = christian_oppression

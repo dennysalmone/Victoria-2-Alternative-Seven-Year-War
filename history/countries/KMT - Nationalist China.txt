@@ -5,7 +5,7 @@ government = presidential_dictatorship
 plurality = 0.0 # 0.0
 nationalvalue = nv_enlightenment
 literacy = 0.20 # 0.05
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 is_releasable_vassal = no
 
 # Political reforms

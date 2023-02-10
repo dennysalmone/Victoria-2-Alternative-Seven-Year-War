@@ -5,11 +5,11 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_might
 literacy = 0.20 # 0.785
-non_state_culture_literacy = 0.20 # 0.235
+non_state_culture_literacy = 0.05 # 0.235
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 20
+prestige = 1 #20
 
 # Political reforms
 slavery = no_slavery
@@ -81,8 +81,8 @@ oob = "/1821/PRU_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.80
-	non_state_culture_literacy = 0.20 # 0.25
-	prestige = 30
+	non_state_culture_literacy = 0.05 # 0.25
+	prestige = 1 #30
 	
 	# Technologies
 	post_napoleonic_thought = 1
@@ -120,10 +120,10 @@ oob = "/1821/PRU_oob.txt"
 
 1861.1.1 = {
 	oob = "/1861/PRU_oob.txt"
-	prestige = 120
+	prestige = 1 #120
 	plurality = 0.0 # 60
 	literacy = 0.20 # 0.90
-	non_state_culture_literacy = 0.20 # 0.45
+	non_state_culture_literacy = 0.05 # 0.45
 
 foreign_investment = {
 	OLD = 10000

@@ -61,7 +61,7 @@ oob = "TRA_oob.txt"
 
 1836.1.1 = {
 literacy = 0.20 # 0.02
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 
 foreign_weapons = yes_foreign_weapons
 army_schools = yes_army_schools

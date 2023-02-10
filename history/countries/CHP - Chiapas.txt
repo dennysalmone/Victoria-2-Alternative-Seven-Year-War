@@ -7,8 +7,8 @@ plurality = 0.0 # 0.0
 nationalvalue = nv_equality
 literacy = 0.20 # 0.09
 civilized = yes
-prestige = 1
-non_state_culture_literacy = 0.20 # 0
+prestige = 1 #1
+non_state_culture_literacy = 0.05 # 0
 
 # Political reforms
 slavery = no_slavery

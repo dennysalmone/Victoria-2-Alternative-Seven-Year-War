@@ -5,7 +5,7 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
 literacy = 0.20 # 0.39
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 
 # Political reforms
 slavery = no_slavery
@@ -63,7 +63,7 @@ oob = "TOS_oob.txt"
 
 1836.1.1 = {
 literacy = 0.20 # 0.4
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 
 land_reform = yes_land_reform
 education_reform = yes_education_reform

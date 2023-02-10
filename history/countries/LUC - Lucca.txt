@@ -73,7 +73,7 @@ oob = "LUC_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.45
-	prestige = 1
+	prestige = 1 #1
 	
 	# Technologies
 	post_napoleonic_thought = 1

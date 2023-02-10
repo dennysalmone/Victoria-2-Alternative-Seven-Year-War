@@ -68,7 +68,7 @@ oob = "/1821/PEU_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.1
-	prestige = 1
+	prestige = 1 #1
 	
 	set_country_flag = conservative_constitution
 	

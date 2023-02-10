@@ -10,11 +10,11 @@ plurality = 0.0 # 0.0
 nationalvalue = nv_order
 literacy = 0.20 # 0.08
 
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = landed_voting
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions

@@ -5,7 +5,7 @@ government = absolute_monarchy
 plurality = 0.0 # 0.0
 nationalvalue = nv_tradition
 literacy = 0.20 # 0.015
-non_state_culture_literacy = 0.20 # 0
+non_state_culture_literacy = 0.05 # 0
 
 # Political reforms
 slavery = yes_slavery
@@ -57,17 +57,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "BHU_oob.txt"
-
-1836.1.1 = {
-literacy = 0.20 # 0.02
-non_state_culture_literacy = 0.20 # 0
-
-academic_institutions = madrasahs
-taxation_reform = tax_farmers
-diplomatic_reform = interactive
-
-# Technologies
-late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
-}

@@ -61,16 +61,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "/1821/AFG_oob.txt"
-
-1836.1.1 = {
-	
-	government = absolute_monarchy
-	literacy = 0.20 # 0.2
-	
-	foreign_weapons = yes_foreign_weapons
-	academic_institutions = madrasahs
-	taxation_reform = tax_farmers
-	diplomatic_reform = interactive
-	
-	oob = "AFG_oob.txt"
-}

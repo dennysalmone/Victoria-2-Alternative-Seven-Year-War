@@ -83,7 +83,7 @@ oob = "SWI_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.65
-	prestige = 5
+	prestige = 1 #5
 	
 	#Technologies
 	post_napoleonic_thought = 1

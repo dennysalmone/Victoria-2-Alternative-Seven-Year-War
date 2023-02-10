@@ -6,7 +6,7 @@ plurality = 0.0 # 0.0
 nationalvalue = nv_might
 literacy = 0.20 # 0.09
 civilized = yes
-prestige = 1
+prestige = 1 #1
 
 # Political reforms
 slavery = no_slavery
@@ -68,7 +68,7 @@ oob = "SER_oob.txt"
 
 1836.1.1 = {
 	literacy = 0.20 # 0.1
-	prestige = 5
+	prestige = 1 #5
 	
 	# Technologies
 	post_napoleonic_thought = 1

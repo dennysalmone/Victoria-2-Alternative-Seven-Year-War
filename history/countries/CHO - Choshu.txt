@@ -61,22 +61,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "CHO_oob.txt"
-
-1836.1.1 = {
-literacy = 0.20 # 0.4
-
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
-land_reform = yes_land_reform
-education_reform = yes_education_reform
-academic_institutions = madrasahs
-taxation_reform = tax_farmers
-
-# Technologies
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-freedom_of_trade = 1
-malthusian_thought = 1
-late_enlightenment_philosophy = 1
-private_banks = 1
-}
