@@ -1,3 +1,4 @@
+add_core = RPL
 trade_goods = grain
 life_rating = 30
 terrain = dry_grassland

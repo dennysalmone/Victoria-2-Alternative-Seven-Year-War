@@ -1,3 +1,4 @@
+add_core = CAL
 trade_goods = fruit
 life_rating = 40
 terrain = conifer_forest_hills

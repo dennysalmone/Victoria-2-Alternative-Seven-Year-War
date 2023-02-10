@@ -1,4 +1,3 @@
-add_core = COL
 trade_goods = fish
 life_rating = 30
 terrain = boreal_forest_hills

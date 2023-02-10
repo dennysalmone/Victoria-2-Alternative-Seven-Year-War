@@ -1,5 +1,4 @@
-add_core = COL
 trade_goods = grain
 life_rating = 40
-terrain = conifer_forest_hills
+terrain = marginal_farmland
 colonial = 1
