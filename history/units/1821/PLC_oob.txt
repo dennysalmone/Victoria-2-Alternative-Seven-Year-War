@@ -1,0 +1,105 @@
+army = {
+	name = "Army Corps of the 1 Guard"
+	location = 699
+	regiment = {
+		name= "3 Linear Division"
+		type = artillery
+		home = 699
+	}
+
+	regiment = {
+		name= "2 Linear Division"
+		type = artillery
+		home = 699
+	}
+
+    regiment = {
+		name= "1 Linear Division"
+		type = regular
+		home = 699
+	}
+
+    regiment = {
+		name= "4 Linear Division"
+		type = regular
+		home = 699
+	}
+}
+
+army = {
+	name = "Armia Polska"
+	location = 715
+	regiment = {
+		name= "3 Linear Division"
+		type = artillery
+		home = 715
+	}
+
+	regiment = {
+		name= "2 Linear Division"
+		type = artillery
+		home = 715
+	}
+
+    regiment = {
+		name= "1 Linear Division"
+		type = regular
+		home = 706
+	}
+
+    regiment = {
+		name= "4 Linear Division"
+		type = regular
+		home = 706
+	}
+}
+
+army = {
+	name = "Army Corps of the 3 Guard"
+	location = 702
+	regiment = {
+		name= "3 Linear Division"
+		type = artillery
+		home = 702
+	}
+
+	regiment = {
+		name= "2 Linear Division"
+		type = artillery
+		home = 702
+	}
+
+    regiment = {
+		name= "1 Linear Division"
+		type = regular
+		home = 702
+	}
+
+    regiment = {
+		name= "4 Linear Division"
+		type = regular
+		home = 702
+	}
+}
+
+army = {
+	name = "Army Corps of the 4 Guard"
+	location = 958
+	regiment = {
+		name= "3 Linear Division"
+		type = artillery
+		home = 958
+	}
+
+	regiment = {
+		name= "2 Linear Division"
+		type = artillery
+		home = 958
+	}
+
+    regiment = {
+		name= "1 Linear Division"
+		type = regular
+		home = 958
+	}
+}

@@ -76,4 +76,4 @@ basic_chemistry = 1
 consciousness = 3
 nonstate_consciousness = 1
 
-oob = "RHI_oob.txt"
+oob = "/1821/RHI_oob.txt"

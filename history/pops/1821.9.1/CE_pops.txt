@@ -290,22 +290,22 @@
 	farmers = { size = 3000 culture = metis religion = catholic }
 }
 58 = {
+	artisans = { size = 4444 culture = french_canadian religion = catholic }
+	artisans = { size = 4444 culture = french_canadian religion = catholic }
+	artisans = { size = 4444 culture = french_canadian religion = catholic }
+	artisans = { size = 4444 culture = french_canadian religion = catholic }
 	artisans = { size = 4444 culture = french_canadian religion = reformed }
-	artisans = { size = 4444 culture = french_canadian religion = catholic }
-	artisans = { size = 4444 culture = french_canadian religion = catholic }
-	artisans = { size = 4444 culture = french_canadian religion = catholic }
-	artisans = { size = 4444 culture = french_canadian religion = catholic }
-	bureaucrats = { size = 500 culture = french_canadian religion = catholic }
-	clergymen = { size = 451 culture = french_canadian religion = catholic }
-	farmers = { size = 46512 culture = french_canadian religion = catholic }
-	soldiers = { size = 1755 culture = french_canadian religion = catholic }
-	clergymen = { size = 150 culture = french religion = reformed }
-	farmers = { size = 15000 culture = french religion = reformed }
-	farmers = { size = 3500 culture = metis religion = catholic }
 	artisans = { size = 600 culture = metis religion = catholic }
+	bureaucrats = { size = 500 culture = french_canadian religion = catholic }
+	clergymen = { size = 150 culture = french religion = reformed }
 	clergymen = { size = 40 culture = metis religion = catholic }
+	clergymen = { size = 451 culture = french_canadian religion = catholic }
+	farmers = { size = 15000 culture = french religion = reformed }
 	farmers = { size = 2000 culture = iroquois religion = catholic }
+	farmers = { size = 3500 culture = metis religion = catholic }
+	farmers = { size = 46512 culture = french_canadian religion = catholic }
 	farmers = { size = 700 culture = cree religion = catholic }
+	soldiers = { size = 1755 culture = french_canadian religion = catholic }
 }
 59 = {
 	nomads = { size = 623 culture = cree religion = animist }
@@ -345,16 +345,19 @@
 	clergymen = { size = 444 culture = french_canadian religion = catholic }
 	farmers = { size = 57000 culture = french_canadian religion = catholic }
 	bureaucrats = { size = 400 culture = french_canadian religion = catholic }
+	soldiers = { size = 1755 culture = french_canadian religion = catholic }
 }
 66 = {
 	artisans = { size = 766 culture = french_canadian religion = catholic }
 	clergymen = { size = 199 culture = french_canadian religion = catholic }
 	farmers = { size = 22111 culture = french_canadian religion = catholic }
+	soldiers = { size = 211 culture = french_canadian religion = catholic }
 }
 67 = {
 	artisans = { size = 1214 culture = french_canadian religion = catholic }
 	clergymen = { size = 122 culture = french_canadian religion = catholic }
 	farmers = { size = 10616 culture = french_canadian religion = catholic }
+	soldiers = { size = 65 culture = french_canadian religion = catholic }
 	farmers = { size = 1500 culture = french religion = reformed }
 }
 68 = {

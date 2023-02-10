@@ -6,6 +6,7 @@ plurality = 0.0 # 0.2
 nationalvalue = nv_equality
 literacy = 0.20 # 0.6
 civilized = yes
+prestige = 15
 
 # Political reforms
 slavery = no_slavery
@@ -63,3 +64,5 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+oob = "/1821/CAN_oob.txt"

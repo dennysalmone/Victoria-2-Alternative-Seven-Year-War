@@ -7,8 +7,8 @@ nationalvalue = nv_order
 literacy = 0.20 # 0.12
 non_state_culture_literacy = 0.05 # 0.01
 civilized = yes
-prestige = 1 #10
-colonial_points = 40
+prestige = 15
+colonial_points = 20
 
 # Political reforms
 slavery = yes_slavery

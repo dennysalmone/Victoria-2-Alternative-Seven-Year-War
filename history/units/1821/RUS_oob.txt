@@ -200,12 +200,6 @@ army = {
 	}
 
 	regiment = {
-		name= "1.2-ya Grenaderskaya Diviziya"
-		type = infantry
-		home = 958
-	}
-
-	regiment = {
 		name= "3.2-ya Grenaderskaya Diviziya"
 		type = infantry
 		home = 977
@@ -326,47 +320,6 @@ army = {
 		home = 944
 	}
 
-}
-
-army = {
-	name = "2. Line Corps"
-	location = 958
-
-	regiment = {
-		name= "3.4-ya Pekhotnaya Diviziya"
-		type = artillery
-		home = 944
-	}
-
-	regiment = {
-		name= "1.5-ya Pekhotnaya Diviziya"
-		type = infantry
-		home = 1003
-	}
-
-	regiment = {
-		name= "2.5-ya Pekhotnaya Diviziya"
-		type = infantry
-		home = 1060
-	}
-
-	regiment = {
-		name= "1.6-ya Pekhotnaya Diviziya"
-		type = infantry
-		home = 1020
-	}
-
-	regiment = {
-		name= "2.6-ya Pekhotnaya Diviziya"
-		type = infantry
-		home = 1026
-	}
-
-	regiment = {
-		name= "3.6-ya Pekhotnaya Diviziya"
-		type = infantry
-		home = 955
-	}
 }
 
 army = {
@@ -529,7 +482,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Bystryï"
+		name= "Bystryï¿½"
 		type = frigate
 	}
 

@@ -1,0 +1,27 @@
+army = {
+	name = "Army Corps of the Guard"
+	location = 581
+	regiment = {
+		name= "3 Linear Division"
+		type = artillery
+		home = 581
+	}
+
+	regiment = {
+		name= "2 Linear Division"
+		type = regular
+		home = 581
+	}
+
+    regiment = {
+		name= "1 Linear Division"
+		type = regular
+		home = 581
+	}
+
+    regiment = {
+		name= "1 Linear Division"
+		type = regular
+		home = 581
+	}
+}
