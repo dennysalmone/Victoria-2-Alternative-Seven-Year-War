@@ -1474,8 +1474,6 @@
 	farmers = { size = 1100 culture = irish religion = catholic }
 	artisans = { size = 60 culture = irish religion = catholic }
 	soldiers = { size = 50 culture = yankee religion = reformed }
-	artisans = { size = 300 culture = yankee religion = mormon }
-	farmers = { size = 1000 culture = yankee religion = mormon }
 }
 214 = {
 	artisans = { size = 107 culture = yankee religion = protestant }
@@ -1716,23 +1714,28 @@
 234 = {
 	artisans = { size = 1520 culture = yankee religion = protestant }
 	artisans = { size = 153 culture = irish religion = catholic }
+	artisans = { size = 400 culture = german religion = reformed }
+	artisans = { size = 400 culture = yankee religion = reformed }
 	bureaucrats = { size = 600 culture = yankee religion = protestant }
 	bureaucrats = { size = 61 culture = irish religion = catholic }
 	clergymen = { size = 430 culture = yankee religion = protestant }
-	farmers = { size = 8000 culture = yankee religion = reformed }
-	artisans = { size = 400 culture = yankee religion = reformed }
-	farmers = { size = 27015 culture = yankee religion = protestant }
 	clergymen = { size = 80 culture = german religion = reformed }
-	artisans = { size = 400 culture = german religion = reformed }
-	farmers = { size = 3000 culture = german religion = reformed }
-	soldiers = { size = 100 culture = german religion = reformed }
+	farmers = { size = 27015 culture = yankee religion = protestant }
 	farmers = { size = 2753 culture = irish religion = catholic }
+	farmers = { size = 300 culture = yankee religion = mormon }
+	farmers = { size = 3000 culture = german religion = reformed }
+	farmers = { size = 8000 culture = yankee religion = reformed }
+	soldiers = { size = 100 culture = german religion = reformed }
 }
 3522 = {
-	farmers = { size = 4000 culture = yankee religion = protestant }
+	artisans = { size = 500 culture = yankee religion = mormon }
+	bureaucrats = { size = 15 culture = yankee religion = mormon }
+	clergymen = { size = 60 culture = yankee religion = mormon }
+	farmers = { size = 1500 culture = yankee religion = mormon }
 	artisans = { size = 200 culture = yankee religion = protestant }
 	clergymen = { size = 60 culture = yankee religion = protestant }
 	farmers = { size = 1000 culture = german religion = reformed }
+	farmers = { size = 3000 culture = yankee religion = protestant }
 	farmers = { size = 500 culture = irish religion = catholic }
 }
 235 = {
@@ -1863,8 +1866,6 @@
 	clergymen = { size = 55 culture = yankee religion = reformed }
 	farmers = { size = 12038 culture = yankee religion = reformed }
 	soldiers = { size = 50 culture = yankee religion = reformed }
-	artisans = { size = 180 culture = yankee religion = mormon }
-	farmers = { size = 600 culture = yankee religion = mormon }
 }
 247 = {
 	artisans = { size = 2300 culture = yankee religion = reformed }

@@ -54,6 +54,8 @@ OHI;Ohio;x
 OHI_ADJ;Ohioan;x
 OSS;Ossetia;x
 OSS_ADJ;Ossetian;x
+CEE;Cree;x
+CEE_ADJ;Crean;x
 PTT;Pattani;x
 PTT_ADJ;Pattanian;x
 RDL;Ardalan;x
@@ -124,3 +126,4 @@ smuggling;Smuggling;x
 gun_trade;Gun Trade;x
 drug_trade;Drug Trade;x
 offshore;Offshore;x
+lux_food_cannery;Sausages Factory;x

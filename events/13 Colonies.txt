@@ -9,10 +9,11 @@ country_event = {
 
 	trigger = {
 		year = 1840
-		owns = 3313
+		owns = 3522
 		OR = {
 			moralism = 10
 			jingoism = 15
+			year = 1853
 			ruling_party_ideology = reactionary
 		}
 	}
@@ -29,7 +30,7 @@ country_event = {
 	}
 	option = {
 		name = "Give them authonony"
-		246 = {
+		3522 = {
 			remove_core = NWK
 			remove_core = NHP
 			remove_core = VER
@@ -41,23 +42,11 @@ country_event = {
 			consciousness = 9
 			militancy = 9
 			}
-		 }
-		3313 = {
-			remove_core = NWK
-			remove_core = NHP
-			remove_core = VER
-			add_core = DES
-			any_pop = {
-				limit = {
-					NOT = { religion = mormon }
-				}
-			consciousness = 9
-			militancy = 9
-			}
-		 }
+		}
+		234 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.5 move_pop = 3522 } }
 
 		ai_chance = {
-			factor = 1
+			factor = 25
 			modifier = {
 				factor = 2
 				ruling_party_ideology = liberal
@@ -71,7 +60,7 @@ country_event = {
 
 	option = {
 		name = "The main thing is to avoid massacres"
-		246 = {
+		3522 = {
 			any_pop = {
 				limit = {
 					religion = mormon
@@ -79,21 +68,12 @@ country_event = {
 			consciousness = 10
 			militancy = 8
 			}
-		 }
-		3313 = {
-			any_pop = {
-				limit = {
-					religion = mormon
-				}
-			consciousness = 10
-			militancy = 8
-			}
-		 }
+		}
 		LOU = {
 			country_event = 20220002
 	 	}	
 		ai_chance = {
-			factor = 99
+			factor = 75
 			modifier = {
 				factor = 0.80
 				average_consciousness = 6
@@ -117,13 +97,15 @@ country_event = {
 
 	option = {
 		name = "Give them a new land"
+		add_country_modifier = {
+			name = new_home_the_mormons
+			duration = 3650
+		}
 		166 = { add_core = DES change_province_name = "Nauvoo" add_province_modifier = { name = home_of_the_mormons duration = 3650 } }
 		152 = { add_core = DES }
-		3388 = { add_core = DES }
 		3514 = { add_core = DES }
-		3516 = { add_core = DES }
-		246 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 152 } }
-		3313 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 166 } }
+		3522 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 166 } }
+		234 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.5 move_pop = 152 } }
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -144,9 +126,12 @@ country_event = {
 
 	option = {
 		name = "Not this time"
-		MEX = {
+		random_country = {
+			limit = {
+				owns = 97
+			}
 			country_event = 20220003
-	 	}	
+		}
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -171,20 +156,23 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Give them a new land in Utah"
+		name = "Give them a land in Utah"
+		add_country_modifier = {
+			name = new_home_the_mormons
+			duration = 3650
+		}
 		97 = { add_core = DES change_province_name = "Salt Lake City" add_province_modifier = { name = home_of_the_mormons duration = 3650 } }
 		12 = { add_core = DES change_province_name = "Nephi" }
 		98 = { add_core = DES }
 		99 = { add_core = DES }
 		111 = { add_core = DES }
-		246 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 97 } }
-		3313 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 97 } }
+		3522 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 97 } }
+		234 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.5 move_pop = 98 } }
 		ai_chance = {
 			factor = 70
 			modifier = {
 				factor = 0
 				NOT = { owns = 97 }
-				NOT = { owns = 12 }
 			}
 			modifier = {
 				factor = 2
@@ -198,13 +186,17 @@ country_event = {
 	}
 
 	option = {
-		name = "Give them a new land in California"
+		name = "Give them a land in California"
+		add_country_modifier = {
+			name = new_home_the_mormons
+			duration = 3650
+		}
 		89 = { add_core = DES change_province_name = "Nephi" add_province_modifier = { name = home_of_the_mormons duration = 3650 } }
 		90 = { add_core = DES change_province_name = "Lehi" }
 		2138 = { add_core = DES }
 		2139 = { add_core = DES }
-		246 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 89 } }
-		3313 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 90 } }
+		3522 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.2 move_pop = 90 } }
+		234 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.65 move_pop = 89 } }
 		ai_chance = {
 			factor = 70
 			modifier = {
@@ -265,7 +257,7 @@ country_event = {
 		set_global_flag = R20220004
 		OHI = { add_country_modifier = { name = new_american_country duration = 365 } }
 		178 = { add_province_modifier = { name = capital_new_state duration = 365 } }
-		ai_chance = { factor = 95 modifier = { factor = 0 tag = USA } }
+		ai_chance = { factor = 5 modifier = { factor = 0 tag = USA } }
 	}
 	option = {
 		prestige = 15
@@ -276,7 +268,7 @@ country_event = {
 		3508 = { add_core = OHI }
 		3509 = { add_core = OHI }
 		178 = { capital = 178 add_province_modifier = { name = capital_new_state duration = 365 } }
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 75 }
 	}
 }
 
@@ -305,7 +297,7 @@ country_event = {
 		set_global_flag = R20220005
 		KAN = { add_country_modifier = { name = new_american_country duration = 365 } }
 		183 = { capital = 183 add_province_modifier = { name = capital_new_state duration = 365 } }
-		ai_chance = { factor = 95 modifier = { factor = 0 tag = USA } }
+		ai_chance = { factor = 7 modifier = { factor = 0 tag = USA } }
 	}
 	option = {
 		prestige = 15
@@ -314,7 +306,7 @@ country_event = {
 		217 = { add_core = KAN }
 		3505 = { add_core = KAN }
 		183 = { add_province_modifier = { name = capital_new_state duration = 365 } }
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 75 }
 	}
 }
 
@@ -343,7 +335,7 @@ country_event = {
 		set_global_flag = R20220006
 		KEN = { capital = 191 add_country_modifier = { name = new_american_country duration = 365 } }
 		191 = { add_province_modifier = { name = capital_new_state duration = 365 } }
-		ai_chance = { factor = 95 modifier = { factor = 0 tag = USA } }
+		ai_chance = { factor = 7 modifier = { factor = 0 tag = USA } }
 	}
 	option = {
 		prestige = 15
@@ -353,6 +345,6 @@ country_event = {
 		185 = { add_core = KEN }
 		201 = { add_core = KEN }
 		191 = { add_province_modifier = { name = capital_new_state duration = 365 } }
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 75 }
 	}
 }

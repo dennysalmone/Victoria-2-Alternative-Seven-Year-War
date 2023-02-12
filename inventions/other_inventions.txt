@@ -14,14 +14,13 @@ home_rifle_smiths = {
 	}	
 }
 
-small_scale_riflemaking = {
+chemical_invention = {
 	limit = { high_n_low_pressure_steam_engines = 1 }
 	news = no
 	chance = {
 		base = 3
 	}
 	effect = {
-		activate_building = chemicals_factory 
 		factory_goods_output = {
 			small_arms = 0.02
 		}
@@ -384,7 +383,7 @@ turbine_driven_trawlers = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			fish = 0.1
+			fish = 1.0
 		}
 	}
 }
@@ -408,13 +407,13 @@ combine_harvesters = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			grain = 0.2
+			grain = 0.25
 		}
 		rgo_goods_throughput = {
-			sugar = 0.1
+			sugar = 0.25
 		}
 		rgo_goods_throughput = {
-			spices = 0.1
+			spices = 0.25
 		}
 	}	
 }
@@ -578,13 +577,13 @@ cattle_trucks = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-			cattle = 0.1
+			cattle = 0.20
 		}
 		rgo_goods_throughput = {
-			wool = 0.1
+			wool = 0.20
 		}
 		factory_goods_throughput = {
-			horses = 0.10
+			horses = 0.20
 		}
 	}
 }
@@ -1264,6 +1263,7 @@ pharmaceuticals = {
 	}
 	effect = {
 		activate_building = pharmaceutical_plant 
+		activate_building = chemicals_factory
 	}
 }
 
@@ -2931,7 +2931,6 @@ luxury_clothes_factories = {
 	}
 	effect = {
 		activate_building = luxury_clothes_factory  
-		activate_building = lux_food_cannery  
 	}
 }
 
@@ -2977,6 +2976,7 @@ shoe_factories = {
 	}
 	effect = {
 		activate_building = shoe_factory
+		activate_building = fur_making_factory
 	}
 }
 
@@ -3165,6 +3165,7 @@ beef_canneries  = {
 	}
 	effect = {
 		activate_building = canned_food_factory 
+		activate_building = lux_food_cannery  
 	}
 }
 

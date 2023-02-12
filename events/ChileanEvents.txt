@@ -620,7 +620,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 36
 	}
 	option = {
 	
@@ -628,10 +628,11 @@ country_event = {
 		prestige = 1		
 		remove_country_modifier =  sac_intervention
 		any_pop = {
-					ideology = {
-						value = conservative
-						factor = -0.05}
-						}
+			ideology = {
+				value = conservative
+				factor = -0.05
+			}
+		}
 		add_country_modifier = {
 			name = loss_of_support
 			duration = 365
@@ -643,10 +644,10 @@ country_event = {
 		remove_country_modifier =  sac_intervention
 		prestige = -1
 		any_pop = {
-					ideology = {
-						value = conservative
-						factor = -0.01}
-						}
+			ideology = {
+				value = conservative
+				factor = -0.01
+			}
 		add_country_modifier = {
 			name = loss_of_support
 			duration = 365
@@ -655,7 +656,7 @@ country_event = {
 	}
 	option = {
 		name = "Apologize and present your resignation."
-		remove_country_modifier =  sac_internvention
+		remove_country_modifier =  sac_intervention
 		prestige = -5
 		remove_country_modifier = expert_diplomat
 		remove_country_modifier = successful_industrialist
@@ -889,7 +890,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Por la razón o la fuerza."
+		name = "Por la razï¿½n o la fuerza."
 add_country_modifier = {
 			name = military_man
 			duration = 216		

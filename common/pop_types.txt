@@ -81,6 +81,7 @@ promotion_chance =
 		modifier = { factor = 0.03 country = { religious_policy = moralism } religion = THIS }
 	}
 	modifier = { factor = 0.05 cash_reserves = 3 }
+	modifier = { factor = 0.15 cash_reserves = 10 }
 	modifier = { factor = 0.03 OR = { location = { is_capital = yes } location = { is_state_capital = yes } } }
 	modifier = { factor = 0.02 location = { is_primary_culture = yes } }
 	modifier = { factor = 0.02 location = { is_state_religion = yes } }
@@ -98,7 +99,7 @@ promotion_chance =
 
 demotion_chance = 
 {
-	factor = 0.8
+	factor = 1.0
 
 	modifier = { factor = -0.2 state_scope = { is_colonial = yes } strata = poor }
 	modifier = { factor = 1 state_scope = { is_colonial = yes } strata = middle NOT = { culture = THIS } }
@@ -108,21 +109,6 @@ demotion_chance =
 	modifier = { factor = -0.1 NOT = { religion = THIS } }
 	modifier = { factor = -0.1 NOT = { culture = THIS } }
 	modifier = { factor = -3 location = { NOT = { controlled_by = owner } } }
-	modifier = { 
-		factor = 4.0
-		is_accepted_culture = no 
-		is_primary_culture = no 
-		NOT = { is_culture_group = THIS }
-		NOT = { literacy = 0.15 } 
-		state_scope = { is_slave = yes }
-		OR = { 
-			is_culture_group = african_diaspora_cultures 
-			is_culture_group = west_african 
-			is_culture_group = central_african 
-			is_culture_group = east_african 
-			is_culture_group = southern_african 
-		} 
-	}
 	group = {
 		modifier = { factor = -0.03 not = { literacy = 0.1 } }
 		modifier = { factor = -0.03 not = { literacy = 0.15 } }
@@ -174,6 +160,21 @@ demotion_chance =
 		modifier = { factor = 0.1 unemployment = 0.1 }
 		modifier = { factor = 0.1 unemployment = 0.2 }
 		modifier = { factor = 0.1 unemployment = 0.3 location = { controlled_by = owner } }
+	}
+	modifier = { 
+		factor = 4.0
+		is_accepted_culture = no 
+		is_primary_culture = no 
+		NOT = { is_culture_group = THIS }
+		NOT = { literacy = 0.15 } 
+		state_scope = { is_slave = yes }
+		OR = { 
+			is_culture_group = african_diaspora_cultures 
+			is_culture_group = west_african 
+			is_culture_group = central_african 
+			is_culture_group = east_african 
+			is_culture_group = southern_african 
+		} 
 	}
 }
 

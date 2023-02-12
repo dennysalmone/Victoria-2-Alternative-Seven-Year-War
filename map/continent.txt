@@ -110,8 +110,8 @@ africa = {
 		2581 2609 2624 2635 3277 3375 1755 3402 3403 3404 3401 3405 3428 3429 3430 3395 3396 3397 3398 3399 3400 3470 3468
 	}
 	assimilation_rate = -0.5
-	farm_rgo_size = 2.0
-	mine_rgo_size = 2.0
+	farm_rgo_size = 1.0
+	mine_rgo_size = 1.0
 }
 
 north_america = {
@@ -134,8 +134,8 @@ north_america = {
 		3505 3506 3507 3508 3509 3510 3511 3512 3513 3514 3515 3516 3517 3518 3519 3520 3521 3522 3523 3524 3525 3548 3551
 		3581 3582 3583 3584 3585 3586 3587 3588 3589 3590 
 	}
-	farm_rgo_size = 2.0
-	mine_rgo_size = 2.0
+	farm_rgo_size = 1.5
+	mine_rgo_size = 1.5
 	farm_rgo_eff = 0.15
 	mine_rgo_eff = 0.15
 }
@@ -172,6 +172,8 @@ oceania = {
 
 
 	}
+	farm_rgo_size = 0.25
+	mine_rgo_size = 0.25
 	farm_rgo_eff = 0.15
 	mine_rgo_eff = 0.15
 }

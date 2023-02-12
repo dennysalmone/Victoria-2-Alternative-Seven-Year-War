@@ -39,7 +39,7 @@ everyday_needs = {
 	regular_clothes = 12
 	shoes = 5
 	cigarettes = 5
-	opium  = 8
+	opium = 8
 	spices = 5
 	wine = 3
 	horses = 25
@@ -63,7 +63,7 @@ luxury_needs = {
 	regular_clothes = 12
 	shoes = 5
 	cigarettes = 5
-	opium  = 8
+	opium = 8
 	spices = 5
 	wine = 3
 	horses = 25
@@ -199,7 +199,7 @@ separatist = {
 		modifier = { factor = 1.1 is_overseas = yes }
 		modifier = { factor = 0.5 is_accepted_culture = yes country = { citizenship_policy = limited_citizenship } }
 		modifier = { factor = 0.25 country = { citizenship_policy = full_citizenship } }
-		modifier = { factor = 0 not = {  location = { 	any_core = { is_primary_culture = THIS } } } }
+		modifier = { factor = 0 not = { location = { 	any_core = { is_primary_culture = THIS } } } }
 		modifier = { factor = 2.0 country = { has_country_flag = the_age_of_nationalism } }
 		modifier = { factor = 2.0 country = { minorities_reform = oppression } }
 		modifier = { factor = 1.5 country = { minorities_reform = limited } }
@@ -221,8 +221,8 @@ fascist = {
 		modifier = { factor = 1.5 type = soldiers }
 		modifier = { factor = 0.35 type = specialists }
 		modifier = { factor = 0.1 country = { civilized = no } }	
-		modifier = { factor = 1.5 country = {  has_country_flag = great_experiment_fascist ruling_party_ideology = fascist  } }
-		modifier = { factor = 1.1 country = {  has_global_flag = the_great_experiment_fascist } }
+		modifier = { factor = 1.5 country = { has_country_flag = great_experiment_fascist ruling_party_ideology = fascist } }
+		modifier = { factor = 1.1 country = { has_global_flag = the_great_experiment_fascist } }
 		modifier = { factor = 1.1 OR = { nationalvalue = nv_unity nationalvalue = nv_glory nationalvalue = nv_dominion } ruling_party_ideology = fascist }
 		modifier = { factor = 1.5 nationalvalue = nv_productivity ruling_party_ideology = fascist }
 		modifier = { factor = 1.2 OR = { nationalvalue = nv_might nationalvalue = nv_glory nationalvalue = nv_dominion } is_primary_culture = yes }
@@ -246,9 +246,9 @@ fascist = {
 		modifier = { factor = 1.10 militancy = 5 location = { has_recent_imigration = 350 } }
 		modifier = { factor = 1.10 militancy = 5 location = { has_national_minority = yes } }
 
-		modifier = { factor = 0.75 not = { militancy = 2 } not = { ruling_party_ideology = fascist } }			
-		modifier = { factor = 0.75 not = { militancy = 4 } not = { ruling_party_ideology = fascist } }	
-		modifier = { factor = 0.75 not = { militancy = 6 } not = { ruling_party_ideology = fascist } }
+		modifier = { factor = 0.8 not = { militancy = 2 } not = { ruling_party_ideology = fascist } }			
+		modifier = { factor = 0.8 not = { militancy = 4 } not = { ruling_party_ideology = fascist } }	
+		modifier = { factor = 0.8 not = { militancy = 6 } not = { ruling_party_ideology = fascist } }
 
 		modifier = { factor = 1.10 any_neighbor_country = { is_greater_power = yes ruling_party_ideology = fascist } }
 		modifier = { factor = 1.35 government = fascist_dictatorship }
@@ -261,10 +261,10 @@ fascist = {
 		modifier = { factor = 0.80 government = fascist_dictatorship not = { life_needs = 1 } }
 		modifier = { factor = 0.50 government = fascist_dictatorship not = { life_needs = 0.5 } }
 
-		modifier = { factor = 1.2 NOT = { ruling_party_ideology = fascist } militancy = 2 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } }
-		modifier = { factor = 1.2 NOT = { ruling_party_ideology = fascist } militancy = 4 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } }
-		modifier = { factor = 1.2 NOT = { ruling_party_ideology = fascist } militancy = 6 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } }
-		modifier = { factor = 1.2 NOT = { ruling_party_ideology = fascist } militancy = 8 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } } 
+		modifier = { factor = 1.3 NOT = { ruling_party_ideology = fascist } militancy = 2 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } }
+		modifier = { factor = 1.3 NOT = { ruling_party_ideology = fascist } militancy = 4 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } }
+		modifier = { factor = 1.3 NOT = { ruling_party_ideology = fascist } militancy = 6 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } }
+		modifier = { factor = 1.3 NOT = { ruling_party_ideology = fascist } militancy = 8 not = { social_reform_want = 0.05 } not = { political_reform_want = 0.05 } } 
 
 		modifier = { factor = 1.2 literacy = 0.30 militancy = 5 NOT = { ruling_party_ideology = fascist } }
 		modifier = { factor = 1.2 literacy = 0.35 militancy = 6 NOT = { ruling_party_ideology = fascist } }
@@ -272,13 +272,15 @@ fascist = {
 		modifier = { factor = 1.2 literacy = 0.45 militancy = 8 NOT = { ruling_party_ideology = fascist } }
 		modifier = { factor = 1.2 literacy = 0.50 militancy = 9 NOT = { ruling_party_ideology = fascist } }
 
-		modifier = { factor = 1.1 unemployment = 0.06 NOT = { ruling_party_ideology = fascist } }
-		modifier = { factor = 1.1 unemployment = 0.09 NOT = { ruling_party_ideology = fascist } }
-		modifier = { factor = 1.1 unemployment = 0.12 NOT = { ruling_party_ideology = fascist } }
-		modifier = { factor = 1.1 unemployment = 0.16 NOT = { ruling_party_ideology = fascist } }
-		modifier = { factor = 1.1 unemployment = 0.20 NOT = { ruling_party_ideology = fascist } }
-		modifier = { factor = 1.1 unemployment = 0.24 NOT = { ruling_party_ideology = fascist } }
-
+		modifier = { factor = 1.12 unemployment = 0.04 NOT = { ruling_party_ideology = fascist } }
+		modifier = { factor = 1.12 unemployment = 0.06 NOT = { ruling_party_ideology = fascist } }
+		modifier = { factor = 1.12 unemployment = 0.09 NOT = { ruling_party_ideology = fascist } }
+		modifier = { factor = 1.12 unemployment = 0.12 NOT = { ruling_party_ideology = fascist } }
+		modifier = { factor = 1.12 unemployment = 0.15 NOT = { ruling_party_ideology = fascist } }
+		modifier = { factor = 1.12 unemployment = 0.18 NOT = { ruling_party_ideology = fascist } }
+		modifier = { factor = 1.12 unemployment = 0.21 NOT = { ruling_party_ideology = fascist } }
+		modifier = { factor = 1.12 unemployment = 0.24 NOT = { ruling_party_ideology = fascist } }
+		
 		modifier = { factor = 0.95 political_reform_want = 0.05 }
 		modifier = { factor = 0.95 political_reform_want = 0.10 }
 		modifier = { factor = 0.95 political_reform_want = 0.15 }
@@ -347,13 +349,13 @@ reactionary = {
 
 		modifier = { factor = 1.05 not = { consciousness = 2 } state_scope = { is_slave = yes } }	
 		modifier = { factor = 1.40 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } not = { militancy = 2 } }
-		modifier = { factor = 1.20 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary }  AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } not = { militancy = 4 pop_majority_ideology = reactionary } }
-		modifier = { factor = 0.80 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary }  AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } militancy = 6 }
-		modifier = { factor = 0.80 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary }  AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } militancy = 8 }
-		modifier = { factor = 1.50 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary }  AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } everyday_needs = 0.6 }
-		modifier = { factor = 1.10 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary }  AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } everyday_needs = 0.1 }
-		modifier = { factor = 0.80 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary }  AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } not = { life_needs = 1 } }
-		modifier = { factor = 0.50 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary }  AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } not = { life_needs = 0.5 } }
+		modifier = { factor = 1.20 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } not = { militancy = 4 pop_majority_ideology = reactionary } }
+		modifier = { factor = 0.80 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } militancy = 6 }
+		modifier = { factor = 0.80 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } militancy = 8 }
+		modifier = { factor = 1.50 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } everyday_needs = 0.6 }
+		modifier = { factor = 1.10 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } everyday_needs = 0.1 }
+		modifier = { factor = 0.80 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } not = { life_needs = 1 } }
+		modifier = { factor = 0.50 OR = { AND = { government = presidential_dictatorship ruling_party_ideology = reactionary } AND = { government = absolute_monarchy ruling_party_ideology = reactionary } } not = { life_needs = 0.5 } }
 
 		modifier = { factor = 0.92 consciousness = 2 }
 		modifier = { factor = 0.92 consciousness = 4 }
@@ -409,14 +411,16 @@ conservative = {
 		modifier = { factor = 0.95 literacy = 0.8 }
 		modifier = { factor = 0.95 literacy = 0.9 }
 
-		modifier = { factor = 1.20  government = absolute_monarchy ruling_party_ideology = conservative not = { militancy = 2 } }
-		modifier = { factor = 1.10  government = absolute_monarchy ruling_party_ideology = conservative not = { militancy = 4 pop_majority_ideology = conservative } }
-		modifier = { factor = 0.90  government = absolute_monarchy ruling_party_ideology = conservative militancy = 6 }
-		modifier = { factor = 0.90  government = absolute_monarchy ruling_party_ideology = conservative militancy = 8 }
-		modifier = { factor = 1.25  government = absolute_monarchy ruling_party_ideology = conservative everyday_needs = 0.6 }
-		modifier = { factor = 1.05  government = absolute_monarchy ruling_party_ideology = conservative everyday_needs = 0.1 }
-		modifier = { factor = 0.90  government = absolute_monarchy ruling_party_ideology = conservative not = { life_needs = 1 } }
-		modifier = { factor = 0.75  government = absolute_monarchy ruling_party_ideology = conservative not = { life_needs = 0.5 } }
+		modifier = { factor = 1.35 is_state_religion = yes NOT = { ruling_party_ideology = conservative } OR = { is_primary_culture = yes is_accepted_culture = yes } }
+
+		modifier = { factor = 1.20 government = absolute_monarchy ruling_party_ideology = conservative not = { militancy = 2 } }
+		modifier = { factor = 1.10 government = absolute_monarchy ruling_party_ideology = conservative not = { militancy = 4 pop_majority_ideology = conservative } }
+		modifier = { factor = 0.90 government = absolute_monarchy ruling_party_ideology = conservative militancy = 6 }
+		modifier = { factor = 0.90 government = absolute_monarchy ruling_party_ideology = conservative militancy = 8 }
+		modifier = { factor = 1.25 government = absolute_monarchy ruling_party_ideology = conservative everyday_needs = 0.6 }
+		modifier = { factor = 1.05 government = absolute_monarchy ruling_party_ideology = conservative everyday_needs = 0.1 }
+		modifier = { factor = 0.90 government = absolute_monarchy ruling_party_ideology = conservative not = { life_needs = 1 } }
+		modifier = { factor = 0.75 government = absolute_monarchy ruling_party_ideology = conservative not = { life_needs = 0.5 } }
 
 		modifier = { factor = 1.05 not = { consciousness = 2 } state_scope = { is_slave = yes } }	
 
@@ -444,12 +448,12 @@ conservative = {
 		modifier = { factor = 0.50 government = fascist_dictatorship NOT = { militancy = 2 } }
 		modifier = { factor = 0.60 government = presidential_dictatorship NOT = { ruling_party_ideology = conservative militancy = 2 } }
 
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 2 }
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 3 } 
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 4 }
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 5 } 
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 6 }
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 7 } 
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 2 }
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 3 } 
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 4 }
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 5 } 
+		modifier = { factor = 1.25 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 6 }
+		modifier = { factor = 1.25 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 7 } 
 
 		modifier = { factor = 0.95 country = { average_militancy = 1 } }
 		modifier = { factor = 0.95 country = { average_militancy = 2 } }
@@ -562,16 +566,16 @@ communist = {
 		modifier = { factor = 1.05 type = soldiers }
 		modifier = { factor = 0.40 type = specialists }
 
-		modifier = { factor = 0.40 country = {  not = { has_country_flag = vanguard_party_formed } } }
-		modifier = { factor = 1.5 country = {  has_country_flag = great_experiment_communist ruling_party_ideology = communist  } }
-		modifier = { factor = 1.2 country = {  has_global_flag = the_great_experiment_communist } }
+		modifier = { factor = 0.40 country = { not = { has_country_flag = vanguard_party_formed } } }
+		modifier = { factor = 1.5 country = { has_country_flag = great_experiment_communist ruling_party_ideology = communist } }
+		modifier = { factor = 1.2 country = { has_global_flag = the_great_experiment_communist } }
 		modifier = { factor = 0.8 nationalvalue = nv_freedom }
 		modifier = { factor = 0.8 nationalvalue = nv_liberty }
 		modifier = { factor = 1.2 OR = { nationalvalue = nv_might nationalvalue = nv_glory nationalvalue = nv_dominion } pop_majority_ideology = socialist }
 		modifier = { factor = 1.5 nationalvalue = nv_supremacy pop_majority_ideology = socialist }
-		modifier = { factor = 1.1 OR = { nationalvalue = nv_unity nationalvalue = nv_prosperity } ruling_party_ideology = communist  }
-		modifier = { factor = 1.2 nationalvalue = nv_fraternity ruling_party_ideology = communist  }
-		modifier = { factor = 1.1 nationalvalue = nv_equality ruling_party_ideology = communist  }
+		modifier = { factor = 1.1 OR = { nationalvalue = nv_unity nationalvalue = nv_prosperity } ruling_party_ideology = communist }
+		modifier = { factor = 1.2 nationalvalue = nv_fraternity ruling_party_ideology = communist }
+		modifier = { factor = 1.1 nationalvalue = nv_equality ruling_party_ideology = communist }
 		modifier = { factor = 0.25 country = { civilized = no } }
 		modifier = { factor = 0.65 NOT = { literacy = 0.1 } }
 		modifier = { factor = 0.80 NOT = { literacy = 0.2 } }
@@ -658,7 +662,7 @@ liberal = {
 		modifier = { factor = 1.05 type = soldiers }
 		modifier = { factor = 1.40 type = specialists }
 
-		modifier = { factor = 2.0 country = {  has_country_flag = charismatic_leader_liberal } }
+		modifier = { factor = 2.0 country = { has_country_flag = charismatic_leader_liberal } }
 		modifier = { factor = 1.1 nationalvalue = nv_equality NOT = { is_ideology_enabled = socialist } }
 		modifier = { factor = 1.2 OR = { nationalvalue = nv_prosperity nationalvalue = nv_glory nationalvalue = nv_liberty } NOT = { ruling_party_ideology = anarcho_liberal } }
 		modifier = { factor = 1.5 nationalvalue = nv_freedom NOT = { ruling_party_ideology = anarcho_liberal } }
@@ -681,18 +685,18 @@ liberal = {
 		modifier = { factor = 1.05 plurality = 40 }
 		modifier = { factor = 1.05 plurality = 50 }
 
-		modifier = { factor = 1.20  government = absolute_monarchy ruling_party_ideology = liberal not = { militancy = 2 } }
-		modifier = { factor = 1.10  government = absolute_monarchy ruling_party_ideology = liberal not = { militancy = 4 pop_majority_ideology = liberal } }
-		modifier = { factor = 0.90  government = absolute_monarchy ruling_party_ideology = liberal militancy = 6 }
-		modifier = { factor = 0.90  government = absolute_monarchy ruling_party_ideology = liberal militancy = 8 }
-		modifier = { factor = 1.25  government = absolute_monarchy ruling_party_ideology = liberal everyday_needs = 0.6 }
-		modifier = { factor = 1.05  government = absolute_monarchy ruling_party_ideology = liberal everyday_needs = 0.1 }
-		modifier = { factor = 0.90  government = absolute_monarchy ruling_party_ideology = liberal not = { life_needs = 1 } }
-		modifier = { factor = 0.75  government = absolute_monarchy ruling_party_ideology = liberal not = { life_needs = 0.5 } }
+		modifier = { factor = 1.20 government = absolute_monarchy ruling_party_ideology = liberal not = { militancy = 2 } }
+		modifier = { factor = 1.10 government = absolute_monarchy ruling_party_ideology = liberal not = { militancy = 4 pop_majority_ideology = liberal } }
+		modifier = { factor = 0.90 government = absolute_monarchy ruling_party_ideology = liberal militancy = 6 }
+		modifier = { factor = 0.90 government = absolute_monarchy ruling_party_ideology = liberal militancy = 8 }
+		modifier = { factor = 1.25 government = absolute_monarchy ruling_party_ideology = liberal everyday_needs = 0.6 }
+		modifier = { factor = 1.05 government = absolute_monarchy ruling_party_ideology = liberal everyday_needs = 0.1 }
+		modifier = { factor = 0.90 government = absolute_monarchy ruling_party_ideology = liberal not = { life_needs = 1 } }
+		modifier = { factor = 0.75 government = absolute_monarchy ruling_party_ideology = liberal not = { life_needs = 0.5 } }
 
 		modifier = { factor = 0.50 government = bourgeois_dictatorship NOT = { militancy = 2 } }
 
-		modifier = { factor = 1.10  consciousness = 4 state_scope = { is_slave = yes } }	
+		modifier = { factor = 1.10 consciousness = 4 state_scope = { is_slave = yes } }	
 		modifier = { factor = 1.05 NOT = { OR = { is_accepted_culture = yes is_primary_culture = yes } } }
 		modifier = { factor = 1.05 NOT = { is_primary_culture = yes } }
 
@@ -725,12 +729,12 @@ liberal = {
 
 		modifier = { factor = 1.10 NOT = { is_ideology_enabled = anarcho_liberal } }
 
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 2 }
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 3 } 
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 4 }
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 5 } 
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 6 }
-		modifier = { factor = 1.10 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 7 } 
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 2 }
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 3 } 
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 4 }
+		modifier = { factor = 1.15 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 5 } 
+		modifier = { factor = 1.25 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 6 }
+		modifier = { factor = 1.25 OR = { government = proletarian_dictatorship government = presidential_dictatorship government = bourgeois_dictatorship government = fascist_dictatorship } militancy = 7 } 
 
 		modifier = { factor = 0.9 social_reform_want = 0.10 is_ideology_enabled = social_liberal }
 		modifier = { factor = 0.9 social_reform_want = 0.20 is_ideology_enabled = social_liberal }
@@ -1440,6 +1444,7 @@ factor = 1
 	modifier = { factor = 1.1 OR = { nationalvalue = nv_might nationalvalue = nv_glory nationalvalue = nv_dominion } }
 	modifier = { factor = 1.2 nationalvalue = nv_supremacy }
 	modifier = { factor = 1.5 nationalvalue = nv_freedom }
+	modifier = { factor = 1.35 nationalvalue = nv_liberty }
 	modifier = { factor = 1.25 strata = middle }
 	modifier = { factor = 0 OR = { press_rights = censored_press press_rights = free_press NOT = { consciousness = 4 } NOT = { literacy = 0.25 } luxury_needs = 0.5 country = { civilized = no } } }
 	modifier = { factor = 2 literacy = 0.30 }
@@ -1459,6 +1464,9 @@ free_press = {
 factor = 1
 	modifier = { factor = 1.1 OR = { nationalvalue = nv_liberty nationalvalue = nv_prosperity nationalvalue = nv_glory } }
 	modifier = { factor = 1.5 nationalvalue = nv_freedom }
+	modifier = { factor = 1.35 nationalvalue = nv_liberty }
+	modifier = { factor = 0.75 nationalvalue = nv_supremacy }
+	modifier = { factor = 0.9 nationalvalue = nv_order }
 	modifier = { factor = 1.25 strata = middle }
 	modifier = { factor = 0 OR = { press_rights = state_press press_rights = free_press NOT = { consciousness = 4 } NOT = { literacy = 0.40 } luxury_needs = 0.5 } }
 	modifier = { factor = 2 literacy = 0.50 }
@@ -2412,7 +2420,7 @@ factor = 1
 	modifier = { factor = 1.05 literacy = 0.30 }
 	modifier = { factor = 1.05 literacy = 0.35 }
 	modifier = { factor = 1.05 literacy = 0.40 }
-	modifier = { factor = 2 location = { OR = { continent = oceania continent = north_america continent = south_america } } }
+	modifier = { factor = 4 location = { OR = { continent = oceania continent = north_america continent = south_america } } }
 	modifier = { factor = 1.25 location = { is_state_capital = yes } }
 }
 
@@ -2443,7 +2451,7 @@ factor = 1
 	modifier = { factor = 1.05 literacy = 0.30 }
 	modifier = { factor = 1.05 literacy = 0.35 }
 	modifier = { factor = 1.05 literacy = 0.40 }
-	modifier = { factor = 2 location = { OR = { continent = oceania continent = north_america continent = south_america } } }
+	modifier = { factor = 4 location = { OR = { continent = oceania continent = north_america continent = south_america } } }
 	modifier = { factor = 1.25 location = { is_state_capital = yes } }
 }
 
@@ -2474,7 +2482,7 @@ factor = 1
 	modifier = { factor = 1.05 literacy = 0.30 }
 	modifier = { factor = 1.05 literacy = 0.35 }
 	modifier = { factor = 1.05 literacy = 0.40 }
-	modifier = { factor = 2 location = { OR = { continent = oceania continent = north_america continent = south_america } } }
+	modifier = { factor = 4 location = { OR = { continent = oceania continent = north_america continent = south_america } } }
 	modifier = { factor = 1.25 location = { is_state_capital = yes } }
 }
 

@@ -113,7 +113,7 @@ issues = {
 			modifier = { factor = 1.5 luxury_needs = 0.1 NOT = { country = { trade_policy = protectionism } } }
 	}
 	laissez_faire = {
-		factor = 0.1
+		factor = 0.05
 			modifier = { factor = 0.9 social_reform_want = 0.05 }
 			modifier = { factor = 0.8 social_reform_want = 0.10 }
 			modifier = { factor = 0.5 social_reform_want = 0.15 }
@@ -125,13 +125,13 @@ issues = {
 			modifier = { factor = 1.5 luxury_needs = 0.1 country = { economic_policy = laissez_faire } }
 	} 
 	interventionism = {
-		factor = 0.1
+		factor = 0.16
 			modifier = { factor = 0 NOT = { life_needs = 1.0 } country = { economic_policy = interventionism } }
 			modifier = { factor = 1.5 NOT = { life_needs = 1.0 } country = { not = { economic_policy = interventionism } } }
 			modifier = { factor = 1.5 luxury_needs = 0.1 country = { economic_policy = interventionism } }
 	} 
 	state_capitalism = {
-		factor = 0.1
+		factor = 0.18
 			modifier = { factor = 1.2 OR = { nationalvalue = nv_might nationalvalue = nv_glory nationalvalue = nv_dominion } }
 			modifier = { factor = 1.5 nationalvalue = nv_supremacy }
 			modifier = { factor = 0 NOT = { life_needs = 1.0 } country = { economic_policy = state_capitalism } }
@@ -139,12 +139,12 @@ issues = {
 			modifier = { factor = 1.5 NOT = { life_needs = 1.0 } country = { not = { economic_policy = state_capitalism } } }
 	} 
 	planned_economy = {
-		factor = 0.1
+		factor = 0.21
 			modifier = { factor = 0 NOT = { life_needs = 1.0 } country = { economic_policy = planned_economy } }
 			modifier = { factor = 1.5 luxury_needs = 0.1 country = { economic_policy = planned_economy } }
 			modifier = { factor = 1.5 NOT = { life_needs = 1.0 } country = { not = { economic_policy = planned_economy } } }
 	} 
-	full_citizenship =  {
+	full_citizenship = {
 		factor = 2.12
 			modifier = { factor = 1.25 not = { militancy = 5 } }
 			modifier = { factor = 1.25 not = { militancy = 6 } }

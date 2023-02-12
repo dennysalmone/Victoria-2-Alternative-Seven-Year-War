@@ -193,7 +193,7 @@ second_power = {
 
 civ_nation = {
 	tax_efficiency = 0.05
-	research_points = 0.8
+	research_points = 0.85
 	leadership = 0.5
 }
 
@@ -212,8 +212,8 @@ average_literacy = {
 	org_regain = 1.2
 	unit_start_experience = 3
 	tax_efficiency = 0.35
-	self_unciv_economic_modifier = -0.5
-	self_unciv_military_modifier = -0.5
+	self_unciv_economic_modifier = -0.4
+	self_unciv_military_modifier = -0.4
 	unit_start_experience = 20
 	pension_level = 0.25
 }

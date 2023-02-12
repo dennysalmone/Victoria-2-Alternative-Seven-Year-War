@@ -54,7 +54,3 @@ early_classical_theory_and_critique = 1
 # Inventions
 
 oob = "/1821/ASM_oob.txt"
-
-1836.1.1 = {
-	clr_country_flag = existing_country
-}

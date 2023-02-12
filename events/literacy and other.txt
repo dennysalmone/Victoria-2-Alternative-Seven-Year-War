@@ -844,3 +844,123 @@ country_event = {
 		capital = 2172
 	}
 }
+
+country_event = {
+	id = 2023110201
+	title = "Secede owned colony to satellite"
+	desc = "Our regional government will cope with the management of the territory much better than us"
+	
+	trigger = {
+		tag = SPA
+		VR1 = { exists = yes }
+		is_our_vassal = VR1
+		any_owned_province = {
+			OR = { is_core = ARG is_core = VR1 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = "Great"
+		any_owned = {
+			limit = {
+				OR = { is_core = ARG is_core = VR1 }
+			}
+			add_core = VR1
+			secede_province = VR1
+		}
+	}
+}
+
+country_event = {
+	id = 2023110202
+	title = "Secede owned colony to satellite"
+	desc = "Our regional government will cope with the management of the territory much better than us"
+	
+	trigger = {
+		tag = SPA
+		VR2 = { exists = yes }
+		is_our_vassal = VR2
+		any_owned_province = {
+			OR = { is_core = PBC is_core = PEU is_core = BOL is_core = VR2 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = "Great"
+		any_owned = {
+			limit = {
+				OR = { is_core = PBC is_core = PEU is_core = BOL is_core = VR2 }
+			}
+			add_core = VR2
+			secede_province = VR2
+		}
+	}
+}
+
+country_event = {
+	id = 2023110203
+	title = "Secede owned colony to satellite"
+	desc = "Our regional government will cope with the management of the territory much better than us"
+	
+	trigger = {
+		tag = SPA
+		VR3 = { exists = yes }
+		is_our_vassal = VR3
+		any_owned_province = {
+			OR = { is_core = GCO is_core = VR3 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = "Great"
+		any_owned = {
+			limit = {
+				OR = { is_core = GCO is_core = VR3 }
+			}
+			secede_province = VR3
+			add_core = VR3
+		}
+	}
+}
+
+country_event = {
+	id = 2023110204
+	title = "Secede owned colony to satellite"
+	desc = "Our regional government will cope with the management of the territory much better than us"
+	
+	trigger = {
+		tag = SPA
+		VR4 = { exists = yes }
+		is_our_vassal = VR4
+		any_owned_province = {
+			OR = { is_core = MEX is_core = VR4 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = "Great"
+		any_owned = {
+			limit = {
+				OR = { is_core = MEX is_core = VR4 }
+			}
+			secede_province = VR4
+			add_core = VR4
+		}
+	}
+}

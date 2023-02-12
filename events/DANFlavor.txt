@@ -528,14 +528,14 @@ country_event = {
 	trigger = {
 		tag = DEN
 		exists = yes
-		exists = USA
+		exists = LOU
 		year = 1917
 		war = no
 		owns = 2223 #St Thomas, Virgin Islands
 		NOT = {
-			truce_with = USA
+			truce_with = LOU
 			relation = {
-				who = USA
+				who = LOU
 				value = 0
 			}
 		}
@@ -557,12 +557,12 @@ country_event = {
 		name = "EVTOPTA36209" 
 		treasury = 25000
 		relation = {
-			who = USA
+			who = LOU
 			value = 50
 		}
 		2223 = {
-			secede_province = USA
-			add_core = USA
+			secede_province = LOU
+			add_core = LOU
 			remove_core = DEN
 		}		
 	}

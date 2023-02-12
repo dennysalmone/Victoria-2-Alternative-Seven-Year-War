@@ -375,7 +375,7 @@ electric_gear_factory = {
 	input_goods = { 
 		rubber = 10
 		other_minerals = 5
-		copper = 20
+		bronze = 20
 	}
 	output_goods = electric_gear 
 	value = 46
@@ -389,8 +389,8 @@ electric_gear_factory = {
 		value = 0.2
 	}
 	bonus = {
-		trigger = {
-			trade_goods_in_state = copper
+		trigger = { 
+			has_building = bronze_factory
 		}
 		value = 0.1
 	}
@@ -590,7 +590,7 @@ motor_factory = {
 		machine_parts = 20
 		coal = 5
 		steel = 5
-		copper = 5
+		bronze = 5
 	}
 	output_goods = motors 
 	value = 46
@@ -606,8 +606,8 @@ motor_factory = {
 		value = 0.15
 	}
 	bonus = {
-		trigger = {
-			trade_goods_in_state = copper
+		trigger = { 
+			has_building = bronze_factory
 		}
 		value = 0.05
 	}
@@ -645,7 +645,7 @@ radio_factory = {
 	input_goods = {    
 		electric_gear = 25
 		rubber = 15
-		copper = 10
+		bronze = 10
 	}
 	output_goods = radio 
 	value = 72
@@ -665,8 +665,8 @@ radio_factory = {
 		value = 0.2
 	}
 	bonus = {
-		trigger = {
-			trade_goods_in_state = copper
+		trigger = { 
+			has_building = bronze_factory
 		}
 		value = 0.1
 	}
@@ -814,7 +814,7 @@ telephone_factory = {
 	template = modern_factory_template	#154
 	input_goods = {       
 		electric_gear = 30		#250
-		copper = 25
+		bronze = 25
 	}
 	output_goods = telephones 
 	value = 72
@@ -825,8 +825,8 @@ telephone_factory = {
 		value = 0.2
 	}
 	bonus = {
-		trigger = {
-			trade_goods_in_state = copper
+		trigger = { 
+			has_building = bronze_factory
 		}
 		value = 0.1
 	}
@@ -1723,7 +1723,7 @@ cattle_ranch = {
 fur_trappers = {
 	template = RGO_template_farmers
 	output_goods = fur 
-	value = 7
+	value = 6.5
 	farm = yes
 }
 
@@ -1786,7 +1786,7 @@ dye_plantation = {
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 3.0
+	value = 4.0
 	farm = yes
 }
 
@@ -1814,7 +1814,7 @@ oil_rig = {
 opium_plantation = {
 	template = RGO_template_farmers
 	output_goods = opium 
-	value = 3.5
+	value = 4.0
 	farm = yes
 }
 
@@ -1828,7 +1828,7 @@ orchard = {
 precious_metal_mine = {
 	template = RGO_template_labourers
 	output_goods = precious_metal 
-	value = 15
+	value = 12
 	mine = yes
 }
 
@@ -1842,14 +1842,14 @@ rubber_lodge = {
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = 3.6
+	value = 3.5
 	farm = yes
 }
 
 silkworm_ranch = {
 	template = RGO_template_farmers
 	output_goods = silk 
-	value = 3.0
+	value = 3.2
 	farm = yes
 }
 
@@ -1908,7 +1908,7 @@ artisan_radio = {
 	input_goods = {      
 		rubber = 4.6
 		electric_gear = 11
-		copper = 4.4
+		bronze = 4.4
 	}
 	output_goods = radio 
 	value = 26
@@ -1926,7 +1926,7 @@ artisan_radio = {
 artisan_telephone = {       
 	input_goods = {       
 		electric_gear = 12
-		copper = 8
+		bronze = 8
 	}
 	output_goods = telephones 
 	value = 26
@@ -1946,7 +1946,7 @@ artisan_telephone = {
 artisan_electric_gear = {       
 	input_goods = { 
 		rubber = 9
-		copper = 11
+		bronze = 11
 	}
 	output_goods = electric_gear 
 	value = 26
@@ -1965,7 +1965,7 @@ artisan_motors = {
 	input_goods = {    
 		machine_parts = 16
 		steel = 2
-		copper = 2
+		bronze = 2
 	}
 	output_goods = motors 
 	value = 26	
@@ -2678,10 +2678,8 @@ artisan_costermonger = {
 
 artisan_services1 = {       
 	input_goods = { 
-		wool = 10
+		wool = 20
 		horses = 20
-		coal = 5
-		steamer_convoy = 5
 	}
 
 	output_goods = services 
@@ -2698,12 +2696,47 @@ artisan_services1 = {
 
 artisan_services2 = {       
 	input_goods = { 
+		coal = 20
+		steamer_convoy = 20
+	}
+
+	output_goods = services 
+	value = 60
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	
+	type = artisan
+	workforce = 5000
+}
+
+artisan_services3 = {       
+	input_goods = { 
 		aeroplanes = 20
 		automobiles = 20
 	}
 
 	output_goods = services 
 	value = 60
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	
+	type = artisan
+	workforce = 5000
+}
+
+artisan_services4 = {       
+	input_goods = { 
+		canned_food = 5
+	}
+
+	output_goods = services 
+	value = 25
 	
 	owner = {
 		poptype = artisan 
