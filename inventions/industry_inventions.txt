@@ -160,8 +160,8 @@ direct_current = {
 		}
 	}
 	effect = {
-		rgo_throughput = 0.05
-		factory_throughput = 0.025
+		rgo_throughput = 0.1
+		factory_throughput = 0.05
 		factory_goods_output = {
 			electric_power = 0.02 
 		}
@@ -189,8 +189,8 @@ alternating_current = {
 		}
 	}
 	effect = {
-		rgo_throughput = 0.05
-		factory_throughput = 0.025
+		rgo_throughput = 0.1
+		factory_throughput = 0.05
 		factory_goods_output = {
 			electric_power = 0.02
 		}
@@ -214,8 +214,8 @@ polyphase_system = {
 		}
 	}
 	effect = {
-		rgo_throughput = 0.05
-		factory_throughput = 0.025
+		rgo_throughput = 0.1
+		factory_throughput = 0.05
 		factory_goods_output = {
 			electric_power = 0.02
 		}

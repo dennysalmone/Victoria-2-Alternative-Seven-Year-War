@@ -35,6 +35,7 @@ europe = {
 		3575 3576 3577 3578 3579 3580 
 	}
 	assimilation_rate = -0.25 
+	local_artisan_output = 0.1
 } 
 
 asia = {
@@ -83,6 +84,7 @@ asia = {
 	assimilation_rate = -0.5
 	farm_rgo_size = 0.5
 	mine_rgo_size = 0.5
+	local_artisan_output = 0.1
 }
 
 africa = {
@@ -112,6 +114,7 @@ africa = {
 	assimilation_rate = -0.5
 	farm_rgo_size = 1.0
 	mine_rgo_size = 1.0
+	local_artisan_output = 0.1
 }
 
 north_america = {
@@ -138,6 +141,7 @@ north_america = {
 	mine_rgo_size = 1.5
 	farm_rgo_eff = 0.15
 	mine_rgo_eff = 0.15
+	local_artisan_output = 0.1
 }
 
 south_america = {
@@ -159,6 +163,7 @@ south_america = {
 	mine_rgo_size = 1.2
 	farm_rgo_eff = 0.15
 	mine_rgo_eff = 0.15
+	local_artisan_output = 0.1
 }
 
 oceania = {
@@ -176,4 +181,5 @@ oceania = {
 	mine_rgo_size = 0.25
 	farm_rgo_eff = 0.15
 	mine_rgo_eff = 0.15
+	local_artisan_output = 0.1
 }

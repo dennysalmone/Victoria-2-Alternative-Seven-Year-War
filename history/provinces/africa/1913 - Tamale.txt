@@ -4,4 +4,4 @@ add_core = ASH
 add_core = MOS
 trade_goods = wool
 life_rating = 35
-terrain = dry_forest
+terrain = savana

@@ -3,6 +3,6 @@ controller = SPA
 add_core = SPA
 trade_goods = grain
 life_rating = 35
-terrain = hills
+terrain = hilly_grassland
 naval_base = 1
 colonial = 0

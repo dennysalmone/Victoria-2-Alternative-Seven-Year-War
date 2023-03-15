@@ -1048,44 +1048,6 @@ country_event = {
 	}
 }
 
-province_event = {
-	id = 97086
-	title = "EVTNAME97086" #Pacification of Patagonia
-	desc = "EVTDESC97086"
-	
-	trigger = {
-		OR = {
-			region = CHL_2332
-			region = ARG_2398
-			region = ARG_2391
-		}
-		is_core = PTG
-		NOT = { life_rating = 16 }
-	}
-	
-	mean_time_to_happen = {
-		months = 40
-		modifier = {
-			factor = 0.5
-			is_core = THIS
-		}
-		modifier = {
-			factor = 0.5
-			owner = { machine_guns = 1 }
-		}
-	}
-	
-	option = {
-		name = "Excellent!"
-		life_rating = 10
-		any_pop = {
-			limit = { has_pop_culture = patagonian }
-			militancy = 8
-			consciousness = 3
-		}
-	}
-}
-
 country_event = {
 	id = 97090
 	title = "EVTNAME97090" #The Argentina-Chile Border Treaty

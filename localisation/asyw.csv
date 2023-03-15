@@ -36,6 +36,8 @@ BRY;Buryatia;x
 BRY_ADJ;Buryatian;x
 BTL;Bitlis;x
 BTL_ADJ;Bitlisian;x
+CEE;Cree;x
+CEE_ADJ;Crean;x
 CHT;Chitral;x
 CHT_ADJ;Chitralian;x
 FLO;Florida;x
@@ -54,8 +56,6 @@ OHI;Ohio;x
 OHI_ADJ;Ohioan;x
 OSS;Ossetia;x
 OSS_ADJ;Ossetian;x
-CEE;Cree;x
-CEE_ADJ;Crean;x
 PTT;Pattani;x
 PTT_ADJ;Pattanian;x
 RDL;Ardalan;x
@@ -74,56 +74,56 @@ VR4;Viceroyalty of New Spain;x
 VR4_ADJ;New Spanish;x
 WAZ;Waziristan;x
 WAZ_ADJ;Waziristanian;x
-lux_food;Luxury food;x
 DOMINION_OF_NOCOLOR;Dominion;x
 caribbean_island;Equatorial Island;x
-dryhills;Dey Hills;x
+dryhills;Dry Hills;x
 farmland_dry;Dry Farmland;x
 floodplain_savanna;Floodplain Savanna;x
+lux_food;Luxury food;x
 mountain_valley;Mountain Valley;x
 savana;Savanna;x
-ALL_conservative;Democratic Party;x
-ALL_reactionary;Nationalist Party;x
-ALL_anarcho_liberal;Radical Party;x
-ALL_communist;Communist Party;x
-ALL_fascist;Fascist Party;x
-ALL_socialist;Socialist Party;x
-ICH_conservative;Conservatives;x
-ICH_reactionary;Traditionalist;x
-ICH_anarcho_liberal;Radical;x
-ICH_communist;Communist;x
-ICH_fascist;Wolfes;x
-ICH_socialist;Socialist;x
-UNC_conservative;Democratic Party;x
-UNC_reactionary;Nationalist Party;x
-UNC_anarcho_liberal;Radical Party;x
-UNC_communist;Communist Party;x
-UNC_fascist;Fascist Party;x
-UNC_socialist;Socialist Party;x
-AAA_conservative;Conservatives;x
-AAA_reactionary;Traditionalist;x
 AAA_anarcho_liberal;Radical;x
 AAA_communist;Communist;x
+AAA_conservative;Conservatives;x
 AAA_fascist;Fascist;x
+AAA_reactionary;Traditionalist;x
 AAA_socialist;Socialist;x
+ALL_anarcho_liberal;Radical Party;x
+ALL_communist;Communist Party;x
+ALL_conservative;Democratic Party;x
+ALL_fascist;Fascist Party;x
+ALL_reactionary;Nationalist Party;x
+ALL_socialist;Socialist Party;x
+ICH_anarcho_liberal;Radical;x
+ICH_communist;Communist;x
+ICH_conservative;Conservatives;x
+ICH_fascist;Wolfes;x
+ICH_reactionary;Traditionalist;x
+ICH_socialist;Socialist;x
+UNC_anarcho_liberal;Radical Party;x
+UNC_communist;Communist Party;x
+UNC_conservative;Democratic Party;x
+UNC_fascist;Fascist Party;x
+UNC_reactionary;Nationalist Party;x
+UNC_socialist;Socialist Party;x
 PROV3249;Eupen;x
 PROV3250;Guangzhou Wan;x
 PROV3251;Latgale;x
-chhattisgarh;Chhattisgarhi;x
-forest_steppe;Forest Steppe;x
-nomads;Nomads;x
-specialists;Specialists;x
-cotton_gunpowder_factory;Cotton Gunpowder Factory;x 
-cigarette_factory;Cigarette Factory;x
-motor_factory;Engine Factory;x
-chemicals_factory;Chemicals Factory;x
-motors;Engines;x
-chemicals;Chemicals;x
 annex_core_country;Restore Order;x
 annex_core_country_desc;Return All Cores;x
 check_scam;Check Scam;x
-smuggling;Smuggling;x
-gun_trade;Gun Trade;x
+chemicals;Chemicals;x
+chemicals_factory;Chemicals Factory;x
+chhattisgarh;Chhattisgarhi;x
+cigarette_factory;Cigarette Factory;x
+cotton_gunpowder_factory;Cotton Gunpowder Factory;x 
 drug_trade;Drug Trade;x
-offshore;Offshore;x
+forest_steppe;Forest Steppe;x
+gun_trade;Gun Trade;x
 lux_food_cannery;Sausages Factory;x
+motor_factory;Engine Factory;x
+motors;Engines;x
+nomads;Nomads;x
+offshore;Offshore;x
+smuggling;Smuggling;x
+specialists;Specialists;x

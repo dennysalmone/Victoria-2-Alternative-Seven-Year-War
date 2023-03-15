@@ -4154,8 +4154,8 @@ modern_public_transportation = {
 		}
 	}
 	effect = {
-		rgo_throughput = 0.025
-		factory_throughput = 0.025
+		rgo_throughput = 0.05
+		factory_throughput = 0.05
 	}
 }
 
@@ -6606,8 +6606,8 @@ household_electrification = {
 		}
 	}
 	effect = {
-		factory_throughput = 0.025
-		rgo_throughput = 0.025
+		rgo_throughput = 0.05
+		factory_throughput = 0.05
 		shared_prestige = 50
 	}
 }
@@ -7788,7 +7788,7 @@ industry_1 = {
 		base = 100
 	}
 	effect = {
-		rgo_throughput = 0.025
+		rgo_throughput = 0.05
 		pop_growth = 0.0001
 	}
 }

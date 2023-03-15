@@ -4,4 +4,4 @@ add_core = MAJ
 add_core = GEL
 trade_goods = fruit
 life_rating = 20
-terrain = desert
+terrain = savana

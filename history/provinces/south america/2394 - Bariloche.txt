@@ -1,5 +1,5 @@
 add_core = PTG
 trade_goods = fruit
 life_rating = 15
-terrain = hills
+terrain = dryhills
 colonial = 1

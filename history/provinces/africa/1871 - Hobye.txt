@@ -4,4 +4,4 @@ add_core = GEL
 add_core = MAJ
 trade_goods = wool
 life_rating = 20
-terrain = desert
+terrain = savana
