@@ -4,4 +4,4 @@ add_core = SDL
 add_core = KHR
 trade_goods = grain
 life_rating = 35
-terrain = hilly_grassland
+terrain = dryhills

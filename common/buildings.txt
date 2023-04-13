@@ -1316,7 +1316,6 @@ fort = {
 
 naval_base = {    
 	type = naval_base
-  
 	cost = 5000
 	goods_cost = 
 	{
@@ -1360,4 +1359,39 @@ railroad = {
 	infrastructure = 0.166
 	pop_build_factory = yes
 	spawn_railway_track = yes
+}
+
+administration = {
+	type = infrastructure
+	cost = 1000
+	goods_cost =
+	{
+		steel = 250
+		lumber = 130
+		cement = 120
+		paper = 150
+	}
+	time = 365
+	visibility = no
+	middle_income_modifier = 50
+	onmap = no
+	max_level = 6
+	province = yes
+}
+
+city_center = {
+	type = city_center
+	cost = 1000
+	goods_cost =
+	{
+		steel = 5
+	}
+
+	time = 5
+	visibility = no
+	onmap = no
+	max_level = 6
+	middle_income_modifier = 50
+	province = yes
+	pop_build_factory = yes
 }

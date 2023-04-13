@@ -3,5 +3,5 @@ controller = SPA
 add_core = SPA
 trade_goods = spices
 life_rating = 35
-terrain = hilly_farmland
+terrain = hilly_grassland
 1861.1.1 = { railroad = 3 }

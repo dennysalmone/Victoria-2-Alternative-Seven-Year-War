@@ -6,4 +6,4 @@ add_core = VOJ
 add_core = HUN
 trade_goods = grain
 terrain = good_farmland
-life_rating = 36
+life_rating = 35

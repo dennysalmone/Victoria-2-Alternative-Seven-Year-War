@@ -4,5 +4,5 @@ add_core = BOH
 add_core = AUS
 trade_goods = coal
 life_rating = 35
-terrain = deciduous_forest_hills
+terrain = hilly_grassland
 1861.1.1 = { railroad = 3 }

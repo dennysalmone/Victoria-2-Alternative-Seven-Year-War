@@ -1,0 +1,19 @@
+owner = VR2
+controller = VR2
+add_core = VR2
+add_core = PEU
+trade_goods = sulphur
+life_rating = 35
+terrain = semi_desert_mountains
+colonial = 1
+1836.1.1 = {
+	add_core = SPU
+	owner = SPU
+	controller = SPU
+	colonial = 0
+}
+1861.1.1 = {
+	owner = PEU
+	controller = PEU
+	remove_core = SPU
+}

@@ -1,0 +1,12 @@
+owner = VR3
+controller = VR3
+add_core = VR3
+add_core = GCO
+add_core = VNZ
+trade_goods = cattle
+life_rating = 30
+terrain = forested_farmland
+1836.1.1 = {
+	owner = VNZ
+	controller = VNZ
+}

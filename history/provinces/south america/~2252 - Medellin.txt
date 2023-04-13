@@ -1,0 +1,12 @@
+owner = VR3
+controller = VR3
+add_core = VR3
+add_core = GCO
+add_core = CLM
+trade_goods = horses
+life_rating = 30
+terrain = jungle_hills
+1836.1.1 = {
+	owner = CLM
+	controller = CLM
+}

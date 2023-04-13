@@ -69,8 +69,6 @@ land_province = {
 	supply_limit = 1
 }
 
-
-
 blockaded = {
 	import_cost = 2.5
 }
@@ -98,8 +96,6 @@ occupied = {
 	immigrant_attract = -0.95
 }
 
-
-
 nationalism = {
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.005
@@ -111,7 +107,7 @@ infrastructure = {
 	immigrant_push = 1.0
 	immigrant_attract = 0.5
 	farm_rgo_size = -0.1
-	mibe_rgo_size = -0.1
+	mine_rgo_size = -0.1
 	movement_cost = -0.30
 	supply_limit = 15
 }

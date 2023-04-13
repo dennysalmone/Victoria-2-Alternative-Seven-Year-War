@@ -1,0 +1,6 @@
+add_core = CHL
+add_core = PTG
+trade_goods = wool
+life_rating = 20
+terrain = conifer_forest_mountains
+naval_base = 1

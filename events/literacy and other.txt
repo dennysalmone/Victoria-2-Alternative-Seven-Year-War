@@ -628,10 +628,10 @@ country_event= {
 		any_country = { any_pop = { limit = { religion = sikh OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen } } literacy = 0.108 } }
 		any_country = { any_pop = { limit = { OR = { religion = shiite religion = theravada religion = gelugpa religion = mahayana religion = hindu } OR = { type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } } literacy = 0.021 } }
 		any_country = { any_pop = { limit = { OR = { type = artisans type = aristocrats type = craftsmen type = bureaucrats type = clergymen type = officers } culture = yankee } literacy = 0.101 money = 120 } }
-		any_country = { any_pop = { limit = { type = aristocrats } literacy = 0.041 money = 2000 } }
-		any_country = { any_pop = { limit = { type = artisans } literacy = 0.045 money = 30 } }
-		any_country = { any_pop = { limit = { type = bureaucrats } literacy = 0.056 money = 200 } }
-		any_country = { any_pop = { limit = { type = capitalists } literacy = 0.106 money = 2500 } }
+		any_country = { any_pop = { limit = { type = aristocrats } literacy = 0.041 money = 70000 } }
+		any_country = { any_pop = { limit = { type = artisans } literacy = 0.045 money = 35000 } }
+		any_country = { any_pop = { limit = { type = bureaucrats } literacy = 0.056 money = 1500 } }
+		any_country = { any_pop = { limit = { type = capitalists } literacy = 0.106 money = 150000 } }
 		any_country = { any_pop = { limit = { type = clergymen } literacy = 0.051 } }
 		any_country = { any_pop = { limit = { type = farmers } literacy = -0.011 } }
 		any_country = { any_pop = { limit = { type = labourers } literacy = -0.005 } }

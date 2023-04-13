@@ -2,7 +2,7 @@ owner = SWI
 controller = SWI
 add_core = SWI
 trade_goods = iron
-life_rating = 36
-terrain = mountain_valley
+life_rating = 35
+terrain = hilly_grassland
 fort = 1
 1861.1.1 = { railroad = 1 }
