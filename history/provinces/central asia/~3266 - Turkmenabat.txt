@@ -1,6 +1,0 @@
-owner = TKM
-controller = TKM
-add_core = TKM
-trade_goods = cattle
-life_rating = 15
-terrain = hilly_grassland

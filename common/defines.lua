@@ -7,7 +7,7 @@ country = {
 	YEARS_OF_NATIONALISM 	= 10,   -- Years of Nationalism
 	MONTHS_UNTIL_BROKEN 		= 3,    -- OBSOLETE! (Months until rebel held capital results in broken country.)
 	REBEL_ACCEPTANCE_MONTHS = 60,
-	BASE_COUNTRY_TAX_EFFICIENCY = 0.35, -- Basic efficiency for taxes without 'crats and tech
+	BASE_COUNTRY_TAX_EFFICIENCY = 0.3, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
 	GOLD_TO_CASH_RATE = 1, -- Amount of money generated per gold unit
 	GOLD_TO_WORKER_PAY_RATE = 3, -- Multiplier for how much money gold pays to pops
@@ -105,7 +105,7 @@ economy = {
 	GUNBOAT_FLEET_SIZE_FACTOR = 100,
 	PROVINCE_SIZE_DIVIDER = 50,
 	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.65, -- Capis don't build factories if less than this percent is employed in existing factories
-	GOODS_FOCUS_SWAP_CHANCE = 5, -- Percent increased chance that artisan wants to change goods independently of how well he is doing presently
+	GOODS_FOCUS_SWAP_CHANCE = 0, -- Percent increased chance that artisan wants to change goods independently of how well he is doing presently
 	NUM_CLOSED_FACTORIES_PER_STATE_LASSIEZ_FAIRE = 1, -- Number of closed factories allowed per state under Laissez Faire
 	MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE = 1, -- Min number of factories per state before starting to delete under Laissez Faire
 	BANKRUPCY_DURATION = 2, -- Years til a bankruptcy clears all loans
@@ -612,9 +612,9 @@ diplomacy = {
     
 
 pops = {
-	BASE_CLERGY_FOR_LITERACY = 0.0075, 
-	MAX_CLERGY_FOR_LITERACY = 0.02, 
-	LITERACY_CHANGE_SPEED = 0.015,
+	BASE_CLERGY_FOR_LITERACY = 0.005, 
+	MAX_CLERGY_FOR_LITERACY = 0.025, 
+	LITERACY_CHANGE_SPEED = 0.010,
 
 	ASSIMILATION_SCALE = 0.005,
 	CONVERSION_SCALE = 0.005,
@@ -624,9 +624,9 @@ pops = {
 	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 1.0,
-	BASE_POPGROWTH = 0.00025,
-	MIN_LIFE_RATING_FOR_GROWTH = 20,
-	LIFE_RATING_GROWTH_BONUS = 0.00004,
+	BASE_POPGROWTH = 0.0005,
+	MIN_LIFE_RATING_FOR_GROWTH = 22,
+	LIFE_RATING_GROWTH_BONUS = 0.00005,
 	LIFE_NEED_STARVATION_LIMIT = 0.5,
 
 	MIL_LACK_EVERYDAY_NEED = 0.05,
@@ -686,10 +686,10 @@ pops = {
 
 ai = {
 	COLONY_WEIGHT = 4.2, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 15, -- ai weight for new bureaucrat
-	INDUSTRYWORKER_WEIGHT = 14, -- ai weight for new industry workers
+	ADMINISTRATOR_WEIGHT = 12, -- ai weight for new bureaucrat
+	INDUSTRYWORKER_WEIGHT = 15, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 25, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 32, -- ai weight for soldiers
+	SOLDIER_WEIGHT = 35, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.008, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 0.2, -- ai weight for new production

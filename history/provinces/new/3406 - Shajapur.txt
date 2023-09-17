@@ -2,6 +2,6 @@ owner = BHO
 controller = BHO
 add_core = BHO
 add_core = HND
-trade_goods = grain
+trade_goods = opium
 life_rating = 35
 terrain = dry_grassland

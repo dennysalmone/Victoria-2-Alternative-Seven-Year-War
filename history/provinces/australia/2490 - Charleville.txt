@@ -1,4 +1,4 @@
-add_core = AST
+add_core = NHO
 trade_goods = cattle
 life_rating = 15
 terrain = semi_desert

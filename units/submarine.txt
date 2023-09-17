@@ -26,10 +26,10 @@ submarine = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 1
-		gunpowder = 0.02
-		coal = 0.5
-		machine_parts = 0.2
+		steamer_convoy = 2
+		gunpowder = 0.1
+		coal = 1
+		machine_parts = 0.5
 	}
 	
 	#Naval Abilties

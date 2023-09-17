@@ -218,7 +218,6 @@ dismantle_cb_add = {
 		}
 		civilized = yes
 		is_disarmed = no
-		is_vassal = no
 		war_with = THIS
 		THIS = {
 			NOT = { has_country_modifier = neutrality }
@@ -280,7 +279,6 @@ dismantle_cb_add_new = {
 		NOT = { has_country_modifier = neutrality }
 		is_greater_power = yes		
 		is_disarmed = no
-		is_vassal = no
 		war_with = THIS
 		THIS = {
 			NOT = { has_country_modifier = neutrality }
@@ -1357,7 +1355,6 @@ add_to_sphere = {
 		NOT = { is_our_vassal = THIS }
 		THIS = { is_greater_power = yes }
 		is_greater_power = no
-		is_vassal = no
 		part_of_sphere = no
 		NOT = { has_country_modifier = neutrality }
 		THIS = {
@@ -1507,7 +1504,6 @@ unification_GP_humiliate = {
 			}
 		}
 		NOT = { has_country_modifier = neutrality }
-		is_vassal = no
 		OR = {
 			war_with = THIS
 			THIS = {
@@ -1631,7 +1627,6 @@ unification_add_to_sphere = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
-		is_vassal = no
 		part_of_sphere = no
 		culture_has_union_tag = yes
 		is_culture_group = THIS
@@ -2730,7 +2725,6 @@ oriental_crisis = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
 		number_of_states = 2
 		tag = EGY
 		civilized = no
@@ -2997,7 +2991,6 @@ cut_down_to_size = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
 		is_disarmed = no
 		NOT = { has_country_modifier = neutrality }
 		THIS = {
@@ -3089,7 +3082,6 @@ great_game_cb = {
 	war_name = WAR_PUPPET_NAME
 	
 	can_use = {
-		is_vassal = no
 		civilized = no
 		NOT = {
 			has_global_flag = british_dismantled
@@ -3300,7 +3292,6 @@ humiliate = {
 				is_greater_power = no
 			}
 		}
-		is_vassal = no
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
@@ -3838,7 +3829,6 @@ sahel_jihad_cb = {
 	good_relation_militancy_factor = 0
 
 	can_use = {
-		is_vassal = no
 		civilized = no
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {

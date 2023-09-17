@@ -2,6 +2,6 @@ owner = VR1
 controller = VR1
 add_core = VR1
 add_core = ARG
-trade_goods = wool
+trade_goods = iron
 life_rating = 15
 terrain = desert_mountains

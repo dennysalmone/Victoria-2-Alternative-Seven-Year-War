@@ -3,6 +3,6 @@ controller = VR1
 add_core = VR1
 add_core = ARG
 trade_goods = cattle
-life_rating = 40
+life_rating = 45
 terrain = good_farmland
 1861.1.1 = { railroad = 1 }

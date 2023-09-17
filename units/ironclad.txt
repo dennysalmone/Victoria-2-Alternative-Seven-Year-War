@@ -27,10 +27,10 @@ ironclad = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 6
-		explosives = 1.5
-		coal = 1
-		machine_parts = 0.2
+		steamer_convoy = 12
+		explosives = 3
+		coal = 2
+		machine_parts = 0.5
 	}
 	
 	#Naval Abilties

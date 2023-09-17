@@ -23,10 +23,10 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.7
-		gunpowder = 0.2
-		bronze = 0.2
-		coal = 0.5
+		clipper_convoy = 1.5
+		gunpowder = 0.4
+		bronze = 0.4
+		coal = 1
 	}
 	
 

@@ -33,11 +33,11 @@ battleship = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 20
-		artillery = 6
-		telephones = 6
-		fuel = 8
-		motors = 4
+		steamer_convoy = 40
+		artillery = 12
+		telephones = 12
+		fuel = 16
+		motors = 8
 	}
 	
 	#Naval Abilties

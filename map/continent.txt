@@ -35,8 +35,7 @@ europe = {
 		3575 3576 3577 3578 3579 3580 
 	}
 	assimilation_rate = -0.25 
-	local_artisan_output = 0.1
-} 
+}
 
 asia = {
 	provinces = {
@@ -84,7 +83,6 @@ asia = {
 	assimilation_rate = -0.5
 	farm_rgo_size = 0.5
 	mine_rgo_size = 0.5
-	local_artisan_output = 0.1
 }
 
 africa = {
@@ -112,9 +110,8 @@ africa = {
 		2581 2609 2624 2635 3277 3375 1755 3402 3403 3404 3401 3405 3428 3429 3430 3395 3396 3397 3398 3399 3400 3470 3468
 	}
 	assimilation_rate = -0.5
-	farm_rgo_size = 1.0
-	mine_rgo_size = 1.0
-	local_artisan_output = 0.1
+	farm_rgo_size = 0.75
+	mine_rgo_size = 0.75
 }
 
 north_america = {
@@ -139,9 +136,6 @@ north_america = {
 	}
 	farm_rgo_size = 1.5
 	mine_rgo_size = 1.5
-	farm_rgo_eff = 0.15
-	mine_rgo_eff = 0.15
-	local_artisan_output = 0.1
 }
 
 south_america = {
@@ -159,11 +153,8 @@ south_america = {
 		2532 2549 2550 2554 2578 2600 3285 3296 3376 3526 3527 3528 3529 3530 3531 3532 3533 3534 3535 3536 3537 3538 3539
 		3540 3541 3542 3543 3544 3545 3546 3547 3549 3550 3552 3553 3554 3561
 	}
-	farm_rgo_size = 1.2
-	mine_rgo_size = 1.2
-	farm_rgo_eff = 0.15
-	mine_rgo_eff = 0.15
-	local_artisan_output = 0.1
+	farm_rgo_size = 1.0
+	mine_rgo_size = 1.0
 }
 
 oceania = {
@@ -179,7 +170,4 @@ oceania = {
 	}
 	farm_rgo_size = 0.25
 	mine_rgo_size = 0.25
-	farm_rgo_eff = 0.15
-	mine_rgo_eff = 0.15
-	local_artisan_output = 0.1
 }

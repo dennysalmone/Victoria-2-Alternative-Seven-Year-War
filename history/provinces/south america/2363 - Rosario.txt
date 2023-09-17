@@ -4,4 +4,4 @@ add_core = VR1
 add_core = ARG
 trade_goods = cattle
 life_rating = 35
-terrain = temperate_grassland
+terrain = good_farmland

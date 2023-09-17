@@ -1,4 +1,5 @@
-add_core = AST
+add_core = NHO
+
 trade_goods = iron
 life_rating = 25
 terrain = semi_desert

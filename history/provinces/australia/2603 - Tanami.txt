@@ -1,4 +1,5 @@
-add_core = AST
+add_core = NHO
+
 trade_goods = other_minerals
 life_rating = 5
 terrain = desert

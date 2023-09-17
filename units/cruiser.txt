@@ -26,11 +26,11 @@ cruiser = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 9
-		artillery = 2
-		motors = 5
-		fuel = 4
-		ammunition = 1
+		steamer_convoy = 18
+		artillery = 4
+		motors = 10
+		fuel = 8
+		ammunition = 2
 	}
 	
 	#Naval Abilties

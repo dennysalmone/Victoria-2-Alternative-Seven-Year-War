@@ -1,4 +1,4 @@
 add_core = DND
-trade_goods = cattle
+trade_goods = sulphur
 life_rating = 10
 terrain = desert

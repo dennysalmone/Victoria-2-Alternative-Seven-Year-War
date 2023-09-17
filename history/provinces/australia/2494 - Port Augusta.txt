@@ -1,4 +1,5 @@
-add_core = AST
+add_core = NHO
+
 trade_goods = fruit
 life_rating = 30
 terrain = dry_grassland

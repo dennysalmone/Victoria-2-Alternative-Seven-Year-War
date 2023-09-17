@@ -79,7 +79,7 @@ no_adjacent_controlled = {
 
 
 core = {
-	supply_limit = 2
+	supply_limit = 3
 	assimilation_rate = 0.05
 }
 
@@ -102,14 +102,14 @@ nationalism = {
 }
 
 infrastructure = {
-	local_factory_throughput = 1.25		#each % of infra boost throughput 1%
-	local_rgo_throughput = 1.25			#each % of infra boost throughput 1%
+	local_factory_throughput = 1.0		#each % of infra boost throughput 1%
+	local_rgo_throughput = 1.0			#each % of infra boost throughput 1%
 	immigrant_push = 1.0
 	immigrant_attract = 0.5
-	farm_rgo_size = -0.1
-	mine_rgo_size = -0.1
+	farm_rgo_size = -0.15 
+	mine_rgo_size = -0.15
 	movement_cost = -0.30
-	supply_limit = 15
+	supply_limit = 20
 }
 
 ##########################################################################
@@ -126,6 +126,8 @@ war = {
 	badboy = -0.1
 	global_pop_consciousness_modifier = -0.03
 	war_exhaustion = -0.1
+	army_tech_research_bonus = 0.10
+	navy_tech_research_bonus = 0.10
 }
 
 peace = {

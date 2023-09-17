@@ -1,5 +1,4 @@
-
-add_core = KAM
+add_core = NHO
 trade_goods = coal
 life_rating = 35
 terrain = temperate_grassland

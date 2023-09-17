@@ -1,3 +1,4 @@
+add_core = NHO
 trade_goods = grain
 life_rating = 30
 terrain = hilly_grassland

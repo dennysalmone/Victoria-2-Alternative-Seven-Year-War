@@ -26,10 +26,10 @@ commerce_raider = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 1
-		gunpowder = 0.05
-		coal = 0.5
-		machine_parts = 0.2
+		steamer_convoy = 2
+		gunpowder = 0.1
+		coal = 1
+		machine_parts = 0.4
 	}
 	
 	#Naval Abilties

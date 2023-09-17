@@ -2,5 +2,5 @@ owner = FRA
 controller = FRA
 trade_goods = sugar
 life_rating = 35
-terrain = insular
+terrain = caribbean_island
 colonial = 1

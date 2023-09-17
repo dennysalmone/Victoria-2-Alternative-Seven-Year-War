@@ -2,6 +2,6 @@ controller = TAJ
 owner = TAJ
 add_core = TAJ
 add_core = PAM
-trade_goods = cattle
+trade_goods = wool
 life_rating = 20
 terrain = tundra_mountains

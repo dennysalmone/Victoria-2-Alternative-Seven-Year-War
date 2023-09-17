@@ -23,9 +23,9 @@ clipper_transport = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 1.1
-		coal = 0.5
-		}
+		clipper_convoy = 2
+		coal = 1
+	}
 	
 
 	#Naval Abilties

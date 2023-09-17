@@ -54,7 +54,7 @@ machine_politics = {
 
 mafia = {
 	active = yes
-	immigrant_push = 2.00
+	immigrant_push = 5
 	local_factory_output = -0.10
 	poor_income_modifier = -0.10
 	icon = 5	
@@ -100,7 +100,7 @@ terrorist_cells = {
 	local_ruling_party_support = -0.65
 	pop_consciousness_modifier = 0.05
 	pop_militancy_modifier = 0.4
-	immigrant_push = 2
+	immigrant_push = 5
 	icon = 8	
 
 	trigger = {

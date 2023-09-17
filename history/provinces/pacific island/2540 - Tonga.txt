@@ -1,4 +1,4 @@
 add_core = TGA
-trade_goods = grain
+trade_goods = spices
 life_rating = 15
 terrain = insular

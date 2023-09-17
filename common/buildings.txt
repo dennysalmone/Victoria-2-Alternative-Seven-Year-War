@@ -1366,17 +1366,17 @@ administration = {
 	cost = 1000
 	goods_cost =
 	{
-		steel = 250
-		lumber = 130
-		cement = 120
-		paper = 150
+		machine_parts = 25
+		steel = 500
+		cement = 250
 	}
-	time = 365
+	time = 1080
 	visibility = no
-	middle_income_modifier = 50
+	local_factory_input = -0.01
 	onmap = no
 	max_level = 6
 	province = yes
+	pop_build_factory = yes
 }
 
 city_center = {
@@ -1384,14 +1384,15 @@ city_center = {
 	cost = 1000
 	goods_cost =
 	{
-		steel = 5
+		machine_parts = 25
+		steel = 500
+		cement = 250
 	}
-
-	time = 5
+	time = 1080
 	visibility = no
 	onmap = no
 	max_level = 6
-	middle_income_modifier = 50
+	local_RGO_output = 0.1
 	province = yes
 	pop_build_factory = yes
 }
