@@ -21,6 +21,11 @@ IRQ = {
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
+CIR = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
 KDS = {
 	value = -50		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
@@ -125,21 +130,21 @@ regiment = {
 
 	
 regiment = {
-		name= "1. Piyade Tümeni"
+		name= "1. Piyade Tï¿½meni"
 		type = regular
 		home = 809
 	}
 
 	
 regiment = {
-		name= "2. Piyade Tümeni"
+		name= "2. Piyade Tï¿½meni"
 		type = regular
 		home = 809
 	}
 
 	
 regiment = {
-		name= "3. Piyade Tümeni"
+		name= "3. Piyade Tï¿½meni"
 		type = regular
 		home = 809
 	}
@@ -167,21 +172,21 @@ regiment = {
 	
 	
 regiment = {
-		name= "9. Piyade Tümeni"
+		name= "9. Piyade Tï¿½meni"
 		type = regular
 		home = 805
 	}
 
 	
 regiment = {
-		name= "10. Piyade Tümeni"
+		name= "10. Piyade Tï¿½meni"
 		type = regular
 		home = 882
 	}
 
 	
 regiment = {
-		name= "11. Piyade Tümeni"
+		name= "11. Piyade Tï¿½meni"
 		type = regular
 		home = 882
 	}
@@ -215,21 +220,21 @@ regiment = {
 	
 	
 regiment = {
-		name= "12. Piyade Tümeni"
+		name= "12. Piyade Tï¿½meni"
 		type = regular
 		home = 860
 	}
 
 	
 regiment = {
-		name= "13. Piyade Tümeni"
+		name= "13. Piyade Tï¿½meni"
 		type = regular
 		home = 860
 	}
 	
 	
 regiment = {
-		name= "14. Piyade Tümeni"
+		name= "14. Piyade Tï¿½meni"
 		type = regular
 		home = 894
 	}
@@ -279,14 +284,14 @@ army = {
 	location = 1733
 	
 regiment = {
-		name= "1. Askäris"
+		name= "1. Askï¿½ris"
 			type = infantry
 			home = 880
 	}
 	
 	
 regiment = {
-		name= "2. Askäris"
+		name= "2. Askï¿½ris"
 			type = infantry
 			home = 885
 	}

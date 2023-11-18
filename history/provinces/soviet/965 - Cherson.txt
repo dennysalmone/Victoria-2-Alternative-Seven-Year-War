@@ -1,6 +1,7 @@
 owner = CRI
 controller = CRI
 add_core = CRI
+add_core = ZAP
 trade_goods = wool
 life_rating = 30
 terrain = semi_desert

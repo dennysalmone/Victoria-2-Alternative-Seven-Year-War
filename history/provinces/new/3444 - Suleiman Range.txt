@@ -1,8 +1,0 @@
-owner = WAZ
-controller = WAZ
-add_core = WAZ
-add_core = AFG
-add_core = HND
-trade_goods = grain
-life_rating = 30
-terrain = semi_desert_mountains

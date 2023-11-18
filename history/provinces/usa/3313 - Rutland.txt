@@ -1,0 +1,9 @@
+owner = NWK
+controller = NWK
+add_core = NWK
+add_core = NHP
+add_core = VER
+add_core = USA
+trade_goods = grain
+life_rating = 35
+terrain = deciduous_forest

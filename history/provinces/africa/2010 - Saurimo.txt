@@ -1,5 +1,5 @@
 add_core = LUN
 trade_goods = other_minerals
-life_rating = 15
+life_rating = 10
 terrain = seasonal_jungle
 colonial = 1

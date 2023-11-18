@@ -1,8 +1,0 @@
-owner = PNJ
-controller = PNJ
-add_core = BUN
-add_core = HND
-trade_goods = tea
-life_rating = 35
-terrain = floodplain_farmland
-colonial = 1

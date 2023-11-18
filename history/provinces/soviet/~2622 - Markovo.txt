@@ -1,6 +1,0 @@
-
-add_core = KAM
-trade_goods = coal
-life_rating = 35
-terrain = temperate_grassland
-colonial = 1

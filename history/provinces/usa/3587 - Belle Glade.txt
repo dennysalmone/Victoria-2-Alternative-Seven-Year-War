@@ -2,6 +2,6 @@ owner = SPA
 controller = SPA
 add_core = FLO
 trade_goods = tobacco
-life_rating = 20
+life_rating = 25
 terrain = marsh
 colonial = 1

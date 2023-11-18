@@ -2,5 +2,5 @@ owner = MAD
 controller = MAD
 add_core = MAD
 trade_goods = spices
-life_rating = 15
+life_rating = 25
 terrain = forested_farmland

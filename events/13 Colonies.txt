@@ -13,7 +13,7 @@ country_event = {
 		OR = {
 			moralism = 10
 			jingoism = 15
-			year = 1853
+			year = 1850
 			ruling_party_ideology = reactionary
 		}
 	}
@@ -29,7 +29,7 @@ country_event = {
 		modifier = { factor = 0.25 moralism = 20 }
 	}
 	option = {
-		name = "Give them authonony"
+		name = "Give them autonomy"
 		3522 = {
 			remove_core = NWK
 			remove_core = NHP
@@ -46,7 +46,7 @@ country_event = {
 		234 = { any_pop = { limit = { religion = mormon } reduce_pop = 1.5 move_pop = 3522 } }
 
 		ai_chance = {
-			factor = 25
+			factor = 5
 			modifier = {
 				factor = 2
 				ruling_party_ideology = liberal
@@ -69,9 +69,12 @@ country_event = {
 			militancy = 8
 			}
 		}
-		LOU = {
-			country_event = 20220002
-	 	}	
+		random_country = {
+			limit = {
+				owns = 97
+			}
+			country_event = 20220003
+		}
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -126,12 +129,6 @@ country_event = {
 
 	option = {
 		name = "Not this time"
-		random_country = {
-			limit = {
-				owns = 97
-			}
-			country_event = 20220003
-		}
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -216,6 +213,9 @@ country_event = {
 
 	option = {
 		name = "Not this time"
+		LOU = {
+			country_event = 20220002
+	 	}
 		ai_chance = {
 			factor = 2
 			modifier = {

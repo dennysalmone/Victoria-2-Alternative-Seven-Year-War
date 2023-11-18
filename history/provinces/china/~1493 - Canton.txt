@@ -1,0 +1,11 @@
+owner = QNG
+controller = QNG
+add_core = CHI
+add_core = GNG
+trade_goods = grain
+life_rating = 40
+terrain = good_farmland
+fort = 1
+1861.1.1 = { 
+	naval_base = 1 
+}

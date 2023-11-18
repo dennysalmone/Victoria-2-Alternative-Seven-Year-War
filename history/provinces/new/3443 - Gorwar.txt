@@ -1,7 +1,0 @@
-owner = JOD
-controller = JOD
-add_core = JOD
-add_core = HND
-trade_goods = dye
-life_rating = 25
-terrain = semi_desert

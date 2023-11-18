@@ -342,17 +342,17 @@ migration_target =
 
 	modifier = { factor = 0.50 THIS = { is_primary_culture = yes } is_primary_culture = no continent = europe NOT = { any_core = { is_primary_culture = THIS } } }
 	modifier = { factor = 0.75 state_scope = { is_slave = yes } }
-	modifier = { factor = 1.25 poor_strata_everyday_needs = 0.1 trade_goods = precious_metal NOT = { unemployment_by_type = { value = 0.01 type = labourers } } }		
-	modifier = { factor = 1.50 poor_strata_everyday_needs = 0.1 trade_goods = oil NOT = { unemployment_by_type = { value = 0.01 type = labourers } } }		
-	modifier = { factor = 0.85 pop_unemployment = { value = 0.02 type = THIS } }
-	modifier = { factor = 0.85 pop_unemployment = { value = 0.04 type = THIS } }
-	modifier = { factor = 0.85 pop_unemployment = { value = 0.06 type = THIS } }
-	modifier = { factor = 0.85 pop_unemployment = { value = 0.08 type = THIS } }
-	modifier = { factor = 0.85 pop_unemployment = { value = 0.10 type = THIS } }	
-	modifier = { factor = 0.85 pop_unemployment = { value = 0.12 type = THIS } }
-	modifier = { factor = 0.50 pop_unemployment = { value = 0.14 type = THIS } }	
-	modifier = { factor = 0.50 pop_unemployment = { value = 0.16 type = THIS } }
-	modifier = { factor = 0.10 pop_unemployment = { value = 0.18 type = THIS } }	
+	modifier = { factor = 4.00 poor_strata_everyday_needs = 0.1 trade_goods = precious_metal NOT = { unemployment_by_type = { value = 0.01 type = labourers } } }		
+	modifier = { factor = 4.00 poor_strata_everyday_needs = 0.1 trade_goods = oil NOT = { unemployment_by_type = { value = 0.01 type = labourers } } }	
+	modifier = { factor = 0.75 pop_unemployment = { value = 0.02 type = THIS } }
+	modifier = { factor = 0.75 pop_unemployment = { value = 0.04 type = THIS } }
+	modifier = { factor = 0.75 pop_unemployment = { value = 0.06 type = THIS } }
+	modifier = { factor = 0.75 pop_unemployment = { value = 0.08 type = THIS } }
+	modifier = { factor = 0.75 pop_unemployment = { value = 0.10 type = THIS } }	
+	modifier = { factor = 0.75 pop_unemployment = { value = 0.12 type = THIS } }
+	modifier = { factor = 0.25 pop_unemployment = { value = 0.14 type = THIS } }	
+	modifier = { factor = 0.25 pop_unemployment = { value = 0.16 type = THIS } }
+	modifier = { factor = 0.01 pop_unemployment = { value = 0.18 type = THIS } }	
 	modifier = { factor = 1.25 any_core = { is_primary_culture = THIS } }
 
 	modifier = { factor = 1.25 poor_strata_luxury_needs = 0.2 }
@@ -383,17 +383,18 @@ migration_target =
 	modifier = { factor = 0.60 total_pops = 35000 NOT = { life_rating = 26 } }
 	modifier = { factor = 0.70 total_pops = 60000 NOT = { life_rating = 31 } }
 
-	modifier = { factor = 0.35 NOT = { life_rating = 10 } }
-	modifier = { factor = 0.50 NOT = { life_rating = 15 } }
-	modifier = { factor = 0.65 NOT = { life_rating = 20 } }
-	modifier = { factor = 0.85 NOT = { life_rating = 25 } }
-	modifier = { factor = 0.85 NOT = { life_rating = 30 } }
-	modifier = { factor = 1.15 life_rating = 33 }
-	modifier = { factor = 1.15 life_rating = 36 }
-	modifier = { factor = 1.25 life_rating = 39 }
-	modifier = { factor = 1.75 life_rating = 42 }
-	modifier = { factor = 3.00 life_rating = 45 }
-	modifier = { factor = 3.00 life_rating = 48 }
+
+	modifier = { factor = 0.25 NOT = { life_rating = 10 } }
+	modifier = { factor = 0.25 NOT = { life_rating = 15 } }
+	modifier = { factor = 0.25 NOT = { life_rating = 20 } }
+	modifier = { factor = 0.75 NOT = { life_rating = 25 } }
+	modifier = { factor = 0.75 NOT = { life_rating = 30 } }
+	modifier = { factor = 1.25 life_rating = 33 }
+	modifier = { factor = 1.50 life_rating = 36 }
+	modifier = { factor = 2.50 life_rating = 39 }
+	modifier = { factor = 3.50 life_rating = 42 }
+	modifier = { factor = 5.00 life_rating = 45 }
+	modifier = { factor = 5.00 life_rating = 48 }
 
 	modifier = { factor = 1.50 is_colonial = no total_pops = 30000 }
 	modifier = { factor = 1.50 is_colonial = no total_pops = 60000 }

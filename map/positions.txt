@@ -123440,3 +123440,94 @@
     text_rotation = 0.445712
     text_scale = 2.9
 }
+
+3591  = {
+    text_scale = 2.9
+}
+3592  = {
+    text_scale = 2.9
+}
+3593  = {
+    text_scale = 2.9
+}
+3594  = {
+    text_scale = 2.9
+}
+3595  = {
+    text_scale = 2.9
+}
+3596  = {
+    text_scale = 2.9
+}
+3597  = {
+    text_scale = 2.9
+}
+3598  = {
+    text_scale = 2.9
+}
+3599  = {
+    text_scale = 2.9
+}
+3600  = {
+    text_scale = 2.9
+}
+3601  = {
+    text_scale = 2.9
+}
+3602  = {
+    text_scale = 2.9
+}
+3603  = {
+    text_scale = 2.9
+}
+3604  = {
+    text_scale = 2.9
+}
+3605  = {
+    text_scale = 2.9
+}
+3606  = {
+    text_scale = 2.9
+}
+3607  = {
+    text_scale = 2.9
+}
+3608  = {
+    text_scale = 2.9
+}
+3609  = {
+    text_scale = 2.9
+}
+3610  = {
+    text_scale = 2.9
+}
+3611  = {
+    text_scale = 2.9
+}
+3612  = {
+    text_scale = 2.9
+}
+3613  = {
+    text_scale = 2.9
+}
+3614  = {
+    text_scale = 2.9
+}
+3615  = {
+    text_scale = 2.9
+}
+3616  = {
+    text_scale = 2.9
+}
+3617  = {
+    text_scale = 2.9
+}
+3618  = {
+    text_scale = 2.9
+}
+3619  = {
+    text_scale = 2.9
+}
+3620  = {
+    text_scale = 2.9
+}

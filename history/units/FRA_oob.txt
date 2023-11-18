@@ -1,16 +1,5 @@
 #Sphere of Influence
 
-#Europe
-BEL = {
-	value = 125		#relation
-	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
-}
-PAP = {
-	value = 125		#relation
-	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
-}
 SIC = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
@@ -34,50 +23,33 @@ GRE = {
 
 #Africa
 EGY = {
-	value = 75		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
-MOR = {
-	value = 200		#relation
-	level = 4		#3=cordial, 4 = friendly, 5 sphere
+
+#India
+BAS = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
-ALD = {
-	value = -100
-	level = 1
+HYD = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
-ASH = {
-	value = 75
+MAH = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
-BEN = {
-	value = 60
+MYS = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
-DAH = {
-	value = 65
-}
-OYO = {
-	value = 40
-}
-ARO = {
-	value = 35
-}
-CLA = {
-	value = 65
-}
-WRI = {
-	value = 60
-}
-KON = {
-	value = 40
-}
-TOO = {
-	value = 50
-}
-WOL = {
-	value = 55
-}
+
 
 #Other GP's
 SPA = {
@@ -145,90 +117,90 @@ regiment = {
 
 
 army = {
-	name = "1ère Armée"
+	name = "1ï¿½re Armï¿½e"
 	location = 438
 	
 regiment = {
-		name= "1.1ère Division d'Infanterie"
+		name= "1.1ï¿½re Division d'Infanterie"
 		type = regular
 		home = 425
 	}
 
 	
 regiment = {
-		name= "2.1ère Division d'Infanterie"
+		name= "2.1ï¿½re Division d'Infanterie"
 		type = regular
 		home = 425
 	}
 
 	
 regiment = {
-		name= "3.1ère Division d'Infanterie"
+		name= "3.1ï¿½re Division d'Infanterie"
 		type = regular
 		home = 418
 	}
 
 	
 regiment = {
-		name= "1.2ème Division d'Infanterie"
+		name= "1.2ï¿½me Division d'Infanterie"
 		type = regular
 		home = 418
 	}
 
 	
 regiment = {
-		name= "5.2ème Division d'Infanterie"
+		name= "5.2ï¿½me Division d'Infanterie"
 		type = regular
 		home = 418
 	}
 
 regiment = {
-		name= "4.3ème Division d'Infanterie"
+		name= "4.3ï¿½me Division d'Infanterie"
 		type = regular
 		home = 418
 	}	
 	
 regiment = {
-		name= "2.2ème Division d'Infanterie"
+		name= "2.2ï¿½me Division d'Infanterie"
 		type = regular
 		home = 418
 	}
 	
 regiment = {
-		name= "3.2ème Division d'Infanterie"
-		type = regular
-		home = 418
-	}
-
-	
-regiment = {
-		name= "1.3ème Division d'Infanterie"
+		name= "3.2ï¿½me Division d'Infanterie"
 		type = regular
 		home = 418
 	}
 
 	
 regiment = {
-		name= "2.3ème Division d'Infanterie"
+		name= "1.3ï¿½me Division d'Infanterie"
 		type = regular
 		home = 418
 	}
 
 	
 regiment = {
-		name= "3.3ème Division d'Infanterie"
+		name= "2.3ï¿½me Division d'Infanterie"
+		type = regular
+		home = 418
+	}
+
+	
+regiment = {
+		name= "3.3ï¿½me Division d'Infanterie"
 		type = regular
 		home = 451
 	}
 
 regiment = {
-		name= "4.3ème Division d'artillerie"
+		name= "4.3ï¿½me Division d'artillerie"
 		type = artillery
 		home = 399
 	}
 	
 regiment = {
-		name= "5.3ème Division d'artillerie"
+		name= "5.3ï¿½me Division d'artillerie"
 		type = artillery
 		home = 399
 	}
@@ -279,67 +251,67 @@ regiment = {
 
 
 army = {
-	name = "Armée d'Algerie"
+	name = "Armï¿½e d'Algerie"
 	location = 1700
 	
 regiment = {
-		name= "1.4ème Division d'Infanterie"
+		name= "1.4ï¿½me Division d'Infanterie"
 		type = regular
 		home = 451
 	}
 
 	
 regiment = {
-		name= "2.4ème Division d'Infanterie"
+		name= "2.4ï¿½me Division d'Infanterie"
 		type = regular
 		home = 467
 	}
 
 	
 regiment = {
-		name= "3.4ème Division d'Infanterie"
+		name= "3.4ï¿½me Division d'Infanterie"
 		type = regular
 		home = 467
 	}
 
 	
 regiment = {
-		name= "1.5ème Division d'Infanterie"
+		name= "1.5ï¿½me Division d'Infanterie"
 		type = regular
 		home = 467
 	}
 
 	
 regiment = {
-		name= "2.5ème Division d'Infanterie"
+		name= "2.5ï¿½me Division d'Infanterie"
 		type = regular
 		home = 467
 	}
 
 	
 regiment = {
-		name= "3.5ème Division d'Infanterie"
+		name= "3.5ï¿½me Division d'Infanterie"
 		type = regular
 		home = 467
 	}
 
 	
 regiment = {
-		name= "1.6ème Division d'Infanterie"
+		name= "1.6ï¿½me Division d'Infanterie"
 		type = regular
 		home = 461
 	}
 
 	
 regiment = {
-		name= "2.6ème Division d'Infanterie"
+		name= "2.6ï¿½me Division d'Infanterie"
 		type = artillery
 		home = 461
 	}
 
 	
 regiment = {
-		name= "3.6ème Division d'Infanterie"
+		name= "3.6ï¿½me Division d'Infanterie"
 		type = artillery
 		home = 461
 	}
@@ -347,25 +319,25 @@ regiment = {
 
 
 army = {
-	name = "7ème Division d'Infanterie"
+	name = "7ï¿½me Division d'Infanterie"
 	location = 1701
 	
 regiment = {
-		name= "1.7ème Division d'Infanterie"
+		name= "1.7ï¿½me Division d'Infanterie"
 		type = dragoon
 		home = 461
 	}
 
 	
 regiment = {
-		name= "2.7ème Division d'Infanterie"
+		name= "2.7ï¿½me Division d'Infanterie"
 		type = dragoon
 		home = 455
 	}
 
 	
 regiment = {
-		name= "3.7ème Division d'Infanterie"
+		name= "3.7ï¿½me Division d'Infanterie"
 		type = dragoon
 		home = 455
 	}
@@ -374,25 +346,25 @@ regiment = {
 
 
 army = {
-	name = "1ère Division de cavalerie"
+	name = "1ï¿½re Division de cavalerie"
 	location = 1704
 	
 regiment = {
-		name= "1.1ère Division de cavalerie"
+		name= "1.1ï¿½re Division de cavalerie"
 		type = cuirassier
 		home = 455
 	}
 
 	
 regiment = {
-		name= "2.1ère Division de cavalerie"
+		name= "2.1ï¿½re Division de cavalerie"
 		type = cuirassier
 		home = 399
 	}
 
 	
 regiment = {
-		name= "3.1ère Division de cavalerie"
+		name= "3.1ï¿½re Division de cavalerie"
 		type = cuirassier
 		home = 399
 	}
@@ -406,63 +378,63 @@ army = {
 	location = 458
 	
 regiment = {
-		name= "1.8ème Division d'Infanterie"
+		name= "1.8ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "2.8ème Division d'Infanterie"
+		name= "2.8ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "3.8ème Division d'Infanterie"
+		name= "3.8ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "1.9ème Division d'Infanterie"
+		name= "1.9ï¿½me Division d'Infanterie"
 		type = artillery
 		home = 399
 	}
 
 	
 regiment = {
-		name= "2.9ème Division d'Infanterie"
+		name= "2.9ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "3.9ème Division d'Infanterie"
+		name= "3.9ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "1.2ème Division de cavalerie"
+		name= "1.2ï¿½me Division de cavalerie"
 		type = cuirassier
 		home = 399
 	}
 
 	
 regiment = {
-		name= "2.2ème Division de cavalerie"
+		name= "2.2ï¿½me Division de cavalerie"
 		type = hussar
 		home = 399
 	}
 
 	
 regiment = {
-		name= "3.2ème Division de cavalerie"
+		name= "3.2ï¿½me Division de cavalerie"
 		type = hussar
 		home = 399
 	}
@@ -472,25 +444,25 @@ regiment = {
 
 
 army = {
-	name = "Garnison du Sénégal"
+	name = "Garnison du Sï¿½nï¿½gal"
 	location = 1784
 	
 regiment = {
-		name= "1.10ème Division d'Infanterie"
+		name= "1.10ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "2.10ème Division d'Infanterie"
+		name= "2.10ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "3.10ème Division d'artillerie"
+		name= "3.10ï¿½me Division d'artillerie"
 		type = artillery
 		home = 399
 	}
@@ -499,25 +471,25 @@ regiment = {
 
 
 army = {
-	name = "Garnison de Côte d'Ivoire"
+	name = "Garnison de Cï¿½te d'Ivoire"
 	location = 1894
 	
 regiment = {
-		name= "1.11ème Division d'Infanterie"
+		name= "1.11ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "2.11ème Division d'Infanterie"
+		name= "2.11ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
 
 	
 regiment = {
-		name= "3.11ème Division d'Infanterie"
+		name= "3.11ï¿½me Division d'Infanterie"
 		type = regular
 		home = 399
 	}
@@ -556,12 +528,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Trocadero "
+		name= "Trocaderoï¿½"
 		type = manowar
 	}
 
 	ship = {
-		name= "Zélandais"
+		name= "Zï¿½landais"
 		type = manowar
 	}
 
@@ -581,12 +553,12 @@ navy = {
 	}
 
 	ship = {
-		name= "République Française"
+		name= "Rï¿½publique Franï¿½aise"
 		type = manowar
 	}
 
 	ship = {
-		name= "Conquérant"
+		name= "Conquï¿½rant"
 		type = manowar
 	}
 
@@ -611,12 +583,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Thétis"
+		name= "Thï¿½tis"
 		type = frigate
 	}
 
 	ship = {
-		name= "Astrée"
+		name= "Astrï¿½e"
 		type = frigate
 	}
 
@@ -646,7 +618,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Marie Thérese"
+		name= "Marie Thï¿½rese"
 		type = frigate
 	}
 
@@ -656,7 +628,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Sirène"
+		name= "Sirï¿½ne"
 		type = frigate
 	}
 
@@ -671,7 +643,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Iphigénie"
+		name= "Iphigï¿½nie"
 		type = frigate
 	}
 
@@ -681,39 +653,39 @@ navy = {
 	}
 
 	ship = {
-		name= "1ère Flotille de Transport"
+		name= "1ï¿½re Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2ème Flotille de Transport"
+		name= "2ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3ème Flotille de Transport"
+		name= "3ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 	
 	ship = {
-		name= "4ème Flotille de Transport"
+		name= "4ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "5ème Flotille de Transport"
+		name= "5ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "6ème Flotille de Transport"
+		name= "6ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 }
 
 navy = {
-	name = "Escadre de Méditerranée"
+	name = "Escadre de Mï¿½diterranï¿½e"
 	location = 470
 	ship = {
 		name= "Triton"
@@ -746,7 +718,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Montebello "
+		name= "Montebelloï¿½"
 		type = manowar
 	}
 
@@ -761,7 +733,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Duc d’Angouleme"
+		name= "Duc dï¿½Angouleme"
 		type = manowar
 	}
 
@@ -771,12 +743,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Généreux"
+		name= "Gï¿½nï¿½reux"
 		type = manowar
 	}
 
 	ship = {
-		name= "Diadème"
+		name= "Diadï¿½me"
 		type = manowar
 	}
 
@@ -796,7 +768,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Royal Louis "
+		name= "Royal Louisï¿½"
 		type = manowar
 	}
 
@@ -811,7 +783,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Arthémise"
+		name= "Arthï¿½mise"
 		type = frigate
 	}
 
@@ -836,7 +808,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Melpomène"
+		name= "Melpomï¿½ne"
 		type = frigate
 	}
 
@@ -846,12 +818,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Andromède"
+		name= "Andromï¿½de"
 		type = frigate
 	}
 
 	ship = {
-		name= "Jeanne d’Arc"
+		name= "Jeanne dï¿½Arc"
 		type = frigate
 	}
 
@@ -881,32 +853,32 @@ navy = {
 	}
 
 	ship = {
-		name= "7ème Flotille de Transport"
+		name= "7ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "8ème Flotille de Transport"
+		name= "8ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "9ème Flotille de Transport"
+		name= "9ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 	
 	ship = {
-		name= "10ème Flotille de Transport"
+		name= "10ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "11ème Flotille de Transport"
+		name= "11ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "12ème Flotille de Transport"
+		name= "12ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 

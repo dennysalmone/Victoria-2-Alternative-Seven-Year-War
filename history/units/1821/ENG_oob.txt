@@ -1,11 +1,6 @@
 #Sphere of Influence
 
 #Asia
-ATJ = {
-	value = 25
-	level = 5
-	influence_value = 0
-}
 BUR = {
 	value = -50
 }
@@ -23,37 +18,6 @@ JOH = {
 	level = 3
 }
 
-#Middle East
-PER = {
-	value = 125		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
-}
-AFG = {
-	value = 100		#relation
-	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
-}
-BHR = {
-	value = 50
-	level = 4
-	influence_value = 0
-}
-ABU = {
-	value = 50
-	level = 5
-	influence_value = 0
-}
-OMA = {
-	value = 50
-	level = 4
-	influence_value = 0
-}
-NEJ = {
-	value = 100
-	level = 4
-	influence_value = 0
-}
 NYE = {
 	value = 50
 }
@@ -90,7 +54,7 @@ GRE = {
 	influence_value = 0
 }
 HAN = {
-	value = 125
+	value = 175
 	level = 5
 	influence_value = 0
 }
@@ -104,98 +68,8 @@ ARG = {
 
 #India
 PNJ = {
-	value = 75		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
-}
-AWA = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-BAS = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-BER = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-BIK = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-BHO = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-BUN = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-GWA = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-HYD = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-IND = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-JAI = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-JAS = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-JOD = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-KUT = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-MEW = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-MYS = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-NAG = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-ORI = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
-TRA = {
-	value = 125
-	level = 5
+	value = -175		#relation
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
 
@@ -203,11 +77,6 @@ TRA = {
 EGY = {
 	value = 0		#relation
 	level = 2		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
-}
-MOR = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
 BEN = {

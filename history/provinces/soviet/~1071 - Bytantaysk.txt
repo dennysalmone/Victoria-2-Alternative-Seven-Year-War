@@ -1,5 +1,0 @@
-add_core = NHO
-trade_goods = grain
-life_rating = 35
-terrain = forested_farmland
-colonial = 1

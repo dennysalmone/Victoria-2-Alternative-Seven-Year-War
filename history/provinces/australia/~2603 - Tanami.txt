@@ -1,4 +1,0 @@
-
-trade_goods = other_minerals
-life_rating = 5
-terrain = desert

@@ -1558,7 +1558,6 @@ malay_asian = {
 		
 		last_names = { Ali Wati Yusuf Sari Abdullah Saputra Usman Bahri Hasan Daud Muda "al Qahhar" Fansuri "ar-Raniri" Sofyan 
 		}
-
 	}
 	banjarnese = { 
 		color = { 10 65 65 }
@@ -1608,7 +1607,18 @@ malay_asian = {
 		
 		last_names = { Wayan Made Nyoman Ketut Putu Kadek Komang NgNga 
 		}
+	} 
+	taiwanese = { 
+		color = { 166 233 244 }
+		first_names = { Atayal Paiwan Bunun Tsou Rukai Amis Puyuma Saisiyat Truku Thao
+		}
+		
+		last_names = { Ivalino Mouna Siraya Watanabe Kacaw Isbukun Chulu Pazeh Kolas Panayangan 
+		}
 	} 	 
+
+
+
 }
 
 austroasiatic = { 

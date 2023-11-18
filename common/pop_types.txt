@@ -383,11 +383,10 @@ colonialmigration_chance = {
         modifier = { factor = 0.1 unemployment = 0.40 NOT = { everyday_needs = 1.0 } } 
     }
 
-    modifier = { factor = -25 NOT = { country = { any_owned = { limit = { is_colonial = yes unemployment = 0.05 } } } } }
     modifier = { factor = -15 OR = { type = soldiers type = officers type = craftsmen type = clerks type = capitalists } }
     modifier = { factor = -5 OR = { AND = { NOT = { country = { administration_spending = 0.5 } type = bureaucrats } } AND = { NOT = { country = { education_spending = 0.5 } type = clergymen } } } }
     modifier = { factor = -0.25 is_primary_culture = no is_accepted_culture = no }
-    modifier = { factor = -3 state_scope = { is_colonial = yes } }
+    modifier = { factor = -1.5 state_scope = { is_colonial = yes } }
     modifier = { factor = 0.1 NOT = { cash_reserves = 1 } consciousness = 2 location = { OR = { continent = north_america continent = south_america } } }
     modifier = { factor = 0.1 NOT = { life_needs = 0.50 } consciousness = 1 location = { OR = { continent = north_america continent = south_america } } }
     modifier = { factor = -2 NOT = { everyday_needs = 0.2 } OR = { type = bureaucrats type = clergymen } }

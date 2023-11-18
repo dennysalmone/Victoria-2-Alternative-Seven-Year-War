@@ -1,15 +1,42 @@
 #Sphere of Influence
 
 #Europe
-POR = {
+UPB = {
 	value = 100		#relation
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
 
-#North America
-MEX = {
-	value = -75
+#South America
+VR1 = {
+	value = 100		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 55
+}
+VR2 = {
+	value = 100		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 55
+}
+VR3 = {
+	value = 100		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 55
+}
+VR4 = {
+	value = 100		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 55
+}
+PRG = {
+	value = -195		#relation
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+CHL = {
+	value = -195		#relation
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
 
 #South America
@@ -99,7 +126,7 @@ FRA = {
 #Army
 
 army = {
-	name = "Ejército Cristino del Centro"
+	name = "Ejï¿½rcito Cristino del Centro"
 	location = 487
 	regiment = {
 		name= "1. Granaderos del Rey"
@@ -114,13 +141,13 @@ army = {
 	}
 
 	regiment = {
-		name= "1. Brigada de Infantería 'El Ramillete'"
+		name= "1. Brigada de Infanterï¿½a 'El Ramillete'"
 		type = regular
 		home = 487
 	}
 
 	regiment = {
-		name= "2. Brigada de Infantería"
+		name= "2. Brigada de Infanterï¿½a"
 		type = regular
 		home = 487
 	}
@@ -139,77 +166,77 @@ army = {
 }
 
 army = {
-	name = "Ejército del Norte"
+	name = "Ejï¿½rcito del Norte"
 	location = 498
 	
 	regiment = {
-		name= "4. Brigada de Infantería 'San Jorge'"
+		name= "4. Brigada de Infanterï¿½a 'San Jorge'"
 		type = regular
 		home = 477
 	}
 
 	regiment = {
-		name= "1. Brigada de Artillería"
+		name= "1. Brigada de Artillerï¿½a"
 		type = artillery
 		home = 477
 	}
 	
 	regiment = {
-		name= "5. Brigada de Infantería"
+		name= "5. Brigada de Infanterï¿½a"
 		type = regular
 		home = 477
 	}
 	
 	regiment = {
-		name= "6. Brigada de Infantería 'La Granja'"
+		name= "6. Brigada de Infanterï¿½a 'La Granja'"
 		type = regular
 		home = 477
 	}
 
 	regiment = {
-		name= "7. Brigada de Infantería"
+		name= "7. Brigada de Infanterï¿½a"
 		type = regular
 		home = 477
 	}
 }
 
 army = {
-	name = "Ejército del Sur"
+	name = "Ejï¿½rcito del Sur"
 	location = 512
 
 	regiment = {
-		name= "8. Brigada de Infantería"
+		name= "8. Brigada de Infanterï¿½a"
 		type = regular
 		home = 2233
 	}
 
 	regiment = {
-		name= "9. Brigada de Infantería"
+		name= "9. Brigada de Infanterï¿½a"
 		type = regular
 		home = 2233
 	}
 
 	regiment = {
-		name= "10. Brigada de Infantería"
+		name= "10. Brigada de Infanterï¿½a"
 		type = regular
 		home = 2233
 	}
 
 	regiment = {
-		name= "11. Brigada de Infantería"
+		name= "11. Brigada de Infanterï¿½a"
 		type = regular
 		home = 2233
 	}
 	
 	regiment = {
-		name= "12. Brigada de Infantería"
+		name= "12. Brigada de Infanterï¿½a"
 		type = regular
 		home = 2233
 	}
 }
 
 army = {
-	name = "Ejército de Quito"
+	name = "Ejï¿½rcito de Quito"
 	location = 2279
 	
 	regiment = {
@@ -232,7 +259,7 @@ army = {
 }
 
 army = {
-	name = "Ejército de Cuzco"
+	name = "Ejï¿½rcito de Cuzco"
 	location = 2302
 	
 	regiment = {
@@ -261,7 +288,7 @@ army = {
 }
 
 army = {
-	name = "Ejército de Cuba"
+	name = "Ejï¿½rcito de Cuba"
 	location = 2209
 	
 	regiment = {
@@ -278,7 +305,7 @@ army = {
 }
 
 army = {
-	name = "Ejército de Puerto Rico"
+	name = "Ejï¿½rcito de Puerto Rico"
 	location = 2222
 	
 	regiment = {
@@ -289,7 +316,7 @@ army = {
 }
 
 army = {
-	name = "Ejército de Filipinas"
+	name = "Ejï¿½rcito de Filipinas"
 	location = 1455
 	
 	regiment = {
@@ -300,7 +327,7 @@ army = {
 }
 
 army = {
-	name = "Ejército de Mindanao"
+	name = "Ejï¿½rcito de Mindanao"
 	location = 1463
 	
 	regiment = {
@@ -320,7 +347,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Hespérides"
+		name = "Hespï¿½rides"
 		type = manowar
 	}
 	
@@ -335,7 +362,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Cristóbal Colón"
+		name = "Cristï¿½bal Colï¿½n"
 		type = frigate
 	}
 	
@@ -380,7 +407,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Nuestra Señora del Patrocinio"
+		name = "Nuestra Seï¿½ora del Patrocinio"
 		type = frigate
 	}
 	
@@ -401,7 +428,7 @@ navy = {
 }
 
 navy = {
-	name = "Armada Real Española"
+	name = "Armada Real Espaï¿½ola"
 	location = 506
 	ship = {
 		name= "San Raimundo"
@@ -409,7 +436,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Héroe"
+		name= "Hï¿½roe"
 		type = manowar
 	}
 
@@ -429,12 +456,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Nuestra Señora de Asunción"
+		name= "Nuestra Seï¿½ora de Asunciï¿½n"
 		type = frigate
 	}
 
 	ship = {
-		name= "Nuestra Señora de Atocha"
+		name= "Nuestra Seï¿½ora de Atocha"
 		type = frigate
 	}
 
