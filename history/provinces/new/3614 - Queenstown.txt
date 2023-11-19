@@ -1,5 +1,5 @@
 add_core = AOT
-trade_goods = fruit
+trade_goods = cattle
 life_rating = 30
 terrain = deciduous_forest_mountains
 1861.1.1 = {

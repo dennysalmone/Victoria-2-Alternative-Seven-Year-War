@@ -1616,9 +1616,6 @@ malay_asian = {
 		last_names = { Ivalino Mouna Siraya Watanabe Kacaw Isbukun Chulu Pazeh Kolas Panayangan 
 		}
 	} 	 
-
-
-
 }
 
 austroasiatic = { 
@@ -2998,4 +2995,4 @@ southern_african = {
 		last_names = { kaMpande kaMahole KaMdlela waMswati Buthelezei Khoza kaSihayo kaMvundlana kaZikhala kaMaphitha
 		}
 	}
- }
+}

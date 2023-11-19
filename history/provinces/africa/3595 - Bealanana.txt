@@ -1,6 +1,6 @@
 owner = MAD
 controller = MAD
 add_core = MAD
-trade_goods = fruit
-life_rating = 20
-terrain = jungle_mountains
+trade_goods = fish
+life_rating = 30
+terrain = jungle_hills

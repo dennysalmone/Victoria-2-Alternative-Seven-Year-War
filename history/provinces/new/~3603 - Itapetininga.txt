@@ -1,0 +1,10 @@
+owner = ACA
+controller = ACA
+add_core = ACA
+add_core = MRU
+trade_goods = grain
+life_rating = 35
+terrain = conifer_forest
+naval_base = 1
+fort = 1
+1861.1.1 = { railroad = 2 }

@@ -814,18 +814,86 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
-			EGY_921 = { add_core = ISR }
-			prestige = 10
+			EGY_921 = { add_core = ISR secede_province = ISR }
+			prestige = 40
 			set_global_flag = israel_has_her_cores
 		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = {
-					tag = ENG
+				tag = TUR
+			}
+		}
+	}
+
+	form_israel_on_madagascar = {
+		potential = {
+			civilized = yes
+			NOT = {
+				has_global_flag = israel_has_her_cores
+			}
+			2117 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
 				}
 			}
+			2120 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			3593 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			3594 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			3595 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2116 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			MAD_2117 = { add_core = ISR secede_province = ISR }
+			MAD_2121 = { add_core = ISR secede_province = ISR }
+			prestige = 40
+			set_global_flag = israel_has_her_cores
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	

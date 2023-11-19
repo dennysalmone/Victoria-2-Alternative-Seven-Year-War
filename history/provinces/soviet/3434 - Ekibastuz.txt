@@ -4,9 +4,4 @@ add_core = KAZ
 trade_goods = copper
 life_rating = 20
 terrain = dry_grassland
-1861.1.1 = {
-	owner = RUS
-	controller = RUS
-add_core = RUS
-	colonial = 1
-}
+colonial = 1

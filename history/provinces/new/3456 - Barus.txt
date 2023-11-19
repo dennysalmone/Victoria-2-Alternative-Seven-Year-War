@@ -4,3 +4,4 @@ add_core = SAK
 trade_goods = grain
 life_rating = 30
 terrain = jungle_mountains
+colonial = 1

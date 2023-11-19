@@ -1,5 +1,4 @@
 add_core = NHO
-
 trade_goods = coal
 life_rating = 15
 terrain = desert

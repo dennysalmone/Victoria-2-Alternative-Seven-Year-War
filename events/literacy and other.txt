@@ -85,7 +85,7 @@ country_event= {
 		1051 = { owned_by = THIS }
 		1056 = { owned_by = THIS }
 		3263 = { owned_by = THIS }
-		OR = { tag = RUS tag = DON tag = TER tag = UKR }
+		OR = { tag = RUS tag = DON tag = TER tag = RUT }
 		war = no
 		NOT = { has_global_flag = ru1000118 }
 	}
@@ -349,6 +349,7 @@ id = 1000104
 	picture = "pioneer_wagons"
 	fire_only_once = yes
 	trigger = {
+		919 = { owned_by = THIS }
 		exists = ISR
 		tag = ISR
 	}
@@ -365,44 +366,44 @@ id = 1000104
 		919 = { any_pop = { limit = { religion = sunni } money = 5 move_pop = 920 } } # Gaza
 		EGY_921 = { remove_core = TUR remove_core = EGY }
 		EGY_921 = { any_pop = { limit = { OR = { type = aristocrats type = bureaucrats type = soldiers type = clergymen type = officers } NOT = { religion = jewish } } move_pop = 908 } } # Gaza
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } money = 80 move_pop = 3412 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } money = 80 move_pop = 917 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } money = 80 move_pop = 921 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ENG } NOT = { life_needs = 0.2 } strata = poor } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = poor } money = 80 move_pop = 919 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = poor } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = poor } money = 80 move_pop = 3412 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = FRA } NOT = { life_needs = 0.2 } strata = poor } money = 80 move_pop = 919 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ITA } NOT = { life_needs = 0.5 } } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = poor } money = 80 move_pop = 917 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = poor } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = poor } money = 80 move_pop = 919 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = poor } money = 80 move_pop = 921 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = poor } money = 80 move_pop = 921 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = middle } money = 80 move_pop = 919 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = middle } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = middle } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = middle } money = 80 move_pop = 916 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = UKR } NOT = { strata = rich } } money = 80 move_pop = 919 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = BYE } } money = 80 move_pop = 919 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = POL } NOT = { strata = rich } } money = 80 move_pop = 917 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = poor } money = 80 move_pop = 917 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = poor } money = 80 move_pop = 916 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = poor } money = 80 move_pop = 3412 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } money = 80 move_pop = 919 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } money = 80 move_pop = 919 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } money = 80 move_pop = 3412 } }
-		any_country = { random_pop = { limit = { religion = jewish location = { is_core = UKR } strata = rich } money = 8000 move_pop = 919 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } move_pop = 3412 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } move_pop = 917 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = ENG } strata = poor } move_pop = 921 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ENG } NOT = { everyday_needs = 0.2 } strata = poor } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = poor } move_pop = 919 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = poor } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = poor } move_pop = 3412 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = FRA } NOT = { everyday_needs = 0.2 } strata = poor } move_pop = 919 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ITA } NOT = { everyday_needs = 0.5 } } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 917 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 919 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 921 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 921 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = middle } move_pop = 919 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = middle } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = middle } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = middle } move_pop = 916 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = RUT } NOT = { strata = rich } } move_pop = 919 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = BYE } } move_pop = 919 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = POL } NOT = { strata = rich } } move_pop = 917 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = poor } move_pop = 917 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = poor } move_pop = 916 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = poor } move_pop = 3412 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } move_pop = 919 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } move_pop = 919 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUS } strata = middle } move_pop = 3412 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = rich } money = 8000 move_pop = 919 } }
 		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = rich } money = 8000 move_pop = 919 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = RUS } NOT = { life_needs = 0.5 } strata = poor } money = 80 move_pop = 919 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ROM } } money = 80 move_pop = 921 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = GER } NOT = { life_needs = 0.50 } NOT = { strata = rich } } money = 80 move_pop = 917 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = NET } NOT = { life_needs = 0.50 } NOT = { strata = rich } } money = 80 move_pop = 919 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = HUN } } money = 80 move_pop = 919 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = CZH } } money = 80 move_pop = 921 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = AUS } } money = 80 move_pop = 921 } }
-		any_country = { any_pop = { limit = { religion = jewish location = { is_core = TUN } } money = 80 move_pop = 916 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = RUS } NOT = { everyday_needs = 0.5 } strata = poor } move_pop = 919 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ROM } } move_pop = 921 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = GER } NOT = { everyday_needs = 0.5 } NOT = { strata = rich } } move_pop = 917 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = NET } NOT = { everyday_needs = 0.5 } NOT = { strata = rich } } move_pop = 919 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = HUN } } move_pop = 919 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = CZH } } move_pop = 921 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = AUS } } move_pop = 921 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = TUN } } move_pop = 916 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = MOR } } move_pop = 921 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = EGY } } move_pop = 917 } }
 		any_country = { any_pop = { limit = { religion = jewish location = { is_core = IRQ } } move_pop = 3412 } }
@@ -488,7 +489,7 @@ country_event= {
 	
 	option = {
 		name = "Fix World Literacy"
-		any_country = { treasury = 50000 any_pop = { literacy = -0.999 money = 80 } }
+		any_country = { treasury = 50000 any_pop = { literacy = -0.999 } }
 		any_country = { any_pop = { limit = { culture = afro_american } literacy = 0.076 } }
 		any_country = { any_pop = { limit = { culture = afro_brazilian } literacy = 0.051 } }
 		any_country = { any_pop = { limit = { culture = albanian } literacy = 0.106 } }
@@ -976,5 +977,70 @@ country_event = {
 			secede_province = VR4
 			add_core = VR4
 		}
+	}
+}
+
+country_event= {
+id = 180134
+	title = "Aliah"
+	desc = "Israel exists! All Jews from all over the world are returning home"
+	picture = "pioneer_wagons"
+	fire_only_once = yes
+	trigger = {
+		3595 = { owned_by = THIS }
+		2122 = { owned_by = THIS }
+		exists = ISR
+		tag = ISR
+	}
+
+	mean_time_to_happen = { months = 1 }
+	option = { 
+		name = EVT_8007660_A
+		2122 = { change_province_name = "Petah Tikva" }
+		3592 = { change_province_name = "Kefar Sava" }
+		3412 = { change_province_name = "Kiryas Joel" }
+		3595 = { change_province_name = "Tuvia" }
+		2122 = { any_pop = { limit = { culture = malagasy } move_pop = 2119 } }
+		3592 = { any_pop = { limit = { culture = malagasy } move_pop = 2118 } }
+		3595 = { any_pop = { limit = { culture = malagasy } move_pop = 3593 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ENG } NOT = { everyday_needs = 0.2 } strata = poor } move_pop = 2122 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = FRA } NOT = { everyday_needs = 0.2 } strata = poor } reduce_pop = 1.85 move_pop = 3595 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ITA } NOT = { everyday_needs = 0.5 } } move_pop = 2122 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = LIT } strata = poor } move_pop = 2120 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = LIT } strata = poor } move_pop = 3591 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = LIT } strata = poor } move_pop = 3591 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = LIT } strata = poor } move_pop = 3594 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 2120 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 2122 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = poor } move_pop = 2115 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = RUT } NOT = { strata = rich } } move_pop = 2116 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = POL } strata = poor } move_pop = 2120 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = POL } strata = poor } move_pop = 3594 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = POL } strata = poor } move_pop = 3592 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = POL } strata = poor } move_pop = 3592 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = POL } strata = poor } move_pop = 3592 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = POL } strata = poor } move_pop = 2117 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = POL } strata = middle } move_pop = 2117 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = POL } NOT = { strata = rich } } move_pop = 2121 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = RUT } strata = rich } money = 20000 move_pop = 2117 } }
+		any_country = { random_pop = { limit = { religion = jewish location = { is_core = FRA } strata = rich } reduce_pop = 1.85 money = 58000 move_pop = 3595 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = RUS } strata = poor } move_pop = 3595 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = ROM } } reduce_pop = 0.75 move_pop = 3592 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = GER } } reduce_pop = 0.75 move_pop = 3594 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = NET } } reduce_pop = 0.75 move_pop = 3595 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = HUN } } reduce_pop = 0.75 move_pop = 3591 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = CZH } } reduce_pop = 0.75 move_pop = 3592 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = AUS } } reduce_pop = 0.75 move_pop = 2117 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = TUN } } reduce_pop = 1.85 move_pop = 2122 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = MOR } } reduce_pop = 1.85 move_pop = 2120 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = EGY } } reduce_pop = 1.85 move_pop = 2120 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = IRQ } } reduce_pop = 1.85 move_pop = 3591 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = YEM } } reduce_pop = 1.85 move_pop = 3592 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = LBY } } reduce_pop = 1.85 move_pop = 2122 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = LBN } } reduce_pop = 1.85 move_pop = 2121 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = TUR } } reduce_pop = 1.85 move_pop = 2122 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = BUK } } reduce_pop = 1.85 move_pop = 3592 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = PER } } reduce_pop = 1.85 move_pop = 3412 } }
+		any_country = { any_pop = { limit = { religion = jewish location = { is_core = GON } } reduce_pop = 2.5 move_pop = 3592 } }
 	}
 }
